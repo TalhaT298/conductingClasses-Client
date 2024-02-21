@@ -10,6 +10,7 @@ import { FaDiscord } from "react-icons/fa";
 import { FaThreads } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
+
 const Footer = () => {
   return (
     <div>
