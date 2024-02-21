@@ -74,10 +74,38 @@ const Footer = () => {
           
         </nav>
         <nav>
-          <h6 className="footer-title">Legal</h6>
-          <a className="link link-hover">Terms of use</a>
-          <a className="link link-hover">Privacy policy</a>
-          <a className="link link-hover">Cookie policy</a>
+          <h6 className="footer-title">Useful Links</h6>
+          <Link to=''>
+          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>Contact</a>
+          </Link>
+          <Link to=''>
+          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>Meet With us</a>
+          </Link>
+          <Link to=''>
+          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>Privacy Statement</a>
+          </Link>
+          <Link to=''>
+          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>Report Copyright Infringement</a>
+          </Link>
+          <Link to=''>
+          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>Report on Security Issues</a>
+          </Link>
+          <Link to=''>
+          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>Recom. For Traffic Mgt</a>
+          </Link>
+          <Link to=''>
+          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>Newsletters</a>
+          </Link>
+          <Link to=''>
+          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>Location Map</a>
+          </Link>
+          <Link to=''>
+          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>Covid-19 updates</a>
+          </Link>
+          <Link to=''>
+          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>Logos (Daffodil Family)</a>
+          </Link>
+          
         </nav>
         <form>
           <h6 className="footer-title">Newsletter</h6>
