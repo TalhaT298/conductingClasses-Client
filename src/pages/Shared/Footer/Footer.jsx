@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import { PiArrowRightLight } from "react-icons/pi";
 import { BsTwitterX } from "react-icons/bs";
 import { FaWhatsapp } from "react-icons/fa";
+import { FaDiscord } from "react-icons/fa";
 const Footer = () => {
   return (
     <div>
@@ -146,6 +147,9 @@ const Footer = () => {
           </Link>
           <Link to="">
           <a href=""><FaWhatsapp size="1.7rem" color="white" /></a>
+          </Link>
+          <Link to="">
+          <a href=""><FaDiscord size="1.7rem" color="white" /></a>
           </Link>
            
             
