@@ -4,6 +4,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import { PiArrowRightLight } from "react-icons/pi";
+import { BsTwitterX } from "react-icons/bs";
 const Footer = () => {
   return (
     <div>
@@ -111,7 +112,7 @@ const Footer = () => {
           
         </nav>
         <form>
-          <h6 className="footer-title">Newsletter</h6>
+          <h6 className="footer-title">Subscribe Us!</h6>
           <fieldset className="form-control w-80">
             <label className="label">
               <span className="label-text">Enter your email address</span>
@@ -138,6 +139,9 @@ const Footer = () => {
           </Link>
           <Link to="">
           <a href=""><FaLinkedinIn size="1.7rem" color="white" /></a>
+          </Link>
+          <Link to="">
+          <a href=""><BsTwitterX size="1.7rem" color="white" /></a>
           </Link>
            
             
