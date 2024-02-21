@@ -5,8 +5,9 @@ const Testimonial = () => {
     return (
         <section>
             <SectionTitle
-            subHeading={"ok"}
-            heading={"h"}
+            
+            heading={"Visitors Says About Us"}
+            subHeading={"National and International scholars, Business leaders, Entrepreneurs, Dignitaries visited us to share experiences, explore opportunities, collaborate and give guidance to the students"}
             
             >
             </SectionTitle>
