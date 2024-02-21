@@ -76,34 +76,37 @@ const Footer = () => {
         <nav>
           <h6 className="footer-title">Useful Links</h6>
           <Link to=''>
-          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>Contact</a>
+          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>skill.jobs</a>
           </Link>
           <Link to=''>
-          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>Meet With us</a>
+          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>Internship Portal</a>
           </Link>
           <Link to=''>
-          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>Privacy Statement</a>
+          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>Foundation Day</a>
           </Link>
           <Link to=''>
-          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>Report Copyright Infringement</a>
+          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>Convocation</a>
           </Link>
           <Link to=''>
-          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>Report on Security Issues</a>
+          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>DIU Annual Report</a>
           </Link>
           <Link to=''>
-          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>Recom. For Traffic Mgt</a>
+          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>Brochure</a>
           </Link>
           <Link to=''>
-          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>Newsletters</a>
+          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>Prospectus</a>
           </Link>
           <Link to=''>
-          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>Location Map</a>
+          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>Forms</a>
           </Link>
           <Link to=''>
-          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>Covid-19 updates</a>
+          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>Brand Documents</a>
           </Link>
           <Link to=''>
-          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>Logos (Daffodil Family)</a>
+          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>Apps</a>
+          </Link>
+          <Link to=''>
+          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>FAQ</a>
           </Link>
           
         </nav>
