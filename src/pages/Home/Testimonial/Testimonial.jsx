@@ -4,8 +4,11 @@ import SectionTitle from '../../../components/SectionTitle/SectionTitle';
 const Testimonial = () => {
     return (
         <section>
-            <SectionTitle>
-                
+            <SectionTitle
+            subHeading={"ok"}
+            heading={"h"}
+            
+            >
             </SectionTitle>
         </section>
     );
