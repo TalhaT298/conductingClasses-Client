@@ -45,34 +45,31 @@ const Footer = () => {
         <nav>
         <h6 className="footer-title">Branding</h6>
           <Link to=''>
-          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>Branding</a>
+          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>DIU Branding</a>
           </Link>
           <Link to=''>
-          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>Meet With us</a>
+          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>Career Opportunities</a>
           </Link>
           <Link to=''>
-          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>Privacy Statement</a>
+          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>Blog</a>
           </Link>
           <Link to=''>
-          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>Report Copyright Infringement</a>
+          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>Photo Gallery</a>
           </Link>
           <Link to=''>
-          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>Report on Security Issues</a>
+          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>DIU News</a>
           </Link>
           <Link to=''>
-          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>Recom. For Traffic Mgt</a>
+          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>DIU Press</a>
           </Link>
           <Link to=''>
-          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>Newsletters</a>
+          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>Employability 360</a>
           </Link>
           <Link to=''>
-          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>Location Map</a>
+          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>DIU IT</a>
           </Link>
           <Link to=''>
-          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>Covid-19 updates</a>
-          </Link>
-          <Link to=''>
-          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>Logos (Daffodil Family)</a>
+          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>Artofliving</a>
           </Link>
           
         </nav>
