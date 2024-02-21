@@ -10,6 +10,7 @@ import { FaDiscord } from "react-icons/fa";
 import { FaThreads } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
+import {motion} from "framer-motion";
 
 const Footer = () => {
   return (
@@ -134,18 +135,32 @@ const Footer = () => {
           </fieldset>
         </form>
       </footer>
-      <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded">
+      <footer className="footer footer-center p-8 bg-base-200 text-base-content rounded">
         <nav>
-          <div className="grid grid-flow-col gap-4">
+          <div className="grid grid-flow-col gap-3">
+          <motion.div
+          whileTap={{ rotate: 90, scale: 0.75 }}
+          >
           <Link to="">
           <a href=""><FaFacebookF size="1.7rem" color="white" /></a>
           </Link>
+          </motion.div>
+
+          <motion.div
+          whileTap={{ rotate: 90, scale: 0.75 }}
+          >
           <Link to="">
           <a href=""><FaInstagram size="1.7rem" color="white" /></a>
           </Link>
+          </motion.div>
+
+          <motion.div
+          whileTap={{ rotate: 90, scale: 0.75 }}
+          >
           <Link to="">
           <a href=""><FaLinkedinIn size="1.7rem" color="white" /></a>
           </Link>
+          </motion.div>
           <Link to="">
           <a href=""><BsTwitterX size="1.7rem" color="white" /></a>
           </Link>
