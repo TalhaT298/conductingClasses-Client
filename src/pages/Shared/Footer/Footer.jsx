@@ -9,6 +9,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
 import { FaThreads } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa";
+import { BiLogoGmail } from "react-icons/bi";
 const Footer = () => {
   return (
     <div>
@@ -158,6 +159,9 @@ const Footer = () => {
           </Link>
           <Link to="">
           <a href=""><FaYoutube size="1.7rem" color="white" /></a>
+          </Link>
+          <Link to="">
+          <a href=""><BiLogoGmail size="1.7rem" color="white" /></a>
           </Link>
            
             
