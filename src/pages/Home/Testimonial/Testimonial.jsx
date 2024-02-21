@@ -1,10 +1,13 @@
 import React from 'react';
+import SectionTitle from '../../../components/SectionTitle/SectionTitle';
 
 const Testimonial = () => {
     return (
-        <div>
-            
-        </div>
+        <section>
+            <SectionTitle>
+                
+            </SectionTitle>
+        </section>
     );
 };
 
