@@ -3,15 +3,18 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { Link } from "react-router-dom";
+import { PiArrowRightLight } from "react-icons/pi";
 const Footer = () => {
   return (
     <div>
       <footer className="footer p-10 bg-base-200 text-base-content">
         <nav>
           <h6 className="footer-title">Get in Touch</h6>
-          <a className="link link-hover">Contact</a>
           <Link to=''>
-          <a className="link link-hover">Branding</a>
+          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>Contact</a>
+          </Link>
+          <Link to=''>
+          <a className="link link-hover flex"><PiArrowRightLight size="1.3rem" color="white"/>Branding</a>
           </Link>
           <Link to=''>
           <a className="link link-hover">Branding</a>
