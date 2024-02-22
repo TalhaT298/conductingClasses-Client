@@ -21,11 +21,11 @@ const Testimonial = () => {
     return (
         <section className='my-10'>
             <SectionTitle
-            
             heading={"Visitors Says About Us"}
             // subHeading={"National and International scholars, Business leaders, Entrepreneurs, Dignitaries visited us to share experiences, explore opportunities, collaborate and give guidance to the students"}
             >
             </SectionTitle>
+            <div className='' autoPlay={true} interval={2000} infiniteLoop={true} showArrows={false}>
             <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
         {reviews.map((review) => (
           <SwiperSlide color="white" key={review._id}>
@@ -42,6 +42,7 @@ const Testimonial = () => {
           </SwiperSlide>
         ))}
       </Swiper>
+            </div>
         </section>
     );
 };
