@@ -6,6 +6,11 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
+import { Rating } from "@smastrom/react-rating";
+import '@smastrom/react-rating/style.css'
+import { TfiThought } from "react-icons/tfi";
+
+
 const Testimonial = () => {
     return (
         <section>
