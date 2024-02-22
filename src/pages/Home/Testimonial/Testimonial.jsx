@@ -25,10 +25,9 @@ const Testimonial = () => {
             // subHeading={"National and International scholars, Business leaders, Entrepreneurs, Dignitaries visited us to share experiences, explore opportunities, collaborate and give guidance to the students"}
             >
             </SectionTitle>
-            <div className='' autoPlay={true} interval={2000} infiniteLoop={true} showArrows={false}>
             <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
         {reviews.map((review) => (
-          <SwiperSlide color="white" key={review._id}>
+          <SwiperSlide color="white" key={review._id} >
             <div className="flex flex-col items-center mx-24 my-8">
             <div className="pb-20">
             {/* <TfiThought className="" size='4.7rem' color='white'></TfiThought> */}
@@ -42,7 +41,6 @@ const Testimonial = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-            </div>
         </section>
     );
 };
