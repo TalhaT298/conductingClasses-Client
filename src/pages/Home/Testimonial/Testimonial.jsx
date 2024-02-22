@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import SectionTitle from '../../../components/SectionTitle/SectionTitle';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -12,8 +12,14 @@ import { TfiThought } from "react-icons/tfi";
 
 
 const Testimonial = () => {
+    const [reviews, setReviews] = useState([]);
+  useEffect(() => {
+    fetch("reviews.json")
+      .then((res) => res.json())
+      .then((data) => setReviews(data));
+  }, []);
     return (
-        <section>
+        <section className='my-20'>
             <SectionTitle
             
             heading={"Visitors Says About Us"}
