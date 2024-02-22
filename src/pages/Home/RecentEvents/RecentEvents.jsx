@@ -15,7 +15,7 @@ const RecentEvents = () => {
             <img
               src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
               alt="Shoes"
-              className="rounded-xl"
+              className="rounded-xl h-72 w-84"
             />
           </figure>
           <div className="card-body items-center text-center">
@@ -32,7 +32,7 @@ const RecentEvents = () => {
             <img
               src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
               alt="Shoes"
-              className="rounded-xl"
+              className="rounded-xl h-72 w-84"
             />
           </figure>
           <div className="card-body items-center text-center">
@@ -49,7 +49,7 @@ const RecentEvents = () => {
             <img
               src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
               alt="Shoes"
-              className="rounded-xl"
+              className="rounded-xl h-72 w-84"
             />
           </figure>
           <div className="card-body items-center text-center">
