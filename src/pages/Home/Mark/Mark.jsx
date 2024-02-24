@@ -8,10 +8,11 @@ import img4 from "../../../assets/yarn.png"
 const Mark = () => {
     return (
         <div>
-            <Marquee className='gap-6'>
-                <img src={img1} alt="" />
-                <img src={img2} alt="" />
-                <img src={img3} alt="" />
+            <Marquee className=''>
+                 {/* //130*130 */}
+                <img className='' src={img1} alt="" style={{ marginRight: '20px' }}/>
+                <img src={img2} alt="" style={{ marginRight: '20px' }}/>
+                <img src={img3} alt="" style={{ marginRight: '20px' }}/>
                 <img src={img4} alt="" />
             </Marquee>
         </div>
