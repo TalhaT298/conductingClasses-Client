@@ -5,12 +5,14 @@ import Testimonial from "../Testimonial/Testimonial";
 import Faculties from "../Faculties/Faculties";
 import RecentEvents from "../RecentEvents/RecentEvents";
 import Mark from "../Mark/Mark";
+import Campus from "../Campus/Campus";
 
 const Home = () => {
   return (
     <div>
       <Banner></Banner>
       <Faculties></Faculties>
+      <Campus></Campus>
       <RecentEvents></RecentEvents>
       <Mark></Mark>
       <Testimonial></Testimonial>
