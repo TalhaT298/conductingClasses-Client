@@ -1,6 +1,7 @@
 import React from 'react';
 import SectionTitle from '../../../components/SectionTitle/SectionTitle';
-
+import feature from "../../../assets/feature.webp"
+import './Campus.css';
 const Campus = () => {
     return (
         <section className="featured-item bg-fixed text-white mb-12 pt-6 my-20">
