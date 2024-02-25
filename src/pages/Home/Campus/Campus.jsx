@@ -16,7 +16,7 @@ const Campus = () => {
       </div>
       <div className="md:ml-10">
         <p>Aug 20,2024</p>
-        <p className="uppercase">Where I can gt Some</p>
+        <p className="uppercase">WhereI can gt Some</p>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
         <Link to="/"><button className="btn btn-outline border-0 border-b-4 text-white">Read More</button></Link>
       </div>
