@@ -20,61 +20,61 @@ const Footer = () => {
           <h6 className="footer-title">Get in Touch</h6>
           <Link to="">
             <a className="link link-hover flex">
-              <PiArrowRightLight size="1.3rem" color="white" />
+              <PiArrowRightLight size="1.3rem" color="black" />
               Contact
             </a>
           </Link>
           <Link to="">
             <a className="link link-hover flex">
-              <PiArrowRightLight size="1.3rem" color="white" />
+              <PiArrowRightLight size="1.3rem" color="black" />
               Meet With us
             </a>
           </Link>
           <Link to="">
             <a className="link link-hover flex">
-              <PiArrowRightLight size="1.3rem" color="white" />
+              <PiArrowRightLight size="1.3rem" color="black" />
               Privacy Statement
             </a>
           </Link>
           <Link to="">
             <a className="link link-hover flex">
-              <PiArrowRightLight size="1.3rem" color="white" />
+              <PiArrowRightLight size="1.3rem" color="black" />
               Report Copyright Infringement
             </a>
           </Link>
           <Link to="">
             <a className="link link-hover flex">
-              <PiArrowRightLight size="1.3rem" color="white" />
+              <PiArrowRightLight size="1.3rem" color="black" />
               Report on Security Issues
             </a>
           </Link>
           <Link to="">
             <a className="link link-hover flex">
-              <PiArrowRightLight size="1.3rem" color="white" />
+              <PiArrowRightLight size="1.3rem" color="black" />
               Recom. For Traffic Mgt
             </a>
           </Link>
           <Link to="">
             <a className="link link-hover flex">
-              <PiArrowRightLight size="1.3rem" color="white" />
+              <PiArrowRightLight size="1.3rem" color="black" />
               Newsletters
             </a>
           </Link>
           <Link to="">
             <a className="link link-hover flex">
-              <PiArrowRightLight size="1.3rem" color="white" />
+              <PiArrowRightLight size="1.3rem" color="black" />
               Location Map
             </a>
           </Link>
           <Link to="">
             <a className="link link-hover flex">
-              <PiArrowRightLight size="1.3rem" color="white" />
+              <PiArrowRightLight size="1.3rem" color="black" />
               Covid-19 updates
             </a>
           </Link>
           <Link to="">
             <a className="link link-hover flex">
-              <PiArrowRightLight size="1.3rem" color="white" />
+              <PiArrowRightLight size="1.3rem" color="black" />
               Logos (Daffodil Family)
             </a>
           </Link>
@@ -83,55 +83,55 @@ const Footer = () => {
           <h6 className="footer-title">Branding</h6>
           <Link to="">
             <a className="link link-hover flex">
-              <PiArrowRightLight size="1.3rem" color="white" />
+              <PiArrowRightLight size="1.3rem" color="black" />
               DIU Branding
             </a>
           </Link>
           <Link to="">
             <a className="link link-hover flex">
-              <PiArrowRightLight size="1.3rem" color="white" />
+              <PiArrowRightLight size="1.3rem" color="black" />
               Career Opportunities
             </a>
           </Link>
           <Link to="">
             <a className="link link-hover flex">
-              <PiArrowRightLight size="1.3rem" color="white" />
+              <PiArrowRightLight size="1.3rem" color="black" />
               Blog
             </a>
           </Link>
           <Link to="">
             <a className="link link-hover flex">
-              <PiArrowRightLight size="1.3rem" color="white" />
+              <PiArrowRightLight size="1.3rem" color="black" />
               Photo Gallery
             </a>
           </Link>
           <Link to="">
             <a className="link link-hover flex">
-              <PiArrowRightLight size="1.3rem" color="white" />
+              <PiArrowRightLight size="1.3rem" color="black" />
               DIU News
             </a>
           </Link>
           <Link to="">
             <a className="link link-hover flex">
-              <PiArrowRightLight size="1.3rem" color="white" />
+              <PiArrowRightLight size="1.3rem" color="black" />
               DIU Press
             </a>
           </Link>
           <Link to="">
             <a className="link link-hover flex">
-              <PiArrowRightLight size="1.3rem" color="white" />
+              <PiArrowRightLight size="1.3rem" color="black" />
               Employability 360
             </a>
           </Link>
           <Link to="">
             <a className="link link-hover flex">
-              <PiArrowRightLight size="1.3rem" color="white" />
+              <PiArrowRightLight size="1.3rem" color="black" />
               DIU IT
             </a>
           </Link>
           <Link to="">
             <a className="link link-hover flex">
-              <PiArrowRightLight size="1.3rem" color="white" />
+              <PiArrowRightLight size="1.3rem" color="black" />
               Artofliving
             </a>
           </Link>
@@ -140,67 +140,67 @@ const Footer = () => {
           <h6 className="footer-title">Useful Links</h6>
           <Link to="">
             <a className="link link-hover flex">
-              <PiArrowRightLight size="1.3rem" color="white" />
+              <PiArrowRightLight size="1.3rem" color="black" />
               skill.jobs
             </a>
           </Link>
           <Link to="">
             <a className="link link-hover flex">
-              <PiArrowRightLight size="1.3rem" color="white" />
+              <PiArrowRightLight size="1.3rem" color="black" />
               Internship Portal
             </a>
           </Link>
           <Link to="">
             <a className="link link-hover flex">
-              <PiArrowRightLight size="1.3rem" color="white" />
+              <PiArrowRightLight size="1.3rem" color="black" />
               Foundation Day
             </a>
           </Link>
           <Link to="">
             <a className="link link-hover flex">
-              <PiArrowRightLight size="1.3rem" color="white" />
+              <PiArrowRightLight size="1.3rem" color="black" />
               Convocation
             </a>
           </Link>
           <Link to="">
             <a className="link link-hover flex">
-              <PiArrowRightLight size="1.3rem" color="white" />
+              <PiArrowRightLight size="1.3rem" color="black" />
               DIU Annual Report
             </a>
           </Link>
           <Link to="">
             <a className="link link-hover flex">
-              <PiArrowRightLight size="1.3rem" color="white" />
+              <PiArrowRightLight size="1.3rem" color="black" />
               Brochure
             </a>
           </Link>
           <Link to="">
             <a className="link link-hover flex">
-              <PiArrowRightLight size="1.3rem" color="white" />
+              <PiArrowRightLight size="1.3rem" color="black" />
               Prospectus
             </a>
           </Link>
           <Link to="">
             <a className="link link-hover flex">
-              <PiArrowRightLight size="1.3rem" color="white" />
+              <PiArrowRightLight size="1.3rem" color="black" />
               Forms
             </a>
           </Link>
           <Link to="">
             <a className="link link-hover flex">
-              <PiArrowRightLight size="1.3rem" color="white" />
+              <PiArrowRightLight size="1.3rem" color="black" />
               Brand Documents
             </a>
           </Link>
           <Link to="">
             <a className="link link-hover flex">
-              <PiArrowRightLight size="1.3rem" color="white" />
+              <PiArrowRightLight size="1.3rem" color="black" />
               Apps
             </a>
           </Link>
           <Link to="">
             <a className="link link-hover flex">
-              <PiArrowRightLight size="1.3rem" color="white" />
+              <PiArrowRightLight size="1.3rem" color="black" />
               FAQ
             </a>
           </Link>
@@ -228,7 +228,7 @@ const Footer = () => {
             <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
               <Link to="">
                 <a href="">
-                  <FaFacebookF size="1.7rem" color="white" />
+                  <FaFacebookF size="1.7rem" color="black" />
                 </a>
               </Link>
             </motion.div>
@@ -236,7 +236,7 @@ const Footer = () => {
             <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
               <Link to="">
                 <a href="">
-                  <FaInstagram size="1.7rem" color="white" />
+                  <FaInstagram size="1.7rem" color="black" />
                 </a>
               </Link>
             </motion.div>
@@ -244,7 +244,7 @@ const Footer = () => {
             <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
               <Link to="">
                 <a href="">
-                  <FaLinkedinIn size="1.7rem" color="white" />
+                  <FaLinkedinIn size="1.7rem" color="black" />
                 </a>
               </Link>
             </motion.div>
@@ -252,42 +252,42 @@ const Footer = () => {
             <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
               <Link to="">
                 <a href="">
-                  <BsTwitterX size="1.7rem" color="white" />
+                  <BsTwitterX size="1.7rem" color="black" />
                 </a>
               </Link>
             </motion.div>
             <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
               <Link to="">
                 <a href="">
-                  <FaWhatsapp size="1.7rem" color="white" />
+                  <FaWhatsapp size="1.7rem" color="black" />
                 </a>
               </Link>
             </motion.div>
             <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
               <Link to="">
                 <a href="">
-                  <FaDiscord size="1.7rem" color="white" />
+                  <FaDiscord size="1.7rem" color="black" />
                 </a>
               </Link>
             </motion.div>
             <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
               <Link to="">
                 <a href="">
-                  <FaThreads size="1.7rem" color="white" />
+                  <FaThreads size="1.7rem" color="black" />
                 </a>
               </Link>
             </motion.div>
             <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
               <Link to="">
                 <a href="">
-                  <FaYoutube size="1.7rem" color="white" />
+                  <FaYoutube size="1.7rem" color="black" />
                 </a>
               </Link>
             </motion.div>
             <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
               <Link to="">
                 <a href="">
-                  <BiLogoGmail size="1.7rem" color="white" />
+                  <BiLogoGmail size="1.7rem" color="black" />
                 </a>
               </Link>
             </motion.div>
