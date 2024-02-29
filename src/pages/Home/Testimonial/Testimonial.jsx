@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 import { Swiper, SwiperSlide } from "swiper/react";
-
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -22,7 +21,7 @@ const Testimonial = () => {
       <SectionTitle
         heading={"Visitors Says About Us"}
       ></SectionTitle>
-      <Swiper pagination={{ clickable: true }} modules={[Pagination]} autoplay={{ delay: 3000 }} className="mySwiper">
+      <Swiper pagination={{ clickable: true }} modules={[Pagination]} autoplay={{ delay: 2000 }} className="mySwiper">
         {reviews.map((review) => (
           <SwiperSlide color="black" key={review._id}>
             <div className="flex flex-col items-center mx-24 my-8">
