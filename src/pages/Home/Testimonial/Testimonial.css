@@ -1,4 +1,12 @@
-.swiper-button-prev,
-.swiper-button-next {
-  color: black !important; /* Change arrow color to black */
-}
+.swiper-pagination-bullet {
+    width: 8px; /* Set the width of the dot */
+    height: 8px; /* Set the height of the dot */
+    background-color: black; /* Set the color of the dot */
+    margin: 0 5px; /* Adjust the spacing between dots */
+    border-radius: 50%; /* Make the dot round */
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: orange; /* Set the color of the active dot */
+  }
+  

@@ -4,8 +4,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
-import "swiper/css/navigation";
-import { Navigation } from "swiper/modules";
+import "swiper/css/pagination";
+import { Pagination } from "swiper/modules";
 import { Rating } from "@smastrom/react-rating";
 import "@smastrom/react-rating/style.css";
 import "./Testimonial.css"; // Import your custom CSS file
@@ -22,7 +22,7 @@ const Testimonial = () => {
       <SectionTitle
         heading={"Visitors Says About Us"}
       ></SectionTitle>
-      <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+      <Swiper pagination={{ clickable: true }} modules={[Pagination]} autoplay={{ delay: 3000 }} className="mySwiper">
         {reviews.map((review) => (
           <SwiperSlide color="black" key={review._id}>
             <div className="flex flex-col items-center mx-24 my-8">
