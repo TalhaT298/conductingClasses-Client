@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "./Testimonial.css";
 
 // Import Swiper styles
 import "swiper/css";
@@ -9,7 +8,7 @@ import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 import { Rating } from "@smastrom/react-rating";
 import "@smastrom/react-rating/style.css";
-// import { TfiThought } from "react-icons/tfi";
+import "./Testimonial.css"; // Import your custom CSS file
 
 const Testimonial = () => {
   const [reviews, setReviews] = useState([]);
@@ -22,7 +21,6 @@ const Testimonial = () => {
     <section className="my-10">
       <SectionTitle
         heading={"Visitors Says About Us"}
-        // subHeading={"National and International scholars, Business leaders, Entrepreneurs, Dignitaries visited us to share experiences, explore opportunities, collaborate and give guidance to the students"}
       ></SectionTitle>
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
         {reviews.map((review) => (
