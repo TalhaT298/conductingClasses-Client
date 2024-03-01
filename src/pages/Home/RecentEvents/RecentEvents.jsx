@@ -41,7 +41,7 @@ const RecentEvents = () => {
           </figure>
           <div className="card-body items-center text-center">
             <h2 className="card-title">Programming-Hero Seminar</h2>
-            <p>Every year REC Sports club held differnt type of sports tournament.Every year REC Sports club held differnt type of sports tournament.</p>
+            <p>The REC Learniverse Club organizes this seminar, recognizing its profound impact on our future endeavors and successes. Such events play an invaluable role in shaping our later lives..</p>
             <div className="card-actions">
              <Link to="/cricket">
              <button className="btn btn-outline btn-info h-4 w-40">Read More<PiArrowRightLight size="1.1rem" color="blue" /></button>
