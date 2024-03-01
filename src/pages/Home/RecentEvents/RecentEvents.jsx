@@ -1,5 +1,6 @@
 import React from "react";
 import SectionTitle from "../../../components/SectionTitle/SectionTitle";
+import { Link } from "react-router-dom";
 
 const RecentEvents = () => {
   return (
@@ -58,7 +59,9 @@ const RecentEvents = () => {
             <h2 className="card-title">REC Cricket Tournament</h2>
             <p>Every year REC Sports club held differnt type of sports tournament.Every year REC Sports club held differnt type of sports tournament.</p>
             <div className="card-actions">
-              <button className="btn btn-primary h-8 w-24">Buy Now</button>
+             <Link>
+             <button className="btn btn-primary h-8 w-24">Buy Now</button>
+             </Link>
             </div>
           </div>
         </div>
