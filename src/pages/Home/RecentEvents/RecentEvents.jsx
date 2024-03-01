@@ -48,7 +48,7 @@ const RecentEvents = () => {
         <div className="card w-96 bg-base-100 shadow-xl mx-4">
           <figure className="px-4 pt-10">
             <img
-              src="https://i.ibb.co/kytx0s5/khela.jpg"
+              src="https://i.ibb.co/pxTDWWp/khela.webp"
               alt="Shoes"
               className="rounded-xl"
               style={{ width: "350px", height: "250px" }} // Increased width of the image
