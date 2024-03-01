@@ -1,7 +1,7 @@
 import React from "react";
 import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 import { Link } from "react-router-dom";
-
+import { PiArrowRightLight } from "react-icons/pi";
 const RecentEvents = () => {
   return (
     <div>
@@ -59,8 +59,8 @@ const RecentEvents = () => {
             <h2 className="card-title">REC Cricket Tournament</h2>
             <p>Every year REC Sports club held differnt type of sports tournament.Every year REC Sports club held differnt type of sports tournament.</p>
             <div className="card-actions">
-             <Link>
-             <button className="btn btn-primary h-8 w-24">Buy Now</button>
+             <Link to="">
+             <button className="btn btn-outline btn-info h-4 w-40">Read More<PiArrowRightLight size="1.1rem" color="blue" /></button>
              </Link>
             </div>
           </div>
