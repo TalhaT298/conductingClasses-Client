@@ -10,38 +10,42 @@ const RecentEvents = () => {
         // subHeading={"National and International scholars, Business leaders, Entrepreneurs, Dignitaries visited us to share experiences, explore opportunities, collaborate and give guidance to the students"}
       ></SectionTitle>
       <div className="flex justify-center item-center">
-        <div className="card  bg-base-100 shadow-xl mx-4">
-          <figure className="px-10 pt-10">
+      <div className="card w-96 bg-base-100 shadow-xl mx-4">
+          <figure className="px-4 pt-10">
             <img
-              src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+              src="https://i.ibb.co/pxTDWWp/khela.webp"
               alt="Shoes"
               className="rounded-xl"
-              style={{ width: "300px", height: "200px" }} // Adjust width and height as needed
+              style={{ width: "350px", height: "250px" }} // Increased width of the image
             />
           </figure>
           <div className="card-body items-center text-center">
-            <h2 className="card-title">Shoes!</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <h2 className="card-title">REC Cricket Tournament</h2>
+            <p>Every year REC Sports club held differnt type of sports tournament.Every year REC Sports club held differnt type of sports tournament.</p>
             <div className="card-actions">
-              <button className="btn btn-primary">Read More</button>
+             <Link to="/cricket">
+             <button className="btn btn-outline btn-info h-4 w-40">Read More<PiArrowRightLight size="1.1rem" color="blue" /></button>
+             </Link>
             </div>
           </div>
         </div>
 
         <div className="card w-96 bg-base-100 shadow-xl mx-4">
-          <figure className="px-10 pt-10">
+          <figure className="px-4 pt-10">
             <img
-              src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+              src="https://i.ibb.co/pxTDWWp/khela.webp"
               alt="Shoes"
               className="rounded-xl"
-              style={{ width: "300px", height: "200px" }} // Adjust width and height as needed
+              style={{ width: "350px", height: "250px" }} // Increased width of the image
             />
           </figure>
           <div className="card-body items-center text-center">
-            <h2 className="card-title">Shoes!</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <h2 className="card-title">Programming-Hero Seminar</h2>
+            <p>Every year REC Sports club held differnt type of sports tournament.Every year REC Sports club held differnt type of sports tournament.</p>
             <div className="card-actions">
-              <button className="btn btn-primary">Buy Now</button>
+             <Link to="/cricket">
+             <button className="btn btn-outline btn-info h-4 w-40">Read More<PiArrowRightLight size="1.1rem" color="blue" /></button>
+             </Link>
             </div>
           </div>
         </div>
@@ -57,10 +61,10 @@ const RecentEvents = () => {
           </figure>
           <div className="card-body items-center text-center">
             <h2 className="card-title">REC Cricket Tournament</h2>
-            <p>Every year REC Sports club held differnt type of sports tournament.Every year REC Sports club held differnt type of sports tournament.</p>
+            <p>Every year, REC Sports Club hosts diverse sports tournaments. This year, the CSE department emerged as champions, showcasing outstanding teamwork and skill..</p>
             <div className="card-actions">
-             <Link to="">
-             <button className="btn btn-outline btn-info h-4 w-40">Read More<PiArrowRightLight size="1.1rem" color="blue" /></button>
+             <Link to="/cricket">
+             <button className="btn btn-outline btn-info h-10 w-40">Read More<PiArrowRightLight size="1.1rem" color="blue" /></button>
              </Link>
             </div>
           </div>
