@@ -49,7 +49,7 @@ const RecentEvents = () => {
         <div className="card w-96 bg-base-100 shadow-xl mx-4">
           <figure className="px-10 pt-10">
           <img
-              src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+              src="https://i.ibb.co/kytx0s5/khela.jpg"
               alt="Shoes"
               className="rounded-xl"
               style={{ width: '300px', height: '200px' }} // Adjust width and height as needed
