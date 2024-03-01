@@ -1,5 +1,5 @@
 import React from "react";
-
+import { PiArrowRightLight } from "react-icons/pi";
 const Notice = () => {
   return (
     <div>
