@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const REDetails = () => {
     return (
         <div>
-            <Link></Link>
+            <Link to="/cricket"></Link>
             <div>
 
             </div>
