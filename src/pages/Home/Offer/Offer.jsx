@@ -1,5 +1,6 @@
 import React from "react";
 import { AiOutlineFileProtect } from "react-icons/ai";
+import { IoLibrarySharp } from "react-icons/io5";
 const Offer = () => {
   return (
     <div>
@@ -31,7 +32,7 @@ const Offer = () => {
                       <AiOutlineFileProtect size="4.3rem" color="black" />
                     </p>
                     <h2 className="text-2xl">
-                      Accommodation <br />
+                    Library <br />
                       <p className="text-sm">
                         We are providing a secure and convenient living facility
                         for our students.{" "}
