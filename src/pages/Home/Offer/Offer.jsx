@@ -1,6 +1,7 @@
 import React from "react";
 import { AiOutlineFileProtect } from "react-icons/ai";
 import { IoLibrarySharp } from "react-icons/io5";
+import { BsFillPersonLinesFill } from "react-icons/bs";
 const Offer = () => {
   return (
     <div>
@@ -15,7 +16,7 @@ const Offer = () => {
               <div className="flex">
                 <div className="w-1/2">
                   <div className="flex py-4">
-                    <p className="pt-4">
+                    <p className="pt-2">
                       <AiOutlineFileProtect size="4.3rem" color="black" />
                     </p>
                     <h2 className="text-2xl">
@@ -28,14 +29,13 @@ const Offer = () => {
                   </div>
 
                   <div className="flex py-4">
-                    <p className="pt-4">
-                      <AiOutlineFileProtect size="4.3rem" color="black" />
+                    <p className="pt-2">
+                      <IoLibrarySharp size="4.3rem" color="black" />
                     </p>
                     <h2 className="text-2xl">
                     Library <br />
                       <p className="text-sm">
-                        We are providing a secure and convenient living facility
-                        for our students.{" "}
+                      RIC library has a collection of over 50000 books, journals, and research papers, enriching the resources day by day.{" "}
                       </p>
                     </h2>
                   </div>
@@ -45,10 +45,9 @@ const Offer = () => {
                       <AiOutlineFileProtect size="4.3rem" color="black" />
                     </p>
                     <h2 className="text-2xl">
-                      Accommodation <br />
+                    Blended Learning <br />Platform <br />
                       <p className="text-sm">
-                        We are providing a secure and convenient living facility
-                        for our students.{" "}
+                      To engage students in learning after face-to-face classes, our faculty members and students collaborate in the online..{" "}
                       </p>
                     </h2>
                   </div>
@@ -130,7 +129,7 @@ const Offer = () => {
         <div className="w-2/5">
           <figure>
             <img
-              src="https://daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.jpg"
+              src="https://i.ibb.co/DpT467W/Untitled-design-24.png"
               alt="Album"
             />
           </figure>
