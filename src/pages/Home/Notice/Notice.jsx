@@ -5,9 +5,11 @@ const Notice = () => {
   return (
     <div className="flex">
       <div className="w-1/2">
-        <div></div>
-        {/* 1 */}
         <div className="">
+        <h3 className='text-2xl uppercase border-y-2 py-2'>Notice</h3> 
+        </div>
+        {/* 1 */}
+        <div className="py-2">
         <div class="flex items-center">
           <button class="bg-gray-200 p-2 rounded w-24 h-20">
             <span class="text-3xl">18</span> <br />
@@ -75,8 +77,10 @@ const Notice = () => {
 
       {/* 2nd part right side */}
       <div className="w-1/2">
-
       <div className="">
+        <h3 className='text-2xl uppercase border-y-2 py-2'>Important Dates</h3> 
+        </div>
+      <div className="py-2">
         <div class="flex items-center">
           <img src="https://i.ibb.co/C86wQFv/11.png" className="w-24 h-20" alt="" />
           <p class="pl-4">
