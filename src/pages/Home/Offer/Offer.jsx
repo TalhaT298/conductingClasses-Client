@@ -2,6 +2,7 @@ import React from "react";
 import { AiOutlineFileProtect } from "react-icons/ai";
 import { IoLibrarySharp } from "react-icons/io5";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import { SiClubhouse } from "react-icons/si";
 const Offer = () => {
   return (
     <div>
@@ -42,7 +43,7 @@ const Offer = () => {
 
                   <div className="flex py-4">
                     <p className="pt-4">
-                      <AiOutlineFileProtect size="4.3rem" color="black" />
+                      <BsFillPersonLinesFill size="4.3rem" color="black" />
                     </p>
                     <h2 className="text-2xl">
                     Blended Learning <br />Platform <br />
@@ -57,10 +58,9 @@ const Offer = () => {
                       <AiOutlineFileProtect size="4.3rem" color="black" />
                     </p>
                     <h2 className="text-2xl">
-                      Accommodation <br />
+                      REC Learniverse <br />
                       <p className="text-sm">
-                        We are providing a secure and convenient living facility
-                        for our students.{" "}
+                      Our motto, "Let's Craft Futures Together," drives knowledge sharing and collaborative learning.{" "}
                       </p>
                     </h2>
                   </div>
