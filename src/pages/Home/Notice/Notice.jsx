@@ -7,8 +7,8 @@ const Notice = () => {
     <div className="flex">
       <div className="w-1/2">
         <div className="flex">
-          <h3 className="text-2xl uppercase border-y-2 py-2">Notice</h3>
-          <div className="">
+          <h3 className="text-3xl uppercase border-y-2 py-2">Notice</h3>
+          <div className="pl-[450px] pt-4">
           <SlCalender size="1.3rem" color="black" />
           </div>
         </div>
@@ -94,10 +94,10 @@ const Notice = () => {
         </div>
       </div>
 
-      {/* 2nd part right side */}
+      {/* 2nd part right side gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg*/}
       <div className="w-1/2">
         <div className="flex ">
-          <h3 className="text-2xl uppercase border-y-2 py-2">
+          <h3 className="text-3xl uppercase border-y-2 py-2">
             Important Dates
           </h3>
          <div className="pl-72 pt-4">
