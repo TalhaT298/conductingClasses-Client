@@ -78,10 +78,7 @@ const Notice = () => {
 
       <div className="">
         <div class="flex items-center">
-          <button class="bg-gray-200 p-2 rounded w-24 h-20">
-            <span class="text-3xl">18</span> <br />
-            <span class="text-xs">Feb 2024</span>
-          </button>
+          <img src="https://i.ibb.co/C86wQFv/11.png" className="w-24 h-20" alt="" />
           <p class="pl-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
             sed.hjjbbjbjbjbj
@@ -94,10 +91,7 @@ const Notice = () => {
 
         <div className="">
         <div class="flex items-center">
-          <button class="bg-gray-200 p-2 rounded w-24 h-20">
-            <span class="text-3xl">18</span> <br />
-            <span class="text-xs">Feb 2024</span>
-          </button>
+          <img src="https://i.ibb.co/C86wQFv/11.png" className="w-24 h-20" alt="" />
           <p class="pl-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
             sed.hjjbbjbjbjbj
@@ -110,10 +104,7 @@ const Notice = () => {
 
         <div className="">
         <div class="flex items-center">
-          <button class="bg-gray-200 p-2 rounded w-24 h-20">
-            <span class="text-3xl">18</span> <br />
-            <span class="text-xs">Feb 2024</span>
-          </button>
+          <img src="https://i.ibb.co/C86wQFv/11.png" className="w-24 h-20" alt="" />
           <p class="pl-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
             sed.hjjbbjbjbjbj
@@ -126,10 +117,7 @@ const Notice = () => {
 
         <div className="">
         <div class="flex items-center">
-          <button class="bg-gray-200 p-2 rounded w-24 h-20">
-            <span class="text-3xl">18</span> <br />
-            <span class="text-xs">Feb 2024</span>
-          </button>
+          <img src="https://i.ibb.co/C86wQFv/11.png" className="w-24 h-20" alt="" />
           <p class="pl-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
             sed.hjjbbjbjbjbj
