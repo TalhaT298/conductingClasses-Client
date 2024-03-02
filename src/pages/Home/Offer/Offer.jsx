@@ -3,6 +3,7 @@ import { AiOutlineFileProtect } from "react-icons/ai";
 import { IoLibrarySharp } from "react-icons/io5";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { SiClubhouse } from "react-icons/si";
+import { MdEmojiTransportation } from "react-icons/md";
 const Offer = () => {
   return (
     <div>
@@ -55,7 +56,7 @@ const Offer = () => {
 
                   <div className="flex py-4">
                     <p className="pt-4">
-                      <AiOutlineFileProtect size="4.3rem" color="black" />
+                      <SiClubhouse size="4.3rem" color="black" />
                     </p>
                     <h2 className="text-2xl">
                       REC Learniverse <br />
@@ -72,10 +73,9 @@ const Offer = () => {
                       <AiOutlineFileProtect size="4.3rem" color="black" />
                     </p>
                     <h2 className="text-2xl">
-                      Accommodation <br />
+                    Transportation <br />
                       <p className="text-sm">
-                        We are providing a secure and convenient living facility
-                        for our students.{" "}
+                      To make the student’s life easier and safe, we are providing  buses from different points of Rangpur city to....{" "}
                       </p>
                     </h2>
                   </div>
