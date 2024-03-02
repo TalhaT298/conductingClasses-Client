@@ -7,6 +7,7 @@ import RecentEvents from "../RecentEvents/RecentEvents";
 import Mark from "../Mark/Mark";
 import Campus from "../Campus/Campus";
 import Notice from "../Notice/Notice";
+import Offer from "../Offer/Offer";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Banner></Banner>
       <Faculties></Faculties>
       <Campus></Campus>
+      <Offer></Offer>
       <Notice></Notice>
       <RecentEvents></RecentEvents>
       <Mark></Mark>
