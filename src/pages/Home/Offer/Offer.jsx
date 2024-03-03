@@ -4,6 +4,7 @@ import { IoLibrarySharp } from "react-icons/io5";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { SiClubhouse } from "react-icons/si";
 import { MdEmojiTransportation } from "react-icons/md";
+import { FaLaptopCode } from "react-icons/fa";
 const Offer = () => {
   return (
     <div>
@@ -70,7 +71,7 @@ const Offer = () => {
                 <div className="w-1/2">
                   <div className="flex py-4">
                     <p className="pt-4">
-                      <AiOutlineFileProtect size="4.3rem" color="black" />
+                      <MdEmojiTransportation size="4.3rem" color="black" />
                     </p>
                     <h2 className="text-2xl">
                     Transportation <br />
@@ -85,10 +86,9 @@ const Offer = () => {
                       <AiOutlineFileProtect size="4.3rem" color="black" />
                     </p>
                     <h2 className="text-2xl ">
-                      Accommodation <br />
+                      One student one laptop <br />
                       <p className="text-sm">
-                        We are providing a secure and convenient living facility
-                        for our students.{" "}
+                        Under the ‘One student one laptop’ project.{" "}
                       </p>
                     </h2>
                   </div>
