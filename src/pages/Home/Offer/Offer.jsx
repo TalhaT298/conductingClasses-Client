@@ -16,7 +16,7 @@ const Offer = () => {
             {/* left side----------- */}
             <div>
             <h3 className="text-4xl uppercase border-y-2 py-2">What We Offer</h3>
-              <p>fgggggggggggggggg</p>
+              <p>At Daffodil International University, students get the opportunity to think, learn and grow.</p>
               {/* part two div---------------------------------------------- */}
               <div className="flex">
                 <div className="w-1/2">
