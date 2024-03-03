@@ -5,6 +5,7 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 import { SiClubhouse } from "react-icons/si";
 import { MdEmojiTransportation } from "react-icons/md";
 import { FaLaptopCode } from "react-icons/fa";
+import { MdOutlineSportsGymnastics } from "react-icons/md";
 const Offer = () => {
   return (
     <div>
@@ -83,7 +84,7 @@ const Offer = () => {
 
                   <div className="flex py-4">
                     <p className="pt-4">
-                      <AiOutlineFileProtect size="4.3rem" color="black" />
+                      <FaLaptopCode size="4.3rem" color="black" />
                     </p>
                     <h2 className="text-2xl ">
                       One student one laptop <br />
@@ -98,10 +99,9 @@ const Offer = () => {
                       <AiOutlineFileProtect size="4.3rem" color="black" />
                     </p>
                     <h2 className="text-2xl">
-                      Accommodation <br />
+                     Sports Club <br />
                       <p className="text-sm">
-                        We are providing a secure and convenient living facility
-                        for our students.{" "}
+                        To ensure the mental and physical well-being of our students and employees, we are providing a well-equipped sports club.{" "}
                       </p>
                     </h2>
                   </div>
