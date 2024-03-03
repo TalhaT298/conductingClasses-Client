@@ -15,13 +15,13 @@ const Offer = () => {
           <div className="card-body">
             {/* left side----------- */}
             <div>
-              <h3>ggggggggggggggg</h3>
+            <h3 className="text-4xl uppercase border-y-2 py-2">What We Offer</h3>
               <p>fgggggggggggggggg</p>
               {/* part two div---------------------------------------------- */}
               <div className="flex">
                 <div className="w-1/2">
                   <div className="flex py-4">
-                    <p className="pt-2">
+                    <p className="pt-2 pr-2">
                       <AiOutlineFileProtect size="4.3rem" color="black" />
                     </p>
                     <h2 className="text-2xl">
@@ -34,7 +34,7 @@ const Offer = () => {
                   </div>
 
                   <div className="flex py-4">
-                    <p className="pt-2">
+                    <p className="pt-2 pr-2">
                       <IoLibrarySharp size="4.3rem" color="black" />
                     </p>
                     <h2 className="text-2xl">
@@ -46,7 +46,7 @@ const Offer = () => {
                   </div>
 
                   <div className="flex py-4">
-                    <p className="pt-4">
+                    <p className="pt-4 pr-2">
                       <BsFillPersonLinesFill size="4.3rem" color="black" />
                     </p>
                     <h2 className="text-2xl">
@@ -58,7 +58,7 @@ const Offer = () => {
                   </div>
 
                   <div className="flex py-4">
-                    <p className="pt-4">
+                    <p className="pt-4 pr-2">
                       <SiClubhouse size="4.3rem" color="black" />
                     </p>
                     <h2 className="text-2xl">
@@ -72,7 +72,7 @@ const Offer = () => {
                 {/* another ----------------------------------------------------------------------------*/}
                 <div className="w-1/2">
                   <div className="flex py-4">
-                    <p className="pt-4">
+                    <p className="pt-4 pr-2">
                       <MdEmojiTransportation size="4.3rem" color="black" />
                     </p>
                     <h2 className="text-2xl">
@@ -84,19 +84,19 @@ const Offer = () => {
                   </div>
 
                   <div className="flex py-4">
-                    <p className="pt-4">
+                    <p className="pt-4 pr-2">
                       <FaLaptopCode size="4.3rem" color="black" />
                     </p>
                     <h2 className="text-2xl ">
                       One student one laptop <br />
                       <p className="text-sm">
-                        Under the ‘One student one laptop’ project.{" "}
+                        Under the ‘One student one laptop’ project.REC has distributed over 500 f..{" "}
                       </p>
                     </h2>
                   </div>
 
                   <div className="flex py-4">
-                    <p className="pt-4">
+                    <p className="pt-4 pr-2">
                       <MdOutlineSportsGymnastics size="4.3rem" color="black" />
                     </p>
                     <h2 className="text-2xl">
@@ -107,8 +107,8 @@ const Offer = () => {
                     </h2>
                   </div>
 
-                  <div className="flex py-4">
-                    <p className="pt-4">
+                  <div className="flex py-8">
+                    <p className="pt- pr-2">
                       <SiHelpdesk size="4.3rem" color="black" />
                     </p>
                     <h2 className="text-2xl">
