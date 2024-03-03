@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { SlCalender } from "react-icons/sl";
 const Notice = () => {
   return (
-    <div className="flex">
+    <div className="flex pt-6">
       <div className="w-1/2">
         <div className="flex">
           <h3 className="text-3xl uppercase border-y-2 py-2">Notice</h3>
