@@ -6,6 +6,7 @@ import { SiClubhouse } from "react-icons/si";
 import { MdEmojiTransportation } from "react-icons/md";
 import { FaLaptopCode } from "react-icons/fa";
 import { MdOutlineSportsGymnastics } from "react-icons/md";
+import { SiHelpdesk } from "react-icons/si";
 const Offer = () => {
   return (
     <div>
@@ -96,7 +97,7 @@ const Offer = () => {
 
                   <div className="flex py-4">
                     <p className="pt-4">
-                      <AiOutlineFileProtect size="4.3rem" color="black" />
+                      <MdOutlineSportsGymnastics size="4.3rem" color="black" />
                     </p>
                     <h2 className="text-2xl">
                      Sports Club <br />
@@ -108,13 +109,12 @@ const Offer = () => {
 
                   <div className="flex py-4">
                     <p className="pt-4">
-                      <AiOutlineFileProtect size="4.3rem" color="black" />
+                      <SiHelpdesk size="4.3rem" color="black" />
                     </p>
                     <h2 className="text-2xl">
-                      Accommodation <br />
+                    Helpdesk<br />
                       <p className="text-sm">
-                        We are providing a secure and convenient living facility
-                        for our students.{" "}
+                      We offer continuous support to our students, day and night{" "}
                       </p>
                     </h2>
                   </div>
