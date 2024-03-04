@@ -8,12 +8,14 @@ import Mark from "../Mark/Mark";
 import Campus from "../Campus/Campus";
 import Notice from "../Notice/Notice";
 import Offer from "../Offer/Offer";
+import Scholarship from "../Scholarship/Scholarship";
 
 const Home = () => {
   return (
     <div>
       <Banner></Banner>
       <Faculties></Faculties>
+      <Scholarship></Scholarship>
       <Campus></Campus>
       <Offer></Offer>
       <Notice></Notice>
