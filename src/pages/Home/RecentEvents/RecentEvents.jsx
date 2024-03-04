@@ -72,8 +72,9 @@ const RecentEvents = () => {
               className="rounded-xl"
               style={{ width: "350px", height: "250px" }} // Increased width of the image
             />
-            <div className="absolute bottom-[276px] left-5 text-white text-xs bg-black p-1 rounded-md">
-              March 2, 2024
+            <div className="absolute bottom-[276px] left-4 text-white text-xs bg-black p-1 rounded-md">
+               <p className="text-xl pl-2">2</p> <span className="pl-2">03<br/><span className="pl-1">2024</span></span>
+               
             </div>
           </figure>
           <div className="card-body items-center text-center">
