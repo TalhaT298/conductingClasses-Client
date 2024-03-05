@@ -165,7 +165,7 @@ const Footer = () => {
           <Link to="">
             <a className="link link-hover flex">
               <PiArrowRightLight size="1.3rem" color="black" />
-              DIU Annual Report
+              REC Annual Report
             </a>
           </Link>
           <Link to="">
