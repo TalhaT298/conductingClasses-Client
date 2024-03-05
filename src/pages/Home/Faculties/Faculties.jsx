@@ -96,7 +96,6 @@ const Faculties = () => {
                   <h2 className="title-font font-medium text-lg text-gray-900">
                     Information & Communication Engineering
                   </h2>
-                  <h3 className="text-gray-500 mb-3">UI Developer</h3>
                   <p className="mb-4">
                     In the Information & Communication Engineering department,
                     our research efforts are primarily focused on data science,
