@@ -26,10 +26,15 @@ const Faculties = () => {
                 ></img>
                 <div className="w-full">
                   <h2 className="title-font font-medium text-lg text-gray-900">
-                  Computer Science & Engineering
+                    Computer Science & Engineering
                   </h2>
                   <p className="mb-4">
-                  The Computer Science & Engineering department at REC is at the forefront of research in areas such as artificial intelligence (AI),machine learning,cybersecurity, and software engineering.Our researchers are dedicated to the development of algorithms, systems, and applications that can transform industries and improve the quality of life.
+                    The Computer Science & Engineering department at REC is at
+                    the forefront of research in areas such as artificial
+                    intelligence (AI),machine learning,cybersecurity, and
+                    software engineering.Our researchers are dedicated to the
+                    development of algorithms, systems, and applications that
+                    can transform industries and improve the quality of life.
                   </p>
                 </div>
               </div>
@@ -43,12 +48,16 @@ const Faculties = () => {
                 ></img>
                 <div className="w-full">
                   <h2 className="title-font font-medium text-lg text-gray-900">
-                    Holden Caulfield
+                    Electrical & Electronic Engineering
                   </h2>
-                  <h3 className="text-gray-500 mb-3">UI Developer</h3>
                   <p className="mb-4">
-                    DIY tote bag drinking vinegar cronut adaptogen squid fanny
-                    pack vaporware.
+                    Our Electrical & Electronic Engineering research teams are
+                    pioneering new frontiers in areas such as power systems,
+                    renewable energy, electronic devices, and control systems.
+                    We are committed to creating energy-efficient solutions,
+                    advancing semiconductor technologies, and developing
+                    sophisticated control systems to promote a more sustainable
+                    and technologically advanced society.
                   </p>
                 </div>
               </div>
