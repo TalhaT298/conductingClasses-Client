@@ -19,8 +19,8 @@ const Testimonial = () => {
   }, []);
   return (
     <section className="my-10">
-      <SectionTitle
-        heading={"Visitors Says About Us"}
+      <SectionTitle className=""
+        heading={"Feedback Received"}
       ></SectionTitle>
       <Swiper pagination={{ clickable: true }} modules={[Pagination]} autoplay={{ delay: 2000 }} className="mySwiper">
         {reviews.map((review) => (
