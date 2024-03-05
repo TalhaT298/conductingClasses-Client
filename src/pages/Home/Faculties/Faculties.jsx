@@ -71,12 +71,16 @@ const Faculties = () => {
                 ></img>
                 <div className="w-full">
                   <h2 className="title-font font-medium text-lg text-gray-900">
-                    Atticus Finch
+                    Civil Engineering
                   </h2>
-                  <h3 className="text-gray-500 mb-3">UI Developer</h3>
+
                   <p className="mb-4">
-                    DIY tote bag drinking vinegar cronut adaptogen squid fanny
-                    pack vaporware.
+                    Our Civil Engineering department carries out groundbreaking
+                    research in areas such as sustainable construction
+                    materials, structural health monitoring, and environmental
+                    engineering. Our faculty and students collaborate to develop
+                    new materials, designs, and methods that contribute to safe,
+                    durable, and environmentally friendly infrastructures.
                   </p>
                 </div>
               </div>
