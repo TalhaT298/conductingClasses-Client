@@ -75,7 +75,7 @@ const Footer = () => {
           <Link to="">
             <a className="link link-hover flex">
               <PiArrowRightLight size="1.3rem" color="black" />
-              Logos (Daffodil Family)
+              Logos (RECFamily)
             </a>
           </Link>
         </nav>
