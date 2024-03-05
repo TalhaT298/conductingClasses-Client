@@ -10,7 +10,7 @@ const Faculties = () => {
             >
             </SectionTitle>
             <div>
-                <p>This is our very own Faculties</p>
+                <p>To help you build your career and accomplish your goal, we are offering 38 undergraduate and master's programs under 4 faculties.</p>
             </div>
         </div>
     );
