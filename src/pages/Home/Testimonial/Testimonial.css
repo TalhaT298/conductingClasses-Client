@@ -7,7 +7,7 @@
   }
   
   .swiper-pagination-bullet-active {
-    background-color: orange; /* Set the color of the active dot */
+    background-color: rgb(0, 0, 0); /* Set the color of the active dot */
   }
   /* .swiper-slide-next {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
