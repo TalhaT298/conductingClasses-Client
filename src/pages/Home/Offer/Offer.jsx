@@ -21,7 +21,7 @@ const Offer = () => {
       <div className="card lg:card-side bg-base-100  ">
         <div className="w-3/5">
         <div className="pb-4">
-            <h3 className="text-4xl uppercase border-y-2 py-2">What We Offer</h3>
+            <h3 className="text-4xl uppercase border-y-2 py-2 font-bold">What We Offer</h3>
               <p className="pt-4">At Rangpur Engineering College, students get the opportunity to think, learn and grow.</p>
             </div>
           <div className="card-body">

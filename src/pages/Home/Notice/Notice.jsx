@@ -7,7 +7,7 @@ const Notice = () => {
     <div className="flex pt-6">
       <div className="w-1/2">
         <div className="flex">
-          <h3 className="text-3xl uppercase border-y-2 py-2">Notice</h3>
+          <h3 className="text-3xl uppercase border-y-2 py-2 font-bold">Notice</h3>
           <div className="pl-[450px] pt-4">
             <SlCalender size="1.3rem" color="black" />
           </div>
@@ -97,8 +97,8 @@ const Notice = () => {
       {/* 2nd part right side gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg*/}
       <div className="w-1/2">
         <div className="flex ">
-          <h3 className="text-3xl uppercase border-y-2 py-2">
-            Important Dates
+          <h3 className="text-3xl uppercase border-y-2 py-2 font-bold">
+          Keydates
           </h3>
           <div className="pl-72 pt-4">
             {/* <button className="btn btn-sm btn-outline btn-info w-20">
