@@ -94,12 +94,17 @@ const Faculties = () => {
                 ></img>
                 <div className="w-full">
                   <h2 className="title-font font-medium text-lg text-gray-900">
-                    Henry Letham
+                    Information & Communication Engineering
                   </h2>
                   <h3 className="text-gray-500 mb-3">UI Developer</h3>
                   <p className="mb-4">
-                    DIY tote bag drinking vinegar cronut adaptogen squid fanny
-                    pack vaporware.
+                    In the Information & Communication Engineering department,
+                    our research efforts are primarily focused on data science,
+                    wireless communication, network security, and Internet of
+                    Things (IoT). We aspire to create robust and innovative
+                    solutions to address the challenges posed by the ever-
+                    evolving landscape of digital communication and information
+                    processing.
                   </p>
                 </div>
               </div>
