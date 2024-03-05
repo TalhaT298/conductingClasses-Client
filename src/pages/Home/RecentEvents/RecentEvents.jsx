@@ -28,10 +28,12 @@ const RecentEvents = () => {
             </p>
             <div className="card-actions">
               <Link to="/cricket">
-                <button className="btn btn-outline btn-info h-4 w-40">
+              <div className="group">
+              <button class="btn btn-outline  h-4 w-40 bg-black text-white border-black border hover:bg-white hover:text-black">
                   Read More
-                  <PiArrowRightLight size="1.1rem" color="blue" />
+                  <PiArrowRightLight size="1.1rem" class="text-white group-hover:text-black" />
                 </button>
+              </div>
               </Link>
             </div>
           </div>
@@ -55,10 +57,12 @@ const RecentEvents = () => {
             </p>
             <div className="card-actions">
               <Link to="/cricket">
-                <button className="btn btn-outline btn-info h-4 w-40">
+              <div className="group">
+              <button class="btn btn-outline  h-4 w-40 bg-black text-white border-black border hover:bg-white hover:text-black">
                   Read More
-                  <PiArrowRightLight size="1.1rem" color="blue" />
+                  <PiArrowRightLight size="1.1rem" class="text-white group-hover:text-black" />
                 </button>
+              </div>
               </Link>
             </div>
           </div>
@@ -73,8 +77,12 @@ const RecentEvents = () => {
               style={{ width: "350px", height: "250px" }} // Increased width of the image
             />
             <div className="absolute bottom-[276px] left-4 text-white text-xs bg-black p-1 rounded-md">
-               <p className="text-xl pl-2">2</p> <span className="pl-2">03<br/><span className="pl-1">2024</span></span>
-               
+              <p className="text-xl pl-2">2</p>{" "}
+              <span className="pl-2">
+                03
+                <br />
+                <span className="pl-1">2024</span>
+              </span>
             </div>
           </figure>
           <div className="card-body items-center text-center">
@@ -86,10 +94,12 @@ const RecentEvents = () => {
             </p>
             <div className="card-actions">
               <Link to="/cricket">
-                <button className="btn btn-outline btn-info h-10 w-40">
+              <div className="group">
+              <button class="btn btn-outline  h-4 w-40 bg-black text-white border-black border hover:bg-white hover:text-black">
                   Read More
-                  <PiArrowRightLight size="1.1rem" color="blue" />
+                  <PiArrowRightLight size="1.1rem" class="text-white group-hover:text-black" />
                 </button>
+              </div>
               </Link>
             </div>
           </div>
