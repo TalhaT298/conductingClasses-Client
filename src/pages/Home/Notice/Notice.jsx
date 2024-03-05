@@ -9,7 +9,7 @@ const Notice = () => {
         <div className="flex">
           <h3 className="text-3xl uppercase border-y-2 py-2">Notice</h3>
           <div className="pl-[450px] pt-4">
-          <SlCalender size="1.3rem" color="black" />
+            <SlCalender size="1.3rem" color="black" />
           </div>
         </div>
         {/* 1 */}
@@ -100,11 +100,16 @@ const Notice = () => {
           <h3 className="text-3xl uppercase border-y-2 py-2">
             Important Dates
           </h3>
-         <div className="pl-72 pt-4">
-         <button className="btn btn-sm btn-outline btn-info w-20">
+          <div className="pl-72 pt-4">
+            {/* <button className="btn btn-sm btn-outline btn-info w-20">
             View All
-          </button>
-         </div>
+          </button> */}
+            <div className="group">
+              <button class="btn btn-outline btn-sm w-20 bg-black text-white border-black border hover:bg-white hover:text-black">
+              View All
+              </button>
+            </div>
+          </div>
         </div>
         <div className="py-2">
           <div class="flex items-center">
