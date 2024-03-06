@@ -105,7 +105,7 @@ const Notice = () => {
             View All
           </button> */}
             <div className="group">
-              <button class="btn btn-outline btn-sm w-20 bg-black text-white border-black border hover:bg-white hover:text-black">
+              <button class="btn rounded btn-outline btn-sm w-20 bg-black text-white border-black border hover:bg-white hover:text-black">
               View All
               </button>
             </div>
