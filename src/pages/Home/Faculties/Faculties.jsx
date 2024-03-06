@@ -23,7 +23,7 @@ const Faculties = () => {
                 <img
                   alt="team"
                   className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                  src="https://dummyimage.com/200x200"
+                  src="https://i.ibb.co/KNFg2JV/424563217-700425442200789-2166167118839362792-n.jpg"
                 ></img>
                 <div className="w-full">
                   <h2 className="title-font font-medium text-lg text-gray-900">
@@ -49,7 +49,7 @@ const Faculties = () => {
                 <img
                   alt="team"
                   className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                  src="https://dummyimage.com/201x201"
+                  src="https://i.ibb.co/zbwXL9Y/1664648309278-1200.jpg"
                 ></img>
                 <div className="w-full">
                   <h2 className="title-font font-medium text-lg text-gray-900">
