@@ -10,7 +10,7 @@ const Faculties = () => {
         // subHeading={"National and International scholars, Business leaders, Entrepreneurs, Dignitaries visited us to share experiences, explore opportunities, collaborate and give guidance to the students"}
       ></SectionTitle>
       <div></div>
-      <p className="text-center">
+      <p className="text-center font-bold">
         To help you build your career and accomplish your goal, we are offering
         38 undergraduate and master's programs under 4 faculties.
       </p>
