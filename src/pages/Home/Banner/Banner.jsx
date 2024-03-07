@@ -8,7 +8,7 @@ import img4 from "../../../assets/4.webp";
 import img5 from "../../../assets/5.webp";
 const Banner = () => {
     return (
-        <div>
+        <div className='pt-16'>
             <Carousel autoPlay={true} interval={2000} infiniteLoop={true} showArrows={false}>
                 <div>
                     <img src={img1} />
