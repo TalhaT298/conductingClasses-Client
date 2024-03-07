@@ -3,8 +3,9 @@ import React from "react";
 const Navbar = () => {
   const navOptions = (
     <>
+    
       <li>
-        <a>Item 1</a>
+        <a>Admissions</a>
       </li>
       <li>
         <a>Parent</a>
