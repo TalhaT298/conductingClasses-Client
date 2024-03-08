@@ -84,10 +84,14 @@
 
 // export default Navbar;
 import React from "react";
+// import "./Navbar.css";
 
 const Navbar = () => {
   return (
     <div>
+      <div className="fixed-top">
+        <p>okkkkkkkkkkkkkkkk</p>
+      </div>
       <div className="navbar fixed z-10  max-w-screen-xl text-black bg-white">
         <div className="navbar-start">
           <div className="dropdown">
@@ -112,7 +116,7 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a>Item 1</a>
+                <a>Admissions</a>
               </li>
               <li>
                 <a>Parent</a>
@@ -135,7 +139,7 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a>Item 1</a>
+              <a>Admissions</a>
             </li>
             <li>
               <details>
