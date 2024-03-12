@@ -85,7 +85,7 @@
 // export default Navbar;
 import React from "react";
 // import "./Navbar.css";
-
+import log from "../../../assets/123.png";
 const Navbar = () => {
   return (
     <div>
@@ -183,7 +183,11 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
+          <div className="flex">
+          <img className="w-12" src={log} alt="" />
           <a className="btn btn-ghost text-xl">REC2.0</a>
+          
+          </div>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
