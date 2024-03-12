@@ -13,6 +13,7 @@ import Scholarship from "../Scholarship/Scholarship";
 const Home = () => {
   return (
     <div>
+      <NavbarAfter></NavbarAfter>
       <Banner></Banner>
       <Scholarship></Scholarship>
       <Campus></Campus>
