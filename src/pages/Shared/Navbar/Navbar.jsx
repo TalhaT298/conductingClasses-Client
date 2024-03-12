@@ -80,7 +80,7 @@
 //       </div>
 //     </div>
 //   );
-// };
+// }; 
 
 // export default Navbar;
 import React from "react";
@@ -89,9 +89,6 @@ import React from "react";
 const Navbar = () => {
   return (
     <div>
-      <div className="fixed-top">
-        <p>okkkkkkkkkkkkkkkk</p>
-      </div>
       <div className="navbar fixed z-10  max-w-screen-xl text-black bg-white">
         <div className="navbar-start">
           <div className="dropdown">
