@@ -9,6 +9,7 @@ import Campus from "../Campus/Campus";
 import Notice from "../Notice/Notice";
 import Offer from "../Offer/Offer";
 import Scholarship from "../Scholarship/Scholarship";
+import NavbarAfter from "../NavbarAfter/NavbarAfter";
 
 const Home = () => {
   return (
@@ -18,7 +19,6 @@ const Home = () => {
       <Scholarship></Scholarship>
       <Campus></Campus>
       <Faculties></Faculties>
-      
       <Offer></Offer>
       <Notice></Notice>
       <RecentEvents></RecentEvents>
