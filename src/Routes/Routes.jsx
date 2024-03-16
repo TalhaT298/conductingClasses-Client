@@ -5,6 +5,7 @@ import {
 import Main from "../Layout/Main";
 import Home from "../pages/Home/Home/Home";
 import REDetails from "../pages/REDetails/REDetails";
+import ProgrammingHero from "../pages/ProgrammingHero/ProgrammingHero";
 
  export const router = createBrowserRouter([
     {
@@ -21,7 +22,7 @@ import REDetails from "../pages/REDetails/REDetails";
         },
         {
           path: "/programming-hero",
-          element: <REDetails></REDetails>,
+          element: <ProgrammingHero></ProgrammingHero>,
         },
       ]
     },

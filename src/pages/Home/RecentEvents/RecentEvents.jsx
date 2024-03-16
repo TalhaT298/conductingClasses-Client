@@ -20,13 +20,13 @@ const RecentEvents = () => {
             />
           </figure>
           <div className="card-body text-center flex justify-center items-center">
-            <h2 className="card-title text-center">REC Cricket Tournament</h2>
+            <h2 className="card-title text-center">Programming Hero Seminar</h2>
             <p>
               Every year REC Sports club holds different types of sports
               tournaments.
             </p>
             <div className="card-actions flex justify-center items-center">
-              <Link to="/cricket">
+              <Link to="/programming-hero">
                 <button className="btn btn-outline w-full bg-black text-white border-black border group hover:bg-white hover:text-black">
                   Read More
                   <PiArrowRightLight
