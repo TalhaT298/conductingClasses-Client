@@ -18,6 +18,7 @@
 
 import React, { useEffect } from 'react';
 import { useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 export const REDetails = () => {
     const [currentSlider, setCurrentSlider] = useState(0);
@@ -30,6 +31,10 @@ export const REDetails = () => {
         return () => clearInterval(intervalId);
     }, [currentSlider]);
     return (
+        <>
+        <Helmet>
+        <title>REC |Cricket</title>
+      </Helmet>
         <div className=''>
             <Link to="/cricket">
             <div className="w-full mx-auto h-[240px] md:h-[470px] lg:h-[600px] flex flex-col lg:flex-row items-center justify-center overflow-hidden gap-5 lg:gap-10 px-10">
@@ -56,6 +61,7 @@ export const REDetails = () => {
             </Link>
         
         </div>
+        </>
     );
 };
 
