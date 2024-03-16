@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { PiArrowRightLight } from "react-icons/pi";
 const RecentEvents = () => {
   return (
-    <div>
+    <div className="px-4">
       <SectionTitle className="font-serif"
         heading={"Recent Events"}
         // subHeading={"National and International scholars, Business leaders, Entrepreneurs, Dignitaries visited us to share experiences, explore opportunities, collaborate and give guidance to the students"}
@@ -19,12 +19,12 @@ const RecentEvents = () => {
             />
           </figure>
           <div className="card-body text-center">
-            <h2 className="card-title">REC Cricket Tournament</h2>
+            <h2 className="card-title text-center">REC Cricket Tournament</h2>
             <p>
               Every year REC Sports club holds different types of sports
               tournaments.
             </p>
-            <div className="card-actions">
+            <div className="card-actions flex justify-center items-center">
               <Link to="/cricket">
                 <button className="btn btn-outline w-full bg-black text-white border-black border hover:bg-white hover:text-black">
                   Read More <PiArrowRightLight size="1.1rem" className="text-white group-hover:text-black" />
