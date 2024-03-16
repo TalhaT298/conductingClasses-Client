@@ -37,7 +37,7 @@ const Faculties = () => {
                     can transform industries and improve the quality of life.
                   </p>
                   <p className="border-b-4 pt-0 w-[280px]"></p>
-                  <Link to="">
+                  <Link to="/cse">
                     <button className="py-2 w-[280px] h-8 px-6 mb-4 mt-2 bg-black rounded hover:bg-slate-950 duration-300 text-white flex items-center justify-center overflow-hidden hover:overflow-visible relative group">
                       <svg
                         viewBox="0 0 1024 1024"
@@ -110,7 +110,7 @@ const Faculties = () => {
                     and technologically advanced society.
                   </p>
                   <p className="border-b-4 pt-0 w-[280px]"></p>
-                  <Link to="">
+                  <Link to="/eee">
                     <button className="py-2 w-[280px] h-8 px-6 mb-4 mt-2 bg-black rounded hover:bg-slate-950 duration-300 text-white flex items-center justify-center overflow-hidden hover:overflow-visible relative group">
                       <svg
                         viewBox="0 0 1024 1024"
@@ -183,7 +183,7 @@ const Faculties = () => {
                     durable, and environmentally friendly infrastructures.
                   </p>
                   <p className="border-b-4 pt-0 w-[280px]"></p>
-                  <Link to="">
+                  <Link to="/ce">
                     <button className="py-2 w-[280px] h-8 px-6 mb-4 mt-2 bg-black rounded hover:bg-slate-950 duration-300 text-white flex items-center justify-center overflow-hidden hover:overflow-visible relative group">
                       <svg
                         viewBox="0 0 1024 1024"
@@ -256,7 +256,7 @@ const Faculties = () => {
                     processing.
                   </p>
                   <p className="border-b-4 pt-0 w-[280px]"></p>
-                  <Link to="">
+                  <Link to="/ice">
                     <button className="py-2 w-[280px] h-8 px-6 mb-4 mt-2 bg-black rounded hover:bg-slate-950 duration-300 text-white flex items-center justify-center overflow-hidden hover:overflow-visible relative group">
                       <svg
                         viewBox="0 0 1024 1024"
