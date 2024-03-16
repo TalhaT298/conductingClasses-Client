@@ -18,7 +18,7 @@ const RecentEvents = () => {
               className="rounded-xl"
             />
           </figure>
-          <div className="card-body text-center">
+          <div className="card-body text-center flex justify-center items-center">
             <h2 className="card-title text-center">REC Cricket Tournament</h2>
             <p>
               Every year REC Sports club holds different types of sports
@@ -42,13 +42,13 @@ const RecentEvents = () => {
               className="rounded-xl"
             />
           </figure>
-          <div className="card-body text-center">
+          <div className="card-body text-center flex justify-center items-center">
             <h2 className="card-title">REC Cricket Tournament</h2>
             <p>
               Every year REC Sports club holds different types of sports
               tournaments.
             </p>
-            <div className="card-actions">
+            <div className="card-actions card-actions flex justify-center items-center">
               <Link to="/cricket">
                 <button className="btn btn-outline w-full bg-black text-white border-black border hover:bg-white hover:text-black">
                   Read More <PiArrowRightLight size="1.1rem" className="text-white group-hover:text-black" />
@@ -66,13 +66,13 @@ const RecentEvents = () => {
               className="rounded-xl"
             />
           </figure>
-          <div className="card-body text-center">
+          <div className="card-body text-center flex justify-center items-center">
             <h2 className="card-title">REC Cricket Tournament</h2>
             <p>
               Every year REC Sports club holds different types of sports
               tournaments.
             </p>
-            <div className="card-actions">
+            <div className="card-actions card-actions flex justify-center items-center">
               <Link to="/cricket">
                 <button className="btn btn-outline w-full bg-black text-white border-black border hover:bg-white hover:text-black">
                   Read More <PiArrowRightLight size="1.1rem" className="text-white group-hover:text-black" />
