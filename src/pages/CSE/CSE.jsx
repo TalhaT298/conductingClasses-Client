@@ -15,11 +15,16 @@ const CSE = () => {
               Hello!
             </div> */}
           </div>
-          <SectionTitle
+          {/* <SectionTitle
             className="font-serif"
             heading={"Computer Science & Engineering"}
             // subHeading={"National and International scholars, Business leaders, Entrepreneurs, Dignitaries visited us to share experiences, explore opportunities, collaborate and give guidance to the students"}
-          ></SectionTitle>
+          ></SectionTitle> */}
+          <div className='mx-auto md:w-4/12 my-8'>
+           {/* <p className='text-yellow-600'>----{subHeading}---</p> */}
+           <h3 className='text-4xl uppercase border-y-2 py-4 font-bold'>Computer Science & Engineering</h3> 
+          
+        </div>
         </div>
         <div></div>
       </Link>
