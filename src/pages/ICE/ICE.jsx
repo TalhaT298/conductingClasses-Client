@@ -5,7 +5,7 @@ const ICE = () => {
     return (
         <div>
             <Link to="/ice">
-            
+            <p>ice</p>
             </Link>
         </div>
     );
