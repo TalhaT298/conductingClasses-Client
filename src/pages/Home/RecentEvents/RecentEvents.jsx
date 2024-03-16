@@ -5,12 +5,13 @@ import { PiArrowRightLight } from "react-icons/pi";
 const RecentEvents = () => {
   return (
     <div className="px-4">
-      <SectionTitle className="font-serif"
+      <SectionTitle
+        className="font-serif"
         heading={"Recent Events"}
         // subHeading={"National and International scholars, Business leaders, Entrepreneurs, Dignitaries visited us to share experiences, explore opportunities, collaborate and give guidance to the students"}
       ></SectionTitle>
       <div className="flex flex-col md:flex-row md:flex-wrap justify-center items-center">
-      <div className="card bg-base-100 shadow-xl mx-4 mb-8 md:w-96">
+        <div className="card bg-base-100 shadow-xl mx-4 mb-8 md:w-96">
           <figure className="px-4 pt-10">
             <img
               src="https://i.ibb.co/pxTDWWp/khela.webp"
@@ -26,15 +27,19 @@ const RecentEvents = () => {
             </p>
             <div className="card-actions flex justify-center items-center">
               <Link to="/cricket">
-                <button className="btn btn-outline w-full bg-black text-white border-black border hover:bg-white hover:text-black">
-                  Read More <PiArrowRightLight size="1.1rem" className="text-white group-hover:text-black" />
+                <button className="btn btn-outline w-full bg-black text-white border-black border group hover:bg-white hover:text-black">
+                  Read More
+                  <PiArrowRightLight
+                    size="1.1rem"
+                    className="text-white group-hover:text-black"
+                  />
                 </button>
               </Link>
             </div>
           </div>
-          </div>
+        </div>
 
-          <div className="card bg-base-100 shadow-xl mx-4 mb-8 md:w-96">
+        <div className="card bg-base-100 shadow-xl mx-4 mb-8 md:w-96">
           <figure className="px-4 pt-10">
             <img
               src="https://i.ibb.co/pxTDWWp/khela.webp"
@@ -50,15 +55,19 @@ const RecentEvents = () => {
             </p>
             <div className="card-actions card-actions flex justify-center items-center">
               <Link to="/cricket">
-                <button className="btn btn-outline w-full bg-black text-white border-black border hover:bg-white hover:text-black">
-                  Read More <PiArrowRightLight size="1.1rem" className="text-white group-hover:text-black" />
+                <button className="btn btn-outline w-full bg-black text-white border-black border group hover:bg-white hover:text-black">
+                  Read More
+                  <PiArrowRightLight
+                    size="1.1rem"
+                    className="text-white group-hover:text-black"
+                  />
                 </button>
               </Link>
             </div>
           </div>
-          </div>
+        </div>
 
-          <div className="card bg-base-100 shadow-xl mx-4 mb-8 md:w-96">
+        <div className="card bg-base-100 shadow-xl mx-4 mb-8 md:w-96">
           <figure className="px-4 pt-10">
             <img
               src="https://i.ibb.co/pxTDWWp/khela.webp"
@@ -74,13 +83,17 @@ const RecentEvents = () => {
             </p>
             <div className="card-actions card-actions flex justify-center items-center">
               <Link to="/cricket">
-                <button className="btn btn-outline w-full bg-black text-white border-black border hover:bg-white hover:text-black">
-                  Read More <PiArrowRightLight size="1.1rem" className="text-white group-hover:text-black" />
+                <button className="btn btn-outline w-full bg-black text-white border-black border group hover:bg-white hover:text-black">
+                  Read More
+                  <PiArrowRightLight
+                    size="1.1rem"
+                    className="text-white group-hover:text-black"
+                  />
                 </button>
               </Link>
             </div>
           </div>
-          </div>
+        </div>
       </div>
     </div>
   );
