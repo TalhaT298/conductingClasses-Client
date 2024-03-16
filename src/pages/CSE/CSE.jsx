@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const CSE = () => {
     return (
         <div>
-            <Link to="">
+            <Link to="/cse">
             
             
             </Link>
