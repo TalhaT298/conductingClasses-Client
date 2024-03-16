@@ -6,6 +6,10 @@ import Main from "../Layout/Main";
 import Home from "../pages/Home/Home/Home";
 import REDetails from "../pages/REDetails/REDetails";
 import ProgrammingHero from "../pages/ProgrammingHero/ProgrammingHero";
+import CSE from "../pages/CSE/CSE";
+import ICE from "../pages/ICE/ICE";
+import EEE from "../pages/EEE/EEE";
+import CE from "../pages/CE/CE";
 
  export const router = createBrowserRouter([
     {
@@ -23,6 +27,22 @@ import ProgrammingHero from "../pages/ProgrammingHero/ProgrammingHero";
         {
           path: "/programming-hero",
           element: <ProgrammingHero></ProgrammingHero>,
+        },
+        {
+          path: "/cse",
+          element: <CSE></CSE>,
+        },
+        {
+          path: "/ice",
+          element: <ICE></ICE>,
+        },
+        {
+          path: "/eee",
+          element: <EEE></EEE>,
+        },
+        {
+          path: "/ce",
+          element: <CE></CE>,
         },
       ]
     },
