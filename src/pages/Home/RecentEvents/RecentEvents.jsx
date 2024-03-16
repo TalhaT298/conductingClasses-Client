@@ -9,101 +9,78 @@ const RecentEvents = () => {
         heading={"Recent Events"}
         // subHeading={"National and International scholars, Business leaders, Entrepreneurs, Dignitaries visited us to share experiences, explore opportunities, collaborate and give guidance to the students"}
       ></SectionTitle>
-      <div className="flex justify-center item-center">
-        <div className="card w-96 bg-base-100 shadow-xl mx-4">
+      <div className="flex flex-col md:flex-row md:flex-wrap justify-center items-center">
+      <div className="card bg-base-100 shadow-xl mx-4 mb-8 md:w-96">
           <figure className="px-4 pt-10">
             <img
               src="https://i.ibb.co/pxTDWWp/khela.webp"
               alt="Shoes"
               className="rounded-xl"
-              style={{ width: "350px", height: "250px" }} // Increased width of the image
             />
           </figure>
-          <div className="card-body items-center text-center">
+          <div className="card-body text-center">
             <h2 className="card-title">REC Cricket Tournament</h2>
             <p>
-              Every year REC Sports club held differnt type of sports
-              tournament.Every year REC Sports club held differnt type of sports
-              tournament.
+              Every year REC Sports club holds different types of sports
+              tournaments.
             </p>
             <div className="card-actions">
               <Link to="/cricket">
-              <div className="group">
-              <button class="btn btn-outline  h-4 w-40 bg-black text-white border-black border hover:bg-white hover:text-black">
-                  Read More
-                  <PiArrowRightLight size="1.1rem" class="text-white group-hover:text-black" />
+                <button className="btn btn-outline w-full bg-black text-white border-black border hover:bg-white hover:text-black">
+                  Read More <PiArrowRightLight size="1.1rem" className="text-white group-hover:text-black" />
                 </button>
-              </div>
               </Link>
             </div>
           </div>
-        </div>
+          </div>
 
-        <div className="card w-96 bg-base-100 shadow-xl mx-4">
+          <div className="card bg-base-100 shadow-xl mx-4 mb-8 md:w-96">
           <figure className="px-4 pt-10">
             <img
               src="https://i.ibb.co/pxTDWWp/khela.webp"
               alt="Shoes"
               className="rounded-xl"
-              style={{ width: "350px", height: "250px" }} // Increased width of the image
             />
           </figure>
-          <div className="card-body items-center text-center">
-            <h2 className="card-title">Programming-Hero Seminar</h2>
-            <p>
-              The REC Learniverse Club organizes this seminar, recognizing its
-              profound impact on our future endeavors and successes. Such events
-              play an invaluable role in shaping our later lives..............
-            </p>
-            <div className="card-actions">
-              <Link to="/cricket">
-              <div className="group">
-              <button class="btn btn-outline  h-4 w-40 bg-black text-white border-black border hover:bg-white hover:text-black">
-                  Read More
-                  <PiArrowRightLight size="1.1rem" class="text-white group-hover:text-black" />
-                </button>
-              </div>
-              </Link>
-            </div>
-          </div>
-        </div>
-
-        <div className="card w-96 bg-base-100 shadow-xl mx-4">
-          <figure className="px-4 pt-10">
-            <img
-              src="https://i.ibb.co/pxTDWWp/khela.webp"
-              alt="Shoes"
-              className="rounded-xl"
-              style={{ width: "350px", height: "250px" }} // Increased width of the image
-            />
-            <div className="absolute bottom-[276px] left-4 text-white text-xs bg-black p-1 rounded-md">
-              <p className="text-xl pl-2">2</p>{" "}
-              <span className="pl-2">
-                03
-                <br />
-                <span className="pl-1">2024</span>
-              </span>
-            </div>
-          </figure>
-          <div className="card-body items-center text-center">
+          <div className="card-body text-center">
             <h2 className="card-title">REC Cricket Tournament</h2>
             <p>
-              Every year, REC Sports Club hosts diverse sports tournaments. This
-              year, the CSE department emerged as champions, showcasing
-              outstanding teamwork and skill..
+              Every year REC Sports club holds different types of sports
+              tournaments.
             </p>
             <div className="card-actions">
               <Link to="/cricket">
-              <div className="group">
-              <button class="btn btn-outline  h-4 w-40 bg-black text-white border-black border hover:bg-white hover:text-black">
-                  Read More
-                  <PiArrowRightLight size="1.1rem" class="text-white group-hover:text-black" />
+                <button className="btn btn-outline w-full bg-black text-white border-black border hover:bg-white hover:text-black">
+                  Read More <PiArrowRightLight size="1.1rem" className="text-white group-hover:text-black" />
                 </button>
-              </div>
               </Link>
             </div>
           </div>
-        </div>
+          </div>
+
+          <div className="card bg-base-100 shadow-xl mx-4 mb-8 md:w-96">
+          <figure className="px-4 pt-10">
+            <img
+              src="https://i.ibb.co/pxTDWWp/khela.webp"
+              alt="Shoes"
+              className="rounded-xl"
+            />
+          </figure>
+          <div className="card-body text-center">
+            <h2 className="card-title">REC Cricket Tournament</h2>
+            <p>
+              Every year REC Sports club holds different types of sports
+              tournaments.
+            </p>
+            <div className="card-actions">
+              <Link to="/cricket">
+                <button className="btn btn-outline w-full bg-black text-white border-black border hover:bg-white hover:text-black">
+                  Read More <PiArrowRightLight size="1.1rem" className="text-white group-hover:text-black" />
+                </button>
+              </Link>
+            </div>
+          </div>
+          </div>
       </div>
     </div>
   );
