@@ -19,6 +19,10 @@ import REDetails from "../pages/REDetails/REDetails";
           path: "/cricket",
           element: <REDetails></REDetails>,
         },
+        {
+          path: "/programming-hero",
+          element: <REDetails></REDetails>,
+        },
       ]
     },
   ]);
