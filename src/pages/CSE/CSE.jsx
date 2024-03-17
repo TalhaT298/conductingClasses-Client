@@ -61,12 +61,12 @@ const CSE = () => {
           data-pinterest-text="Pin it2"
           data-tweet-text="lightGallery slide  2"
           className="gallery__item"
-          data-src="https://i.ibb.co/5k5KqGC/415919170-3569651840017744-150995019419902135-n.jpg"
+          data-src="https://images.unsplash.com/photo-1608481337062-4093bf3ed404?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1600&q=80"
           data-sub-html="<h4>Photo by - <a href='https://unsplash.com/@therawhunter' >Massimiliano Morosinotto </a></h4><p> Location - <a href='https://unsplash.com/s/photos/tre-cime-di-lavaredo%2C-italia'>Tre Cime di Lavaredo, Italia</a>This is the Way</p>"
         >
           <img
             className="img-responsive"
-            src="https://images.unsplash.com/photo-1608481337062-4093bf3ed404?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=240&q=80"
+            src="https://i.ibb.co/5k5KqGC/415919170-3569651840017744-150995019419902135-n.jpg"
           />
         </a>
         <a
