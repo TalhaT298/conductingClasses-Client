@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@smastrom/react-rating": "^1.5.0",
+    "flickr-justified-gallery": "^2.2.0",
     "framer-motion": "^11.0.8",
     "icons": "^1.0.0",
     "lightgallery": "^2.7.2",
