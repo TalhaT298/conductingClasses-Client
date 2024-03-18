@@ -20,7 +20,7 @@ const CSE = () => {
   return (
     <div>
       <Link to="/cse">
-        <div className="py-20">
+        <div className="py-16">
           <div className="mockup-browser border bg-base-300">
             <div className="mockup-browser-toolbar">
               <div className="input">https://cse.com</div>
