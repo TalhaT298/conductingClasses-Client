@@ -77,10 +77,53 @@ const CSE = () => {
                   </div>
                   <div class="flex flex-col items-center text-center justify-center">
                     <h2 class="font-medium title-font mt-4 text-gray-900 text-lg">
-                      Md.Tarikul Islam <br /> <span className="text-xs">Lecturer,B.Sc. in CSE(PUST)</span>
+                      Md.Tarikul Islam <br />{" "}
+                      <span className="text-xs">
+                        Lecturer,B.Sc. in CSE(PUST)
+                      </span>
                     </h2>
                     <div class="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
                     <p class="text-base">Head of Department</p>
+                    <div className="grid grid-flow-col gap-3">
+                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                      <Link to="">
+                        <a href="">
+                          <FaFacebookF size="1.7rem" color="black" />
+                        </a>
+                      </Link>
+                    </motion.div>
+
+                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                      <Link to="">
+                        <a href="">
+                          <FaInstagram size="1.7rem" color="black" />
+                        </a>
+                      </Link>
+                    </motion.div>
+
+                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                      <Link to="">
+                        <a href="">
+                          <FaLinkedinIn size="1.7rem" color="black" />
+                        </a>
+                      </Link>
+                    </motion.div>
+
+                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                      <Link to="">
+                        <a href="">
+                          <FaWhatsapp size="1.7rem" color="black" />
+                        </a>
+                      </Link>
+                    </motion.div>
+                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                      <Link to="">
+                        <a href="">
+                          <BiLogoGmail size="1.7rem" color="black" />
+                        </a>
+                      </Link>
+                    </motion.div>
+                  </div>
                   </div>
                 </div>
                 <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
@@ -147,45 +190,45 @@ const CSE = () => {
                     Chichen Itza
                   </h2>
                   <div className="grid grid-flow-col gap-3">
-            <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-              <Link to="">
-                <a href="">
-                  <FaFacebookF size="1.7rem" color="black" />
-                </a>
-              </Link>
-            </motion.div>
+                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                      <Link to="">
+                        <a href="">
+                          <FaFacebookF size="1.7rem" color="black" />
+                        </a>
+                      </Link>
+                    </motion.div>
 
-            <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-              <Link to="">
-                <a href="">
-                  <FaInstagram size="1.7rem" color="black" />
-                </a>
-              </Link>
-            </motion.div>
+                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                      <Link to="">
+                        <a href="">
+                          <FaInstagram size="1.7rem" color="black" />
+                        </a>
+                      </Link>
+                    </motion.div>
 
-            <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-              <Link to="">
-                <a href="">
-                  <FaLinkedinIn size="1.7rem" color="black" />
-                </a>
-              </Link>
-            </motion.div>
+                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                      <Link to="">
+                        <a href="">
+                          <FaLinkedinIn size="1.7rem" color="black" />
+                        </a>
+                      </Link>
+                    </motion.div>
 
-            <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-              <Link to="">
-                <a href="">
-                  <FaWhatsapp size="1.7rem" color="black" />
-                </a>
-              </Link>
-            </motion.div>
-            <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-              <Link to="">
-                <a href="">
-                  <BiLogoGmail size="1.7rem" color="black" />
-                </a>
-              </Link>
-            </motion.div>
-          </div>
+                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                      <Link to="">
+                        <a href="">
+                          <FaWhatsapp size="1.7rem" color="black" />
+                        </a>
+                      </Link>
+                    </motion.div>
+                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                      <Link to="">
+                        <a href="">
+                          <BiLogoGmail size="1.7rem" color="black" />
+                        </a>
+                      </Link>
+                    </motion.div>
+                  </div>
                 </div>
               </div>
               <div class="xl:w-1/4 md:w-1/2 p-4">
