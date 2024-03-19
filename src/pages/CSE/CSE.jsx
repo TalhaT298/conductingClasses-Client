@@ -46,7 +46,7 @@ const CSE = () => {
           <div class="container px-5 pb-4 mx-auto flex flex-col">
             {/* <div class="lg:w-[4/6] mx-auto"> */}
             <div class="lg:w-[1200px] mx-auto">
-              {/* <div class="rounded-lg h-64 overflow-hidden">
+              {/* <div class="rounded-lg h-64 overflow-hidden ">
                 <img
                   alt="content"
                   class="object-cover object-center h-full w-full"
