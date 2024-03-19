@@ -5,6 +5,12 @@ import LightGallery from "lightgallery/react";
 import lgZoom from "lightgallery/plugins/zoom";
 import lgVideo from "lightgallery/plugins/video";
 import fjGallery from "flickr-justified-gallery";
+import { FaFacebookF } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa6";
+import { FaWhatsapp } from "react-icons/fa";
+import { BiLogoGmail } from "react-icons/bi";
+import { motion } from "framer-motion";
 
 const CSE = () => {
   useEffect(() => {
@@ -140,10 +146,46 @@ const CSE = () => {
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
                     Chichen Itza
                   </h2>
-                  <p class="leading-relaxed text-base">
-                    Fingerstache flexitarian street art 8-bit waistcoat.
-                    Distillery hexagon disrupt edison bulbche.
-                  </p>
+                  <div className="grid grid-flow-col gap-3">
+            <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+              <Link to="">
+                <a href="">
+                  <FaFacebookF size="1.7rem" color="black" />
+                </a>
+              </Link>
+            </motion.div>
+
+            <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+              <Link to="">
+                <a href="">
+                  <FaInstagram size="1.7rem" color="black" />
+                </a>
+              </Link>
+            </motion.div>
+
+            <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+              <Link to="">
+                <a href="">
+                  <FaLinkedinIn size="1.7rem" color="black" />
+                </a>
+              </Link>
+            </motion.div>
+
+            <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+              <Link to="">
+                <a href="">
+                  <FaWhatsapp size="1.7rem" color="black" />
+                </a>
+              </Link>
+            </motion.div>
+            <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+              <Link to="">
+                <a href="">
+                  <BiLogoGmail size="1.7rem" color="black" />
+                </a>
+              </Link>
+            </motion.div>
+          </div>
                 </div>
               </div>
               <div class="xl:w-1/4 md:w-1/2 p-4">
