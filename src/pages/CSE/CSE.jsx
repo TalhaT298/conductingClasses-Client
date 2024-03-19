@@ -235,59 +235,168 @@ const CSE = () => {
                 <div class="bg-gray-100 p-6 rounded-lg">
                   <img
                     class="h-40 rounded w-full object-cover object-center mb-6"
-                    src="https://dummyimage.com/721x401"
+                    src="https://dummyimage.com/720x400"
                     alt="content"
                   ></img>
                   <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">
                     SUBTITLE
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
-                    Colosseum Roma
+                    Chichen Itza
                   </h2>
-                  <p class="leading-relaxed text-base">
-                    Fingerstache flexitarian street art 8-bit waistcoat.
-                    Distillery hexagon disrupt edison bulbche.
-                  </p>
+                  <div className="grid grid-flow-col gap-3">
+                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                      <Link to="">
+                        <a href="">
+                          <FaFacebookF size="1.7rem" color="black" />
+                        </a>
+                      </Link>
+                    </motion.div>
+
+                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                      <Link to="">
+                        <a href="">
+                          <FaInstagram size="1.7rem" color="black" />
+                        </a>
+                      </Link>
+                    </motion.div>
+
+                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                      <Link to="">
+                        <a href="">
+                          <FaLinkedinIn size="1.7rem" color="black" />
+                        </a>
+                      </Link>
+                    </motion.div>
+
+                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                      <Link to="">
+                        <a href="">
+                          <FaWhatsapp size="1.7rem" color="black" />
+                        </a>
+                      </Link>
+                    </motion.div>
+                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                      <Link to="">
+                        <a href="">
+                          <BiLogoGmail size="1.7rem" color="black" />
+                        </a>
+                      </Link>
+                    </motion.div>
+                  </div>
                 </div>
               </div>
               <div class="xl:w-1/4 md:w-1/2 p-4">
                 <div class="bg-gray-100 p-6 rounded-lg">
                   <img
                     class="h-40 rounded w-full object-cover object-center mb-6"
-                    src="https://dummyimage.com/722x402"
+                    src="https://dummyimage.com/720x400"
                     alt="content"
                   ></img>
                   <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">
                     SUBTITLE
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
-                    Great Pyramid of Giza
+                    Chichen Itza
                   </h2>
-                  <p class="leading-relaxed text-base">
-                    Fingerstache flexitarian street art 8-bit waistcoat.
-                    Distillery hexagon disrupt edison bulbche.
-                  </p>
+                  <div className="grid grid-flow-col gap-3">
+                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                      <Link to="">
+                        <a href="">
+                          <FaFacebookF size="1.7rem" color="black" />
+                        </a>
+                      </Link>
+                    </motion.div>
+
+                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                      <Link to="">
+                        <a href="">
+                          <FaInstagram size="1.7rem" color="black" />
+                        </a>
+                      </Link>
+                    </motion.div>
+
+                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                      <Link to="">
+                        <a href="">
+                          <FaLinkedinIn size="1.7rem" color="black" />
+                        </a>
+                      </Link>
+                    </motion.div>
+
+                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                      <Link to="">
+                        <a href="">
+                          <FaWhatsapp size="1.7rem" color="black" />
+                        </a>
+                      </Link>
+                    </motion.div>
+                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                      <Link to="">
+                        <a href="">
+                          <BiLogoGmail size="1.7rem" color="black" />
+                        </a>
+                      </Link>
+                    </motion.div>
+                  </div>
                 </div>
               </div>
               <div class="xl:w-1/4 md:w-1/2 p-4">
                 <div class="bg-gray-100 p-6 rounded-lg">
                   <img
                     class="h-40 rounded w-full object-cover object-center mb-6"
-                    src="https://dummyimage.com/723x403"
+                    src="https://dummyimage.com/720x400"
                     alt="content"
                   ></img>
                   <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">
                     SUBTITLE
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
-                    San Francisco
+                    Chichen Itza
                   </h2>
-                  <p class="leading-relaxed text-base">
-                    Fingerstache flexitarian street art 8-bit waistcoat.
-                    Distillery hexagon disrupt edison bulbche.
-                  </p>
+                  <div className="grid grid-flow-col gap-3">
+                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                      <Link to="">
+                        <a href="">
+                          <FaFacebookF size="1.7rem" color="black" />
+                        </a>
+                      </Link>
+                    </motion.div>
+
+                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                      <Link to="">
+                        <a href="">
+                          <FaInstagram size="1.7rem" color="black" />
+                        </a>
+                      </Link>
+                    </motion.div>
+
+                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                      <Link to="">
+                        <a href="">
+                          <FaLinkedinIn size="1.7rem" color="black" />
+                        </a>
+                      </Link>
+                    </motion.div>
+
+                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                      <Link to="">
+                        <a href="">
+                          <FaWhatsapp size="1.7rem" color="black" />
+                        </a>
+                      </Link>
+                    </motion.div>
+                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                      <Link to="">
+                        <a href="">
+                          <BiLogoGmail size="1.7rem" color="black" />
+                        </a>
+                      </Link>
+                    </motion.div>
+                  </div>
                 </div>
               </div>
+              
             </div>
           </div>
         </section>
