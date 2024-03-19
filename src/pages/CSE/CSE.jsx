@@ -83,15 +83,21 @@ const CSE = () => {
                 </div>
                 <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
                   <p class="leading-relaxed text-lg mb-4">
-                    Meggings portland fingerstache lyft, post-ironic fixie man
-                    bun banh mi umami everyday carry hexagon locavore direct
-                    trade art party. Locavore small batch listicle gastropub
-                    farm-to-table lumbersexual salvia messenger bag. Coloring
-                    book flannel truffaut craft beer drinking vinegar sartorial,
-                    disrupt fashion axe normcore meh butcher. Portland 90's
-                    scenester vexillologist forage post-ironic asymmetrical,
-                    chartreuse disrupt butcher paleo intelligentsia pabst before
-                    they sold out four loko. 3 wolf moon brooklyn.
+                    Welcome to the Department of Computer Science and
+                    Engineering (CSE) at Rangpur Engineering College (REC)! As
+                    the Head of the Department, I'm thrilled to lead our team of
+                    dedicated faculty members committed to providing you with an
+                    exceptional education. Our curriculum focuses on core
+                    computer science principles, practical skills, and holistic
+                    development. With state-of-the-art facilities and industry
+                    collaborations, we aim to equip you with the tools to
+                    succeed in this dynamic field. Embrace opportunities, seek
+                    guidance, and let's work together to shape a promising
+                    future. Welcome aboard! <br />
+                    Once again, welcome to the Department of Computer Science
+                    and Engineering at Rangpur Engineering College. I look
+                    forward to meeting and working with each one of you. Best
+                    wishes for a fruitful and rewarding academic journey
                   </p>
                   <a class="text-indigo-500 inline-flex items-center">
                     Learn More
