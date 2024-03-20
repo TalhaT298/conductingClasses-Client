@@ -183,11 +183,11 @@ const CSE = () => {
                     src="https://dummyimage.com/720x400"
                     alt="content"
                   ></img>
-                  <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">
-                    SUBTITLE
+                  <h3 class=" text-black text-xs font-medium title-font">
+                    Lecturer,B.Sc. in CSE(RU)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
-                    Chichen Itza
+                    Md. Khalid Hossen
                   </h2>
                   <div className="grid grid-flow-col gap-3">
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
@@ -238,11 +238,11 @@ const CSE = () => {
                     src="https://dummyimage.com/720x400"
                     alt="content"
                   ></img>
-                  <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">
-                    SUBTITLE
+                  <h3 class="tracking-widest text-black text-xs font-medium title-font">
+                    Lecturer,B.Sc. in CSE(AIUB)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
-                    Chichen Itza
+                    Dipanjan Das Dipto
                   </h2>
                   <div className="grid grid-flow-col gap-3">
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
@@ -293,11 +293,11 @@ const CSE = () => {
                     src="https://dummyimage.com/720x400"
                     alt="content"
                   ></img>
-                  <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">
-                    SUBTITLE
+                  <h3 class="tracking-widest text-black text-xs font-medium title-font">
+                     Lecturer,B.Sc. in CSE(SUST)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
-                    Chichen Itza
+                    Jnananjan Roy
                   </h2>
                   <div className="grid grid-flow-col gap-3">
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
@@ -348,11 +348,11 @@ const CSE = () => {
                     src="https://dummyimage.com/720x400"
                     alt="content"
                   ></img>
-                  <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">
-                    SUBTITLE
+                  <h3 class="tracking-widest text-black text-xs font-medium title-font">
+                    Lecturer,B.Sc. in CSE(RU)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
-                    Chichen Itza
+                    Kanij Rabeya Nancy
                   </h2>
                   <div className="grid grid-flow-col gap-3">
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
