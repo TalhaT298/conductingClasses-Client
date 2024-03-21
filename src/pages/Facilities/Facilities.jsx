@@ -8,7 +8,7 @@ const Facilities = () => {
       <Link to="/facilities">
         {/* -------------------------------------1st start------------------------------------ */}
         <div>
-          <section class="text-gray-600 body-font">
+          <section class=" body-font">
             <div class="container px-5 py-24 mx-auto">
               <SectionTitle
                 className="font-serif"
@@ -20,14 +20,13 @@ const Facilities = () => {
                   <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
                     <img
                       alt="team"
-                      class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                      class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
                       src="https://dummyimage.com/80x80"
                     ></img>
-                    <div class="flex-grow">
-                      <h2 class="text-gray-900 title-font font-medium">
-                        Holden Caulfield
+                    <div class="flex-grow ml-8">
+                      <h2 class="text-black title-font text-3xl">
+                      ICT Center
                       </h2>
-                      <p class="text-gray-500">UI Designer</p>
                     </div>
                   </div>
                 </div>
@@ -35,7 +34,7 @@ const Facilities = () => {
                   <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
                     <img
                       alt="team"
-                      class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                      class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
                       src="https://dummyimage.com/84x84"
                     ></img>
                     <div class="flex-grow">
@@ -50,7 +49,7 @@ const Facilities = () => {
                   <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
                     <img
                       alt="team"
-                      class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                      class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
                       src="https://dummyimage.com/88x88"
                     ></img>
                     <div class="flex-grow">
@@ -65,7 +64,7 @@ const Facilities = () => {
                   <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
                     <img
                       alt="team"
-                      class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                      class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
                       src="https://dummyimage.com/90x90"
                     ></img>
                     <div class="flex-grow">
@@ -80,7 +79,7 @@ const Facilities = () => {
                   <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
                     <img
                       alt="team"
-                      class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                      class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
                       src="https://dummyimage.com/94x94"
                     ></img>
                     <div class="flex-grow">
@@ -95,7 +94,7 @@ const Facilities = () => {
                   <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
                     <img
                       alt="team"
-                      class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                      class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
                       src="https://dummyimage.com/98x98"
                     ></img>
                     <div class="flex-grow">
@@ -110,7 +109,7 @@ const Facilities = () => {
                   <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
                     <img
                       alt="team"
-                      class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                      class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
                       src="https://dummyimage.com/100x90"
                     ></img>
                     <div class="flex-grow">
@@ -125,7 +124,7 @@ const Facilities = () => {
                   <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
                     <img
                       alt="team"
-                      class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                      class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
                       src="https://dummyimage.com/104x94"
                     ></img>
                     <div class="flex-grow">
@@ -140,7 +139,7 @@ const Facilities = () => {
                   <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
                     <img
                       alt="team"
-                      class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                      class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
                       src="https://dummyimage.com/108x98"
                     ></img>
                     <div class="flex-grow">
