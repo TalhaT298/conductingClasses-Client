@@ -28,9 +28,9 @@ const Notice = () => {
     {
       title: "Title 4",
       description:
-        "Description for accordion 1 Description for accordion 1 Description for accordion 1",
-      date: "12,",
-      month: "ok",
+        "Admission Notice for M.Phil. and Ph.D. Programs in the departments affiliated with Rajshahi University for the academic year 2024-2025.",
+      date: "03",
+      month: "March",
     },
   ];
 
@@ -55,44 +55,44 @@ const Notice = () => {
           </div>
         </div>
         {/* 1 */}
-       <div className="pt-5">
-       <div className="collapse collapse-arrow bg-base-100 mb-4">
-          <input type="radio" name="my-accordion-2" defaultChecked />
-          <div className="collapse-title text-xl font-medium">
-            Click to open this one and close others
+        <div className="pt-5">
+          <div className="collapse collapse-arrow bg-base-100 mb-4">
+            <input type="radio" name="my-accordion-2" defaultChecked />
+            <div className="collapse-title text-xl font-medium">
+              Click to open this one and close others
+            </div>
+            <div className="collapse-content">
+              <p>hello</p>
+            </div>
           </div>
-          <div className="collapse-content">
-            <p>hello</p>
+          <div className="collapse collapse-arrow bg-base-100 mb-4">
+            <input type="radio" name="my-accordion-2" defaultChecked />
+            <div className="collapse-title text-xl font-medium">
+              Click to open this one and close others
+            </div>
+            <div className="collapse-content">
+              <p>hello</p>
+            </div>
+          </div>
+          <div className="collapse collapse-arrow bg-base-100 mb-4">
+            <input type="radio" name="my-accordion-2" />
+            <div className="collapse-title text-xl font-medium mb-4">
+              Click to open this one and close others
+            </div>
+            <div className="collapse-content">
+              <p>hello</p>
+            </div>
+          </div>
+          <div className="collapse collapse-arrow bg-base-100">
+            <input type="radio" name="my-accordion-2" />
+            <div className="collapse-title text-xl font-medium">
+              Click to open this one and close others
+            </div>
+            <div className="collapse-content">
+              <p>hello</p>
+            </div>
           </div>
         </div>
-       <div className="collapse collapse-arrow bg-base-100 mb-4">
-          <input type="radio" name="my-accordion-2" defaultChecked />
-          <div className="collapse-title text-xl font-medium">
-            Click to open this one and close others
-          </div>
-          <div className="collapse-content">
-            <p>hello</p>
-          </div>
-        </div>
-        <div className="collapse collapse-arrow bg-base-100 mb-4">
-          <input type="radio" name="my-accordion-2" />
-          <div className="collapse-title text-xl font-medium mb-4">
-            Click to open this one and close others
-          </div>
-          <div className="collapse-content">
-            <p>hello</p>
-          </div>
-        </div>
-        <div className="collapse collapse-arrow bg-base-100">
-          <input type="radio" name="my-accordion-2" />
-          <div className="collapse-title text-xl font-medium">
-            Click to open this one and close others
-          </div>
-          <div className="collapse-content">
-            <p>hello</p>
-          </div>
-        </div>
-       </div>
       </div>
 
       {/* 2nd part right side gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg*/}
@@ -132,14 +132,14 @@ const Notice = () => {
                 {/* Index div */}
                 <div className="w-16 h-16 bg-[#000000] flex justify-center items-center text-white text-2xl font-semibold rounded font-sans">
                   <div class="flex flex-col items-center">
-                    <span class="text-xs">{accordion.date}</span>
-                    <p class="mt-1 text-sm">{accordion.month}</p>
+                    <span class="text-xl">{accordion.date}</span>
+                    <p class="mt-1 text-xs">{accordion.month}</p>
                   </div>
                 </div>
                 {/* Divider */}
                 <div className="w-10 h-[2px] bg-[#000000] relative">
                   <span className="w-3 h-3 bg-white absolute -left-2 -top-[5px] z-40 rounded-full border-2 border-[#000000]"></span>
-                  <span className="bg-[#000000] w-10 h-1"></span>
+                  <span className="bg-[#000000] w-16 h-1"></span>
                 </div>
                 {/* Main accordion content */}
                 <div>
