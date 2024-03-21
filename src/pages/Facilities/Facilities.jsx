@@ -182,9 +182,9 @@ const Facilities = () => {
                 ></path>
               </svg>
             </div>
-            <div className="stat-title">Downloads</div>
+            <div className="stat-title">Programs</div>
             <div className="stat-value">
-              <CountUp end={31000} duration={2} />
+              <CountUp end={38} duration={20} />
             </div>
             <div className="stat-desc">Jan 1st - Feb 1st</div>
           </div>
@@ -209,7 +209,7 @@ const Facilities = () => {
             </div>
             <div className="stat-title">New Users</div>
             <div className="stat-value">
-              <CountUp end={4200} duration={2} />
+              <CountUp end={4200} duration={20} />
             </div>
             <div className="stat-desc">↗︎ 400 (22%)</div>
           </div>
@@ -232,11 +232,11 @@ const Facilities = () => {
                 ></path>
               </svg>
             </div>
-            <div className="stat-title">New Registers</div>
+            <div className="stat-title">Research</div>
             <div className="stat-value">
-              <CountUp end={1200} duration={2} />
+              <CountUp end={1200} duration={20} />
             </div>
-            <div className="stat-desc">↘︎ 90 (14%)</div>
+            <div className="stat-desc">↗︎ 1000 (14%)</div>
           </div>
         </div>
         {/* ------------------------------2nd-end----------------------------------- */}
