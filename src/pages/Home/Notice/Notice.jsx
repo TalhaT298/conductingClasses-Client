@@ -198,7 +198,7 @@ const Notice = () => {
                     }`}
                   >
                     <div className="overflow-hidden">
-                      <div className="max-w-[600px] rounded-br-xl rounded-bl-xl bg-[#355E72] text-white p-6 text-center text-sm">
+                      <div className="max-w-[600px] rounded-br-xl rounded-bl-xl bg-[#000000] text-white p-6 text-center text-sm">
                         {accordion.description}
                       </div>
                     </div>
