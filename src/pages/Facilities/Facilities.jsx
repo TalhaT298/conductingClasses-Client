@@ -161,10 +161,45 @@ const Facilities = () => {
           </section>
         </div>
         {/* -------------------------------------1st end------------------------------------ */}
-        {/* ------------------------------2nd-start----------------------------------- */}
+        {/* -----------------------------------2nd s-------------------------------- */}
+        <div className="chat chat-start">
+          <div className="chat-bubble chat-bubble-primary">
+            What kind of nonsense is this
+          </div>
+        </div>
+        <div className="chat chat-start">
+          <div className="chat-bubble chat-bubble-secondary">
+            Put me on the Council and not make me a Master!??
+          </div>
+        </div>
+        <div className="chat chat-start">
+          <div className="chat-bubble chat-bubble-accent">
+            That's never been done in the history of the Jedi. It's insulting!
+          </div>
+        </div>
+        <div className="chat chat-end">
+          <div className="chat-bubble chat-bubble-info">Calm down, Anakin.</div>
+        </div>
+        <div className="chat chat-end">
+          <div className="chat-bubble chat-bubble-success">
+            You have been given a great honor.
+          </div>
+        </div>
+        <div className="chat chat-end">
+          <div className="chat-bubble chat-bubble-warning">
+            To be on the Council at your age.
+          </div>
+        </div>
+        <div className="chat chat-end">
+          <div className="chat-bubble chat-bubble-error">
+            It's never happened before.
+          </div>
+        </div>
+        {/* -----------------------------------2nd e-------------------------------- */}
+        {/* ------------------------------3nd-start----------------------------------- */}
         <div className="stats shadow w-full">
           <div className="stat">
-            <div className="stat-figure text-secondary">
+            <div className="stat-figure text-secondary ">
               {" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -239,7 +274,7 @@ const Facilities = () => {
             <div className="stat-desc">↗︎ 1000 (14%)</div>
           </div>
         </div>
-        {/* ------------------------------2nd-end----------------------------------- */}
+        {/* ------------------------------3nd-end----------------------------------- */}
       </Link>
     </div>
   );
