@@ -84,7 +84,7 @@ const NavbarAfter = () => {
           <div className="w-2/5">
           <details className="dropdown">
               <summary className="text-white bg-black ml-6">more</summary>
-                <ul className="p-2 shadow menu dropdown-content z-[1] bg-black text-white rounded-box w-[110px] text-sm">
+                <ul className="pr-8 shadow menu dropdown-content z-[1] bg-black text-white rounded-box w-[110px] text-sm">
                        <li><Link to=""><p>Faculties</p></Link></li>
                        <li><Link to=""><p>Departments</p></Link></li>
                        <li><Link to=""><p>Teachers</p></Link></li>
