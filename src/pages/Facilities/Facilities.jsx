@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import SectionTitle from "../../components/SectionTitle/SectionTitle";
 
 const Facilities = () => {
   return (
@@ -9,16 +10,11 @@ const Facilities = () => {
         <div>
           <section class="text-gray-600 body-font">
             <div class="container px-5 py-24 mx-auto">
-              <div class="flex flex-col text-center w-full mb-20">
-                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
-                  Our Team
-                </h1>
-                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-                  Whatever cardigan tote bag tumblr hexagon brooklyn
-                  asymmetrical gentrify, subway tile poke farm-to-table. Franzen
-                  you probably haven't heard of them.
-                </p>
-              </div>
+              <SectionTitle
+                className="font-serif"
+                heading={"Recent Events"}
+                // subHeading={"National and International scholars, Business leaders, Entrepreneurs, Dignitaries visited us to share experiences, explore opportunities, collaborate and give guidance to the students"}
+              ></SectionTitle>
               <div class="flex flex-wrap -m-2">
                 <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
                   <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
