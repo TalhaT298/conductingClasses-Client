@@ -22,7 +22,7 @@ const Facilities = () => {
                     <img
                       alt="team"
                       class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                      src="https://dummyimage.com/80x80"
+                      src="https://i.ibb.co/1Zr0HxB/Screenshot-315-removebg-preview.png"
                     ></img>
                     <div class="flex-grow ml-8">
                       <h2 class="text-black title-font text-3xl">
@@ -38,7 +38,7 @@ const Facilities = () => {
                     <img
                       alt="team"
                       class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                      src="https://dummyimage.com/80x80"
+                      src="https://i.ibb.co/zRT2Kd4/Screenshot-316-removebg-preview.png"
                     ></img>
                     <div class="flex-grow ml-8">
                       <h2 class="text-black title-font text-3xl">
@@ -54,7 +54,7 @@ const Facilities = () => {
                     <img
                       alt="team"
                       class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                      src="https://dummyimage.com/80x80"
+                      src="https://i.ibb.co/3yDpfLB/Screenshot-317-removebg-preview.png"
                     ></img>
                     <div class="flex-grow ml-8">
                       <h2 class="text-black title-font text-3xl">
