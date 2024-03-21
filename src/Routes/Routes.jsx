@@ -11,6 +11,7 @@ import ICE from "../pages/ICE/ICE";
 import EEE from "../pages/EEE/EEE";
 import CE from "../pages/CE/CE";
 import Facilities from "../pages/Facilities/Facilities";
+import Departments from "../pages/Departments/Departments";
 
  export const router = createBrowserRouter([
     {
@@ -48,6 +49,10 @@ import Facilities from "../pages/Facilities/Facilities";
         {
           path: "/Facilities",
           element: <Facilities></Facilities> ,
+        },
+        {
+          path: "/departments",
+          element: <Departments></Departments> ,
         },
       ]
     },
