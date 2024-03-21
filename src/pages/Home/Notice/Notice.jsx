@@ -16,18 +16,21 @@ const Notice = () => {
       description:
         "Description for accordion 1 Description for accordion 1 Description for accordion 1",
       date: "12,",
+      month: "ok",
     },
     {
       title: "Title 3",
       description:
         "Description for accordion 1 Description for accordion 1 Description for accordion 1",
       date: "12,",
+      month: "ok",
     },
     {
       title: "Title 4",
       description:
         "Description for accordion 1 Description for accordion 1 Description for accordion 1",
       date: "12,",
+      month: "ok",
     },
   ];
 
