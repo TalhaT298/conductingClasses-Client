@@ -1,14 +1,20 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
+import SectionTitle from "../../components/SectionTitle/SectionTitle";
 
 const Departments = () => {
-    return (
+  return (
+    <div>
+      <Link to="/departments">
         <div>
-            <Link to="/departments">
-            
-            </Link>
+          <SectionTitle
+            className="font-serif"
+            heading={"Departments"}
+          ></SectionTitle>
         </div>
-    );
+      </Link>
+    </div>
+  );
 };
 
 export default Departments;
