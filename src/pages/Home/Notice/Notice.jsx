@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { PiArrowRightLight } from "react-icons/pi";
 import { Link } from "react-router-dom";
 import { SlCalender } from "react-icons/sl";
+import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 const Notice = () => {
   const accordionData = [
     {
@@ -26,7 +27,7 @@ const Notice = () => {
       month: "ok",
     },
     {
-      title: "Title 4",
+      title: "Admission Notice for Ph.D.",
       description:
         "Admission Notice for M.Phil. and Ph.D. Programs in the departments affiliated with Rajshahi University for the academic year 2024-2025.",
       date: "03",
@@ -44,16 +45,23 @@ const Notice = () => {
     });
   };
   return (
-    <div className="flex pt-6">
+    <div>
+      <SectionTitle
+        className="font-serif"
+        heading={"Notice"}
+        // subHeading={"National and International scholars, Business leaders, Entrepreneurs, Dignitaries visited us to share experiences, explore opportunities, collaborate and give guidance to the students"}
+      ></SectionTitle>
+      <div className="flex pt-1">
+      
       <div className="w-1/2">
-        <div className="flex">
+        {/* <div className="flex">
           <h3 className="text-3xl uppercase border-y-2 py-2 font-bold">
             Notice
           </h3>
           <div className="pl-[450px] pt-4">
             <SlCalender size="1.3rem" color="black" />
           </div>
-        </div>
+        </div> */}
         {/* 1 */}
         <div className="pt-5">
           <div className="collapse collapse-arrow bg-base-100 mb-4">
@@ -112,14 +120,14 @@ const Notice = () => {
             </div>
           </div>
         </div> */}
-        <div className="flex">
+        {/* <div className="flex">
           <h3 className="text-3xl uppercase border-y-2 py- font-bold">
             Notice
           </h3>
           <div className="pl-[450px] pt-4">
             <SlCalender size="1.3rem" color="black" />
           </div>
-        </div>
+        </div> */}
         {/* -------------shuru */}
         <div className="flex justify-center ">
           <div className="max-w-[800px] rounded py-10 space-y-6 cursor-pointer">
@@ -168,6 +176,7 @@ const Notice = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };
