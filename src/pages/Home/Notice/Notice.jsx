@@ -150,7 +150,7 @@ const Notice = () => {
                     </h1>
                   </div>
                   <div
-                    className={`grid overflow-hidden transition-all duration-300 ease-in-out text-slate-600  ${
+                    className={`grid overflow-hidden transition-all duration-300 ease-in-out text-slate-600 ${
                       isOpen[idx]
                         ? "grid-rows-[1fr] opacity-100"
                         : "grid-rows-[0fr] opacity-0"
