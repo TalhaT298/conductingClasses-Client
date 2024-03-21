@@ -10,6 +10,7 @@ import CSE from "../pages/CSE/CSE";
 import ICE from "../pages/ICE/ICE";
 import EEE from "../pages/EEE/EEE";
 import CE from "../pages/CE/CE";
+import Facilities from "../pages/Facilities/Facilities";
 
  export const router = createBrowserRouter([
     {
@@ -43,6 +44,10 @@ import CE from "../pages/CE/CE";
         {
           path: "/ce",
           element: <CE></CE>,
+        },
+        {
+          path: "/Facilities",
+          element: <Facilities></Facilities> ,
         },
       ]
     },
