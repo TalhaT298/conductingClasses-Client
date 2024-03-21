@@ -164,35 +164,36 @@ const Facilities = () => {
         {/* -----------------------------------2nd s-------------------------------- */}
         <div className="chat chat-start">
           <div className="chat-bubble chat-bubble-primary">
-            What kind of nonsense is this
+          Rangpur Engineering College (REC) 
           </div>
         </div>
         <div className="chat chat-start">
           <div className="chat-bubble chat-bubble-secondary">
-            Put me on the Council and not make me a Master!??
+          Established in the year 2014
           </div>
         </div>
         <div className="chat chat-start">
           <div className="chat-bubble chat-bubble-accent">
-            That's never been done in the history of the Jedi. It's insulting!
+          It is affiliated by the University of Rajshahi
           </div>
         </div>
         <div className="chat chat-end">
-          <div className="chat-bubble chat-bubble-info">Calm down, Anakin.</div>
+          <div className="chat-bubble chat-bubble-info">The first non-govt. engineering college in Rangpur Division</div>
         </div>
         <div className="chat chat-end">
           <div className="chat-bubble chat-bubble-success">
-            You have been given a great honor.
+            Located Kamal kachhna,Rangpur
           </div>
         </div>
         <div className="chat chat-end">
           <div className="chat-bubble chat-bubble-warning">
-            To be on the Council at your age.
+            CSE,ICE,EEE,CE
           </div>
         </div>
         <div className="chat chat-end">
           <div className="chat-bubble chat-bubble-error">
-            It's never happened before.
+          For more information:
+01855979496
           </div>
         </div>
         {/* -----------------------------------2nd e-------------------------------- */}
