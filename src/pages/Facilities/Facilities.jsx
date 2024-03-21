@@ -12,8 +12,8 @@ const Facilities = () => {
             <div class="container px-5 py-24 mx-auto">
               <SectionTitle
                 className="font-serif"
-                heading={"Recent Events"}
-                // subHeading={"National and International scholars, Business leaders, Entrepreneurs, Dignitaries visited us to share experiences, explore opportunities, collaborate and give guidance to the students"}
+                heading={"Facilities"}
+                
               ></SectionTitle>
               <div class="flex flex-wrap -m-2">
                 <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
