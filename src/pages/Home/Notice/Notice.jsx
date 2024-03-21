@@ -45,16 +45,16 @@ const Notice = () => {
     });
   };
   return (
-    <div>
+    <div className="">
       <SectionTitle
         className="font-serif"
         heading={"Notice"}
         // subHeading={"National and International scholars, Business leaders, Entrepreneurs, Dignitaries visited us to share experiences, explore opportunities, collaborate and give guidance to the students"}
       ></SectionTitle>
-      <div className="flex pt-1">
-      
-      <div className="w-1/2">
-        {/* <div className="flex">
+      <div className="flex flex-col md:flex-row md:flex-wrap justify-center items-center">
+        {/* className="flex flex-col md:flex-row md:flex-wrap justify-center items-center" */}
+        <div className="lg:w-1/2">
+          {/* <div className="flex">
           <h3 className="text-3xl uppercase border-y-2 py-2 font-bold">
             Notice
           </h3>
@@ -62,50 +62,50 @@ const Notice = () => {
             <SlCalender size="1.3rem" color="black" />
           </div>
         </div> */}
-        {/* 1 */}
-        <div className="pt-5">
-          <div className="collapse collapse-arrow bg-base-100 mb-4">
-            <input type="radio" name="my-accordion-2" defaultChecked />
-            <div className="collapse-title text-xl font-medium">
-              Click to open this one and close others
+          {/* 1 */}
+          <div className="">
+            <div className="collapse collapse-arrow bg-base-100 mb-4">
+              <input type="radio" name="my-accordion-2" defaultChecked />
+              <div className="collapse-title text-xl font-medium">
+                Click to open this one and close others
+              </div>
+              <div className="collapse-content">
+                <p>hello</p>
+              </div>
             </div>
-            <div className="collapse-content">
-              <p>hello</p>
+            <div className="collapse collapse-arrow bg-base-100 mb-4">
+              <input type="radio" name="my-accordion-2" defaultChecked />
+              <div className="collapse-title text-xl font-medium">
+                Click to open this one and close others
+              </div>
+              <div className="collapse-content">
+                <p>hello</p>
+              </div>
             </div>
-          </div>
-          <div className="collapse collapse-arrow bg-base-100 mb-4">
-            <input type="radio" name="my-accordion-2" defaultChecked />
-            <div className="collapse-title text-xl font-medium">
-              Click to open this one and close others
+            <div className="collapse collapse-arrow bg-base-100 mb-4">
+              <input type="radio" name="my-accordion-2" />
+              <div className="collapse-title text-xl font-medium mb-4">
+                Click to open this one and close others
+              </div>
+              <div className="collapse-content">
+                <p>hello</p>
+              </div>
             </div>
-            <div className="collapse-content">
-              <p>hello</p>
-            </div>
-          </div>
-          <div className="collapse collapse-arrow bg-base-100 mb-4">
-            <input type="radio" name="my-accordion-2" />
-            <div className="collapse-title text-xl font-medium mb-4">
-              Click to open this one and close others
-            </div>
-            <div className="collapse-content">
-              <p>hello</p>
-            </div>
-          </div>
-          <div className="collapse collapse-arrow bg-base-100">
-            <input type="radio" name="my-accordion-2" />
-            <div className="collapse-title text-xl font-medium">
-              Click to open this one and close others
-            </div>
-            <div className="collapse-content">
-              <p>hello</p>
+            <div className="collapse collapse-arrow bg-base-100">
+              <input type="radio" name="my-accordion-2" />
+              <div className="collapse-title text-xl font-medium">
+                Click to open this one and close others
+              </div>
+              <div className="collapse-content">
+                <p>hello</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-      {/* 2nd part right side gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg*/}
-      <div className="w-1/2">
-        {/* <div className="flex ">
+        {/* 2nd part right side gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg*/}
+        <div className="lg:w-1/2">
+          {/* <div className="flex ">
           <h3 className="text-3xl uppercase border-y-2 py-2 font-bold">
           Keydates
           </h3>
@@ -120,7 +120,7 @@ const Notice = () => {
             </div>
           </div>
         </div> */}
-        {/* <div className="flex">
+          {/* <div className="flex">
           <h3 className="text-3xl uppercase border-y-2 py- font-bold">
             Notice
           </h3>
@@ -128,55 +128,55 @@ const Notice = () => {
             <SlCalender size="1.3rem" color="black" />
           </div>
         </div> */}
-        {/* -------------shuru */}
-        <div className="flex justify-center ">
-          <div className="max-w-[800px] rounded py-10 space-y-6 cursor-pointer">
-            {accordionData.map((accordion, idx) => (
-              <div
-                key={idx}
-                onClick={() => handleToggle(idx)}
-                className="flex items-center"
-              >
-                {/* Index div */}
-                <div className="w-16 h-16 bg-[#000000] flex justify-center items-center text-white text-2xl font-semibold rounded font-sans">
-                  <div class="flex flex-col items-center">
-                    <span class="text-xl">{accordion.date}</span>
-                    <p class="mt-1 text-xs">{accordion.month}</p>
+          {/* -------------shuru */}
+          <div className="flex justify-center ">
+            <div className="max-w-[800px] rounded py-10 space-y-6 cursor-pointer">
+              {accordionData.map((accordion, idx) => (
+                <div
+                  key={idx}
+                  onClick={() => handleToggle(idx)}
+                  className="flex items-center"
+                >
+                  {/* Index div */}
+                  <div className="w-16 h-16 bg-[#000000] flex justify-center items-center text-white text-2xl font-semibold rounded font-sans">
+                    <div class="flex flex-col items-center">
+                      <span class="text-xl">{accordion.date}</span>
+                      <p class="mt-1 text-xs">{accordion.month}</p>
+                    </div>
                   </div>
-                </div>
-                {/* Divider */}
-                <div className="w-10 h-[2px] bg-[#000000] relative">
-                  <span className="w-3 h-3 bg-white absolute -left-2 -top-[5px] z-40 rounded-full border-2 border-[#000000]"></span>
-                  <span className="bg-[#000000] w-16 h-1"></span>
-                </div>
-                {/* Main accordion content */}
-                <div>
-                  <div className="max-w-[600px] bg-white shadow-md border-t-[12px] p-3 border-[#000000] relative">
-                    <span className="h-0 w-0 border-b-[40px] border-b-transparent border-r-[40px] border-r-[#000000] absolute top-0 right-0"></span>
-                    <h1 className="text-[#000000] text-xl text-center">
-                      {accordion.title}
-                    </h1>
+                  {/* Divider */}
+                  <div className="w-10 h-[2px] bg-[#000000] relative">
+                    <span className="w-3 h-3 bg-white absolute -left-2 -top-[5px] z-40 rounded-full border-2 border-[#000000]"></span>
+                    <span className="bg-[#000000] w-16 h-1"></span>
                   </div>
-                  <div
-                    className={`grid overflow-hidden transition-all duration-300 ease-in-out text-slate-600 ${
-                      isOpen[idx]
-                        ? "grid-rows-[1fr] opacity-100"
-                        : "grid-rows-[0fr] opacity-0"
-                    }`}
-                  >
-                    <div className="overflow-hidden">
-                      <div className="max-w-[600px] rounded-br-xl rounded-bl-xl bg-[#000000] text-white p-6 text-center text-sm">
-                        {accordion.description}
+                  {/* Main accordion content */}
+                  <div>
+                    <div className="max-w-[600px] bg-white shadow-md border-t-[12px] p-3 border-[#000000] relative">
+                      <span className="h-0 w-0 border-b-[40px] border-b-transparent border-r-[40px] border-r-[#000000] absolute top-0 right-0"></span>
+                      <h1 className="text-[#000000] text-xl text-center">
+                        {accordion.title}
+                      </h1>
+                    </div>
+                    <div
+                      className={`grid overflow-hidden transition-all duration-300 ease-in-out text-slate-600 ${
+                        isOpen[idx]
+                          ? "grid-rows-[1fr] opacity-100"
+                          : "grid-rows-[0fr] opacity-0"
+                      }`}
+                    >
+                      <div className="overflow-hidden">
+                        <div className="max-w-[600px] rounded-br-xl rounded-bl-xl bg-[#000000] text-white p-6 text-center text-sm">
+                          {accordion.description}
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       </div>
-    </div>
     </div>
   );
 };
