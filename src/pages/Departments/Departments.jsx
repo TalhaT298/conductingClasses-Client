@@ -1,107 +1,79 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import SectionTitle from "../../components/SectionTitle/SectionTitle";
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Parallax } from "swiper/modules";
-// import required modules
-// import { Parallax, Pagination, Navigation } from 'swiper/modules';
 
 const Departments = () => {
   return (
     <div>
-      <Link to="/departments">
-        <div className="pt-20">
-          <SectionTitle
-            className="font-serif"
-            heading={"Departments"}
-          ></SectionTitle>
+      <Link to="/departments"></Link>
+      <div className="pt-20">
+        <SectionTitle
+          className="font-serif"
+          heading={"Departments"}
+        ></SectionTitle>
+      </div>
+      {/* ----------------------1st s---------------------------------------- */}
+      <div>
+        <div class="carousel w-full">
+          <div id="slide1" class="carousel-item relative w-full">
+            <img
+              src="https://daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg"
+              class="w-full"
+            />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide4" class="btn btn-circle">
+                ❮
+              </a>
+              <a href="#slide2" class="btn btn-circle">
+                ❯
+              </a>
+            </div>
+          </div>
+          <div id="slide2" class="carousel-item relative w-full">
+            <img
+              src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg"
+              class="w-full"
+            />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide1" class="btn btn-circle">
+                ❮
+              </a>
+              <a href="#slide3" class="btn btn-circle">
+                ❯
+              </a>
+            </div>
+          </div>
+          <div id="slide3" class="carousel-item relative w-full">
+            <img
+              src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg"
+              class="w-full"
+            />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide2" class="btn btn-circle">
+                ❮
+              </a>
+              <a href="#slide4" class="btn btn-circle">
+                ❯
+              </a>
+            </div>
+          </div>
+          <div id="slide4" class="carousel-item relative w-full">
+            <img
+              src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg"
+              class="w-full"
+            />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide3" class="btn btn-circle">
+                ❮
+              </a>
+              <a href="#slide1" class="btn btn-circle">
+                ❯
+              </a>
+            </div>
+          </div>
         </div>
-        {/* ----------------------1st s---------------------------------------- */}
-        <div>
-        <Swiper
-        style={{
-          '--swiper-navigation-color': '#fff',
-          '--swiper-pagination-color': '#fff',
-        }}
-        speed={600}
-        parallax={true}
-        pagination={{
-          clickable: true,
-        }}
-        navigation={true}
-        modules={[Parallax, Pagination, Navigation]}
-        className="mySwiper"
-      >
-        <div
-          slot="container-start"
-          className="parallax-bg"
-          style={{
-            'background-image':
-              'url(https://i.ibb.co/cbhsRd7/Untitled-design.png)',
-          }}
-          data-swiper-parallax="-23%"
-        ></div>
-        <SwiperSlide>
-          <div className="title" data-swiper-parallax="-300">
-            Slide 1
-          </div>
-          <div className="subtitle" data-swiper-parallax="-200">
-            Subtitle
-          </div>
-          <div className="text" data-swiper-parallax="-100">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-              dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
-              laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
-              Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
-              Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
-              ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
-              tincidunt ut libero. Aenean feugiat non eros quis feugiat.
-            </p>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="title" data-swiper-parallax="-300">
-            Slide 2
-          </div>
-          <div className="subtitle" data-swiper-parallax="-200">
-            Subtitle
-          </div>
-          <div className="text" data-swiper-parallax="-100">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-              dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
-              laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
-              Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
-              Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
-              ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
-              tincidunt ut libero. Aenean feugiat non eros quis feugiat.
-            </p>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="title" data-swiper-parallax="-300">
-            Slide 3
-          </div>
-          <div className="subtitle" data-swiper-parallax="-200">
-            Subtitle
-          </div>
-          <div className="text" data-swiper-parallax="-100">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-              dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
-              laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
-              Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
-              Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
-              ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
-              tincidunt ut libero. Aenean feugiat non eros quis feugiat.
-            </p>
-          </div>
-        </SwiperSlide>
-      </Swiper>
-        </div>
-        {/* ----------------------1st e---------------------------------------- */}
-      </Link>
+      </div>
+      {/* ----------------------1st e---------------------------------------- */}
     </div>
   );
 };
