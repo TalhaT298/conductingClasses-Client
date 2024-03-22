@@ -44,7 +44,28 @@ const CSE = () => {
   );
   // ------------------------------6th-------------------------------
   const [isOpen, setIsOpen] = useState(null);
-  const accordionsData = [{ title: 'How do I create an account?', description: 'To create an account, click on the "Sign Up" button and fill out the required information. Once done, you can enjoy the benefits of being a registered member.'},{ title: 'What is your return policy?', description: 'Our return policy allows you to return items within 30 days of purchase. Please visit our returns page for detailed instructions and to initiate a return.'},{ title: 'Can I change my shipping address?', description: 'Yes, you can change your shipping address before your order is shipped. Go to your account settings and update the shipping information accordingly.'},{ title: 'Are there any discounts for loyal customers?', description: 'We appreciate our loyal customers! Stay tuned for exclusive discounts, promotions, and special offers available to members of our loyalty program.'}];
+  const accordionsData = [
+    {
+      title: "CSE103:Structure of C programming language.",
+      description:
+        'To create an account, click on the "Sign Up" button and fill out the required information. Once done, you can enjoy the benefits of being a registered member.',
+    },
+    {
+      title: "CSE106:Discrete Mathematics.",
+      description:
+        "Our return policy allows you to return items within 30 days of purchase. Please visit our returns page for detailed instructions and to initiate a return.",
+    },
+    {
+      title: "CSE110:Object Oriented Programming",
+      description:
+        "Yes, you can change your shipping address before your order is shipped. Go to your account settings and update the shipping information accordingly.",
+    },
+    {
+      title: "Are there any discounts for loyal customers?",
+      description:
+        "We appreciate our loyal customers! Stay tuned for exclusive discounts, promotions, and special offers available to members of our loyalty program.",
+    },
+  ];
 
   const toggle = (idx) => {
     setIsOpen((prevIdx) => (prevIdx === idx ? null : idx));
@@ -1076,11 +1097,11 @@ const CSE = () => {
         {/* ------------------------------------------5th section finish--------------------------------- */}
         {/* -------------------------------6th section start--------------------------------- */}
         <div className="mx-auto md:w-8/12 my-8 flex justify-center items-center ">
-            {/* <p className='text-yellow-600'>----{subHeading}---</p> */}
-            <h3 className="text-4xl uppercase border-y-2 pt-4 font-bold font-serif">
+          {/* <p className='text-yellow-600'>----{subHeading}---</p> */}
+          <h3 className="text-4xl uppercase border-y-2 pt-4 font-bold font-serif">
             Core Computer Science and Engineerig Courses
-            </h3>
-          </div>
+          </h3>
+        </div>
         <div className="rounded-lg font-sans">
           {accordionsData.map((PerAccordion, idx) => (
             <div
