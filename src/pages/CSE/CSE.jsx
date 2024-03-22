@@ -1075,6 +1075,12 @@ const CSE = () => {
         </section>
         {/* ------------------------------------------5th section finish--------------------------------- */}
         {/* -------------------------------6th section start--------------------------------- */}
+        <div className="mx-auto md:w-8/12 my-8 flex justify-center items-center ">
+            {/* <p className='text-yellow-600'>----{subHeading}---</p> */}
+            <h3 className="text-4xl uppercase border-y-2 pt-4 font-bold font-serif">
+            Core Computer Science and Engineerig Courses
+            </h3>
+          </div>
         <div className="rounded-lg font-sans">
           {accordionsData.map((PerAccordion, idx) => (
             <div
