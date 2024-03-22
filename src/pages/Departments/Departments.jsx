@@ -35,10 +35,10 @@ const Departments = () => {
               class="w-full"
             />
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-              <a href="#slide1" class="btn btn-circle">
+              <a href="#slide1" class="btn bg-transparent text-white hover:bg-transparent">
                 ❮
               </a>
-              <a href="#slide3" class="btn btn-circle">
+              <a href="#slide3" class="btn bg-transparent text-white hover:bg-transparent">
                 ❯
               </a>
             </div>
@@ -49,10 +49,10 @@ const Departments = () => {
               class="w-full"
             />
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-              <a href="#slide2" class="btn btn-circle">
+              <a href="#slide2" class="btn bg-transparent text-white hover:bg-transparent">
                 ❮
               </a>
-              <a href="#slide4" class="btn btn-circle">
+              <a href="#slide4" class="btn bg-transparent text-white hover:bg-transparent">
                 ❯
               </a>
             </div>
@@ -63,10 +63,10 @@ const Departments = () => {
               class="w-full"
             />
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-              <a href="#slide3" class="btn btn-circle">
+              <a href="#slide3" class="btn bg-transparent text-white hover:bg-transparent">
                 ❮
               </a>
-              <a href="#slide1" class="btn btn-circle">
+              <a href="#slide1" class="btn bg-transparent text-white hover:bg-transparent">
                 ❯
               </a>
             </div>
