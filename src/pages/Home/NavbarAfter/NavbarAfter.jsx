@@ -62,7 +62,7 @@ const NavbarAfter = () => {
           <div className="w-2/5 flex text-white justify-end gap-6 pr-4">
             <Link to="/facilities"><p>Facilities</p></Link>
             <Link to="/departments"><p>Departments</p></Link>
-            <Link to=""><p>Teachers</p></Link>
+            <Link to="/teacher"><p>Teachers</p></Link>
             <Link to=""><p>Students</p></Link>
             <Link to=""><p>Alumni</p></Link>
             <Link to=""><p>Email</p></Link>
@@ -87,7 +87,7 @@ const NavbarAfter = () => {
                 <ul className="pr-8 shadow menu dropdown-content z-[1] bg-black text-white rounded-box w-[110px] text-sm">
                        <li><Link to="/facilities"><p>Facilities</p></Link></li>
                        <li><Link to="/departments"><p>Departments</p></Link></li>
-                       <li><Link to=""><p>Teachers</p></Link></li>
+                       <li><Link to="/teacher"><p>Teachers</p></Link></li>
                        <li><Link to=""><p>Students</p></Link></li>
                        <li><Link to=""><p>Alumni</p></Link></li>
                        <li><Link to=""><p>Email</p></Link></li>
