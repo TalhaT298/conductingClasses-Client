@@ -12,6 +12,7 @@ import EEE from "../pages/EEE/EEE";
 import CE from "../pages/CE/CE";
 import Facilities from "../pages/Facilities/Facilities";
 import Departments from "../pages/Departments/Departments";
+import Teacher from "../pages/Teacher/Teacher";
 
  export const router = createBrowserRouter([
     {
@@ -53,6 +54,10 @@ import Departments from "../pages/Departments/Departments";
         {
           path: "/departments",
           element: <Departments></Departments> ,
+        },
+        {
+          path: "/teacher",
+          element: <Teacher></Teacher> ,
         },
       ]
     },
