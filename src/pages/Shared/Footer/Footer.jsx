@@ -13,6 +13,7 @@ import { BiLogoGmail } from "react-icons/bi";
 import { motion } from "framer-motion";
 
 const Footer = () => {
+  const extraClass = "your-extra-class";
   return (
     <div>
       <footer className="footer p-10 bg-base-200 text-base-content">
@@ -217,8 +218,12 @@ const Footer = () => {
                 placeholder="username@site.com"
                 className="input input-bordered join-item"
               />
-              <button className="btn btn-primary join-item">Subscribe</button>
+              <button className="btn bg-black text-white hover:bg-white hover:text-black join-item">Subscribe</button>
             </div>
+            <div className="">
+    <iframe src="https://www.google.com/maps/embed?pb=!4v1711304428864!6m8!1m7!1sCAoSLEFGMVFpcE10QmJwRzVObndMQmd0bDI4YXZYekJXaFFuTEZrMTlwN0Z0QWFS!2m2!1d25.7383796!2d89.2748356!3f200!4f20!5f0.7820865974627469" width="400" height="200" style={{border: '0', marginRight: '10px'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
           </fieldset>
         </form>
       </footer>
