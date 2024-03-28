@@ -8,7 +8,7 @@ const RecentEvents = () => {
       <SectionTitle
         className="font-serif"
         heading={"Recent Events"}
-        // subHeading={"National and International scholars, Business leaders, Entrepreneurs, Dignitaries visited us to share experiences, explore opportunities, collaborate and give guidance to the students"}
+        // subHeading={"National  International scholars, Business leaders, Entrepreneurs, Dignitaries visited us to share experiences, explore opportunities, collaborate and give guidance to the students"}
       ></SectionTitle>
       <div className="flex flex-col md:flex-row md:flex-wrap justify-center items-center">
         <div className="card bg-base-100 shadow-xl mx-4 mb-8 md:w-96">
