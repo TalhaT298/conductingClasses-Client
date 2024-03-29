@@ -1,3 +1,14 @@
+// import React from 'react';
+
+// const ChatBot = () => {
+//     return (
+//         <div>
+//             o
+//         </div>
+//     );
+// };
+
+// export default ChatBot;
 import React from 'react';
 import ChatBot from 'react-simple-chatbot';
 
@@ -6,19 +17,15 @@ export default function App() {
     <>
       <ChatBot
         steps={[
-            {
-                id: '0',
-                message: 'Welcome to react chatbot!',
-                trigger: '1',
-              },
-              {
-                id: '1',
-                message: 'Bye!',
-                end: true,
-              },
+          {
+            id: 'hello-world', 
+            message: 'Hello World!',
+            end: true,
+          },
         ]}
         floating={true}
       />
     </>
   );
 }
+
