@@ -11,6 +11,9 @@ import { FaLinkedinIn } from "react-icons/fa6";
 import { FaWhatsapp } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 import { motion } from "framer-motion";
+import kaniz from "../../assets/Kanij Rabeya Nancy.jpeg";
+import Dipto from "../../assets/Dipto.jpg";
+import Khalid from "../../assets/Khalid.jpg";
 
 const CSE = () => {
   // useEffect(() => {
@@ -234,7 +237,7 @@ const CSE = () => {
                 <div class="bg-gray-100 p-6 rounded-lg">
                   <img
                     class="h-40 rounded w-full object-cover object-center mb-6"
-                    src="https://dummyimage.com/720x400"
+                    src={Khalid}
                     alt="content"
                   ></img>
                   <h3 class=" text-black text-xs font-medium title-font">
@@ -246,7 +249,7 @@ const CSE = () => {
                   <div className="grid grid-flow-col gap-3">
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
-                        <a href="">
+                        <a href="https://www.facebook.com/khalid.hasan.77128261?mibextid=ZbWKwL">
                           <FaFacebookF size="1.7rem" color="black" />
                         </a>
                       </Link>
@@ -289,7 +292,7 @@ const CSE = () => {
                 <div class="bg-gray-100 p-6 rounded-lg">
                   <img
                     class="h-40 rounded w-full object-cover object-center mb-6"
-                    src="https://dummyimage.com/720x400"
+                    src={Dipto}
                     alt="content"
                   ></img>
                   <h3 class="tracking-widest text-black text-xs font-medium title-font">
@@ -301,7 +304,7 @@ const CSE = () => {
                   <div className="grid grid-flow-col gap-3">
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
-                        <a href="">
+                        <a href="https://www.facebook.com/Dipto93?mibextid=ZbWKwL">
                           <FaFacebookF size="1.7rem" color="black" />
                         </a>
                       </Link>
@@ -399,7 +402,7 @@ const CSE = () => {
                 <div class="bg-gray-100 p-6 rounded-lg">
                   <img
                     class="h-40 rounded w-full object-cover object-center mb-6"
-                    src="https://dummyimage.com/720x400"
+                    src={kaniz}
                     alt="content"
                   ></img>
                   <h3 class="tracking-widest text-black text-xs font-medium title-font">
@@ -411,7 +414,7 @@ const CSE = () => {
                   <div className="grid grid-flow-col gap-3">
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
-                        <a href="">
+                        <a href="https://www.facebook.com/profile.php?id=100012102336348&mibextid=LQQJ4d">
                           <FaFacebookF size="1.7rem" color="black" />
                         </a>
                       </Link>
