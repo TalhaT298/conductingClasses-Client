@@ -231,9 +231,9 @@ const Footer = () => {
         <nav>
           <div className="grid grid-flow-col gap-3">
             <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-              <Link to="">
-                <a href="">
-                  <FaFacebookF size="1.7rem" color="black" />
+              <Link to="https://www.facebook.com/recr.edu.bd">
+                <a href="https://www.facebook.com/recr.edu.bd">
+                  <FaFacebookF href="https://www.facebook.com/recr.edu.bd" size="1.7rem" color="black" />
                 </a>
               </Link>
             </motion.div>

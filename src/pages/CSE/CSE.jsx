@@ -14,6 +14,7 @@ import { motion } from "framer-motion";
 import kaniz from "../../assets/Kanij Rabeya Nancy.jpeg";
 import Dipto from "../../assets/Dipto.jpg";
 import Khalid from "../../assets/Khalid.jpg";
+import Jhanajay from "../../assets/Jnananjan Roy.webp";
 
 const CSE = () => {
   // useEffect(() => {
@@ -144,9 +145,9 @@ const CSE = () => {
                     <p class="text-base">Head of Department</p>
                     <div className="grid grid-flow-col gap-3">
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                        <Link to="">
-                          <a href="">
-                            <FaFacebookF size="1.7rem" color="black" />
+                        <Link to="https://www.facebook.com/profile.php?id=100005048774896">
+                          <a href="https://www.facebook.com/profile.php?id=100005048774896">
+                            <FaFacebookF href="https://www.facebook.com/profile.php?id=100005048774896" size="1.7rem" color="black" />
                           </a>
                         </Link>
                       </motion.div>
@@ -236,7 +237,7 @@ const CSE = () => {
               <div class="xl:w-1/4 md:w-1/2 p-4">
                 <div class="bg-gray-100 p-6 rounded-lg">
                   <img
-                    class="h-40 rounded w-full object-cover object-center mb-6"
+                    class="h-52 rounded w-full object-cover object-center mb-6"
                     src={Khalid}
                     alt="content"
                   ></img>
@@ -291,7 +292,7 @@ const CSE = () => {
               <div class="xl:w-1/4 md:w-1/2 p-4">
                 <div class="bg-gray-100 p-6 rounded-lg">
                   <img
-                    class="h-40 rounded w-full object-cover object-center mb-6"
+                    class="h-52 rounded w-full object-cover object-center mb-6"
                     src={Dipto}
                     alt="content"
                   ></img>
@@ -346,8 +347,8 @@ const CSE = () => {
               <div class="xl:w-1/4 md:w-1/2 p-4">
                 <div class="bg-gray-100 p-6 rounded-lg">
                   <img
-                    class="h-40 rounded w-full object-cover object-center mb-6"
-                    src="https://dummyimage.com/720x400"
+                    class="h-52 rounded w-full object-cover object-center mb-6"
+                    src={Jhanajay}
                     alt="content"
                   ></img>
                   <h3 class="tracking-widest text-black text-xs font-medium title-font">
@@ -359,7 +360,7 @@ const CSE = () => {
                   <div className="grid grid-flow-col gap-3">
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
-                        <a href="">
+                        <a href="https://www.facebook.com/profile.php?id=100000580366774&mibextid=JRoKGi">
                           <FaFacebookF size="1.7rem" color="black" />
                         </a>
                       </Link>
@@ -401,7 +402,7 @@ const CSE = () => {
               <div class="xl:w-1/4 md:w-1/2 p-4">
                 <div class="bg-gray-100 p-6 rounded-lg">
                   <img
-                    class="h-40 rounded w-full object-cover object-center mb-6"
+                    class="h-52 rounded w-full object-cover object-center mb-6"
                     src={kaniz}
                     alt="content"
                   ></img>
@@ -413,9 +414,9 @@ const CSE = () => {
                   </h2>
                   <div className="grid grid-flow-col gap-3">
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                      <Link to="">
-                        <a href="https://www.facebook.com/profile.php?id=100012102336348&mibextid=LQQJ4d">
-                          <FaFacebookF size="1.7rem" color="black" />
+                      <Link to="https://www.facebook.com/profile.php?id=100012102336348">
+                      <a href="https://www.facebook.com/profile.php?id=100012102336348" target="_blank" rel="noopener noreferrer">
+                          <FaFacebookF href="https://www.facebook.com/profile.php?id=100012102336348" size="1.7rem" color="black" />
                         </a>
                       </Link>
                     </motion.div>
