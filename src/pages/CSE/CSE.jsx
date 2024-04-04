@@ -15,6 +15,7 @@ import kaniz from "../../assets/Kanij Rabeya Nancy.jpeg";
 import Dipto from "../../assets/Dipto.jpg";
 import Khalid from "../../assets/Khalid.jpg";
 import Jhanajay from "../../assets/Jnananjan Roy.webp";
+import tariq from "../../assets/photo - Tarikul Islam.jpg";
 
 const CSE = () => {
   // useEffect(() => {
@@ -121,19 +122,13 @@ const CSE = () => {
               <div class="flex flex-col sm:flex-row mt-10">
                 <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
                   <div class="w-40 h-40 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
-                    <svg
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-10 h-10"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                      <circle cx="12" cy="7" r="4"></circle>
-                    </svg>
+                    <img
+                      src={tariq}
+                      className="h-40 w-40 rounded-full"
+                      alt=""
+                    />
                   </div>
+
                   <div class="flex flex-col items-center text-center justify-center">
                     <h2 class="font-medium title-font mt-4 text-gray-900 text-lg">
                       Md.Tarikul Islam <br />{" "}
@@ -147,7 +142,11 @@ const CSE = () => {
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                         <Link to="https://www.facebook.com/profile.php?id=100005048774896">
                           <a href="https://www.facebook.com/profile.php?id=100005048774896">
-                            <FaFacebookF href="https://www.facebook.com/profile.php?id=100005048774896" size="1.7rem" color="black" />
+                            <FaFacebookF
+                              href="https://www.facebook.com/profile.php?id=100005048774896"
+                              size="1.7rem"
+                              color="black"
+                            />
                           </a>
                         </Link>
                       </motion.div>
@@ -415,8 +414,16 @@ const CSE = () => {
                   <div className="grid grid-flow-col gap-3">
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="https://www.facebook.com/profile.php?id=100012102336348">
-                      <a href="https://www.facebook.com/profile.php?id=100012102336348" target="_blank" rel="noopener noreferrer">
-                          <FaFacebookF href="https://www.facebook.com/profile.php?id=100012102336348" size="1.7rem" color="black" />
+                        <a
+                          href="https://www.facebook.com/profile.php?id=100012102336348"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <FaFacebookF
+                            href="https://www.facebook.com/profile.php?id=100012102336348"
+                            size="1.7rem"
+                            color="black"
+                          />
                         </a>
                       </Link>
                     </motion.div>
@@ -1131,18 +1138,16 @@ const CSE = () => {
                       width="16"
                       height="2"
                       rx="1"
-                      className={`origin-center transform transition duration-200 ease-out ${
-                        isOpen === idx && "!rotate-180"
-                      }`}
+                      className={`origin-center transform transition duration-200 ease-out ${isOpen ===
+                        idx && "!rotate-180"}`}
                     />
                     <rect
                       y="7"
                       width="16"
                       height="2"
                       rx="1"
-                      className={`origin-center rotate-90 transform transition duration-200 ease-out ${
-                        isOpen === idx && "!rotate-180"
-                      }`}
+                      className={`origin-center rotate-90 transform transition duration-200 ease-out ${isOpen ===
+                        idx && "!rotate-180"}`}
                     />
                   </svg>
                 </span>
