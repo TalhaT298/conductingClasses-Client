@@ -85,7 +85,7 @@ const CSE = () => {
   }, [nextSlider]);
   return (
     <div>
-      <Link to="/cse">
+      <Link to="/cse"></Link>
         <div className="py-16">
           <div className="mockup-browser border bg-base-300">
             <div className="mockup-browser-toolbar">
@@ -247,13 +247,13 @@ const CSE = () => {
                     Md. Khalid Hossen
                   </h2>
                   <div className="grid grid-flow-col gap-3">
-                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                      <Link to="">
+                  <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                       
                         <a href="https://www.facebook.com/khalid.hasan.77128261?mibextid=ZbWKwL">
-                          <FaFacebookF size="1.7rem" color="black" />
+                          <FaFacebookF href="https://www.facebook.com/khalid.hasan.77128261?mibextid=ZbWKwL" size="1.7rem" color="black" />
                         </a>
-                      </Link>
-                    </motion.div>
+                      
+                        </motion.div>
 
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
@@ -1167,7 +1167,7 @@ const CSE = () => {
           ))}
         </div>
         {/* -------------------------------6th section finish--------------------------------- */}
-      </Link>
+      
     </div>
   );
 };
