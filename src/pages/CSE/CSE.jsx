@@ -168,15 +168,15 @@ const CSE = () => {
                       </motion.div>
 
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                        <Link to="">
-                          <a href="">
+                        <Link to="tel:+123456789">
+                          <a href="tel:+123456789">
                             <FaWhatsapp size="1.7rem" color="black" />
                           </a>
                         </Link>
                       </motion.div>
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                        <Link to="">
-                          <a href="">
+                        <Link to="tarikulislamcsepust@gmail.com">
+                          <a href="tarikulislamcsepust@gmail.com">
                             <BiLogoGmail size="1.7rem" color="black" />
                           </a>
                         </Link>
