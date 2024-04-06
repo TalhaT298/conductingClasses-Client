@@ -26,16 +26,30 @@ const Admission = () => {
               {/* row 2 */}
               <tr>
                 <th>2</th>
-                <td>Hart Hagerty</td>
-                <td>Desktop Support Technician</td>
-                <td>Purple</td>
+                <td>Practical Exam Time Schedule for Music Department</td>
+                <td></td>
+                <td>2024-03-27</td>
               </tr>
               {/* row 3 */}
               <tr>
                 <th>3</th>
-                <td>Brice Swyre</td>
-                <td>Tax Accountant</td>
-                <td>Red</td>
+                <td>Practical and Written Exam Notice For Fine Arts, Music, Theatre And English</td>
+                <td></td>
+                <td>2024-03-27</td>
+              </tr>
+              {/* row 4 */}
+              <tr>
+                <th>4</th>
+                <td>Selected Candidates for English Written Examination</td>
+                <td></td>
+                <td>2024-03-13</td>
+              </tr>
+              {/* row 5 */}
+              <tr>
+                <th>5</th>
+                <td>Notice For Admission Result</td>
+                <td></td>
+                <td>2024-03-13</td>
               </tr>
             </tbody>
           </table>
