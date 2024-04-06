@@ -2,8 +2,12 @@ import React from "react";
 
 const Admission = () => {
   return (
-    <div className="pt-20">
+    <div className="pt-40">
+      
       <div className="w-4/6">
+      <div className="font-serif text-center">
+        <p className="text-2xl">Admission & Routine 2023-24</p>
+      </div>
         <div className="overflow-x-auto">
           <table className="table">
             {/* head */}
@@ -33,7 +37,10 @@ const Admission = () => {
               {/* row 3 */}
               <tr>
                 <th>3</th>
-                <td>Practical and Written Exam Notice For Fine Arts, Music, Theatre And English</td>
+                <td>
+                  Practical and Written Exam Notice For Fine Arts, Music,
+                  Theatre And English
+                </td>
                 <td></td>
                 <td>2024-03-27</td>
               </tr>
