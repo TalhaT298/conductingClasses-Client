@@ -13,6 +13,7 @@ import CE from "../pages/CE/CE";
 import Facilities from "../pages/Facilities/Facilities";
 import Departments from "../pages/Departments/Departments";
 import Teacher from "../pages/Teacher/Teacher";
+import Admission from "../pages/Admission/Admission";
 
  export const router = createBrowserRouter([
     {
@@ -58,6 +59,10 @@ import Teacher from "../pages/Teacher/Teacher";
         {
           path: "/teacher",
           element: <Teacher></Teacher> ,
+        },
+        {
+          path: "/admission",
+          element: <Admission></Admission> ,
         },
       ]
     },
