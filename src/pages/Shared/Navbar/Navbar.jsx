@@ -117,10 +117,11 @@ const Navbar = () => {
                 <a>Academics</a>
                 
               </li>
+              <Link to="/admission">
               <li>
-                <a>Admissions</a>
-                
+                <a>Admissions</a> 
               </li>
+              </Link>
               <li>
                 <a>Campus</a>
                 
@@ -173,7 +174,9 @@ const Navbar = () => {
             </li>
           <li>
               <details>
+                <Link to="/admission">
                 <summary>Admissions</summary>
+                </Link>
                 <ul className="p-2">
                   <li>
                     <a>Submenu 1</a>
