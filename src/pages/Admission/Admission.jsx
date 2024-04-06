@@ -27,8 +27,21 @@ const Admission = () => {
         </p>
       </div>
       {/* ---------------------------2nd part---------------------------- */}
-      <div>
+      <div className="flex py-8">
+            <div className="w-1/2">
+                <h3 className="text-2xl text-center">Required Documents</h3>
+                <div className="">
+                    <p>●Required Documents</p>
+                    <p>●Completed application form and fees</p>
+                    <p>●School and college leaving Certificate/ Testimonial</p>
+                    <p>●SSC/Equivalent & HSC/Equivalent true copy of Academic transcripts</p>
+                    <p>●Recent 4 copy Passport size photographs</p>
+                    <p>●Certified true copy of name change certificate (if any)</p>
+                </div>
+            </div>
+            <div className="w-1/2">
 
+            </div>
       </div>
       {/* ---------------------------2nd part end---------------------------- */}
       <div className="flex">
