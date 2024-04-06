@@ -27,8 +27,9 @@ const Admission = () => {
           by 1.25, the scale is to be 5.00
         </p>
       </div>
+      <div class="w-full h-1 bg-black rounded  my-8"></div>
       {/* ---------------------------2nd part---------------------------- */}
-      <div className="flex py-8">
+      <div className="flex py-6">
         <div className="w-1/2">
           <h3 className="text-3xl text-center py-4">Required Documents</h3>
           <div className="">
@@ -49,13 +50,14 @@ const Admission = () => {
             <p>●Please send TK. 660.00 for application form fee to 01855979496 through bKash . Then use your transaction ID at the time of filling up Application form</p>
             <p>●The Office of Admissions will be reviewing and checking all the documents and proceed</p>
             <p>
-              ●When your application is accepted, a letter of acceptance will be issued <span className="font-bold">Online Application Click Here</span>
+              ●When your application is accepted, a letter of acceptance will be issued <span className="font-bold"><Link>Online Application Click Here</Link></span>
             </p>
              
           </div>
         </div>
       </div>
       {/* ---------------------------2nd part end---------------------------- */}
+      <div class="w-full h-1 bg-black rounded  my-8"></div>
       <div className="flex py-12">
         <div className="w-4/6">
           <div className="font-serif text-center">
