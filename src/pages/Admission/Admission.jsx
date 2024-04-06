@@ -79,7 +79,7 @@ const Admission = () => {
         </div>
       </div>
       <div className="w-2/6">
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card w-96 bg-base-100  ">
           <div className="card-body">
             <h2 className="card-title text-center">Undergraduate Application 2023-24</h2>
             <div class="flex items-center justify-center ">
@@ -136,9 +136,9 @@ const Admission = () => {
             </div>
           </div>
         </div>
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card w-96 bg-base-100  ">
           <div className="card-body">
-            <h2 className="card-title text-center">Undergraduate Application 2023-24</h2>
+            <h2 className="card-title text-center">Affiliated Colleges Admission 2023-24</h2>
             <div class="flex items-center justify-center ">
             <button className="py-2 w-[280px] h-8 px-6 mb-4 mt-2 bg-black rounded hover:bg-slate-950 duration-300 text-white flex items-center justify-center overflow-hidden hover:overflow-visible relative group">
                       <svg
