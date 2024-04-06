@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Admission = () => {
   return (
@@ -23,14 +24,14 @@ const Admission = () => {
               {/* row 1 */}
               <tr>
                 <th>1</th>
-                <td>Practical Exam Time Schedule for Theatre Department</td>
+                <td><Link to="">Practical Exam Time Schedule for Theatre Department</Link></td>
                 <td> </td>
                 <td>2024-03-27</td>
               </tr>
               {/* row 2 */}
               <tr>
                 <th>2</th>
-                <td>Practical Exam Time Schedule for Music Department</td>
+                <td><Link to="">Practical Exam Time Schedule for Music Department</Link></td>
                 <td></td>
                 <td>2024-03-27</td>
               </tr>
@@ -38,8 +39,8 @@ const Admission = () => {
               <tr>
                 <th>3</th>
                 <td>
-                  Practical and Written Exam Notice For Fine Arts, Music,
-                  Theatre And English
+                <Link to="">Practical and Written Exam Notice For Fine Arts, Music,
+                  Theatre And English</Link>
                 </td>
                 <td></td>
                 <td>2024-03-27</td>
@@ -47,14 +48,14 @@ const Admission = () => {
               {/* row 4 */}
               <tr>
                 <th>4</th>
-                <td>Selected Candidates for English Written Examination</td>
+                <td><Link to="">Selected Candidates for English Written Examination</Link></td>
                 <td></td>
                 <td>2024-03-13</td>
               </tr>
               {/* row 5 */}
               <tr>
                 <th>5</th>
-                <td>Notice For Admission Result</td>
+                <td><Link to="">Notice For Admission Result</Link></td>
                 <td></td>
                 <td>2024-03-13</td>
               </tr>
