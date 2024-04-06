@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import { GoDot } from "react-icons/go";
 const Admission = () => {
   return (
     <div className="pt-40">
@@ -9,6 +9,9 @@ const Admission = () => {
             <h3 className="text-4xl uppercase border-y-2 pt-4 font-bold font-serif">
             ADDMISSION REQUIREMENTS
             </h3>
+          </div>
+          <div>
+            <p><GoDot /></p>
           </div>
         <div className="flex">
       <div className="w-4/6">
