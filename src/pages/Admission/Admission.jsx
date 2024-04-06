@@ -3,7 +3,14 @@ import { Link } from "react-router-dom";
 
 const Admission = () => {
   return (
-    <div className="pt-40 flex">
+    <div className="pt-40">
+        <div className="mx-auto md:w-8/12 my-8 flex justify-center items-center ">
+            {/* <p className='text-yellow-600'>----{subHeading}---</p> */}
+            <h3 className="text-4xl uppercase border-y-2 pt-4 font-bold font-serif">
+            ADDMISSION REQUIREMENTS
+            </h3>
+          </div>
+        <div className="flex">
       <div className="w-4/6">
         <div className="font-serif text-center">
           <p className="text-2xl">Admission & Routine 2023-24</p>
@@ -151,7 +158,7 @@ const Admission = () => {
             <div class="flex items-center justify-center ">
               <Link to="">
                 {" "}
-                <button className="py-2 w-[280px] h-8 px-6 mb-4 mt-2 bg-black rounded hover:bg-slate-950 duration-300 text-white flex items-center justify-center overflow-hidden hover:overflow-visible relative group">
+                <button className="py-2 w-[280px] h-8 px-6  mt-2 bg-black rounded hover:bg-slate-950 duration-300 text-white flex items-center justify-center overflow-hidden hover:overflow-visible relative group">
                   <svg
                     viewBox="0 0 1024 1024"
                     className="icon rotate-45 group-hover:duration-700 absolute w-12 -translate-x-full translate-y-full scale-0 group-hover:scale-100 group-hover:translate-x-8 group-hover:-translate-y-8 duration-150"
@@ -203,7 +210,7 @@ const Admission = () => {
             <div className="card-actions justify-center">
             <Link to="">
                 {" "}
-                <button className="py-2 w-[280px] h-8 px-6 mb-4 mt-2 bg-black rounded hover:bg-slate-950 duration-300 text-white flex items-center justify-center overflow-hidden hover:overflow-visible relative group">
+                <button className="py-2 w-[280px] h-8 px-6 mb-4  bg-black rounded hover:bg-slate-950 duration-300 text-white flex items-center justify-center overflow-hidden hover:overflow-visible relative group">
                   <svg
                     viewBox="0 0 1024 1024"
                     className="icon rotate-45 group-hover:duration-700 absolute w-12 -translate-x-full translate-y-full scale-0 group-hover:scale-100 group-hover:translate-x-8 group-hover:-translate-y-8 duration-150"
@@ -255,6 +262,7 @@ const Admission = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };
