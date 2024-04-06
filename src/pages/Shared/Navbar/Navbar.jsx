@@ -119,7 +119,8 @@ const Navbar = () => {
               </li>
               <Link to="/admission">
               <li>
-                <a>Admissions</a> 
+                <a>Admissions</a>
+                
               </li>
               </Link>
               <li>
@@ -172,20 +173,8 @@ const Navbar = () => {
                 </ul>
               </details>
             </li>
-          <li>
-              <details>
-                <Link to="/admission">
-                <summary>Admissions</summary>
-                </Link>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
-              </details>
+            <li>
+              <Link to="/admission"><a>Admission</a></Link>
             </li>
           <li>
               <details>
