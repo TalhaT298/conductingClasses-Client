@@ -23,31 +23,43 @@ const Admission = () => {
         </p>
         <p className="flex text-xl">
           {/* <GoDot className="scale-125"/> */}
-          🔘Incase of Diploma in engineering the scale of 4.00 to be multiplied by 1.25, the scale is to be 5.00
+          🔘Incase of Diploma in engineering the scale of 4.00 to be multiplied
+          by 1.25, the scale is to be 5.00
         </p>
       </div>
       {/* ---------------------------2nd part---------------------------- */}
       <div className="flex py-8">
-            <div className="w-1/2">
-                <h3 className="text-2xl text-center">Required Documents</h3>
-                <div className="">
-                    <p>●Required Documents</p>
-                    <p>●Completed application form and fees</p>
-                    <p>●School and college leaving Certificate/ Testimonial</p>
-                    <p>●SSC/Equivalent & HSC/Equivalent true copy of Academic transcripts</p>
-                    <p>●Recent 4 copy Passport size photographs</p>
-                    <p>●Certified true copy of name change certificate (if any)</p>
-                </div>
-            </div>
-            <div className="w-1/2">
-
-            </div>
+        <div className="w-1/2">
+          <h3 className="text-3xl text-center py-4">Required Documents</h3>
+          <div className="">
+            <p>●Required Documents</p>
+            <p>●Completed application form and fees</p>
+            <p>●School and college leaving Certificate/ Testimonial</p>
+            <p>
+              ●SSC/Equivalent & HSC/Equivalent true copy of Academic transcripts
+            </p>
+            <p>●Recent 4 copy Passport size photographs</p>
+            <p>●Certified true copy of name change certificate (if any)</p>
+          </div>
+        </div>
+        <div className="w-1/2">
+          <h3 className="text-3xl text-center py-4">Process</h3>
+          <div className="">
+            <p>●Students are supposed to submit completely filled out application form. The application form can be downloaded and printed out and sent by e-mail, apply online , postal or at our Campus.</p>
+            <p>●Please send TK. 660.00 for application form fee to 01855979496 through bKash . Then use your transaction ID at the time of filling up Application form</p>
+            <p>●The Office of Admissions will be reviewing and checking all the documents and proceed</p>
+            <p>
+              ●When your application is accepted, a letter of acceptance will be issued <span className="font-bold">Online Application Click Here</span>
+            </p>
+             
+          </div>
+        </div>
       </div>
       {/* ---------------------------2nd part end---------------------------- */}
-      <div className="flex">
+      <div className="flex py-12">
         <div className="w-4/6">
           <div className="font-serif text-center">
-            <p className="text-2xl">Admission & Routine 2023-24</p>
+            <p className="text-3xl">Admission & Routine 2023-24</p>
           </div>
           <div className="overflow-x-auto">
             <table className="table">
