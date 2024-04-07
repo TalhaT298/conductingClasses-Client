@@ -189,20 +189,50 @@ const Offer = () => {
                       <div class="flex sm:flex-row flex-col">
                         <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full   text-indigo-500 flex-shrink-0">
                           <p class="pt-2 pr-2">
-                            <BsFillPersonLinesFill
-                              size="4.3rem"
-                              color="black"
-                            />
+                          <SiClubhouse size="4.3rem" color="black" />
                           </p>
                         </div>
                         <div class="flex-grow">
                           <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
-                            Blended Learning Platform
+                          REC Learniverse
                           </h2>
                           <p class="leading-relaxed text-sm">
-                            To engage students in learning after face-to-face
-                            classes, our faculty members and students
-                            collaborate in the online.
+                          Our motto, "Let's Craft Futures Together," drives knowledge sharing and collaborative learning.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=" lg:w-1/2 md:w-full">
+                      <div class="flex sm:flex-row flex-col">
+                        <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full   text-indigo-500 flex-shrink-0">
+                          <p class="pt-2 pr-2">
+                          <MdEmojiTransportation size="4.3rem" color="black" />
+                          </p>
+                        </div>
+                        <div class="flex-grow">
+                          <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
+                          Transportation
+                          </h2>
+                          <p class="leading-relaxed text-sm">
+                          To make the student’s life easier and safe, we are providing  buses from different points of Rangpur city to
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    {/* 2nd---------------- */}
+                    <div class=" lg:w-1/2 md:w-full">
+                      <div class="flex sm:flex-row flex-col">
+                        <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full   text-indigo-500 flex-shrink-0">
+                          <p class="pt-2 pr-2">
+                          <FaLaptopCode size="4.3rem" color="black" />
+                          </p>
+                        </div>
+                        <div class="flex-grow">
+                          <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
+                          One student one laptop
+                          </h2>
+                          <p class="leading-relaxed text-sm">
+                          Under the ‘One student one laptop’ project.REC has distributed over 500 f..
                           </p>
                         </div>
                       </div>
