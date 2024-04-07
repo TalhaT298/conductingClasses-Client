@@ -67,37 +67,37 @@ const Notice = () => {
             <div className="collapse collapse-arrow bg-base-100 mb-4">
               <input type="radio" name="my-accordion-2" defaultChecked />
               <div className="collapse-title text-xl font-medium">
-                Click to open this one and close others
+              ভর্তি পরীক্ষার আবেদনের সময়সীমা :
               </div>
               <div className="collapse-content">
-                <p>hello</p>
+                <p> ১৭/০৪/২০২৪ তারিখ দুপুর ১২.০০ টা থেকে ২০/০৫/২০২৪ তারিখ রাত ১২.০০ টা পর্যন্ত।</p>
               </div>
             </div>
             <div className="collapse collapse-arrow bg-base-100 mb-4">
               <input type="radio" name="my-accordion-2" defaultChecked />
               <div className="collapse-title text-xl font-medium">
-                Click to open this one and close others
+              আবেদন ফি:
               </div>
               <div className="collapse-content">
-                <p>hello</p>
+                <p>৬৬০/- টাকা (সার্ভিস চার্জ সহ) অনলাইনে পরিশোধ করতে হবে।</p>
               </div>
             </div>
             <div className="collapse collapse-arrow bg-base-100 mb-4">
               <input type="radio" name="my-accordion-2" />
               <div className="collapse-title text-xl font-medium mb-4">
-                Click to open this one and close others
+              প্রশ্ন এবং উত্তর:
               </div>
               <div className="collapse-content">
-                <p>hello</p>
+                <p>ইংরেজি প্রশ্নপত্রে ভর্তি পরীক্ষা দিতে ইচ্ছুক প্রার্থীকে অনলাইনে আবেদনের সময় প্রশ্নপত্রের ভাষা হিসেবে ইংরেজি নির্বাচন করতে হবে।</p>
               </div>
             </div>
             <div className="collapse collapse-arrow bg-base-100">
               <input type="radio" name="my-accordion-2" />
               <div className="collapse-title text-xl font-medium">
-                Click to open this one and close others
+              ভর্তি সংক্রান্ত নোটিশ ও অন্যান্য তথ্য:
               </div>
               <div className="collapse-content">
-                <p>hello</p>
+                <p>	ভর্তি সংক্রান্ত নোটিশ ও অন্যান্য তথ্য <a href="https://admission.ru.ac.bd/">admission.ru.ac.bd</a> সাইটে পাওয়া যাবে।</p>
               </div>
             </div>
           </div>
