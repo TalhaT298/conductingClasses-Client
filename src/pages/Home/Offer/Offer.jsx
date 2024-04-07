@@ -19,9 +19,9 @@ const Offer = () => {
   return (
     <div>
       <div className="card lg:card-side bg-base-100  ">
-        <div className="w-3/5">
+        <div className="lg:w-3/5 w-full">
           <div className="pb-4">
-            <h3 className="text-4xl uppercase border-y-2 py-2 font-bold">
+            <h3 className="lg:text-4xl text-2xl  uppercase border-y-2 py-2 font-bold">
               What We Offer
             </h3>
             <p className="pt-4 font-bold">
@@ -166,9 +166,9 @@ const Offer = () => {
               <section class="text-gray-600 body-font">
                 <div class="container py-2 mx-auto flex flex-wrap">
                   <div class="flex flex-wrap -m-4">
-                    <div class=" lg:w-1/2 md:w-full py-4">
+                    <div class="lg:w-1/2 md:w-full sm:w-full py-4">
                       <div class="flex sm:flex-row flex-col">
-                        <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full   text-indigo-500 flex-shrink-0">
+                        <div class="w-16 h-16  sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full   text-indigo-500 flex-shrink-0">
                           <p class="pt-2 pr-2">
                             <AiOutlineFileProtect size="4.3rem" color="black" />
                           </p>
