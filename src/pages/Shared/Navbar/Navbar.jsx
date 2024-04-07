@@ -80,7 +80,7 @@
 //       </div>
 //     </div>
 //   );
-// }; 
+// };
 
 // export default Navbar;
 import React from "react";
@@ -115,25 +115,20 @@ const Navbar = () => {
             >
               <li>
                 <a>Academics</a>
-                
               </li>
               <Link to="/admission">
-              <li>
-                <a>Admissions</a>
-                
-              </li>
+                <li>
+                  <a>Admissions</a>
+                </li>
               </Link>
               <li>
                 <a>Campus</a>
-                
               </li>
               <li>
                 <a>Authority</a>
-                
               </li>
               <li>
                 <a>About</a>
-                
               </li>
               <li>
                 <a>Parent</a>
@@ -152,54 +147,57 @@ const Navbar = () => {
             </ul>
           </div>
           <Link to="/">
-          <div className="flex">
-          <img className="w-12" src={log} alt="" />
-          <a className="btn btn-ghost text-xl">REC2.0</a>
-          </div>
+            <div className="flex">
+              <img className="w-12" src={log} alt="" />
+              <a className="btn btn-ghost text-xl">REC2.0</a>
+            </div>
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
-          <li>
+            <li>
               <details>
                 <summary>Academics</summary>
                 <ul className="p-2">
                   <li>
-                    <Link to="/cse"><a>CSE</a></Link>
+                    <Link to="/cse">
+                      <a>CSE</a>
+                    </Link>
                   </li>
                   <li>
-                    <Link to="/eee"><a>EEE</a></Link>
+                    <Link to="/eee">
+                      <a>EEE</a>
+                    </Link>
                   </li>
                   <li>
-                    <Link to="/ice"><a>ICE</a></Link>
+                    <Link to="/ice">
+                      <a>ICE</a>
+                    </Link>
                   </li>
                   <li>
-                    <Link to="/ce"><a>CE</a></Link>
+                    <Link to="/ce">
+                      <a>CE</a>
+                    </Link>
                   </li>
                   <li>
-                    <Link><a>Other</a></Link>
+                    <Link>
+                      <a>Other</a>
+                    </Link>
                   </li>
-                  
                 </ul>
               </details>
             </li>
             <li>
-              <Link to="/admission"><a>Admission</a></Link>
+              <Link to="/admission">
+                <a>Admission</a>
+              </Link>
             </li>
-          <li>
-              <details>
-                <summary>Campus</summary>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
-              </details>
-            </li>
-          <li>
+            <Link to="/campus">
+              <li>
+                <a>Campus</a>
+              </li>
+            </Link>
+            <li>
               <details>
                 <summary>Authority</summary>
                 <ul className="p-2">
@@ -225,9 +223,9 @@ const Navbar = () => {
                 </ul>
               </details>
             </li>
-            <li>
+            {/* <li>
               <a>Item 3</a>
-            </li>
+            </li> */}
           </ul>
         </div>
         <div className="navbar-end">
