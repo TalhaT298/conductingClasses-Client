@@ -88,7 +88,7 @@ const NavbarAfter = () => {
                        <li><Link to="/facilities"><p>Facilities</p></Link></li>
                        <li><Link to="/departments"><p>Departments</p></Link></li>
                        <li><Link to="/teacher"><p>Teachers</p></Link></li>
-                       <li><Link to=""><p>Students</p></Link></li>
+                       <li><Link to="/student"><p>Students</p></Link></li>
                        <li><Link to=""><p>Alumni</p></Link></li>
                        <li><Link to=""><p>Email</p></Link></li>
                       
