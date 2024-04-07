@@ -33,8 +33,8 @@ const Offer = () => {
             {/* left side----------- */}
             <div>
               {/* part two div---------------------------------------------- */}
-              <div class="flex flex-wrap">
-                <div class="w-full md:w-1/2 py-4">
+              {/* <div class="flex flex-wrap">
+                <div class="sm:w-full md:w-1/2 py-4">
                   <div class="flex">
                     <p class="pt-2 pr-2">
                       <AiOutlineFileProtect class="w-12 h-12" color="black" />
@@ -49,7 +49,7 @@ const Offer = () => {
                   </div>
                 </div>
 
-                <div class="w-full md:w-1/2 py-4">
+                <div class="sm:w-full md:w-1/2 py-4">
                   <div class="flex">
                     <p class="pt-2 pr-2">
                       <IoLibrarySharp class="w-12 h-12" color="black" />
@@ -162,8 +162,54 @@ const Offer = () => {
                     </h2>
                   </div>
                 </div>
-              </div>
-
+              </div> */}
+              <section class="text-gray-600 body-font">
+                <div class="container py-2 mx-auto flex flex-wrap">
+                  <div class="flex flex-wrap -m-4">
+                    <div class=" lg:w-1/2 md:w-full">
+                      <div class="flex sm:flex-row flex-col">
+                        <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full   text-indigo-500 flex-shrink-0">
+                          <p class="pt-2 pr-2">
+                            <AiOutlineFileProtect size="4.3rem" color="black" />
+                          </p>
+                        </div>
+                        <div class="flex-grow">
+                          <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
+                            Accommodation
+                          </h2>
+                          <p class="leading-relaxed text-sm">
+                            We are providing a secure and convenient living
+                            facility for our students.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    {/* 2nd---------------- */}
+                    <div class=" lg:w-1/2 md:w-full">
+                      <div class="flex sm:flex-row flex-col">
+                        <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full   text-indigo-500 flex-shrink-0">
+                          <p class="pt-2 pr-2">
+                            <BsFillPersonLinesFill
+                              size="4.3rem"
+                              color="black"
+                            />
+                          </p>
+                        </div>
+                        <div class="flex-grow">
+                          <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
+                            Blended Learning Platform
+                          </h2>
+                          <p class="leading-relaxed text-sm">
+                            To engage students in learning after face-to-face
+                            classes, our faculty members and students
+                            collaborate in the online.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
               {/* part two div---------------------------------------------- */}
             </div>
             {/* left side----------- */}
