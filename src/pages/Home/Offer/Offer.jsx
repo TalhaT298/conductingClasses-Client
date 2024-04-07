@@ -166,7 +166,7 @@ const Offer = () => {
               <section class="text-gray-600 body-font">
                 <div class="container py-2 mx-auto flex flex-wrap">
                   <div class="flex flex-wrap -m-4">
-                    <div class=" lg:w-1/2 md:w-full">
+                    <div class=" lg:w-1/2 md:w-full py-4">
                       <div class="flex sm:flex-row flex-col">
                         <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full   text-indigo-500 flex-shrink-0">
                           <p class="pt-2 pr-2">
@@ -185,7 +185,7 @@ const Offer = () => {
                       </div>
                     </div>
                     {/* 2nd---------------- */}
-                    <div class=" lg:w-1/2 md:w-full">
+                    <div class=" lg:w-1/2 md:w-full py-4">
                       <div class="flex sm:flex-row flex-col">
                         <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full   text-indigo-500 flex-shrink-0">
                           <p class="pt-2 pr-2">
@@ -203,7 +203,7 @@ const Offer = () => {
                         </div>
                       </div>
                     </div>
-                    <div class=" lg:w-1/2 md:w-full">
+                    <div class=" lg:w-1/2 md:w-full py-4">
                       <div class="flex sm:flex-row flex-col">
                         <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full   text-indigo-500 flex-shrink-0">
                           <p class="pt-2 pr-2">
@@ -222,7 +222,7 @@ const Offer = () => {
                       </div>
                     </div>
                     {/* 2nd---------------- */}
-                    <div class=" lg:w-1/2 md:w-full">
+                    <div class=" lg:w-1/2 md:w-full py-4">
                       <div class="flex sm:flex-row flex-col">
                         <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full   text-indigo-500 flex-shrink-0">
                           <p class="pt-2 pr-2">
@@ -244,7 +244,7 @@ const Offer = () => {
                         </div>
                       </div>
                     </div>
-                    <div class=" lg:w-1/2 md:w-full">
+                    <div class=" lg:w-1/2 md:w-full py-4">
                       <div class="flex sm:flex-row flex-col">
                         <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full   text-indigo-500 flex-shrink-0">
                           <p class="pt-2 pr-2">
@@ -267,7 +267,7 @@ const Offer = () => {
                       </div>
                     </div>
                     {/* 2nd---------------- */}
-                    <div class=" lg:w-1/2 md:w-full">
+                    <div class=" lg:w-1/2 md:w-full py-4">
                       <div class="flex sm:flex-row flex-col">
                         <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full   text-indigo-500 flex-shrink-0">
                           <p class="pt-2 pr-2">
@@ -285,7 +285,7 @@ const Offer = () => {
                         </div>
                       </div>
                     </div>
-                    <div class=" lg:w-1/2 md:w-full">
+                    <div class=" lg:w-1/2 md:w-full py-4">
                       <div class="flex sm:flex-row flex-col">
                         <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full   text-indigo-500 flex-shrink-0">
                           <p class="pt-2 pr-2">
@@ -305,7 +305,7 @@ const Offer = () => {
                       </div>
                     </div>
                     {/* 2nd---------------- */}
-                    <div class=" lg:w-1/2 md:w-full">
+                    <div class=" lg:w-1/2 md:w-full py-4">
                       <div class="flex sm:flex-row flex-col">
                         <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full   text-indigo-500 flex-shrink-0">
                           <p class="pt-2 pr-2">
@@ -336,7 +336,7 @@ const Offer = () => {
           </div>
         </div>
 
-        <div className="w-2/5">
+        <div className="lg:w-2/5 w-full">
           <figure>
             <motion.div
               initial={false}
