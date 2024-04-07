@@ -165,19 +165,19 @@ const Navbar = () => {
                 <summary>Academics</summary>
                 <ul className="p-2">
                   <li>
-                    <Link><a>Submenu 1</a></Link>
+                    <Link to="/cse"><a>CSE</a></Link>
                   </li>
                   <li>
-                    <Link><a>Submenu 1</a></Link>
+                    <Link to="/eee"><a>EEE</a></Link>
                   </li>
                   <li>
-                    <Link><a>Submenu 1</a></Link>
+                    <Link to="/ice"><a>ICE</a></Link>
                   </li>
                   <li>
-                    <Link><a>Submenu 1</a></Link>
+                    <Link to="/ce"><a>CE</a></Link>
                   </li>
                   <li>
-                    <Link><a>Submenu 1</a></Link>
+                    <Link><a>Other</a></Link>
                   </li>
                   
                 </ul>
