@@ -11,6 +11,7 @@ import { FaLinkedinIn } from "react-icons/fa6";
 import { FaWhatsapp } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 import { motion } from "framer-motion";
+import tariq from "../../assets/photo - Tarikul Islam.jpg";
 
 const CE = () => {
   // useEffect(() => {
@@ -189,18 +190,18 @@ const CE = () => {
                     alt="content"
                   ></img>
                   <h3 class=" text-black text-xs font-medium title-font">
-                    Lecturer,B.Sc. in CSE(RU)
+                    Lecturer,B.Sc. in CE(RUET)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
-                    Md. Khalid Hossen
+                  Md Rownak Afroz 
                   </h2>
                   <div className="grid grid-flow-col gap-3">
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                      <Link to="">
-                        <a href="">
-                          <FaFacebookF size="1.7rem" color="black" />
+                       
+                        <a href="https://www.facebook.com/rowankafroz.rownak?mibextid=JRoKGi">
+                          <FaFacebookF href="https://www.facebook.com/rowankafroz.rownak?mibextid=JRoKGi" size="1.7rem" color="black" />
                         </a>
-                      </Link>
+                       
                     </motion.div>
 
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
