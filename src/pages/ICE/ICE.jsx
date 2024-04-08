@@ -12,6 +12,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 import { motion } from "framer-motion";
 import hafiz from "../../assets/al-Hafiz.jpeg";
+import naz from "../../assets/IMG_20230711_143310 - Md Nazmul Hasan Ruhan (1).jpg";
 
 const ICE = () => {
   // useEffect(() => {
@@ -149,7 +150,7 @@ const ICE = () => {
                 </div>
                 <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
                   <p class="leading-relaxed text-lg mb-4">
-                  am delighted to address you as the Head of the Department of Information and Communication Engineering at Rangpur Engineering College. As you consider your educational options, I invite you to explore the exceptional opportunities our department offers and the remarkable journey that awaits you..
+                 I am delighted to address you as the Head of the Department of Information and Communication Engineering at Rangpur Engineering College. As you consider your educational options, I invite you to explore the exceptional opportunities our department offers and the remarkable journey that awaits you..
                   </p>
                   <a class="text-black inline-flex items-center">
                     Learn More
@@ -185,23 +186,23 @@ const ICE = () => {
               <div class="xl:w-1/4 md:w-1/2 p-4">
                 <div class="bg-gray-100 p-6 rounded-lg">
                   <img
-                    class="h-40 rounded w-full object-cover object-center mb-6"
-                    src="https://dummyimage.com/720x400"
+                    class="h-52 rounded w-full object-cover object-center mb-6"
+                    src={naz}
                     alt="content"
                   ></img>
                   <h3 class=" text-black text-xs font-medium title-font">
-                    Lecturer,B.Sc. in CSE(RU)
+                    Lecturer,B.Sc. in ICT(MBSTU)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
-                    Md. Khalid Hossen
+                  Md Nazmul Hasan Ruhan 
                   </h2>
                   <div className="grid grid-flow-col gap-3">
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                      <Link to="">
-                        <a href="">
-                          <FaFacebookF size="1.7rem" color="black" />
+                       
+                        <a href="https://www.facebook.com/mnhruhan.mnhruhan?mibextid=ZbWKwL">
+                          <FaFacebookF href="https://www.facebook.com/mnhruhan.mnhruhan?mibextid=ZbWKwL" size="1.7rem" color="black" />
                         </a>
-                      </Link>
+                       
                     </motion.div>
 
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
