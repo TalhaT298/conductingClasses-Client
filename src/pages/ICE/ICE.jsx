@@ -11,6 +11,7 @@ import { FaLinkedinIn } from "react-icons/fa6";
 import { FaWhatsapp } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 import { motion } from "framer-motion";
+import tariq from "../../assets/photo - Tarikul Islam.jpg";
 
 const ICE = () => {
   // useEffect(() => {
@@ -88,19 +89,12 @@ const ICE = () => {
               </div> */}
               <div class="flex flex-col sm:flex-row mt-10">
                 <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
-                  <div class="w-40 h-40 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
-                    <svg
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-10 h-10"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                      <circle cx="12" cy="7" r="4"></circle>
-                    </svg>
+                <div class="w-40 h-40 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
+                    <img
+                      src={tariq}
+                      className="h-40 w-40 rounded-full"
+                      alt=""
+                    />
                   </div>
                   <div class="flex flex-col items-center text-center justify-center">
                     <h2 class="font-medium title-font mt-4 text-gray-900 text-lg">
@@ -155,21 +149,7 @@ const ICE = () => {
                 </div>
                 <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
                   <p class="leading-relaxed text-lg mb-4">
-                    Welcome to the Department of Computer Science and
-                    Engineering (CSE) at Rangpur Engineering College (REC)! As
-                    the Head of the Department, I'm thrilled to lead our team of
-                    dedicated faculty members committed to providing you with an
-                    exceptional education. Our curriculum focuses on core
-                    computer science principles, practical skills, and holistic
-                    development. With state-of-the-art facilities and industry
-                    collaborations, we aim to equip you with the tools to
-                    succeed in this dynamic field. Embrace opportunities, seek
-                    guidance, and let's work together to shape a promising
-                    future. Welcome aboard! <br />
-                    Once again, welcome to the Department of Computer Science
-                    and Engineering at Rangpur Engineering College. I look
-                    forward to meeting and working with each one of you. Best
-                    wishes for a fruitful and rewarding academic journey
+                  am delighted to address you as the Head of the Department of Information and Communication Engineering at Rangpur Engineering College. As you consider your educational options, I invite you to explore the exceptional opportunities our department offers and the remarkable journey that awaits you..
                   </p>
                   <a class="text-black inline-flex items-center">
                     Learn More
