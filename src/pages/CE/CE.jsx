@@ -155,21 +155,7 @@ const CE = () => {
                 </div>
                 <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
                   <p class="leading-relaxed text-lg mb-4">
-                    Welcome to the Department of Computer Science and
-                    Engineering (CSE) at Rangpur Engineering College (REC)! As
-                    the Head of the Department, I'm thrilled to lead our team of
-                    dedicated faculty members committed to providing you with an
-                    exceptional education. Our curriculum focuses on core
-                    computer science principles, practical skills, and holistic
-                    development. With state-of-the-art facilities and industry
-                    collaborations, we aim to equip you with the tools to
-                    succeed in this dynamic field. Embrace opportunities, seek
-                    guidance, and let's work together to shape a promising
-                    future. Welcome aboard! <br />
-                    Once again, welcome to the Department of Computer Science
-                    and Engineering at Rangpur Engineering College. I look
-                    forward to meeting and working with each one of you. Best
-                    wishes for a fruitful and rewarding academic journey
+                  I stand here today as the Head of the Department of Civil Engineering at Rangpur Engineering College, filled with enthusiasm and optimism for the future. It is my pleasure to share with you the immense potential and opportunities that lie ahead for our department....
                   </p>
                   <a class="text-black inline-flex items-center">
                     Learn More

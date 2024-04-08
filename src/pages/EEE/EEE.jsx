@@ -311,7 +311,7 @@ const EEE = () => {
                   alt="content"
                 ></img>
                 <h3 class="tracking-widest text-black text-xs font-medium title-font">
-                  Lecturer,B.Sc. in CSE(SUST)
+                  Lecturer,B.Sc. in EEE(RU)
                 </h3>
                 <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
                 Golam Md. Al Shamim 
