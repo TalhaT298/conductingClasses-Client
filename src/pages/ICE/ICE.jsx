@@ -11,7 +11,7 @@ import { FaLinkedinIn } from "react-icons/fa6";
 import { FaWhatsapp } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 import { motion } from "framer-motion";
-import tariq from "../../assets/photo - Tarikul Islam.jpg";
+import hafiz from "../../assets/al-Hafiz.jpeg";
 
 const ICE = () => {
   // useEffect(() => {
@@ -91,16 +91,16 @@ const ICE = () => {
                 <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
                 <div class="w-40 h-40 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
                     <img
-                      src={tariq}
+                      src={hafiz}
                       className="h-40 w-40 rounded-full"
                       alt=""
                     />
                   </div>
                   <div class="flex flex-col items-center text-center justify-center">
                     <h2 class="font-medium title-font mt-4 text-gray-900 text-lg">
-                      Md.Tarikul Islam <br />{" "}
+                    Md.al-Hafiz <br />{" "}
                       <span className="text-xs">
-                        Lecturer,B.Sc. in CSE(PUST)
+                        Lecturer,B.Sc. in ICE(RU)
                       </span>
                     </h2>
                     <div class="w-12 h-1 bg-black rounded mt-2 mb-4"></div>
