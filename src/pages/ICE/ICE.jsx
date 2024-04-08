@@ -13,6 +13,7 @@ import { BiLogoGmail } from "react-icons/bi";
 import { motion } from "framer-motion";
 import hafiz from "../../assets/al-Hafiz.jpeg";
 import naz from "../../assets/IMG_20230711_143310 - Md Nazmul Hasan Ruhan (1).jpg";
+import limon from "../../assets/300X300 - Shahin Lemon.jpg";
 
 const ICE = () => {
   // useEffect(() => {
@@ -241,23 +242,23 @@ const ICE = () => {
               <div class="xl:w-1/4 md:w-1/2 p-4">
                 <div class="bg-gray-100 p-6 rounded-lg">
                   <img
-                    class="h-40 rounded w-full object-cover object-center mb-6"
-                    src="https://dummyimage.com/720x400"
+                    class="h-52 rounded w-full object-cover object-center mb-6"
+                    src={limon}
                     alt="content"
                   ></img>
                   <h3 class="tracking-widest text-black text-xs font-medium title-font">
-                    Lecturer,B.Sc. in CSE(AIUB)
+                    Lecturer,B.Sc. in CSE(BRUR)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
-                    Dipanjan Das Dipto
+                  MD.Shahinuzzaman Lemon
                   </h2>
                   <div className="grid grid-flow-col gap-3">
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                      <Link to="">
-                        <a href="">
-                          <FaFacebookF size="1.7rem" color="black" />
+                        
+                        <a href="https://www.facebook.com/jv.lemon.3">
+                          <FaFacebookF href="https://www.facebook.com/jv.lemon.3" size="1.7rem" color="black" />
                         </a>
-                      </Link>
+                       
                     </motion.div>
 
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
