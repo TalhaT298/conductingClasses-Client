@@ -11,6 +11,7 @@ import { FaLinkedinIn } from "react-icons/fa6";
 import { FaWhatsapp } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 import { motion } from "framer-motion";
+import polas from "../../assets/polas.jpg";
 
 const EEE = () => {
   // useEffect(() => {
@@ -52,7 +53,7 @@ const EEE = () => {
   }, [nextSlider]);
   return (
     <div>
-      <Link to="/cse">
+      <Link to="/eee"></Link>
         <div className="py-16">
           <div className="mockup-browser border bg-base-300">
             <div className="mockup-browser-toolbar">
@@ -205,23 +206,23 @@ const EEE = () => {
               <div class="xl:w-1/4 md:w-1/2 p-4">
                 <div class="bg-gray-100 p-6 rounded-lg">
                   <img
-                    class="h-40 rounded w-full object-cover object-center mb-6"
-                    src="https://dummyimage.com/720x400"
+                    class="h-52 rounded w-full object-cover object-center mb-6"
+                    src={polas}
                     alt="content"
                   ></img>
                   <h3 class=" text-black text-xs font-medium title-font">
-                    Lecturer,B.Sc. in CSE(RU)
+                    Lecturer,B.Sc. in RECR(RU)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
-                    Md. Khalid Hossen
+                  Polas chandra roy
                   </h2>
                   <div className="grid grid-flow-col gap-3">
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                      <Link to="">
-                        <a href="">
-                          <FaFacebookF size="1.7rem" color="black" />
+                      
+                        <a href="https://www.facebook.com/polas.roy.9?mibextid=kFxxJD">
+                          <FaFacebookF href="https://www.facebook.com/polas.roy.9?mibextid=kFxxJD" size="1.7rem" color="black" />
                         </a>
-                      </Link>
+                       
                     </motion.div>
 
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
@@ -1067,7 +1068,7 @@ const EEE = () => {
           </div>
         </section>
         {/* ------------------------------------------5th section finish--------------------------------- */}
-      </Link>
+      
     </div>
   );
 };
