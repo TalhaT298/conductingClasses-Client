@@ -12,6 +12,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 import { motion } from "framer-motion";
 import polas from "../../assets/polas.jpg";
+import naz from "../../assets/MD. NAZMUL HASSAN.jpg";
 
 const EEE = () => {
   // useEffect(() => {
@@ -261,23 +262,23 @@ const EEE = () => {
               <div class="xl:w-1/4 md:w-1/2 p-4">
                 <div class="bg-gray-100 p-6 rounded-lg">
                   <img
-                    class="h-40 rounded w-full object-cover object-center mb-6"
-                    src="https://dummyimage.com/720x400"
+                    class="h-52 rounded w-full object-cover object-center mb-6"
+                    src={naz}
                     alt="content"
                   ></img>
                   <h3 class="tracking-widest text-black text-xs font-medium title-font">
-                    Lecturer,B.Sc. in CSE(AIUB)
+                    Lecturer,B.Sc. in EEE(RU)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
-                    Dipanjan Das Dipto
+                  Md. Nazmul Hassan 
                   </h2>
                   <div className="grid grid-flow-col gap-3">
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                      <Link to="">
-                        <a href="">
-                          <FaFacebookF size="1.7rem" color="black" />
+                      
+                        <a href="https://www.facebook.com/nazmul.119?mibextid=ZbWKwL">
+                          <FaFacebookF href="https://www.facebook.com/nazmul.119?mibextid=ZbWKwL" size="1.7rem" color="black" />
                         </a>
-                      </Link>
+                       
                     </motion.div>
 
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
