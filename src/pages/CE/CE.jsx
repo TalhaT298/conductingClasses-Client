@@ -12,6 +12,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 import { motion } from "framer-motion";
 import tariq from "../../assets/photo - Tarikul Islam.jpg";
+import row from "../../assets/Photo_Rownak_RUET - Rownak Afroz.png";
 
 const CE = () => {
   // useEffect(() => {
@@ -53,7 +54,7 @@ const CE = () => {
   }, [nextSlider]);
   return (
     <div>
-      <Link to="/cse">
+      <Link to="/ce"></Link>
         <div className="py-16">
           <div className="mockup-browser border bg-base-300">
             <div className="mockup-browser-toolbar">
@@ -185,8 +186,8 @@ const CE = () => {
               <div class="xl:w-1/4 md:w-1/2 p-4">
                 <div class="bg-gray-100 p-6 rounded-lg">
                   <img
-                    class="h-40 rounded w-full object-cover object-center mb-6"
-                    src="https://dummyimage.com/720x400"
+                    class="h-52 rounded w-full object-cover object-center mb-6"
+                    src={row}
                     alt="content"
                   ></img>
                   <h3 class=" text-black text-xs font-medium title-font">
@@ -1047,7 +1048,7 @@ const CE = () => {
           </div>
         </section>
         {/* ------------------------------------------5th section finish--------------------------------- */}
-      </Link>
+      
     </div>
   );
 };
