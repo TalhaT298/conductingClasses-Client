@@ -13,6 +13,7 @@ import { BiLogoGmail } from "react-icons/bi";
 import { motion } from "framer-motion";
 import tariq from "../../assets/photo - Tarikul Islam.jpg";
 import row from "../../assets/Photo_Rownak_RUET - Rownak Afroz.png";
+import setu from "../../assets/sajedur rahman.jpg";
 
 const CE = () => {
   // useEffect(() => {
@@ -241,23 +242,23 @@ const CE = () => {
               <div class="xl:w-1/4 md:w-1/2 p-4">
                 <div class="bg-gray-100 p-6 rounded-lg">
                   <img
-                    class="h-40 rounded w-full object-cover object-center mb-6"
-                    src="https://dummyimage.com/720x400"
+                    class="h-52 rounded w-full object-cover object-center mb-6"
+                    src={setu}
                     alt="content"
                   ></img>
                   <h3 class="tracking-widest text-black text-xs font-medium title-font">
-                    Lecturer,B.Sc. in CSE(AIUB)
+                    Lecturer,B.Sc. in CE(BUET)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
-                    Dipanjan Das Dipto
+                  Md.Sajedur Rahman Setu
                   </h2>
                   <div className="grid grid-flow-col gap-3">
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                      <Link to="">
-                        <a href="">
-                          <FaFacebookF size="1.7rem" color="black" />
+                       
+                        <a href="https://www.facebook.com/sajedur.rahmansetu/">
+                          <FaFacebookF href="https://www.facebook.com/sajedur.rahmansetu/" size="1.7rem" color="black" />
                         </a>
-                      </Link>
+                      
                     </motion.div>
 
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
