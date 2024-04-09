@@ -8,6 +8,7 @@ import { Pagination } from "swiper/modules";
 import { Rating } from "@smastrom/react-rating";
 import "@smastrom/react-rating/style.css";
 import "./Testimonial.css"; // Import your custom CSS file
+import background from '../../../assets/lo.gif';
 
 
 const Testimonial = () => {
@@ -18,7 +19,7 @@ const Testimonial = () => {
       .then((data) => setReviews(data));
   }, []);
   return (
-    <section className="my-6">
+    <section className="my-6" style={{backgroundImage: `url(${background})`, backgroundSize: "cover", backgroundPosition: "center", minHeight: "200px"}}>
       <SectionTitle className=""
         heading={"Feedback Received"}
       ></SectionTitle>
