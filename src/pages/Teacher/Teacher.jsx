@@ -1,31 +1,29 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaWhatsapp } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 import { motion } from "framer-motion";
-import SectionTitle from '../../components/SectionTitle/SectionTitle';
+import SectionTitle from "../../components/SectionTitle/SectionTitle";
 import kaniz from "../../assets/Kanij Rabeya Nancy.jpeg";
 import Dipto from "../../assets/Dipto.jpg";
 import Khalid from "../../assets/Khalid.jpg";
 import Jhanajay from "../../assets/Jnananjan Roy.webp";
 import tariq from "../../assets/photo - Tarikul Islam.jpg";
 const Teacher = () => {
-    return (
-        <div>
-           <Link to="/teacher">
-           
-           {/* --------------------------------1st section start------------------- */}
-           <section class="text-black body-font">
-            
+  return (
+    <div>
+      <Link to="/teacher">
+        {/* --------------------------------1st section start------------------- */}
+        <section class="text-black body-font">
           <div class="container px-5 py-12 mx-auto">
-          <SectionTitle
-        className="font-serif"
-        heading={"Teacher"}
-        // subHeading={"National and International scholars, Business leaders, Entrepreneurs, Dignitaries visited us to share experiences, explore opportunities, collaborate and give guidance to the students"}
-      ></SectionTitle>
+            <SectionTitle
+              className="font-serif"
+              heading={"Teacher"}
+              // subHeading={"National and International scholars, Business leaders, Entrepreneurs, Dignitaries visited us to share experiences, explore opportunities, collaborate and give guidance to the students"}
+            ></SectionTitle>
             <div class="flex flex-wrap -m-4">
               <div class="xl:w-1/4 md:w-1/2 p-4">
                 <div class="bg-gray-100 p-6 rounded-lg">
@@ -252,8 +250,8 @@ const Teacher = () => {
               <div class="xl:w-1/4 md:w-1/2 p-4">
                 <div class="bg-gray-100 p-6 rounded-lg">
                   <img
-                    class="h-40 rounded w-full object-cover object-center mb-6"
-                    src="https://dummyimage.com/720x400"
+                    class="h-52 rounded w-full object-cover object-center mb-6"
+                    src={Khalid}
                     alt="content"
                   ></img>
                   <h3 class=" text-black text-xs font-medium title-font">
@@ -264,11 +262,13 @@ const Teacher = () => {
                   </h2>
                   <div className="grid grid-flow-col gap-3">
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                      <Link to="">
-                        <a href="">
-                          <FaFacebookF size="1.7rem" color="black" />
-                        </a>
-                      </Link>
+                      <a href="https://www.facebook.com/khalid.hasan.77128261?mibextid=ZbWKwL">
+                        <FaFacebookF
+                          href="https://www.facebook.com/khalid.hasan.77128261?mibextid=ZbWKwL"
+                          size="1.7rem"
+                          color="black"
+                        />
+                      </a>
                     </motion.div>
 
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
@@ -307,8 +307,8 @@ const Teacher = () => {
               <div class="xl:w-1/4 md:w-1/2 p-4">
                 <div class="bg-gray-100 p-6 rounded-lg">
                   <img
-                    class="h-40 rounded w-full object-cover object-center mb-6"
-                    src="https://dummyimage.com/720x400"
+                    class="h-52 rounded w-full object-cover object-center mb-6"
+                    src={Dipto}
                     alt="content"
                   ></img>
                   <h3 class="tracking-widest text-black text-xs font-medium title-font">
@@ -320,7 +320,7 @@ const Teacher = () => {
                   <div className="grid grid-flow-col gap-3">
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
-                        <a href="">
+                        <a href="https://www.facebook.com/Dipto93?mibextid=ZbWKwL">
                           <FaFacebookF size="1.7rem" color="black" />
                         </a>
                       </Link>
@@ -362,8 +362,8 @@ const Teacher = () => {
               <div class="xl:w-1/4 md:w-1/2 p-4">
                 <div class="bg-gray-100 p-6 rounded-lg">
                   <img
-                    class="h-40 rounded w-full object-cover object-center mb-6"
-                    src="https://dummyimage.com/720x400"
+                    class="h-52 rounded w-full object-cover object-center mb-6"
+                    src={Jhanajay}
                     alt="content"
                   ></img>
                   <h3 class="tracking-widest text-black text-xs font-medium title-font">
@@ -375,7 +375,7 @@ const Teacher = () => {
                   <div className="grid grid-flow-col gap-3">
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
-                        <a href="">
+                        <a href="https://www.facebook.com/profile.php?id=100000580366774&mibextid=JRoKGi">
                           <FaFacebookF size="1.7rem" color="black" />
                         </a>
                       </Link>
@@ -417,8 +417,8 @@ const Teacher = () => {
               <div class="xl:w-1/4 md:w-1/2 p-4">
                 <div class="bg-gray-100 p-6 rounded-lg">
                   <img
-                    class="h-40 rounded w-full object-cover object-center mb-6"
-                    src="https://dummyimage.com/720x400"
+                    class="h-52 rounded w-full object-cover object-center mb-6"
+                    src={kaniz}
                     alt="content"
                   ></img>
                   <h3 class="tracking-widest text-black text-xs font-medium title-font">
@@ -429,9 +429,17 @@ const Teacher = () => {
                   </h2>
                   <div className="grid grid-flow-col gap-3">
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                      <Link to="">
-                        <a href="">
-                          <FaFacebookF size="1.7rem" color="black" />
+                      <Link to="https://www.facebook.com/profile.php?id=100012102336348">
+                        <a
+                          href="https://www.facebook.com/profile.php?id=100012102336348"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <FaFacebookF
+                            href="https://www.facebook.com/profile.php?id=100012102336348"
+                            size="1.7rem"
+                            color="black"
+                          />
                         </a>
                       </Link>
                     </motion.div>
@@ -1360,10 +1368,10 @@ const Teacher = () => {
             </div>
           </div>
         </section>
-           {/* --------------------------------1st section end------------------- */}
-           </Link> 
-        </div>
-    );
+        {/* --------------------------------1st section end------------------- */}
+      </Link>
+    </div>
+  );
 };
 
 export default Teacher;
