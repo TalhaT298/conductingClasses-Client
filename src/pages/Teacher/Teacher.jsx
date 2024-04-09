@@ -7,6 +7,11 @@ import { FaWhatsapp } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 import { motion } from "framer-motion";
 import SectionTitle from '../../components/SectionTitle/SectionTitle';
+import kaniz from "../../assets/Kanij Rabeya Nancy.jpeg";
+import Dipto from "../../assets/Dipto.jpg";
+import Khalid from "../../assets/Khalid.jpg";
+import Jhanajay from "../../assets/Jnananjan Roy.webp";
+import tariq from "../../assets/photo - Tarikul Islam.jpg";
 const Teacher = () => {
     return (
         <div>
