@@ -479,27 +479,27 @@ const Teacher = () => {
               </div>
             </div>
             <div class="flex flex-wrap -m-4">
-              <div class="xl:w-1/4 md:w-1/2 p-4">
+            <div class="xl:w-1/4 md:w-1/2 p-4">
                 <div class="bg-gray-100 p-6 rounded-lg">
                   <img
-                    class="h-40 rounded w-full object-cover object-center mb-6"
-                    src="https://dummyimage.com/720x400"
+                    class="h-52 rounded w-full object-cover object-center mb-6"
+                    src={tariq}
                     alt="content"
                   ></img>
                   <h3 class=" text-black text-xs font-medium title-font">
-                    Lecturer,B.Sc. in CSE(RU)
+                  Lecturer,B.Sc. in CSE(PUST)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
-                    Md. Khalid Hossen
+                  Md.Tarikul Islam 
                   </h2>
                   <div className="grid grid-flow-col gap-3">
-                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                      <Link to="">
-                        <a href="">
-                          <FaFacebookF size="1.7rem" color="black" />
+                  <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                       
+                        <a href="https://www.facebook.com/khalid.hasan.77128261?mibextid=ZbWKwL">
+                          <FaFacebookF href="https://www.facebook.com/khalid.hasan.77128261?mibextid=ZbWKwL" size="1.7rem" color="black" />
                         </a>
-                      </Link>
-                    </motion.div>
+                      
+                        </motion.div>
 
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
