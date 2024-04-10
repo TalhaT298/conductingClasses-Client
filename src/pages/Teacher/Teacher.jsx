@@ -25,6 +25,8 @@ import masum from "../../assets/masum.jpg";
 import asha from "../../assets/asha.jpg";
 import shah from "../../assets/shah.jpg";
 import solai from "../../assets/solai.jpg";
+import tamim from "../../assets/tamim.jpg";
+
 const Teacher = () => {
   return (
     <div>
@@ -46,7 +48,7 @@ const Teacher = () => {
                     alt="content"
                   ></img>
                   <h3 class="tracking-widest text-black text-xs font-medium title-font">
-                    Lecturer,B.Sc. Physics(DU)
+                    Lecturer,B.Sc. Physics(CCR)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
                   Solaiman Ali
@@ -207,20 +209,20 @@ const Teacher = () => {
                 <div class="bg-gray-100 p-6 rounded-lg">
                   <img
                     class="h-52 rounded w-full object-cover object-center mb-6"
-                    src={asha}
+                    src={tamim}
                     alt="content"
                   ></img>
                   <h3 class="tracking-widest text-black text-xs font-medium title-font">
-                    Lecturer,B.Sc. Mathematics(RU)
+                    Lecturer,B.Sc. English(CCR)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
-                  Asha Roy Asha
+                  MD Obaidur Rahman Tamim 
                   </h2>
                   <div className="grid grid-flow-col gap-3">
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                        
-                        <a href="https://www.facebook.com/profile.php?id=100009416488733">
-                          <FaFacebookF href="https://www.facebook.com/profile.php?id=100009416488733" size="1.7rem" color="black" />
+                        <a href="https://www.facebook.com/The.Phoenix.369">
+                          <FaFacebookF href="https://www.facebook.com/The.Phoenix.369" size="1.7rem" color="black" />
                         </a>
                       
                     </motion.div>
@@ -1057,23 +1059,23 @@ const Teacher = () => {
               <div class="xl:w-1/4 md:w-1/2 p-4">
                 <div class="bg-gray-100 p-6 rounded-lg">
                   <img
-                    class="h-40 rounded w-full object-cover object-center mb-6"
-                    src="https://dummyimage.com/720x400"
+                    class="h-52 rounded w-full object-cover object-center mb-6"
+                    src={asha}
                     alt="content"
                   ></img>
                   <h3 class="tracking-widest text-black text-xs font-medium title-font">
-                    Lecturer,B.Sc. in CSE(SUST)
+                    Lecturer,B.Sc. Mathematics(RU)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
-                    Jnananjan Roy
+                  Asha Roy Asha
                   </h2>
                   <div className="grid grid-flow-col gap-3">
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                      <Link to="">
-                        <a href="">
-                          <FaFacebookF size="1.7rem" color="black" />
+                       
+                        <a href="https://www.facebook.com/profile.php?id=100009416488733">
+                          <FaFacebookF href="https://www.facebook.com/profile.php?id=100009416488733" size="1.7rem" color="black" />
                         </a>
-                      </Link>
+                      
                     </motion.div>
 
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
