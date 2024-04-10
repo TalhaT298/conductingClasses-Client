@@ -24,6 +24,7 @@ import limon from "../../assets/300X300 - Shahin Lemon.jpg";
 import masum from "../../assets/masum.jpg";
 import asha from "../../assets/asha.jpg";
 import shah from "../../assets/shah.jpg";
+import solai from "../../assets/solai.jpg";
 const Teacher = () => {
   return (
     <div>
@@ -37,26 +38,26 @@ const Teacher = () => {
               // subHeading={"National and International scholars, Business leaders, Entrepreneurs, Dignitaries visited us to share experiences, explore opportunities, collaborate and give guidance to the students"}
             ></SectionTitle>
             <div class="flex flex-wrap -m-4">
-              <div class="xl:w-1/4 md:w-1/2 p-4">
+            <div class="xl:w-1/4 md:w-1/2 p-4">
                 <div class="bg-gray-100 p-6 rounded-lg">
                   <img
-                    class="h-40 rounded w-full object-cover object-center mb-6"
-                    src="https://dummyimage.com/720x400"
+                    class="h-52 rounded w-full object-cover object-center mb-6"
+                    src={solai}
                     alt="content"
                   ></img>
-                  <h3 class=" text-black text-xs font-medium title-font">
-                    Lecturer,B.Sc. in CSE(RU)
+                  <h3 class="tracking-widest text-black text-xs font-medium title-font">
+                    Lecturer,B.Sc. Physics(DU)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
-                    Md. Khalid Hossen
+                  Solaiman Ali
                   </h2>
                   <div className="grid grid-flow-col gap-3">
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                      <Link to="">
-                        <a href="">
-                          <FaFacebookF size="1.7rem" color="black" />
+                       
+                        <a href="https://www.facebook.com/suzon.miah">
+                          <FaFacebookF href="https://www.facebook.com/suzon.miah" size="1.7rem" color="black" />
                         </a>
-                      </Link>
+                      
                     </motion.div>
 
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
