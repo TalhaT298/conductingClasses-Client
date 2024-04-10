@@ -18,6 +18,9 @@ import nas from "../../assets/MdNasimHaidar.jpeg";
 import gol from "../../assets/Golam Md. Al Shamim.jpg";
 import row from "../../assets/Photo_Rownak_RUET - Rownak Afroz.png";
 import setu from "../../assets/sajedur rahman.jpg";
+import hafiz from "../../assets/al-Hafiz.jpeg";
+import nazi from "../../assets/IMG_20230711_143310 - Md Nazmul Hasan Ruhan (1).jpg";
+import limon from "../../assets/300X300 - Shahin Lemon.jpg";
 const Teacher = () => {
   return (
     <div>
@@ -27,7 +30,7 @@ const Teacher = () => {
           <div class="container px-5 py-12 mx-auto">
             <SectionTitle
               className="font-serif"
-              heading={"Teacher"}
+              heading={"Teachers"}
               // subHeading={"National and International scholars, Business leaders, Entrepreneurs, Dignitaries visited us to share experiences, explore opportunities, collaborate and give guidance to the students"}
             ></SectionTitle>
             <div class="flex flex-wrap -m-4">
@@ -879,26 +882,27 @@ const Teacher = () => {
                   </div>
                 </div>
               </div>
+
               <div class="xl:w-1/4 md:w-1/2 p-4">
                 <div class="bg-gray-100 p-6 rounded-lg">
                   <img
-                    class="h-40 rounded w-full object-cover object-center mb-6"
-                    src="https://dummyimage.com/720x400"
+                    class="h-52 rounded w-full object-cover object-center mb-6"
+                    src={hafiz}
                     alt="content"
                   ></img>
                   <h3 class="tracking-widest text-black text-xs font-medium title-font">
-                    Lecturer,B.Sc. in CSE(RU)
+                  Lecturer,B.Sc. in ICE(RU)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
-                    Kanij Rabeya Nancy
+                  Md.al-Hafiz
                   </h2>
                   <div className="grid grid-flow-col gap-3">
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                      <Link to="">
-                        <a href="">
-                          <FaFacebookF size="1.7rem" color="black" />
+                       
+                        <a href="https://www.facebook.com/alhafizattone.ice">
+                          <FaFacebookF href="https://www.facebook.com/alhafizattone.ice" size="1.7rem" color="black" />
                         </a>
-                      </Link>
+                      
                     </motion.div>
 
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
@@ -939,23 +943,23 @@ const Teacher = () => {
               <div class="xl:w-1/4 md:w-1/2 p-4">
                 <div class="bg-gray-100 p-6 rounded-lg">
                   <img
-                    class="h-40 rounded w-full object-cover object-center mb-6"
-                    src="https://dummyimage.com/720x400"
+                    class="h-52 rounded w-full object-cover object-center mb-6"
+                    src={nazi}
                     alt="content"
                   ></img>
                   <h3 class=" text-black text-xs font-medium title-font">
-                    Lecturer,B.Sc. in CSE(RU)
+                    Lecturer,B.Sc. in ICT(MBSTU)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
-                    Md. Khalid Hossen
+                  Md Nazmul Hasan Ruhan 
                   </h2>
                   <div className="grid grid-flow-col gap-3">
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                      <Link to="">
-                        <a href="">
-                          <FaFacebookF size="1.7rem" color="black" />
+                       
+                        <a href="https://www.facebook.com/mnhruhan.mnhruhan?mibextid=ZbWKwL">
+                          <FaFacebookF href="https://www.facebook.com/mnhruhan.mnhruhan?mibextid=ZbWKwL" size="1.7rem" color="black" />
                         </a>
-                      </Link>
+                       
                     </motion.div>
 
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
@@ -994,23 +998,23 @@ const Teacher = () => {
               <div class="xl:w-1/4 md:w-1/2 p-4">
                 <div class="bg-gray-100 p-6 rounded-lg">
                   <img
-                    class="h-40 rounded w-full object-cover object-center mb-6"
-                    src="https://dummyimage.com/720x400"
+                    class="h-52 rounded w-full object-cover object-center mb-6"
+                    src={limon}
                     alt="content"
                   ></img>
                   <h3 class="tracking-widest text-black text-xs font-medium title-font">
-                    Lecturer,B.Sc. in CSE(AIUB)
+                    Lecturer,B.Sc. in CSE(BRUR)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
-                    Dipanjan Das Dipto
+                  MD.Shahinuzzaman Lemon
                   </h2>
                   <div className="grid grid-flow-col gap-3">
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                      <Link to="">
-                        <a href="">
-                          <FaFacebookF size="1.7rem" color="black" />
+                        
+                        <a href="https://www.facebook.com/jv.lemon.3">
+                          <FaFacebookF href="https://www.facebook.com/jv.lemon.3" size="1.7rem" color="black" />
                         </a>
-                      </Link>
+                       
                     </motion.div>
 
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
