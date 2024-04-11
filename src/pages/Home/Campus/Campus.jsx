@@ -9,7 +9,16 @@ const Campus = () => {
       <p className="uppercase text-5xl py-6 text-white font-extrabold text-center">rangpur engineering college</p>
       <div className="md:flex justify-center items-center py-20 pt-12 px-36">
         <div className="w-2/5">
-          <img src={feature} alt="" />
+          {/* <img src={feature} alt="" /> */}
+          <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/ly36kn0ug4k" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen
+          ></iframe>
         </div>
         <div className="md:ml-10 w-3/5">
            
