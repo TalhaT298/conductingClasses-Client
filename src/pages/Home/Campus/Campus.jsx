@@ -11,13 +11,13 @@ const Campus = () => {
         heading={"Feature"}
       ></SectionTitle>
       <div className="md:flex justify-center items-center py-20 pt-12 px-36">
-        <div>
+        <div className="w-1/2">
           <img src={feature} alt="" />
         </div>
-        <div className="md:ml-10">
-          <p>Aug ,224</p>
-          <p className="uppercase">WhereI can gt Some</p>
-          <p className="text-white">
+        <div className="md:ml-10 w-1/2">
+           
+          <p className="uppercase text-3xl text-white font-extrabold">rangpur engineering college</p>
+          <p className="text-white font-extrabold">
           Rangpur Engineering College (REC) was established in the year 2014. It is affiliated by the University of Rajshahi. It is the First Non-Govt. Engineering College in Rangpur Division. This is the newly based Institute, imparting technical education leading to B.ScEngg. in the various disciplines of Engineering.
           </p>
           <Link to="/">
