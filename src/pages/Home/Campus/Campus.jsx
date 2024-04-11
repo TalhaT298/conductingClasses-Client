@@ -17,11 +17,8 @@ const Campus = () => {
         <div className="md:ml-10">
           <p>Aug ,224</p>
           <p className="uppercase">WhereI can gt Some</p>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+          <p className="text-white">
+          Rangpur Engineering College (REC) was established in the year 2014. It is affiliated by the University of Rajshahi. It is the First Non-Govt. Engineering College in Rangpur Division. This is the newly based Institute, imparting technical education leading to B.ScEngg. in the various disciplines of Engineering.
           </p>
           <Link to="/">
             <button className="btn btn-outline border-0 border-b-4 text-black">
