@@ -1,3 +1,24 @@
-.featured-item{
-    background-image: url(../../../assets/feature.webp) ;
+/* .featured-item{
+    background-image:  url(../../../assets/feature.webp) ;
+    opacity: rgba(0, 0, 0, 0.5);
+} */
+
+.featured-item {
+    position: relative; /* Required for positioning the pseudo-element */
+}
+
+.featured-item::after {
+    content: ''; /* Required for pseudo-element to appear */
+    position: absolute; /* Positioning the pseudo-element relative to its container */
+    top: 0;
+    left: 0;
+    width: 100%; /* Cover the entire container */
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with 50% opacity */
+    z-index: 1; /* Ensure the pseudo-element is below the content */
+}
+
+.featured-item {
+    background-image: url(../../../assets/feature.webp);
+    z-index: 2; /* Ensure the content is above the pseudo-element */
 }
