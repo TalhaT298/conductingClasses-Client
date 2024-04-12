@@ -4,7 +4,9 @@
 } */
 
 .featured-item {
-    position: relative;  
+    position: relative;
+    background-image: url(../../../assets/ek.webp);
+    z-index: 2;  
 }
 
 .featured-item::after {
@@ -16,9 +18,4 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.1); /* Black background with 50% opacity */
     z-index: 1;  
-}
-
-.featured-item {
-    background-image: url(../../../assets/ek.webp);
-    z-index: 2;  
 }
