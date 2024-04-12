@@ -33,7 +33,9 @@ const Campus = () => {
             </button>
           </Link>
         </div>
+        
       </div>
+      <p className="uppercase text-5xl py-6 text-white font-extrabold text-center"> </p>
     </section>
   );
 };

@@ -7,6 +7,7 @@
     position: relative;
     background-image: url(../../../assets/ek.webp);
     z-index: 2;  
+   
 }
 
 .featured-item::after {
