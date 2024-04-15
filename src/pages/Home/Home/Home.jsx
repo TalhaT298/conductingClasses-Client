@@ -10,6 +10,7 @@ import Notice from "../Notice/Notice";
 import Offer from "../Offer/Offer";
 import Scholarship from "../Scholarship/Scholarship";
 import NavbarAfter from "../NavbarAfter/NavbarAfter";
+import Extracaricular from "../Extracaricular/Extracaricular";
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
       <RecentEvents></RecentEvents>
       <Mark></Mark>
       <Testimonial></Testimonial>
+      <Extracaricular></Extracaricular>
       <Photos></Photos>
     </div>
   );
