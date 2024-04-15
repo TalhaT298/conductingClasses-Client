@@ -25,7 +25,7 @@ const Campus = () => {
         </div>
         <div className="md:ml-10 w-3/5">
           <p className="text-white font-extrabold">
-            Rangpur Engineering College (REC) was established in the year 2014. It is affiliated by the University of Rajshahi. It is the First Non-Govt. Engineering College in Rangpur Division. This is the newly based Institute, imparting technical education leading to B.ScEngg. in the various disciplines of Engineering.
+            Rangpur Engineering College (REC) was established in the year 2014.It is affiliated by the University of Rajshahi. It is the First Non-Govt. Engineering College in Rangpur Division. This is the newly based Institute, imparting technical education leading to B.ScEngg. in the various disciplines of Engineering.
           </p>
           <Link to="/">
             <button className="btn btn-outline border-0 border-b-4 text-black">
