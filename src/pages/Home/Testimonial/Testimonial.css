@@ -1,16 +1,14 @@
 .swiper-pagination-bullet {
-    width: 8px; /* Set the width of the dot */
-    height: 8px; /* Set the height of the dot */
-    background-color: black; /* Set the color of the dot */
-    margin: 0 5px; /* Adjust the spacing between dots */
-    border-radius: 50%; /* Make the dot round */
+    width: 8px; 
+    height: 8px; 
+    background-color: black;  
+    margin: 0 5px;  
+    border-radius: 50%;  
   }
   
   .swiper-pagination-bullet-active {
-    background-color: rgb(0, 0, 0); /* Set the color of the active dot */
+    background-color: rgb(0, 0, 0); 
   }
-  /* .swiper-slide-next {
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
-  } */
+  
 
   
