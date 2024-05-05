@@ -223,7 +223,7 @@ const Footer = () => {
             <div className="">
     <iframe src="https://www.google.com/maps/embed?pb=!4v1711304428864!6m8!1m7!1sCAoSLEFGMVFpcE10QmJwRzVObndMQmd0bDI4YXZYekJXaFFuTEZrMTlwN0Z0QWFS!2m2!1d25.7383796!2d89.2748356!3f200!4f20!5f0.7820865974627469" width="400" height="200" style={{border: '0', marginRight: '10px'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
-
+{/* updte */}
           </fieldset>
         </form>
       </footer>
