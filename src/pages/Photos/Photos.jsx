@@ -12,8 +12,8 @@ import slide8 from '../../assets/84.webp';
 const Photos = () => {
     return (
         <div>
-            <Swiper watchSlidesProgress={true} slidesPerView={3} className="mySwiper">
-        <SwiperSlide><img src={slide1} alt="" /></SwiperSlide>
+            <Swiper watchSlidesProgress={true} slidesPerView={4} className="mySwiper">
+        <SwiperSlide><img src={slide1} alt=""  /></SwiperSlide>
         <SwiperSlide><img src={slide2} alt="" /></SwiperSlide>
         <SwiperSlide><img src={slide3} alt="" /></SwiperSlide>
         <SwiperSlide><img src={slide4} alt="" /></SwiperSlide>
