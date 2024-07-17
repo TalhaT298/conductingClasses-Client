@@ -179,6 +179,7 @@ const CSE = () => {
                           <a href="tarikulislamcsepust@gmail.com">
                             <BiLogoGmail size="1.7rem" color="black" />
                           </a>
+                          {/* ok */}
                         </Link>
                       </motion.div>
                     </div>
