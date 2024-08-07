@@ -3,6 +3,8 @@ import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 import { Link } from "react-router-dom";
 import cse22 from "../../../assets/cse22.jpg"
 import icee22 from "../../../assets/ice22.jpg"
+import cv22 from "../../../assets/cv22.jpg"
+import eee22 from "../../../assets/eee22.jpg"
 const Faculties = () => {
   return (
     <div>
@@ -95,7 +97,7 @@ const Faculties = () => {
                 <img
                   alt="team"
                   className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                  src="https://i.ibb.co/zbwXL9Y/1664648309278-1200.jpg"
+                  src={eee22}
                 ></img>
                 <div className="w-full">
                   <h2 className="title-font font-medium text-lg text-gray-900">
@@ -168,7 +170,7 @@ const Faculties = () => {
                 <img
                   alt="team"
                   className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                  src="https://i.ibb.co/k3JHBFp/337136274-608861500694550-1515260943742506946-n.jpg"
+                  src={cv22}
                 ></img>
                 <div className="w-full">
                   <h2 className="title-font font-medium text-lg text-gray-900">
