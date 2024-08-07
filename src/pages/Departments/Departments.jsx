@@ -1,7 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import SectionTitle from "../../components/SectionTitle/SectionTitle";
-
+import cse22 from "../../assets/cse22.jpg"
+import ice22 from "../../assets/ice22.jpg"
+import cv22 from "../../assets/cv22.jpg"
+import eee22 from "../../assets/eee22.jpg"
 const Departments = () => {
   return (
     <div>
@@ -87,7 +90,7 @@ const Departments = () => {
                 <img
                   alt="team"
                   className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                  src="https://i.ibb.co/KNFg2JV/424563217-700425442200789-2166167118839362792-n.jpg"
+                  src={cse22}
                 ></img>
                 <div className="w-full">
                   <h2 className="title-font font-medium text-lg text-gray-900">
@@ -159,7 +162,7 @@ const Departments = () => {
                 <img
                   alt="team"
                   className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                  src="https://i.ibb.co/zbwXL9Y/1664648309278-1200.jpg"
+                  src={eee22}
                 ></img>
                 <div className="w-full">
                   <h2 className="title-font font-medium text-lg text-gray-900">
@@ -232,7 +235,7 @@ const Departments = () => {
                 <img
                   alt="team"
                   className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                  src="https://i.ibb.co/k3JHBFp/337136274-608861500694550-1515260943742506946-n.jpg"
+                  src={cv22}
                 ></img>
                 <div className="w-full">
                   <h2 className="title-font font-medium text-lg text-gray-900">
@@ -305,7 +308,7 @@ const Departments = () => {
                 <img
                   alt="team"
                   className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                  src="https://i.ibb.co/YpzQrwC/359346670-597387565837911-4250103075224223403-n.jpg"
+                  src={ice22}
                 ></img>
                 <div className="w-full">
                   <h2 className="title-font font-medium text-lg text-gray-900">
