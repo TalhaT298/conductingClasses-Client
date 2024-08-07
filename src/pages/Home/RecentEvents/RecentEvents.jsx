@@ -3,6 +3,7 @@ import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 import { Link } from "react-router-dom";
 import { PiArrowRightLight } from "react-icons/pi";
 import ph from "../../../assets/6.webp";
+import cri from "../../../assets/cri.jpg";
 const RecentEvents = () => {
   return (
     <div className="px-4">
@@ -71,7 +72,7 @@ const RecentEvents = () => {
         <div className="card bg-base-100 shadow-xl mx-4 mb-8 md:w-96">
           <figure className="px-4 pt-10">
             <img
-              src="https://i.ibb.co/pxTDWWp/khela.webp"
+              src={cri}
               alt="Shoes"
               className="rounded-xl"
             />

@@ -2,7 +2,15 @@ import React from "react";
 import { Link } from "react-router-dom";
 import SectionTitle from "../../components/SectionTitle/SectionTitle";
 import CountUp from "react-countup";
-
+import c1 from "../../assets/101.png"
+import c2 from "../../assets/102.png"
+import c3 from "../../assets/103.png"
+import c4 from "../../assets/104.png"
+import c5 from "../../assets/105.png"
+import c6 from "../../assets/106.png"
+import c7 from "../../assets/107.png"
+import c8 from "../../assets/108.png"
+import c9 from "../../assets/109.png"
 const Facilities = () => {
   return (
     <div>
@@ -22,7 +30,7 @@ const Facilities = () => {
                       <img
                         alt="team"
                         class="w-20 h-20 bg-white object-cover object-center flex-shrink-0 rounded-full mr-4"
-                        src="https://i.ibb.co/1Zr0HxB/Screenshot-315-removebg-preview.png"
+                        src={c1}
                       ></img>
                       <div class="flex-grow ml-8">
                         <h2 class="text-black title-font text-3xl">
@@ -38,7 +46,7 @@ const Facilities = () => {
                       <img
                         alt="team"
                         class="w-20 h-20 bg-white object-cover object-center flex-shrink-0 rounded-full mr-4"
-                        src="https://i.ibb.co/zNXjpw7/Screenshot-322.png"
+                        src={c2}
                       ></img>
                       <div class="flex-grow ml-8">
                         <h2 class="text-black title-font text-3xl">
@@ -54,7 +62,7 @@ const Facilities = () => {
                       <img
                         alt="team"
                         class="w-20 h-20 bg-white object-cover object-center flex-shrink-0 rounded-full mr-4"
-                        src="https://i.ibb.co/Tg3DJKC/Screenshot-323-removebg-preview.png"
+                        src={c3}
                       ></img>
                       <div class="flex-grow ml-8">
                         <h2 class="text-black title-font text-3xl">
@@ -70,7 +78,7 @@ const Facilities = () => {
                       <img
                         alt="team"
                         class="w-20 h-20 bg-white object-cover object-center flex-shrink-0 rounded-full mr-4"
-                        src="https://i.ibb.co/WGHM35c/Screenshot-318-removebg-preview.png"
+                        src={c4}
                       ></img>
                       <div class="flex-grow ml-8">
                         <h2 class="text-black title-font text-3xl">Alumni</h2>
@@ -84,7 +92,7 @@ const Facilities = () => {
                       <img
                         alt="team"
                         class="w-20 h-20 bg-white object-cover object-center flex-shrink-0 rounded-full mr-4"
-                        src="https://i.ibb.co/XsfgZQd/Screenshot-319-removebg-preview.png"
+                        src={c5}
                       ></img>
                       <div class="flex-grow ml-8">
                         <h2 class="text-black title-font text-3xl">
@@ -100,7 +108,7 @@ const Facilities = () => {
                       <img
                         alt="team"
                         class="w-20 h-20 bg-white object-cover object-center flex-shrink-0 rounded-full mr-4"
-                        src="https://i.ibb.co/qn68BLd/Screenshot-321-removebg-preview.png"
+                        src={c6}
                       ></img>
                       <div class="flex-grow ml-8">
                         <h2 class="text-black title-font text-3xl">
@@ -116,7 +124,7 @@ const Facilities = () => {
                       <img
                         alt="team"
                         class="w-20 h-20 bg-white object-cover object-center flex-shrink-0 rounded-full mr-4"
-                        src="https://i.ibb.co/54wQwyn/Screenshot-324-removebg-preview.png"
+                        src={c7}
                       ></img>
                       <div class="flex-grow ml-8">
                         <h2 class="text-black title-font text-3xl">
@@ -132,7 +140,7 @@ const Facilities = () => {
                       <img
                         alt="team"
                         class="w-20 h-20 bg-white object-cover object-center flex-shrink-0 rounded-full mr-4"
-                        src="https://i.ibb.co/kg9p09b/Screenshot-325-removebg-preview.png"
+                        src={c8}
                       ></img>
                       <div class="flex-grow ml-8">
                         <h2 class="text-black title-font text-3xl">
@@ -148,7 +156,7 @@ const Facilities = () => {
                       <img
                         alt="team"
                         class="w-20 h-20 bg-white object-cover object-center flex-shrink-0 rounded-full mr-4"
-                        src="https://i.ibb.co/47s67Y5/Screenshot-326-removebg-preview.png"
+                        src={c9}
                       ></img>
                       <div class="flex-grow ml-8">
                         <h2 class="text-black title-font text-3xl">TSCC</h2>
