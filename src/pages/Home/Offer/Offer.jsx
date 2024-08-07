@@ -8,6 +8,7 @@ import { MdEmojiTransportation } from "react-icons/md";
 import { FaLaptopCode } from "react-icons/fa";
 import { MdOutlineSportsGymnastics } from "react-icons/md";
 import { SiHelpdesk } from "react-icons/si";
+import stand from "../../../assets/stand.png"
 const hiddenMask = `repeating-linear-gradient(to right, rgba(0,0,0,0) 0px, rgba(0,0,0,0) 30px, rgba(0,0,0,1) 30px, rgba(0,0,0,1) 30px)`;
 const visibleMask = `repeating-linear-gradient(to right, rgba(0,0,0,0) 0px, rgba(0,0,0,0) 0px, rgba(0,0,0,1) 0px, rgba(0,0,0,1) 30px)`;
 const Offer = () => {
@@ -350,7 +351,7 @@ const Offer = () => {
               onViewportEnter={() => setIsInView(true)}
             >
               <img
-                src="https://i.ibb.co/DpT467W/Untitled-design-24.png"
+                src={stand}
                 alt="Album"
                 onLoad={handleImageLoad}
               />
