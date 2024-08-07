@@ -55,7 +55,7 @@ const RecentEvents = () => {
               Every year REC Sports club holds different types of sports
               tournaments.
             </p>
-            <div className="card-actions card-actions flex justify-center items-center">
+            <div className="card-actions  flex justify-center items-center">
               <Link to="/cricket">
                 <button className="btn btn-outline w-full bg-black text-white border-black border group hover:bg-white hover:text-black">
                   Read More
@@ -83,7 +83,7 @@ const RecentEvents = () => {
               Every year REC Sports club holds different types of sports
               tournaments.
             </p>
-            <div className="card-actions card-actions flex justify-center items-center">
+            <div className="card-actions  flex justify-center items-center">
               <Link to="/cricket">
                 <button className="btn btn-outline w-full bg-black text-white border-black border group hover:bg-white hover:text-black">
                   Read More
