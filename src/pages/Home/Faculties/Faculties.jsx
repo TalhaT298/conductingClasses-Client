@@ -1,7 +1,8 @@
 import React from "react";
 import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 import { Link } from "react-router-dom";
-
+import cse22 from "../../../assets/cse22.jpg"
+import icee22 from "../../../assets/ice22.jpg"
 const Faculties = () => {
   return (
     <div>
@@ -22,7 +23,7 @@ const Faculties = () => {
                 <img
                   alt="team"
                   className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                  src="https://i.ibb.co/KNFg2JV/424563217-700425442200789-2166167118839362792-n.jpg"
+                  src={cse22}
                 ></img>
                 <div className="w-full">
                   <h2 className="title-font font-medium text-lg text-gray-900">
@@ -240,7 +241,7 @@ const Faculties = () => {
                 <img
                   alt="team"
                   className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                  src="https://i.ibb.co/YpzQrwC/359346670-597387565837911-4250103075224223403-n.jpg"
+                  src={icee22}
                 ></img>
                 <div className="w-full">
                   <h2 className="title-font font-medium text-lg text-gray-900">
