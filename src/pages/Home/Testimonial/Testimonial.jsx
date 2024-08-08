@@ -120,7 +120,7 @@ const Testimonial = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentPhase((prevPhase) => (prevPhase % 6) + 1); // Cycles through 1 to 6
+      setCurrentPhase((prevPhase) => (prevPhase % 5) + 1); // Cycles through 1 to 6
     }, 5000);
 
     return () => clearInterval(interval);
@@ -132,7 +132,7 @@ const Testimonial = () => {
         className=""
         heading={"Feedback Received"}
       ></SectionTitle>
-      <div className="flex items-center justify-center bg-gray-100 py-10">
+      <div className="flex items-center justify-center py-4">
         {/* Testimonial 1 */}
         <div className={`max-w-4xl p-8 rounded-lg ${currentPhase === 1 ? '' : 'hidden'}`}>
           <p className="text-xl italic font-light text-black mb-4">
