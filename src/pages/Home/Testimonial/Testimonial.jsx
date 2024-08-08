@@ -136,70 +136,70 @@ const Testimonial = () => {
         {/* Testimonial 1 */}
         <div className={`max-w-4xl p-8 rounded-lg ${currentPhase === 1 ? '' : 'hidden'}`}>
           <p className="text-xl italic font-light text-black mb-4">
-            "I love the variety and quality of the products at Kawaivelvet. The customer service is exceptional. I highly recommend it to anyone looking for great makeup and girl items"
+            "This is an age of modern science and technology and we are in the 21st century. Every individual who has interest in education whether within the country or beyond is warmly welcome to REC community, preferably in person, and that will be a privilege of mine."
           </p>
           <div className="flex items-center">
             <img className="w-12 h-12 rounded-full" src={j1} alt="Emily Johnson"></img>
             <div className="ml-4">
-              <p className="text-sm font-semibold text-gray-700">Emily Johnson</p>
-              <p className="text-sm text-gray-500">Founder of Glamour & Glow</p>
+              <p className="text-sm font-semibold text-gray-700">Ashraful Alam Al-Amin</p>
+              {/* <p className="text-sm text-gray-500">Founder of Glamour & Glow</p> */}
             </div>
           </div>
         </div>
         {/* Testimonial 2 */}
         <div className={`max-w-4xl p-8 rounded-lg ${currentPhase === 2 ? '' : 'hidden'}`}>
           <p className="text-xl italic font-light text-gray-800 mb-4">
-            "Kawaivelvet offers a fantastic shopping experience with top-notch products and excellent customer support. It's my go-to place for all my beauty needs"
+            "Ever since the inception of the institution, our mission has been to educate and develop the student's capabilities and"
           </p>
           <div className="flex items-center">
             <img className="w-12 h-12 rounded-full" src={j2} alt="Sarah Williams"></img>
             <div className="ml-4">
-              <p className="text-sm font-semibold text-gray-700">Sarah Williams</p>
-              <p className="text-sm text-gray-500">Beauty Blogger at Beauty Bliss</p>
+              <p className="text-sm font-semibold text-gray-700">Md Idrish Ali</p>
+              {/* <p className="text-sm text-gray-500">Beauty Blogger at Beauty Bliss</p> */}
             </div>
           </div>
         </div>
         {/* Testimonial 3 */}
         <div className={`max-w-4xl p-8 rounded-lg ${currentPhase === 3 ? '' : 'hidden'}`}>
           <p className="text-xl italic font-light text-gray-800 mb-4">
-            "Kawaivelvet never fails to impress with its amazing selection of products and outstanding customer service. I can't recommend it enough!"
+          "As the principal of Rangpur Engineering College I would like to welcome you to the arena of science, technology"
           </p>
           <div className="flex items-center">
             <img className="w-12 h-12 rounded-full" src={j3} alt="Lisa Brown"></img>
             <div className="ml-4">
-              <p className="text-sm font-semibold text-gray-700">Lisa Brown</p>
-              <p className="text-sm text-gray-500">Makeup Artist and Beauty Consultant</p>
+              <p className="text-sm font-semibold text-gray-700">Professor Nirod Boran Nath</p>
+              {/* <p className="text-sm text-gray-500">Makeup Artist and Beauty Consultant</p> */}
             </div>
           </div>
         </div>
         {/* Testimonial 4 */}
         <div className={`max-w-4xl p-8 rounded-lg ${currentPhase === 4 ? '' : 'hidden'}`}>
           <p className="text-xl italic font-light text-gray-800 mb-4">
-            "The products at Kawaivelvet are always high quality and the team is incredibly helpful. It's my favorite place for shopping!"
+          "Congratulations, Rangpur Engineering College! I am impressed by the commitment to growth and development "
           </p>
           <div className="flex items-center">
             <img className="w-12 h-12 rounded-full" src={j4} alt="Anna Lee"></img>
             <div className="ml-4">
-              <p className="text-sm font-semibold text-gray-700">Anna Lee</p>
-              <p className="text-sm text-gray-500">Fashion Influencer</p>
+              <p className="text-sm font-semibold text-gray-700">Mr. SABIT RAIHAN</p>
+              {/* <p className="text-sm text-gray-500">Fashion Influencer</p> */}
             </div>
           </div>
         </div>
         {/* Testimonial 5 */}
         <div className={`max-w-4xl p-8 rounded-lg ${currentPhase === 5 ? '' : 'hidden'}`}>
           <p className="text-xl italic font-light text-gray-800 mb-4">
-            "Shopping at Kawaivelvet has been a game-changer for me. The products are top-notch, and the customer service is outstanding."
+          "REC is committed to providing quality education and to nurturing creativity for producing successful graduates who will serve society and the world."
           </p>
           <div className="flex items-center">
             <img className="w-12 h-12 rounded-full" src={j5} alt="Sophie Turner"></img>
             <div className="ml-4">
-              <p className="text-sm font-semibold text-gray-700">Sophie Turner</p>
-              <p className="text-sm text-gray-500">Professional Makeup Artist</p>
+              <p className="text-sm font-semibold text-gray-700">Dr.Rabiul Islam</p>
+              {/* <p className="text-sm text-gray-500">Professional Makeup Artist</p> */}
             </div>
           </div>
         </div>
         {/* Testimonial 6 */}
-        <div className={`max-w-4xl p-8 rounded-lg ${currentPhase === 6 ? '' : 'hidden'}`}>
+        {/* <div className={`max-w-4xl p-8 rounded-lg ${currentPhase === 6 ? '' : 'hidden'}`}>
           <p className="text-xl italic font-light text-gray-800 mb-4">
             "Kawaivelvet always delivers on quality and service. I wouldn't shop anywhere else!"
           </p>
@@ -210,7 +210,7 @@ const Testimonial = () => {
               <p className="text-sm text-gray-500">Beauty Enthusiast</p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
