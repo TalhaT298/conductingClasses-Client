@@ -139,7 +139,7 @@ const Testimonial = () => {
             "This is an age of modern science and technology and we are in the 21st century. Every individual who has interest in education whether within the country or beyond is warmly welcome to REC community, preferably in person, and that will be a privilege of mine."
           </p>
           <div className="flex items-center">
-            <img className="w-12 h-12 rounded-full" src={p1} alt="Emily Johnson"></img>
+            <img className="w-16 h-16 rounded-full" src={p1} alt="Emily Johnson"></img>
             <div className="ml-4">
               <p className="text-sm font-semibold text-gray-700">Ashraful Alam Al-Amin</p>
               {/* <p className="text-sm text-gray-500">Founder of Glamour & Glow</p> */}
@@ -152,7 +152,7 @@ const Testimonial = () => {
             "Ever since the inception of the institution, our mission has been to educate and develop the student's capabilities and"
           </p>
           <div className="flex items-center">
-            <img className="w-12 h-12 rounded-full" src={p2} alt="Sarah Williams"></img>
+            <img className="w-16 h-16 rounded-full" src={p2} alt="Sarah Williams"></img>
             <div className="ml-4">
               <p className="text-sm font-semibold text-gray-700">Md Idrish Ali</p>
               {/* <p className="text-sm text-gray-500">Beauty Blogger at Beauty Bliss</p> */}
@@ -165,7 +165,7 @@ const Testimonial = () => {
           "As the principal of Rangpur Engineering College I would like to welcome you to the arena of science, technology"
           </p>
           <div className="flex items-center">
-            <img className="w-12 h-12 rounded-full" src={p3} alt="Lisa Brown"></img>
+            <img className="w-16 h-16 rounded-full" src={p3} alt="Lisa Brown"></img>
             <div className="ml-4">
               <p className="text-sm font-semibold text-gray-700">Professor Nirod Boran Nath</p>
               {/* <p className="text-sm text-gray-500">Makeup Artist and Beauty Consultant</p> */}
@@ -178,7 +178,7 @@ const Testimonial = () => {
           "Congratulations, Rangpur Engineering College! I am impressed by the commitment to growth and development "
           </p>
           <div className="flex items-center">
-            <img className="w-12 h-12 rounded-full" src={p4} alt="Anna Lee"></img>
+            <img className="w-16 h-16 rounded-full" src={p4} alt="Anna Lee"></img>
             <div className="ml-4">
               <p className="text-sm font-semibold text-gray-700">Mr. SABIT RAIHAN</p>
               {/* <p className="text-sm text-gray-500">Fashion Influencer</p> */}
@@ -191,7 +191,7 @@ const Testimonial = () => {
           "REC is committed to providing quality education and to nurturing creativity for producing successful graduates who will serve society and the world."
           </p>
           <div className="flex items-center">
-            <img className="w-12 h-12 rounded-full" src={p5} alt="Sophie Turner"></img>
+            <img className="w-16 h-16 rounded-full" src={p5} alt="Sophie Turner"></img>
             <div className="ml-4">
               <p className="text-sm font-semibold text-gray-700">Dr.Rabiul Islam</p>
               {/* <p className="text-sm text-gray-500">Professional Makeup Artist</p> */}
