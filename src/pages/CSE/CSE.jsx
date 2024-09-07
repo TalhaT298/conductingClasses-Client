@@ -9,6 +9,8 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaWhatsapp } from "react-icons/fa";
+import { IoLogoGithub } from "react-icons/io5";
+import { VscLiveShare } from "react-icons/vsc";
 import { BiLogoGmail } from "react-icons/bi";
 import { motion } from "framer-motion";
 import kaniz from "../../assets/Kanij Rabeya Nancy.jpeg";
@@ -888,7 +890,7 @@ const CSE = () => {
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                         <Link to="">
                           <a href="">
-                            <FaFacebookF size="1.7rem" color="black" />
+                            <IoLogoGithub size="1.7rem" color="black" />
                           </a>
                         </Link>
                       </motion.div>
@@ -896,7 +898,7 @@ const CSE = () => {
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                         <Link to="">
                           <a href="">
-                            <FaInstagram size="1.7rem" color="black" />
+                            <VscLiveShare size="1.7rem" color="black" />
                           </a>
                         </Link>
                       </motion.div>
