@@ -23,6 +23,9 @@ import cse2 from "../../assets/cse-2.jpg";
 import cse3 from "../../assets/cse-3.jpg";
 import cse4 from "../../assets/cse-4.jpg";
 import Talha from "../../assets/tal1.jpg";
+import Sumai from "../../assets/sum.jpg";
+import Roki from "../../assets/rok.jpg";
+
 
 const CSE = () => {
   // useEffect(() => {
@@ -885,7 +888,9 @@ const CSE = () => {
                       Talha Tarique
                     </h2>
                     <h3 class="text-gray-500 mb-3">Full Stack Developer</h3>
-                    
+                    <p class="mb-4">
+                    A conversational AI built with NLP that provides instant responses and assistance, improving user experience and efficiency.
+                    </p>
                     <div className="flex gap-3">
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                         <Link to="">
@@ -934,22 +939,21 @@ const CSE = () => {
                   <img
                     alt="team"
                     class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
-                    src="https://dummyimage.com/201x201"
+                    src={Roki}
                   ></img>
                   <div class="flex-grow sm:pl-8">
                     <h2 class="title-font font-medium text-lg text-gray-900">
-                      Alper Kamu
+                    Md Roki Sheik 
                     </h2>
-                    <h3 class="text-gray-500 mb-3">Designer</h3>
+                    <h3 class="text-gray-500 mb-3">Flutter Developer</h3>
                     <p class="mb-4">
-                      DIY tote bag drinking vinegar cronut adaptogen squid fanny
-                      pack vaporware.
+                    An AI-powered tool that forecasts trends and insights by analyzing historical data, helping businesses make data-driven decisions.
                     </p>
                     <div className="flex gap-3">
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                         <Link to="">
                           <a href="">
-                            <FaFacebookF size="1.7rem" color="black" />
+                            <IoLogoGithub size="1.7rem" color="black" />
                           </a>
                         </Link>
                       </motion.div>
@@ -957,7 +961,7 @@ const CSE = () => {
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                         <Link to="">
                           <a href="">
-                            <FaInstagram size="1.7rem" color="black" />
+                            <VscLiveShare size="1.7rem" color="black" />
                           </a>
                         </Link>
                       </motion.div>
@@ -993,22 +997,21 @@ const CSE = () => {
                   <img
                     alt="team"
                     class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
-                    src="https://dummyimage.com/204x204"
+                    src={Sumai}
                   ></img>
                   <div class="flex-grow sm:pl-8">
                     <h2 class="title-font font-medium text-lg text-gray-900">
-                      Atticus Finch
+                    Sumaiya Kabir Tondra
                     </h2>
-                    <h3 class="text-gray-500 mb-3">UI Developer</h3>
+                    <h3 class="text-gray-500 mb-3">Job placement Executive</h3>
                     <p class="mb-4">
-                      DIY tote bag drinking vinegar cronut adaptogen squid fanny
-                      pack vaporware.
+                    A machine learning model that detects and classifies objects within images, using computer vision techniques for various applications.
                     </p>
                     <div className="flex gap-3">
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                         <Link to="">
                           <a href="">
-                            <FaFacebookF size="1.7rem" color="black" />
+                            <IoLogoGithub size="1.7rem" color="black" />
                           </a>
                         </Link>
                       </motion.div>
@@ -1016,7 +1019,7 @@ const CSE = () => {
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                         <Link to="">
                           <a href="">
-                            <FaInstagram size="1.7rem" color="black" />
+                            <VscLiveShare size="1.7rem" color="black" />
                           </a>
                         </Link>
                       </motion.div>
