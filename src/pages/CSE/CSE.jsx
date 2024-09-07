@@ -16,6 +16,10 @@ import Dipto from "../../assets/Dipto.jpg";
 import Khalid from "../../assets/Khalid.jpg";
 import Jhanajay from "../../assets/Jnananjan Roy.webp";
 import tariq from "../../assets/photo - Tarikul Islam.jpg";
+import cse1 from "../../assets/cse1.jpg";
+import cse2 from "../../assets/cse-2.jpg";
+import cse3 from "../../assets/cse-3.jpg";
+import cse4 from "../../assets/cse-4.jpg";
 
 const CSE = () => {
   // useEffect(() => {
@@ -30,11 +34,10 @@ const CSE = () => {
   // }, []);
   const [currentSlider, setCurrentSlider] = useState(0);
   const carouselImages = [
-    "https://source.unsplash.com/1200x540/?nature",
-    "https://source.unsplash.com/1200x540/?hill",
-    "https://source.unsplash.com/1200x540/?mountain",
-    "https://source.unsplash.com/1200x540/?river",
-    "https://source.unsplash.com/1200x540/?sea",
+    cse1 ,
+    cse2,
+    cse3,
+    cse4
   ];
   const prevSlider = () =>
     setCurrentSlider((currentSlider) =>
