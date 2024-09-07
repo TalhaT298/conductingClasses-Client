@@ -25,6 +25,7 @@ import cse4 from "../../assets/cse-4.jpg";
 import Talha from "../../assets/tal1.jpg";
 import Sumai from "../../assets/sum.jpg";
 import Roki from "../../assets/rok.jpg";
+import Hum from "../../assets/hun.webp";
 
 
 const CSE = () => {
@@ -1055,22 +1056,21 @@ const CSE = () => {
                   <img
                     alt="team"
                     class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
-                    src="https://dummyimage.com/206x206"
+                    src={Hum}
                   ></img>
                   <div class="flex-grow sm:pl-8">
                     <h2 class="title-font font-medium text-lg text-gray-900">
-                      Henry Letham
+                    Humayra Khanom Rime
                     </h2>
-                    <h3 class="text-gray-500 mb-3">Designer</h3>
+                    <h3 class="text-gray-500 mb-3"> Machine Learning Engineer</h3>
                     <p class="mb-4">
-                      DIY tote bag drinking vinegar cronut adaptogen squid fanny
-                      pack vaporware.
+                    An AI-based system that extracts insights from text data, identifying key themes, sentiments, and trends.
                     </p>
                     <div className="flex gap-3">
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                         <Link to="">
                           <a href="">
-                            <FaFacebookF size="1.7rem" color="black" />
+                            <IoLogoGithub size="1.7rem" color="black" />
                           </a>
                         </Link>
                       </motion.div>
@@ -1078,7 +1078,7 @@ const CSE = () => {
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                         <Link to="">
                           <a href="">
-                            <FaInstagram size="1.7rem" color="black" />
+                            <VscLiveShare size="1.7rem" color="black" />
                           </a>
                         </Link>
                       </motion.div>
