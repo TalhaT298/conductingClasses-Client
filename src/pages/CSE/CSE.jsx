@@ -20,6 +20,7 @@ import cse1 from "../../assets/cse1.jpg";
 import cse2 from "../../assets/cse-2.jpg";
 import cse3 from "../../assets/cse-3.jpg";
 import cse4 from "../../assets/cse-4.jpg";
+import Talha from "../../assets/tal1.jpg";
 
 const CSE = () => {
   // useEffect(() => {
@@ -875,17 +876,14 @@ const CSE = () => {
                   <img
                     alt="team"
                     class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
-                    src="https://dummyimage.com/200x200"
+                    src={Talha}
                   ></img>
                   <div class="flex-grow sm:pl-8">
                     <h2 class="title-font font-medium text-lg text-gray-900">
-                      Holden Caulfield
+                      Talha Tarique
                     </h2>
-                    <h3 class="text-gray-500 mb-3">UI Developer</h3>
-                    <p class="mb-4">
-                      DIY tote bag drinking vinegar cronut adaptogen squid fanny
-                      pack vaporware.
-                    </p>
+                    <h3 class="text-gray-500 mb-3">Full Stack Developer</h3>
+                    
                     <div className="flex gap-3">
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                         <Link to="">
@@ -1117,7 +1115,7 @@ const CSE = () => {
             Core Computer Science and Engineerig Courses
           </h3>
         </div>
-        <div className="rounded-lg font-sans">
+        <div className="rounded-lg font-sans py-10">
           {accordionsData.map((PerAccordion, idx) => (
             <div
               key={idx}
