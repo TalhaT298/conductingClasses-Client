@@ -5,6 +5,10 @@ import cse22 from "../../assets/cse22.jpg"
 import ice22 from "../../assets/ice22.jpg"
 import cv22 from "../../assets/cv22.jpg"
 import eee22 from "../../assets/eee22.jpg"
+import cse4 from "../../assets/cse4.png"
+import eee4 from "../../assets/eee4.png"
+import ice4 from "../../assets/ice4.png"
+import cv4 from "../../assets/cv4.jpg"
 const Departments = () => {
   return (
     <div>
@@ -20,7 +24,7 @@ const Departments = () => {
         <div class="carousel w-full">
           <div id="slide1" class="carousel-item relative w-full h-80" >
             <img
-              src="https://i.ibb.co/cbhsRd7/Untitled-design.png"
+              src={cse4}
               class="w-full"
             />
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -34,7 +38,7 @@ const Departments = () => {
           </div>
           <div id="slide2" class="carousel-item relative w-full">
             <img
-              src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg"
+              src={ice4}
               class="w-full"
             />
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -48,7 +52,7 @@ const Departments = () => {
           </div>
           <div id="slide3" class="carousel-item relative w-full">
             <img
-              src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg"
+              src={eee4}
               class="w-full"
             />
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -62,7 +66,7 @@ const Departments = () => {
           </div>
           <div id="slide4" class="carousel-item relative w-full">
             <img
-              src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg"
+              src={cv4}
               class="w-full"
             />
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
