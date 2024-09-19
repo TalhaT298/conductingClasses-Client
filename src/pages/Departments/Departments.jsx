@@ -8,7 +8,7 @@ import eee22 from "../../assets/eee22.jpg"
 import cse4 from "../../assets/cse4.png"
 import eee4 from "../../assets/eee4.png"
 import ice4 from "../../assets/ice4.png"
-import cv4 from "../../assets/cv4.jpg"
+import cv4 from "../../assets/cv4.png"
 const Departments = () => {
   return (
     <div>
@@ -82,9 +82,9 @@ const Departments = () => {
       </div>
       {/* ----------------------1st e---------------------------------------- */}
       {/* -----------------------------2nd part start----------------------- */}
-      <p className="text-center font-bold">
+      <p className="text-center font-bold pt-6 text-lg">
         To help you build your career and accomplish your goal, we are offering
-        38 undergraduate and master's programs under 4 faculties.
+        38 undergraduate and master's programs under 4 faculties
       </p>
       <div>
         <div className="container px-5 py-12 mx-auto">
