@@ -50,22 +50,22 @@ const EEE = () => {
     {
       title: "EEE103: Structure of Circuit Analysis.",
       description:
-        'To create an account, click on the "Sign Up" button and fill out the required information. Once done, you can enjoy the benefits of being a registered member.',
+        "This course covers the fundamental principles of circuit analysis, including Ohm's law, Kirchhoff's laws, and the analysis of resistive, capacitive, and inductive networks. Students will learn methods like nodal and mesh analysis, as well as transient and steady-state analysis.",
     },
     {
       title: "EEE106: Signals and Systems.",
       description:
-        "Our return policy allows you to return items within 30 days of purchase. Please visit our returns page for detailed instructions and to initiate a return.",
+        "This course introduces the mathematical representation and analysis of signals and systems. It covers topics like continuous and discrete-time signals, linear time-invariant systems, Fourier transforms, and Laplace transforms with applications in electrical engineering.",
     },
     {
       title: "EEE110: Electromagnetics",
       description:
-        "Yes, you can change your shipping address before your order is shipped. Go to your account settings and update the shipping information accordingly.",
+        "In this course, students explore the fundamentals of electromagnetics, including electric and magnetic fields, Maxwell's equations, wave propagation, and transmission lines. Applications in communication and power systems are also discussed.",
     },
     {
-      title: "Are there any discounts for loyal customers?",
+      title: "EEE115: Digital Electronics.",
       description:
-        "We appreciate our loyal customers! Stay tuned for exclusive discounts, promotions, and special offers available to members of our loyalty program.",
+        "This course focuses on digital circuits and systems. Students will study Boolean algebra, combinational and sequential circuits, flip-flops, multiplexers, and counters, as well as the design and analysis of digital systems.",
     },
   ];
 
