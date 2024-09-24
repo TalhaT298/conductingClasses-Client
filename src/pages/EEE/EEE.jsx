@@ -373,32 +373,32 @@ const EEE = () => {
                 </h2>
                 <div className="grid grid-flow-col gap-3">
                   <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                    <Link to="">
-                      <a href="">
+                    <Link to="https://www.facebook.com/priyoakhi">
+                      <a href="https://www.facebook.com/priyoakhi">
                         <FaFacebookF size="1.7rem" color="black" />
                       </a>
                     </Link>
                   </motion.div>
 
                   <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                    <Link to="">
-                      <a href="">
+                    <Link to="https://www.facebook.com/priyoakhi">
+                      <a href="https://www.facebook.com/priyoakhi">
                         <FaInstagram size="1.7rem" color="black" />
                       </a>
                     </Link>
                   </motion.div>
 
                   <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                    <Link to="">
-                      <a href="">
+                    <Link to="https://www.facebook.com/priyoakhi">
+                      <a href="https://www.facebook.com/priyoakhi">
                         <FaLinkedinIn size="1.7rem" color="black" />
                       </a>
                     </Link>
                   </motion.div>
 
                   <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                    <Link to="">
-                      <a href="">
+                    <Link to="https://www.facebook.com/priyoakhi">
+                      <a href="https://www.facebook.com/priyoakhi">
                         <FaWhatsapp size="1.7rem" color="black" />
                       </a>
                     </Link>
