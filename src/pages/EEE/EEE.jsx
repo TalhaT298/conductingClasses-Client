@@ -366,10 +366,10 @@ const EEE = () => {
                   alt="content"
                 ></img>
                 <h3 class="tracking-widest text-black text-xs font-medium title-font">
-                  Lecturer,B.Sc. in CSE(RU)
+                  Lecturer,B.Sc. in EEE(RU)
                 </h3>
                 <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
-                  Kanij Rabeya Nancy
+                Amena Akter Akhi
                 </h2>
                 <div className="grid grid-flow-col gap-3">
                   <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
