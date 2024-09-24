@@ -15,6 +15,7 @@ import polas from "../../assets/polas.jpg";
 import naz from "../../assets/MD. NAZMUL HASSAN.jpg";
 import nas from "../../assets/MdNasimHaidar.jpeg";
 import gol from "../../assets/Golam Md. Al Shamim.jpg";
+import akhi from "../../assets/akhi.jpg";
 
 const EEE = () => {
   // useEffect(() => {
@@ -362,7 +363,7 @@ const EEE = () => {
               <div class="bg-gray-100 p-6 rounded-lg">
                 <img
                   class="h-40 rounded w-full object-cover object-center mb-6"
-                  src="https://dummyimage.com/720x400"
+                  src={akhi}
                   alt="content"
                 ></img>
                 <h3 class="tracking-widest text-black text-xs font-medium title-font">
