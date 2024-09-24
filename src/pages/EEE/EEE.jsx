@@ -196,20 +196,7 @@ const EEE = () => {
                   interests lie in power systems, electronics,
                   telecommunications, or renewable energy, our diverse
                   curriculum will provide you with a solid foundation and the
-                  opportunity to specialize in areas that inspire you. Beyond
-                  the classroom, we encourage you to engage in extracurricular
-                  activities, participate in collaborative projects, and make
-                  the most of the numerous opportunities for personal and
-                  professional growth. Our department fosters a sense of
-                  community, and we are confident that you will find a
-                  supportive network of peers, mentors, and resources to help
-                  you succeed. We look forward to seeing you excel, innovate,
-                  and contribute to the exciting future of electrical and
-                  electronic engineering. Let’s work together to achieve
-                  greatness and push the boundaries of technology. Once again,
-                  welcome to the EEE Department at Rangpur Engineering College –
-                  your journey toward a bright and successful future starts
-                  here!
+                  opportunity to specialize in areas that inspire you. 
                 </p>
                 <a class="text-black inline-flex items-center">
                   Learn More
