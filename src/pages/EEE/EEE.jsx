@@ -20,7 +20,6 @@ import ee1 from "../../assets/ee2.jpg";
 import ee2 from "../../assets/ee1.jpg";
 import ee3 from "../../assets/ee3.jpg";
 
-
 const EEE = () => {
   // useEffect(() => {
   //   fjGallery(document.querySelectorAll(".gallery"), {
@@ -33,11 +32,7 @@ const EEE = () => {
   //   });
   // }, []);
   const [currentSlider, setCurrentSlider] = useState(0);
-  const carouselImages = [
-    ee1,
-    ee2,
-    ee3
-  ];
+  const carouselImages = [ee1, ee2, ee3];
   const prevSlider = () =>
     setCurrentSlider((currentSlider) =>
       currentSlider === 0 ? carouselImages.length - 1 : currentSlider - 1
@@ -49,35 +44,35 @@ const EEE = () => {
       ),
     [carouselImages.length]
   );
-// ------------------------------6th-------------------------------
-const [isOpen, setIsOpen] = useState(null);
-const accordionsData = [
-  {
-    title: "CSE103:Structure of C programming language.",
-    description:
-      'To create an account, click on the "Sign Up" button and fill out the required information. Once done, you can enjoy the benefits of being a registered member.',
-  },
-  {
-    title: "CSE106:Discrete Mathematics.",
-    description:
-      "Our return policy allows you to return items within 30 days of purchase. Please visit our returns page for detailed instructions and to initiate a return.",
-  },
-  {
-    title: "CSE110:Object Oriented Programming",
-    description:
-      "Yes, you can change your shipping address before your order is shipped. Go to your account settings and update the shipping information accordingly.",
-  },
-  {
-    title: "Are there any discounts for loyal customers?",
-    description:
-      "We appreciate our loyal customers! Stay tuned for exclusive discounts, promotions, and special offers available to members of our loyalty program.",
-  },
-];
+  // ------------------------------6th-------------------------------
+  const [isOpen, setIsOpen] = useState(null);
+  const accordionsData = [
+    {
+      title: "EEE103: Structure of Circuit Analysis.",
+      description:
+        'To create an account, click on the "Sign Up" button and fill out the required information. Once done, you can enjoy the benefits of being a registered member.',
+    },
+    {
+      title: "EEE106: Signals and Systems.",
+      description:
+        "Our return policy allows you to return items within 30 days of purchase. Please visit our returns page for detailed instructions and to initiate a return.",
+    },
+    {
+      title: "EEE110: Electromagnetics",
+      description:
+        "Yes, you can change your shipping address before your order is shipped. Go to your account settings and update the shipping information accordingly.",
+    },
+    {
+      title: "Are there any discounts for loyal customers?",
+      description:
+        "We appreciate our loyal customers! Stay tuned for exclusive discounts, promotions, and special offers available to members of our loyalty program.",
+    },
+  ];
 
-const toggle = (idx) => {
-  setIsOpen((prevIdx) => (prevIdx === idx ? null : idx));
-};
-//--------------------6th finish-----------------
+  const toggle = (idx) => {
+    setIsOpen((prevIdx) => (prevIdx === idx ? null : idx));
+  };
+  //--------------------6th finish-----------------
   // if you don't want to change the slider automatically then you can just remove the useEffect
   useEffect(() => {
     const intervalId = setInterval(() => {
@@ -123,27 +118,25 @@ const toggle = (idx) => {
               </div> */}
             <div class="flex flex-col sm:flex-row mt-10">
               <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
-              <div class="w-40 h-40 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
-                    <img
-                      src={nas}
-                      className="h-40 w-40 rounded-full"
-                      alt=""
-                    />
-                  </div>
+                <div class="w-40 h-40 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
+                  <img src={nas} className="h-40 w-40 rounded-full" alt="" />
+                </div>
                 <div class="flex flex-col items-center text-center justify-center">
                   <h2 class="font-medium title-font mt-4 text-gray-900 text-lg">
-                  Md. Nasim Haidar <br />{" "}
+                    Md. Nasim Haidar <br />{" "}
                     <span className="text-xs">Lecturer,B.Sc. in EEE(RU)</span>
                   </h2>
                   <div class="w-12 h-1 bg-black rounded mt-2 mb-4"></div>
                   <p class="text-base">Head of Department</p>
                   <div className="grid grid-flow-col gap-3">
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                       
-                        <a href="https://www.facebook.com/nasim.haidar.16">
-                          <FaFacebookF href="https://www.facebook.com/nasim.haidar.16" size="1.7rem" color="black" />
-                        </a>
-                       
+                      <a href="https://www.facebook.com/nasim.haidar.16">
+                        <FaFacebookF
+                          href="https://www.facebook.com/nasim.haidar.16"
+                          size="1.7rem"
+                          color="black"
+                        />
+                      </a>
                     </motion.div>
 
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
@@ -345,15 +338,17 @@ const toggle = (idx) => {
                   Lecturer,B.Sc. in EEE(RU)
                 </h3>
                 <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
-                Golam Md. Al Shamim 
+                  Golam Md. Al Shamim
                 </h2>
                 <div className="grid grid-flow-col gap-3">
                   <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                     
-                      <a href="https://www.facebook.com/GolamMdAlShamim?mibextid=ZbWKwL">
-                        <FaFacebookF href="https://www.facebook.com/GolamMdAlShamim?mibextid=ZbWKwL" size="1.7rem" color="black" />
-                      </a>
-                     
+                    <a href="https://www.facebook.com/GolamMdAlShamim?mibextid=ZbWKwL">
+                      <FaFacebookF
+                        href="https://www.facebook.com/GolamMdAlShamim?mibextid=ZbWKwL"
+                        size="1.7rem"
+                        color="black"
+                      />
+                    </a>
                   </motion.div>
 
                   <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
@@ -400,7 +395,7 @@ const toggle = (idx) => {
                   Lecturer,B.Sc. in EEE(RU)
                 </h3>
                 <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
-                Amena Akter Akhi
+                  Amena Akter Akhi
                 </h2>
                 <div className="grid grid-flow-col gap-3">
                   <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
@@ -1091,65 +1086,65 @@ const toggle = (idx) => {
       {/* ------------------------------------------5th section finish--------------------------------- */}
       {/* -------------------------------6th section start--------------------------------- */}
       <div className="mx-auto md:w-8/12 my-8 flex justify-center items-center ">
-          {/* <p className='text-yellow-600'>----{subHeading}---</p> */}
-          <h3 className="text-4xl uppercase border-y-2 pt-4 font-bold font-serif">
-            Core Electrical and Electronics Engineering Courses
-          </h3>
-        </div>
-        <div className="rounded-lg font-sans py-10">
-          {accordionsData.map((PerAccordion, idx) => (
-            <div
-              key={idx}
-              className="border-b border-gray-500 last-of-type:border-none"
+        {/* <p className='text-yellow-600'>----{subHeading}---</p> */}
+        <h3 className="text-4xl uppercase border-y-2 pt-4 font-bold font-serif">
+          Core Electrical and Electronics Engineering Courses
+        </h3>
+      </div>
+      <div className="rounded-lg font-sans py-10">
+        {accordionsData.map((PerAccordion, idx) => (
+          <div
+            key={idx}
+            className="border-b border-gray-500 last-of-type:border-none"
+          >
+            <button
+              onClick={() => toggle(idx)}
+              className="flex h-full w-full justify-between py-4 text-left font-medium text-black dark:text-black"
             >
-              <button
-                onClick={() => toggle(idx)}
-                className="flex h-full w-full justify-between py-4 text-left font-medium text-black dark:text-black"
-              >
-                <span className="sm:text-lg md:text-xl">
-                  {PerAccordion.title}
-                </span>
-                <span className="rounded-full p-2 ">
-                  <svg
-                    className="ml-8 mr-7 shrink-0 fill-black dark:fill-black"
+              <span className="sm:text-lg md:text-xl">
+                {PerAccordion.title}
+              </span>
+              <span className="rounded-full p-2 ">
+                <svg
+                  className="ml-8 mr-7 shrink-0 fill-black dark:fill-black"
+                  width="16"
+                  height="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    y="7"
                     width="16"
-                    height="16"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <rect
-                      y="7"
-                      width="16"
-                      height="2"
-                      rx="1"
-                      className={`origin-center transform transition duration-200 ease-out ${isOpen ===
-                        idx && "!rotate-180"}`}
-                    />
-                    <rect
-                      y="7"
-                      width="16"
-                      height="2"
-                      rx="1"
-                      className={`origin-center rotate-90 transform transition duration-200 ease-out ${isOpen ===
-                        idx && "!rotate-180"}`}
-                    />
-                  </svg>
-                </span>
-              </button>
-              <div
-                className={`grid overflow-hidden text-gray-800 transition-all duration-300 ease-in-out dark:text-gray-400 ${
-                  isOpen === idx
-                    ? "grid-rows-[1fr] pb-3 opacity-100"
-                    : "grid-rows-[0fr] opacity-0"
-                }`}
-              >
-                <div className="overflow-hidden pr-4">
-                  {PerAccordion.description}
-                </div>
+                    height="2"
+                    rx="1"
+                    className={`origin-center transform transition duration-200 ease-out ${isOpen ===
+                      idx && "!rotate-180"}`}
+                  />
+                  <rect
+                    y="7"
+                    width="16"
+                    height="2"
+                    rx="1"
+                    className={`origin-center rotate-90 transform transition duration-200 ease-out ${isOpen ===
+                      idx && "!rotate-180"}`}
+                  />
+                </svg>
+              </span>
+            </button>
+            <div
+              className={`grid overflow-hidden text-gray-800 transition-all duration-300 ease-in-out dark:text-gray-400 ${
+                isOpen === idx
+                  ? "grid-rows-[1fr] pb-3 opacity-100"
+                  : "grid-rows-[0fr] opacity-0"
+              }`}
+            >
+              <div className="overflow-hidden pr-4">
+                {PerAccordion.description}
               </div>
             </div>
-          ))}
-        </div>
-        {/* -------------------------------6th section finish--------------------------------- */}
+          </div>
+        ))}
+      </div>
+      {/* -------------------------------6th section finish--------------------------------- */}
     </div>
   );
 };
