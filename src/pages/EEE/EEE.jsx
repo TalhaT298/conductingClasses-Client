@@ -16,6 +16,10 @@ import naz from "../../assets/MD. NAZMUL HASSAN.jpg";
 import nas from "../../assets/MdNasimHaidar.jpeg";
 import gol from "../../assets/Golam Md. Al Shamim.jpg";
 import akhi from "../../assets/akhi.jpg";
+import ee1 from "../../assets/ee2.jpg";
+import ee2 from "../../assets/ee1.jpg";
+import ee3 from "../../assets/ee3.jpg";
+
 
 const EEE = () => {
   // useEffect(() => {
@@ -30,11 +34,9 @@ const EEE = () => {
   // }, []);
   const [currentSlider, setCurrentSlider] = useState(0);
   const carouselImages = [
-    "https://source.unsplash.com/1200x540/?nature",
-    "https://source.unsplash.com/1200x540/?hill",
-    "https://source.unsplash.com/1200x540/?mountain",
-    "https://source.unsplash.com/1200x540/?river",
-    "https://source.unsplash.com/1200x540/?sea",
+    ee1,
+    ee2,
+    ee3
   ];
   const prevSlider = () =>
     setCurrentSlider((currentSlider) =>
@@ -362,7 +364,7 @@ const EEE = () => {
             <div class="xl:w-1/4 md:w-1/2 p-4">
               <div class="bg-gray-100 p-6 rounded-lg">
                 <img
-                  class="h-40 rounded w-full object-cover object-center mb-6"
+                  class="h-52 rounded w-full object-cover object-center mb-6"
                   src={akhi}
                   alt="content"
                 ></img>
