@@ -99,7 +99,7 @@ const EEE = () => {
           ></SectionTitle> */}
         <div className="mx-auto md:w-8/12 my-8 flex justify-center items-center ">
           {/* <p className='text-yellow-600'>----{subHeading}---</p> */}
-          <h3 className="text-4xl uppercase border-y-2 pt-4 font-bold font-serif">
+          <h3 className="text-4xl uppercase border-y-2 pt-6 font-bold font-serif">
             Electrical & Electronic Engineering
           </h3>
         </div>
@@ -1111,7 +1111,7 @@ const EEE = () => {
         {accordionsData.map((PerAccordion, idx) => (
           <div
             key={idx}
-            className="border-b border-gray-500 last-of-type:border-none"
+            className="border-b border-black last-of-type:border-none"
           >
             <button
               onClick={() => toggle(idx)}
@@ -1147,7 +1147,7 @@ const EEE = () => {
               </span>
             </button>
             <div
-              className={`grid overflow-hidden text-gray-800 transition-all duration-300 ease-in-out dark:text-gray-400 ${
+              className={`grid overflow-hidden text-black transition-all duration-300 ease-in-out dark:text-black ${
                 isOpen === idx
                   ? "grid-rows-[1fr] pb-3 opacity-100"
                   : "grid-rows-[0fr] opacity-0"
