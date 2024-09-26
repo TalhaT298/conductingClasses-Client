@@ -95,7 +95,7 @@ const EEE = () => {
         {/* <SectionTitle
             className="font-serif"
             heading={"Computer Science & Engineering"}
-            // subHeading={"National and International scholars, Business leaders, Entrepreneurs, Dignitaries visited us to share experiences, explore opportunities, collaborate and give guidance to the students"}
+            // subHeading={"National and Internatioal scholars, Business leaders, Entrepreneurs, Dignitaries visited us to share experiences, explore opportunities, collaborate and give guidance to the students"}
           ></SectionTitle> */}
         <div className="mx-auto md:w-8/12 my-8 flex justify-center items-center ">
           {/* <p className='text-yellow-600'>----{subHeading}---</p> */}
