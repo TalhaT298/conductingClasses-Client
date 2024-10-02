@@ -17,7 +17,7 @@ const Schedule = () => {
             /> */}
       <div >
         <iframe
-          src="https://calendly.com/oceancapp/30-minute-meeting"
+          src="https://calendly.com/talhatarique-ddcl/30min"
           width="100%"
           height="600"
           // eslint-disable-next-line react/no-unknown-property
