@@ -16,6 +16,7 @@ import Teacher from "../pages/Teacher/Teacher";
 import Admission from "../pages/Admission/Admission";
 import Campus from "../pages/Campus/Campus";
 import Student from "../pages/Student/Student";
+import Schedule from "../pages/Schedule/Schedule";
 
  export const router = createBrowserRouter([
     {
@@ -73,6 +74,10 @@ import Student from "../pages/Student/Student";
         {
           path: "/student",
           element: <Student></Student>,
+        },
+        {
+          path: "/sched",
+          element: <Schedule></Schedule>,
         },
       ]
     },
