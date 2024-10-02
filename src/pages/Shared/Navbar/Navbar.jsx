@@ -229,7 +229,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Help Desk</a>
+          <Link to="/sched"><a className="btn">Help Desk</a></Link>
         </div>
       </div>
     </div>
