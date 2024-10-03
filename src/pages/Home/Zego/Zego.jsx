@@ -1,7 +1,12 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Zego = () => {
   const [input, setInput] = useState("");
+  const navigate=useNavigate();
+  const submitHandler=()=>{
+    navigate(`/room/${input}`)
+  }
   return (
     <div>
       <div>
@@ -11,7 +16,7 @@ const Zego = () => {
           type="text"
           placeholder="Enter ypur name"
         />
-        <button>Join</button>
+        <button onClick={submitHandler}>Join</button>
       </div>
     </div>
   );
