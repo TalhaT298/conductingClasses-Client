@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import io from 'socket.io-client';
 import Peer from 'simple-peer';
+import { Link } from 'react-router-dom';
 
 const SOCKET_SERVER_URL = 'http://localhost:5000'; // Update this with your server URL
 
@@ -71,6 +72,7 @@ const VideoConferance = () => {
 
   return (
     <div>
+        <Link to="/videoConferance"></Link>
       <h1>Video Conferencing</h1>
       <video playsInline muted ref={userVideo} autoPlay style={{ width: '300px' }} />
       {/* Render peers' video */}
