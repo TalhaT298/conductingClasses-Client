@@ -40,7 +40,8 @@ const VideoConferance = () => {
         sharedLinks: [
           {
             name: "Copy link",
-            url: window.location.href,
+            // url: window.location.href,
+            url:`http://localhost3000/room/${roomID}`,
           },
         ],
       });
