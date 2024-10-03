@@ -81,7 +81,7 @@ import VideoConferance from "../pages/VideoConferance/VideoConferance";
           element: <Schedule></Schedule>,
         },
         {
-          path: "/videoConferance",
+          path: "/room/:id",
           element: <VideoConferance></VideoConferance>,
         },
       ]
