@@ -11,6 +11,7 @@ import Offer from "../Offer/Offer";
 import Scholarship from "../Scholarship/Scholarship";
 import NavbarAfter from "../NavbarAfter/NavbarAfter";
 import Extracaricular from "../Extracaricular/Extracaricular";
+import Zego from "../Zego/Zego";
 
 const Home = () => {
   return (
@@ -27,6 +28,7 @@ const Home = () => {
       <Testimonial></Testimonial>
       <Extracaricular></Extracaricular>
       <Photos></Photos>
+      <Zego></Zego>
     </div>
   );
 };
