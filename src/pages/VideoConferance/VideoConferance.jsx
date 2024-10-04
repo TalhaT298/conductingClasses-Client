@@ -34,7 +34,7 @@ const VideoConferance = () => {
       // Create instance object from Kit Token
       const zp = ZegoUIKitPrebuilt.create(kitToken);
 
-      // Start the call
+      // Start the callvv
       zp.joinRoom({
         container: element,
         sharedLinks: [
