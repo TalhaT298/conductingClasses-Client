@@ -16,7 +16,7 @@ const randomID = (length) => {
 const VideoConferance = () => {
   const { id } = useParams();
   const roomID = id || new URLSearchParams(window.location.search).get("roomID") || randomID(5);
-  const meetingRef = useRef(null);  // Use ref to get the div for the video conference
+  const meetingRef = useRef(null);  // Use ref to get the div for the video conferencee
 
   useEffect(() => {
     const myMeeting = async (element) => {
