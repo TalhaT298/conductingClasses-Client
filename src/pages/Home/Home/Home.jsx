@@ -21,6 +21,7 @@ const Home = () => {
       <Scholarship></Scholarship>
       <Campus></Campus>
       <Faculties></Faculties>
+      <Zego></Zego>
       <Offer></Offer>
       <Notice></Notice>
       <RecentEvents></RecentEvents>
@@ -28,7 +29,7 @@ const Home = () => {
       <Testimonial></Testimonial>
       <Extracaricular></Extracaricular>
       <Photos></Photos>
-      <Zego></Zego>
+      
     </div>
   );
 };
