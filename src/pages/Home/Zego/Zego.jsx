@@ -14,7 +14,7 @@ const Zego = () => {
           value={input}
           onChange={(e) => setInput(e.target.value)}
           type="text"
-          placeholder="Enter your name"
+          placeholder="Enter your namee"
         />
         <button onClick={submitHandler}>Join</button>
       </div>
