@@ -49,7 +49,7 @@ const NavbarAfter = () => {
   return (
     <div className="pt-16">
       <div className="hidden lg:block">
-        <div className="bg-black flex">
+        <div className="bg-sky-800 flex">
           <div className="w-3/5">
           <Marquee className="flex text-white " onmouseover="stopMarquee()" onmouseout="startMarquee()">
             <p className="pr-4"> Admissions are open</p>
