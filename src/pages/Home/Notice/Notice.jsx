@@ -66,7 +66,7 @@ const Notice = () => {
           <div className="">
             <div className="collapse collapse-arrow bg-base-100 mb-4">
               <input type="radio" name="my-accordion-2" defaultChecked />
-              <div className="collapse-title text-xl font-medium">
+              <div className="collapse-title text-xl font-medium text-sky-800">
               ভর্তি পরীক্ষার আবেদনের সময়সীমা :
               </div>
               <div className="collapse-content">
@@ -75,7 +75,7 @@ const Notice = () => {
             </div>
             <div className="collapse collapse-arrow bg-base-100 mb-4">
               <input type="radio" name="my-accordion-2" defaultChecked />
-              <div className="collapse-title text-xl font-medium">
+              <div className="collapse-title text-xl font-medium text-sky-800">
               আবেদন ফি:
               </div>
               <div className="collapse-content">
@@ -84,7 +84,7 @@ const Notice = () => {
             </div>
             <div className="collapse collapse-arrow bg-base-100 mb-4">
               <input type="radio" name="my-accordion-2" />
-              <div className="collapse-title text-xl font-medium mb-4">
+              <div className="collapse-title text-xl font-medium text-sky-800 mb-4">
               প্রশ্ন এবং উত্তর:
               </div>
               <div className="collapse-content">
@@ -93,7 +93,7 @@ const Notice = () => {
             </div>
             <div className="collapse collapse-arrow bg-base-100">
               <input type="radio" name="my-accordion-2" />
-              <div className="collapse-title text-xl font-medium">
+              <div className="collapse-title text-xl font-medium text-sky-800">
               ভর্তি সংক্রান্ত নোটিশ ও অন্যান্য তথ্য:
               </div>
               <div className="collapse-content">
@@ -138,22 +138,22 @@ const Notice = () => {
                   className="flex items-center"
                 >
                   {/* Index div */}
-                  <div className="w-16 h-16 bg-[#000000] flex justify-center items-center text-white text-2xl font-semibold rounded font-sans">
+                  <div className="w-16 h-16 bg-[#075985] flex justify-center items-center text-white text-2xl font-semibold rounded font-sans">
                     <div class="flex flex-col items-center">
                       <span class="text-xl">{accordion.date}</span>
                       <p class="mt-1 text-xs">{accordion.month}</p>
                     </div>
                   </div>
                   {/* Divider */}
-                  <div className="w-10 h-[2px] bg-[#000000] relative">
-                    <span className="w-3 h-3 bg-white absolute -left-2 -top-[5px] z-40 rounded-full border-2 border-[#000000]"></span>
-                    <span className="bg-[#000000] w-16 h-1"></span>
+                  <div className="w-10 h-[2px] bg-[#075985] relative">
+                    <span className="w-3 h-3 bg-white absolute -left-2 -top-[5px] z-40 rounded-full border-2 border-[#075985]"></span>
+                    <span className="bg-[#075985] w-16 h-1"></span>
                   </div>
                   {/* Main accordion content */}
                   <div>
-                    <div className="max-w-[600px] bg-white shadow-md border-t-[12px] p-3 border-[#000000] relative">
-                      <span className="h-0 w-0 border-b-[40px] border-b-transparent border-r-[40px] border-r-[#000000] absolute top-0 right-0"></span>
-                      <h1 className="text-[#000000] text-xl text-center">
+                    <div className="max-w-[600px] bg-white shadow-md border-t-[12px] p-3 border-[#075985] relative">
+                      <span className="h-0 w-0 border-b-[40px] border-b-transparent border-r-[40px] border-r-[#075985] absolute top-0 right-0"></span>
+                      <h1 className="text-[#075985] text-xl text-center">
                         {accordion.title}
                       </h1>
                     </div>
@@ -165,7 +165,7 @@ const Notice = () => {
                       }`}
                     >
                       <div className="overflow-hidden">
-                        <div className="max-w-[600px] rounded-br-xl rounded-bl-xl bg-[#000000] text-white p-6 text-center text-sm">
+                        <div className="max-w-[600px] rounded-br-xl rounded-bl-xl bg-[#075985] text-white p-6 text-center text-sm">
                           {accordion.description}
                         </div>
                       </div>
