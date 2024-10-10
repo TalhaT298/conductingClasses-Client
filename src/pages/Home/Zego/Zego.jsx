@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 
 const Zego = () => {
   const [input, setInput] = useState("");
@@ -9,6 +10,11 @@ const Zego = () => {
   }
   return (
     <div>
+      <SectionTitle
+        className="font-serif"
+        heading={"Video Conference"}
+        // subHeading={"National and International scholars, Business leaders, Entrepreneurs, Dignitaries visited us to share experiences, explore opportunities, collaborate and give guidance to the students"}
+      ></SectionTitle>
       <div>
         <input
           value={input}
