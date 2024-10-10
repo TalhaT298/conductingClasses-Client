@@ -34,7 +34,9 @@ const Zego = () => {
         </div>
 
         {/* <!-- Right Div (60%) --> */}
-        <div class="w-3/5 bg-gray-100 p-4"></div>
+        <div class="w-3/5 bg-gray-100 p-4">
+        <p>This technology bridges geographical gaps, enabling real-time interactions that enhance the learning experience. It allows for virtual lectures, meetings, and group discussions, accommodating diverse learning styles and schedules. By facilitating remote access to educational resources and support services, video conferencing promotes inclusivity and engagement, ensuring that all members of the Rangpur Engineering College community can participate fully, regardless of their physical location. Furthermore, Rangpur Engineering College provides a flexible learning environment that supports a variety of educational needs, which is crucial in an era where online and hybrid education models are increasingly prevalent.</p>
+        </div>
       </div>
     </div>
   );
