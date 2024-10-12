@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { PiArrowRightLight } from "react-icons/pi";
 import ph from "../../../assets/6.webp";
 import cri from "../../../assets/cri.jpg";
+import ori from "../../../assets/orientation programme.jpg";
 const RecentEvents = () => {
   return (
     <div className="px-4">
@@ -22,14 +23,13 @@ const RecentEvents = () => {
             />
           </figure>
           <div className="card-body text-center flex justify-center items-center">
-            <h2 className="card-title text-center">Programming Hero Seminar</h2>
+            <h2 className="card-title text-center text-sky-600">Programming Hero Seminar</h2>
             <p>
-              Every year REC Sports club holds different types of sports
-              tournaments.
+            REC hosts seminars yearly for student growth and career development.
             </p>
             <div className="card-actions flex justify-center items-center">
               <Link to="/programming-hero">
-                <button className="btn btn-outline w-full bg-black text-white border-black border group hover:bg-white hover:text-black">
+                <button className="btn btn-outline w-full bg-sky-600 text-white border-black border group hover:bg-white hover:text-black">
                   Read More
                   <PiArrowRightLight
                     size="1.1rem"
@@ -57,7 +57,7 @@ const RecentEvents = () => {
             </p>
             <div className="card-actions  flex justify-center items-center">
               <Link to="/cricket">
-                <button className="btn btn-outline w-full bg-black text-white border-black border group hover:bg-white hover:text-black">
+                <button className="btn btn-outline w-full bg-sky-600 text-white border-black border group hover:bg-white hover:text-black">
                   Read More
                   <PiArrowRightLight
                     size="1.1rem"
@@ -72,20 +72,19 @@ const RecentEvents = () => {
         <div className="card bg-base-100 shadow-xl mx-4 mb-8 md:w-96">
           <figure className="px-4 pt-10">
             <img
-              src={cri}
+              src={ori}
               alt="Shoes"
               className="rounded-xl"
             />
           </figure>
           <div className="card-body text-center flex justify-center items-center">
-            <h2 className="card-title">REC Cricket Tournament</h2>
+            <h2 className="card-title text-sky-600">Orientation Programme</h2>
             <p>
-              Every year REC Sports club holds different types of sports
-              tournaments.
+            We warmly welcome the arrival of new students.
             </p>
             <div className="card-actions  flex justify-center items-center">
               <Link to="/cricket">
-                <button className="btn btn-outline w-full bg-black text-white border-black border group hover:bg-white hover:text-black">
+                <button className="btn btn-outline w-full bg-sky-600 text-white border-black border group hover:bg-white hover:text-black">
                   Read More
                   <PiArrowRightLight
                     size="1.1rem"
