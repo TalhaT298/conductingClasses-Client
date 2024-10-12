@@ -28,7 +28,7 @@ const Faculties = () => {
                   src={cse22}
                 ></img>
                 <div className="w-full">
-                  <h2 className="title-font font-medium text-lg text-gray-900">
+                  <h2 className="title-font font-medium text-lg text-sky-600">
                     Computer Science & Engineering
                   </h2>
                   <p className="mb-4">
@@ -41,7 +41,7 @@ const Faculties = () => {
                   </p>
                   <p className="border-b-4 pt-0 w-[280px]"></p>
                   <Link to="/cse">
-                    <button className="py-2 w-[280px] h-8 px-6 mb-4 mt-2 bg-black rounded hover:bg-slate-950 duration-300 text-white flex items-center justify-center overflow-hidden hover:overflow-visible relative group">
+                    <button className="py-2 w-[280px] h-8 px-6 mb-4 mt-2 bg-sky-600 rounded hover:bg-slate-950 duration-300 text-white flex items-center justify-center overflow-hidden hover:overflow-visible relative group">
                       <svg
                         viewBox="0 0 1024 1024"
                         className="icon rotate-45 group-hover:duration-700 absolute w-12 -translate-x-full translate-y-full scale-0 group-hover:scale-100 group-hover:translate-x-8 group-hover:-translate-y-8 duration-150"
@@ -100,7 +100,7 @@ const Faculties = () => {
                   src={eee22}
                 ></img>
                 <div className="w-full">
-                  <h2 className="title-font font-medium text-lg text-gray-900">
+                  <h2 className="title-font font-medium text-lg text-sky-600">
                     Electrical & Electronic Engineering
                   </h2>
                   <p className="mb-4">
@@ -114,7 +114,7 @@ const Faculties = () => {
                   </p>
                   <p className="border-b-4 pt-0 w-[280px]"></p>
                   <Link to="/eee">
-                    <button className="py-2 w-[280px] h-8 px-6 mb-4 mt-2 bg-black rounded hover:bg-slate-950 duration-300 text-white flex items-center justify-center overflow-hidden hover:overflow-visible relative group">
+                    <button className="py-2 w-[280px] h-8 px-6 mb-4 mt-2 bg-sky-600 rounded hover:bg-slate-950 duration-300 text-white flex items-center justify-center overflow-hidden hover:overflow-visible relative group">
                       <svg
                         viewBox="0 0 1024 1024"
                         className="icon rotate-45 group-hover:duration-700 absolute w-12 -translate-x-full translate-y-full scale-0 group-hover:scale-100 group-hover:translate-x-8 group-hover:-translate-y-8 duration-150"
@@ -173,7 +173,7 @@ const Faculties = () => {
                   src={cv22}
                 ></img>
                 <div className="w-full">
-                  <h2 className="title-font font-medium text-lg text-gray-900">
+                  <h2 className="title-font font-medium text-lg text-sky-600">
                     Civil Engineering
                   </h2>
 
@@ -187,7 +187,7 @@ const Faculties = () => {
                   </p>
                   <p className="border-b-4 pt-0 w-[280px]"></p>
                   <Link to="/ce">
-                    <button className="py-2 w-[280px] h-8 px-6 mb-4 mt-2 bg-black rounded hover:bg-slate-950 duration-300 text-white flex items-center justify-center overflow-hidden hover:overflow-visible relative group">
+                    <button className="py-2 w-[280px] h-8 px-6 mb-4 mt-2 bg-sky-600 rounded hover:bg-slate-950 duration-300 text-white flex items-center justify-center overflow-hidden hover:overflow-visible relative group">
                       <svg
                         viewBox="0 0 1024 1024"
                         className="icon rotate-45 group-hover:duration-700 absolute w-12 -translate-x-full translate-y-full scale-0 group-hover:scale-100 group-hover:translate-x-8 group-hover:-translate-y-8 duration-150"
@@ -246,7 +246,7 @@ const Faculties = () => {
                   src={icee22}
                 ></img>
                 <div className="w-full">
-                  <h2 className="title-font font-medium text-lg text-gray-900">
+                  <h2 className="title-font font-medium text-lg text-sky-600">
                     ICE
                   </h2>
                   <p className="mb-4">
@@ -260,7 +260,7 @@ const Faculties = () => {
                   </p>
                   <p className="border-b-4 pt-0 w-[280px]"></p>
                   <Link to="/ice">
-                    <button className="py-2 w-[280px] h-8 px-6 mb-4 mt-2 bg-black rounded hover:bg-slate-950 duration-300 text-white flex items-center justify-center overflow-hidden hover:overflow-visible relative group">
+                    <button className="py-2 w-[280px] h-8 px-6 mb-4 mt-2 bg-sky-600 rounded hover:bg-slate-950 duration-300 text-white flex items-center justify-center overflow-hidden hover:overflow-visible relative group">
                       <svg
                         viewBox="0 0 1024 1024"
                         className="icon rotate-45 group-hover:duration-700 absolute w-12 -translate-x-full translate-y-full scale-0 group-hover:scale-100 group-hover:translate-x-8 group-hover:-translate-y-8 duration-150"

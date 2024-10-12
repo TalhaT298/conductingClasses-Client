@@ -21,11 +21,11 @@ const Offer = () => {
     <div>
       <div className="card lg:card-side bg-base-100  ">
         <div className="lg:w-3/5 w-full">
-          <div className="pb-4">
+          <div className="pb-4 text-sky-600">
             <h3 className="lg:text-4xl text-2xl  uppercase border-y-2 py-2 font-bold">
               What We Offer
             </h3>
-            <p className="pt-4 font-bold">
+            <p className="pt-4 font-bold text-black">
               At Rangpur Engineering College, students get the opportunity to
               think, learn and grow.
             </p>
@@ -164,18 +164,18 @@ const Offer = () => {
                   </div>
                 </div>
               </div> */}
-              <section class="text-gray-600 body-font">
+              <section class="text-black-600 body-font">
                 <div class="container py-2 mx-auto flex flex-wrap">
                   <div class="flex flex-wrap -m-4">
                     <div class="lg:w-1/2 md:w-full sm:w-full py-4">
                       <div class="flex sm:flex-row flex-col">
                         <div class="w-16 h-16  sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full   text-indigo-500 flex-shrink-0">
                           <p class="pt-2 pr-2">
-                            <AiOutlineFileProtect size="4.3rem" color="black" />
+                            <AiOutlineFileProtect size="4.3rem" color="#0284c7" />
                           </p>
                         </div>
                         <div class="flex-grow">
-                          <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
+                          <h2 class="text-sky-600 text-lg title-font font-medium mb-3">
                             Accommodation
                           </h2>
                           <p class="leading-relaxed text-sm">
@@ -190,11 +190,11 @@ const Offer = () => {
                       <div class="flex sm:flex-row flex-col">
                         <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full   text-indigo-500 flex-shrink-0">
                           <p class="pt-2 pr-2">
-                            <SiClubhouse size="4.3rem" color="black" />
+                            <SiClubhouse size="4.3rem" color="#0284c7" />
                           </p>
                         </div>
                         <div class="flex-grow">
-                          <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
+                          <h2 class="text-sky-600 text-lg title-font font-medium mb-3">
                             REC Learniverse
                           </h2>
                           <p class="leading-relaxed text-sm">
@@ -208,11 +208,11 @@ const Offer = () => {
                       <div class="flex sm:flex-row flex-col">
                         <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full   text-indigo-500 flex-shrink-0">
                           <p class="pt-2 pr-2">
-                            <FaLaptopCode size="4.3rem" color="black" />
+                            <FaLaptopCode size="4.3rem" color="#0284c7" />
                           </p>
                         </div>
                         <div class="flex-grow">
-                          <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
+                          <h2 class="text-sky-600 text-lg title-font font-medium mb-3">
                             One student one laptop
                           </h2>
                           <p class="leading-relaxed text-sm">
@@ -229,12 +229,12 @@ const Offer = () => {
                           <p class="pt-2 pr-2">
                             <MdOutlineSportsGymnastics
                               size="4.3rem"
-                              color="black"
+                              color="#0284c7"
                             />
                           </p>
                         </div>
                         <div class="flex-grow">
-                          <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
+                          <h2 class="text-sky-600 text-lg title-font font-medium mb-3">
                             Sports Club
                           </h2>
                           <p class="leading-relaxed text-sm">
@@ -251,12 +251,12 @@ const Offer = () => {
                           <p class="pt-2 pr-2">
                             <MdEmojiTransportation
                               size="4.3rem"
-                              color="black"
+                              color="#0284c7"
                             />
                           </p>
                         </div>
                         <div class="flex-grow">
-                          <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
+                          <h2 class="text-sky-600 text-lg title-font font-medium mb-3">
                             Transportation
                           </h2>
                           <p class="leading-relaxed text-sm">
@@ -272,11 +272,11 @@ const Offer = () => {
                       <div class="flex sm:flex-row flex-col">
                         <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full   text-indigo-500 flex-shrink-0">
                           <p class="pt-2 pr-2">
-                            <SiHelpdesk size="4.3rem" color="black" />
+                            <SiHelpdesk size="4.3rem" color="#0284c7" />
                           </p>
                         </div>
                         <div class="flex-grow">
-                          <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
+                          <h2 class="text-sky-600 text-lg title-font font-medium mb-3">
                             Helpdesk
                           </h2>
                           <p class="leading-relaxed text-sm">
@@ -290,11 +290,11 @@ const Offer = () => {
                       <div class="flex sm:flex-row flex-col">
                         <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full   text-indigo-500 flex-shrink-0">
                           <p class="pt-2 pr-2">
-                            <IoLibrarySharp size="4.3rem" color="black" />
+                            <IoLibrarySharp size="4.3rem" color="#0284c7" />
                           </p>
                         </div>
                         <div class="flex-grow">
-                          <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
+                          <h2 class="text-sky-600 text-lg title-font font-medium mb-3">
                             Library
                           </h2>
                           <p class="leading-relaxed text-sm">
@@ -312,12 +312,12 @@ const Offer = () => {
                           <p class="pt-2 pr-2">
                             <BsFillPersonLinesFill
                               size="4.3rem"
-                              color="black"
+                              color="#0284c7"
                             />
                           </p>
                         </div>
                         <div class="flex-grow">
-                          <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
+                          <h2 class="text-sky-600 text-lg title-font font-medium mb-3">
                             Blended Learning Platform
                           </h2>
                           <p class="leading-relaxed text-sm">
