@@ -14,7 +14,7 @@ const RecentEvents = () => {
         // subHeading={"National  International scholars, Business leaders, Entrepreneurs, Dignitaries visited us to share experiences, explore opportunities, collaborate and give guidance to the students"}
       ></SectionTitle>
       <div className="flex flex-col md:flex-row md:flex-wrap justify-center items-center">
-        <div className="card bg-base-100 shadow-xl mx-4 mb-8 md:w-96">
+        <div className="card bg-base-100 shadow-xl mx-4 mb-8 md:w-96 border-2 border-sky-600">
           <figure className="px-4 pt-10">
             <img
               src={ph}
@@ -41,7 +41,7 @@ const RecentEvents = () => {
           </div>
         </div>
 
-        <div className="card bg-base-100 shadow-xl mx-4 mb-8 md:w-96">
+        <div className="card bg-base-100 shadow-xl mx-4 mb-8 md:w-96 border-2 border-sky-600">
           <figure className="px-4 pt-10">
             <img
               src="https://i.ibb.co/pxTDWWp/khela.webp"
@@ -69,7 +69,7 @@ const RecentEvents = () => {
           </div>
         </div>
 
-        <div className="card bg-base-100 shadow-xl mx-4 mb-8 md:w-96">
+        <div className="card bg-base-100 shadow-xl mx-4 mb-8 md:w-96 border-2 border-sky-600">
           <figure className="px-4 pt-10">
             <img
               src={ori}
