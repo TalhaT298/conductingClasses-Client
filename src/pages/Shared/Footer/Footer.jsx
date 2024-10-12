@@ -18,199 +18,201 @@ const Footer = () => {
     <div>
       <footer className="footer p-10 bg-base-200 text-base-content">
         <nav>
-          <h6 className="footer-title  text-sky-800">Get in Touch</h6>
+          <h6 className="footer-title  text-sky-600">Get in Touch</h6>
           <Link to="">
-            <a className="link link-hover text-sky-800 flex">
-              <PiArrowRightLight size="1.3rem"  color="#075985" />
+            <a className="link link-hover text-sky-600 flex">
+              <PiArrowRightLight size="1.3rem" color="#0284c7" />
               Contact
             </a>
           </Link>
           <Link to="">
-            <a className="link link-hover  text-sky-800 flex">
-              <PiArrowRightLight size="1.3rem" color="#075985" />
+            <a className="link link-hover  text-sky-600 flex">
+              <PiArrowRightLight size="1.3rem" color="#0284c7" />
               Meet With us
             </a>
           </Link>
           <Link to="">
-            <a className="link link-hover text-sky-800 flex">
-              <PiArrowRightLight size="1.3rem" color="#075985" />
+            <a className="link link-hover text-sky-600 flex">
+              <PiArrowRightLight size="1.3rem" color="#0284c7" />
               Privacy Statement
             </a>
           </Link>
           <Link to="">
-            <a className="link link-hover  text-sky-800 flex">
-              <PiArrowRightLight size="1.3rem" color="#075985" />
+            <a className="link link-hover  text-sky-600 flex">
+              <PiArrowRightLight size="1.3rem" color="#0284c7" />
               Report Copyright Infringement
             </a>
           </Link>
           <Link to="">
-            <a className="link link-hover  text-sky-800 flex">
-              <PiArrowRightLight size="1.3rem" color="#075985" />
+            <a className="link link-hover  text-sky-600 flex">
+              <PiArrowRightLight size="1.3rem" color="#0284c7" />
               Report on Security Issues
             </a>
           </Link>
           <Link to="">
-            <a className="link link-hover text-sky-800 flex">
-              <PiArrowRightLight size="1.3rem" color="#075985" />
+            <a className="link link-hover text-sky-600 flex">
+              <PiArrowRightLight size="1.3rem" color="#0284c7" />
               Recom. For Traffic Mgt
             </a>
           </Link>
           <Link to="">
-            <a className="link link-hover text-sky-800 flex">
-              <PiArrowRightLight size="1.3rem" color="#075985" />
+            <a className="link link-hover text-sky-600 flex">
+              <PiArrowRightLight size="1.3rem" color="#0284c7" />
               Newsletters
             </a>
           </Link>
           <Link to="">
-            <a className="link link-hover text-sky-800 flex">
-              <PiArrowRightLight size="1.3rem" color="#075985" />
+            <a className="link link-hover text-sky-600 flex">
+              <PiArrowRightLight size="1.3rem" color="#0284c7" />
               Location Map
             </a>
           </Link>
           <Link to="">
-            <a className="link link-hover  text-sky-800 flex">
-              <PiArrowRightLight size="1.3rem" color="#075985" />
+            <a className="link link-hover  text-sky-600 flex">
+              <PiArrowRightLight size="1.3rem" color="#0284c7" />
               Covid-19 updates
             </a>
           </Link>
           <Link to="">
-            <a className="link link-hover  text-sky-800 flex">
-              <PiArrowRightLight size="1.3rem" color="#075985" />
+            <a className="link link-hover  text-sky-600 flex">
+              <PiArrowRightLight size="1.3rem" color="#0284c7" />
               Logos (RECFamily)
             </a>
           </Link>
         </nav>
         <nav>
-          <h6 className="footer-title  text-sky-800">Branding</h6>
+          <h6 className="footer-title  text-sky-600">Branding</h6>
           <Link to="">
-            <a className="link link-hover  text-sky-800 flex">
-              <PiArrowRightLight size="1.3rem" color="#075985" />
+            <a className="link link-hover  text-sky-600 flex">
+              <PiArrowRightLight size="1.3rem" color="#0284c7" />
               DIU Branding
             </a>
           </Link>
           <Link to="">
-            <a className="link link-hover  text-sky-800 flex">
-              <PiArrowRightLight size="1.3rem" color="#075985" />
+            <a className="link link-hover  text-sky-600 flex">
+              <PiArrowRightLight size="1.3rem" color="#0284c7" />
               Career Opportunities
             </a>
           </Link>
           <Link to="">
-            <a className="link link-hover  text-sky-800 flex">
-              <PiArrowRightLight size="1.3rem" color="#075985" />
+            <a className="link link-hover  text-sky-600 flex">
+              <PiArrowRightLight size="1.3rem" color="#0284c7" />
               Blog
             </a>
           </Link>
           <Link to="">
-            <a className="link link-hover  text-sky-800 flex">
-              <PiArrowRightLight size="1.3rem" color="#075985" />
+            <a className="link link-hover  text-sky-600 flex">
+              <PiArrowRightLight size="1.3rem" color="#0284c7" />
               Photo Gallery
             </a>
           </Link>
           <Link to="">
-            <a className="link link-hover text-sky-800 flex">
-              <PiArrowRightLight size="1.3rem" color="#075985" />
+            <a className="link link-hover text-sky-600 flex">
+              <PiArrowRightLight size="1.3rem" color="#0284c7" />
               DIU News
             </a>
           </Link>
           <Link to="">
-            <a className="link link-hover  text-sky-800 flex">
-              <PiArrowRightLight size="1.3rem" color="#075985" />
+            <a className="link link-hover  text-sky-600 flex">
+              <PiArrowRightLight size="1.3rem" color="#0284c7" />
               DIU Press
             </a>
           </Link>
           <Link to="">
-            <a className="link link-hover  text-sky-800 flex">
-              <PiArrowRightLight size="1.3rem" color="#075985" />
+            <a className="link link-hover  text-sky-600 flex">
+              <PiArrowRightLight size="1.3rem" color="#0284c7" />
               Employability 360
             </a>
           </Link>
           <Link to="">
-            <a className="link link-hover  text-sky-800 flex">
-              <PiArrowRightLight size="1.3rem" color="#075985" />
+            <a className="link link-hover  text-sky-600 flex">
+              <PiArrowRightLight size="1.3rem" color="#0284c7" />
               DIU IT
             </a>
           </Link>
           <Link to="">
-            <a className="link link-hover  text-sky-800 flex">
-              <PiArrowRightLight size="1.3rem" color="#075985" />
+            <a className="link link-hover  text-sky-600 flex">
+              <PiArrowRightLight size="1.3rem" color="#0284c7" />
               Artofliving
             </a>
           </Link>
         </nav>
         <nav>
-          <h6 className="footer-title  text-sky-800">Useful Links</h6>
+          <h6 className="footer-title  text-sky-600">Useful Links</h6>
           <Link to="">
-            <a className="link link-hover text-sky-800 flex">
-              <PiArrowRightLight size="1.3rem" color="#075985" />
+            <a className="link link-hover text-sky-600 flex">
+              <PiArrowRightLight size="1.3rem" color="#0284c7" />
               skill.jobs
             </a>
           </Link>
           <Link to="">
-            <a className="link link-hover  text-sky-800 flex">
-              <PiArrowRightLight size="1.3rem" color="#075985" />
+            <a className="link link-hover  text-sky-600 flex">
+              <PiArrowRightLight size="1.3rem" color="#0284c7" />
               Internship Portal
             </a>
           </Link>
           <Link to="">
-            <a className="link link-hover  text-sky-800 flex">
-              <PiArrowRightLight size="1.3rem" color="#075985" />
+            <a className="link link-hover  text-sky-600 flex">
+              <PiArrowRightLight size="1.3rem" color="#0284c7" />
               Foundation Day
             </a>
           </Link>
           <Link to="">
-            <a className="link link-hover  text-sky-800 flex">
-              <PiArrowRightLight size="1.3rem" color="#075985" />
+            <a className="link link-hover  text-sky-600 flex">
+              <PiArrowRightLight size="1.3rem" color="#0284c7" />
               Convocation
             </a>
           </Link>
           <Link to="">
-            <a className="link link-hover text-sky-800 flex">
-              <PiArrowRightLight size="1.3rem" color="#075985" />
+            <a className="link link-hover text-sky-600 flex">
+              <PiArrowRightLight size="1.3rem" color="#0284c7" />
               REC Annual Report
             </a>
           </Link>
           <Link to="">
-            <a className="link link-hover text-sky-800 flex">
-              <PiArrowRightLight size="1.3rem" color="#075985" />
+            <a className="link link-hover text-sky-600 flex">
+              <PiArrowRightLight size="1.3rem" color="#0284c7" />
               Brochure
             </a>
           </Link>
           <Link to="">
-            <a className="link link-hover text-sky-800 flex">
-              <PiArrowRightLight size="1.3rem" color="#075985" />
+            <a className="link link-hover text-sky-600 flex">
+              <PiArrowRightLight size="1.3rem" color="#0284c7" />
               Prospectus
             </a>
           </Link>
           <Link to="">
-            <a className="link link-hover text-sky-800 flex">
-              <PiArrowRightLight size="1.3rem" color="#075985" />
+            <a className="link link-hover text-sky-600 flex">
+              <PiArrowRightLight size="1.3rem" color="#0284c7" />
               Forms
             </a>
           </Link>
           <Link to="">
-            <a className="link link-hover text-sky-800 flex">
-              <PiArrowRightLight size="1.3rem" color="#075985" />
+            <a className="link link-hover text-sky-600 flex">
+              <PiArrowRightLight size="1.3rem" color="#0284c7" />
               Brand Documents
             </a>
           </Link>
           <Link to="">
-            <a className="link link-hover text-sky-800 flex">
-              <PiArrowRightLight size="1.3rem" color="#075985" />
+            <a className="link link-hover text-sky-600 flex">
+              <PiArrowRightLight size="1.3rem" color="#0284c7" />
               Apps
             </a>
           </Link>
           <Link to="">
-            <a className="link link-hover text-sky-800 flex">
-              <PiArrowRightLight size="1.3rem" color="#075985" />
+            <a className="link link-hover text-sky-600 flex">
+              <PiArrowRightLight size="1.3rem" color="#0284c7" />
               FAQ
             </a>
           </Link>
         </nav>
         <form>
-          <h6 className="footer-title text-sky-800">Subscribe Us!</h6>
+          <h6 className="footer-title text-sky-600">Subscribe Us!</h6>
           <fieldset className="form-control w-80">
             <label className="label">
-              <span className="label-text text-sky-800">Enter your email address</span>
+              <span className="label-text text-sky-600">
+                Enter your email address
+              </span>
             </label>
             <div className="join">
               <input
@@ -218,7 +220,7 @@ const Footer = () => {
                 placeholder="username@site.com"
                 className="input input-bordered join-item"
               />
-              <button className="btn bg-sky-800 text-white hover:bg-white hover:text-black join-item">
+              <button className="btn bg-sky-600 text-white hover:bg-white hover:text-black join-item">
                 Subscribe
               </button>
             </div>
@@ -246,7 +248,7 @@ const Footer = () => {
                   <FaFacebookF
                     href="https://www.facebook.com/recr.edu.bd"
                     size="1.7rem"
-                    color="#075985"
+                    color="#0284c7"
                   />
                 </a>
               </Link>
@@ -255,7 +257,7 @@ const Footer = () => {
             <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
               <Link to="">
                 <a href="">
-                  <FaInstagram size="1.7rem" color="#075985" />
+                  <FaInstagram size="1.7rem" color="#0284c7" />
                 </a>
               </Link>
             </motion.div>
@@ -263,7 +265,7 @@ const Footer = () => {
             <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
               <Link to="">
                 <a href="">
-                  <FaLinkedinIn size="1.7rem" color="#075985" />
+                  <FaLinkedinIn size="1.7rem" color="#0284c7" />
                 </a>
               </Link>
             </motion.div>
@@ -271,49 +273,51 @@ const Footer = () => {
             <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
               <Link to="">
                 <a href="">
-                  <BsTwitterX size="1.7rem" color="#075985" />
+                  <BsTwitterX size="1.7rem" color="#0284c7" />
                 </a>
               </Link>
             </motion.div>
             <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
               <Link to="">
                 <a href="">
-                  <FaWhatsapp size="1.7rem" color="#075985" />
+                  <FaWhatsapp size="1.7rem" color="#0284c7" />
                 </a>
               </Link>
             </motion.div>
             <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
               <Link to="">
                 <a href="">
-                  <FaDiscord size="1.7rem" color="#075985" />
+                  <FaDiscord size="1.7rem" color="#0284c7" />
                 </a>
               </Link>
             </motion.div>
             <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
               <Link to="">
                 <a href="">
-                  <FaThreads size="1.7rem" color="#075985" />
+                  <FaThreads size="1.7rem" color="#0284c7" />
                 </a>
               </Link>
             </motion.div>
             <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
               <Link to="">
                 <a href="">
-                  <FaYoutube size="1.7rem" color="#075985" />
+                  <FaYoutube size="1.7rem" color="#0284c7" />
                 </a>
               </Link>
             </motion.div>
             <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
               <Link to="">
                 <a href="">
-                  <BiLogoGmail size="1.7rem" color="#075985" />
+                  <BiLogoGmail size="1.7rem" color="#0284c7" />
                 </a>
               </Link>
             </motion.div>
           </div>
         </nav>
         <aside>
-          <p className="text-sky-800">Copyright © 2024 - All right reserved by REC Industries Ltd</p>
+          <p className="text-sky-600">
+            Copyright © 2024 - All right reserved by REC Industries Ltd
+          </p>
         </aside>
       </footer>
     </div>

@@ -90,7 +90,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div>
-      <div className="navbar fixed z-10  max-w-screen-xl text-sky-800 bg-white">
+      <div className="navbar fixed z-10  max-w-screen-xl text-sky-600 bg-white">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -229,7 +229,9 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <Link to="/sched"><a className="btn">Help Desk</a></Link>
+          <Link to="/sched">
+            <a className="btn">Help Desk</a>
+          </Link>
         </div>
       </div>
     </div>
