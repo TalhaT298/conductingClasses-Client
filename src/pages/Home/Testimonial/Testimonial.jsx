@@ -141,59 +141,59 @@ const Testimonial = () => {
           <div className="flex items-center">
             <img className="w-16 h-16 rounded-full" src={p1} alt="Emily Johnson"></img>
             <div className="ml-4">
-              <p className="text-sm font-semibold text-gray-700">Ashraful Alam Al-Amin</p>
+              <p className="text-sm font-semibold text-sky-600">Ashraful Alam Al-Amin</p>
               {/* <p className="text-sm text-gray-500">Founder of Glamour & Glow</p> */}
             </div>
           </div>
         </div>
         {/* Testimonial 2 */}
         <div className={`max-w-4xl p-8 rounded-lg ${currentPhase === 2 ? '' : 'hidden'}`}>
-          <p className="text-xl italic font-light text-gray-800 mb-4">
+          <p className="text-xl italic font-light text-black mb-4">
             "Ever since the inception of the institution, our mission has been to educate and develop the student's capabilities and"
           </p>
           <div className="flex items-center">
             <img className="w-16 h-16 rounded-full" src={p2} alt="Sarah Williams"></img>
             <div className="ml-4">
-              <p className="text-sm font-semibold text-gray-700">Md Idrish Ali</p>
+              <p className="text-sm font-semibold text-sky-600">Md Idrish Ali</p>
               {/* <p className="text-sm text-gray-500">Beauty Blogger at Beauty Bliss</p> */}
             </div>
           </div>
         </div>
         {/* Testimonial 3 */}
         <div className={`max-w-4xl p-8 rounded-lg ${currentPhase === 3 ? '' : 'hidden'}`}>
-          <p className="text-xl italic font-light text-gray-800 mb-4">
+          <p className="text-xl italic font-light text-black mb-4">
           "As the principal of Rangpur Engineering College I would like to welcome you to the arena of science, technology"
           </p>
           <div className="flex items-center">
             <img className="w-16 h-16 rounded-full" src={p3} alt="Lisa Brown"></img>
             <div className="ml-4">
-              <p className="text-sm font-semibold text-gray-700">Professor Nirod Boran Nath</p>
+              <p className="text-sm font-semibold text-sky-600">Professor Nirod Boran Nath</p>
               {/* <p className="text-sm text-gray-500">Makeup Artist and Beauty Consultant</p> */}
             </div>
           </div>
         </div>
         {/* Testimonial 4 */}
         <div className={`max-w-4xl p-8 rounded-lg ${currentPhase === 4 ? '' : 'hidden'}`}>
-          <p className="text-xl italic font-light text-gray-800 mb-4">
+          <p className="text-xl italic font-light text-balck mb-4">
           "Congratulations, Rangpur Engineering College! I am impressed by the commitment to growth and development "
           </p>
           <div className="flex items-center">
             <img className="w-16 h-16 rounded-full" src={p4} alt="Anna Lee"></img>
             <div className="ml-4">
-              <p className="text-sm font-semibold text-gray-700">Mr. SABIT RAIHAN</p>
+              <p className="text-sm font-semibold text-sky-600">Mr. SABIT RAIHAN</p>
               {/* <p className="text-sm text-gray-500">Fashion Influencer</p> */}
             </div>
           </div>
         </div>
         {/* Testimonial 5 */}
         <div className={`max-w-4xl p-8 rounded-lg ${currentPhase === 5 ? '' : 'hidden'}`}>
-          <p className="text-xl italic font-light text-gray-800 mb-4">
+          <p className="text-xl italic font-light text-balck mb-4">
           "REC is committed to providing quality education and to nurturing creativity for producing successful graduates who will serve society and the world."
           </p>
           <div className="flex items-center">
             <img className="w-16 h-16 rounded-full" src={p5} alt="Sophie Turner"></img>
             <div className="ml-4">
-              <p className="text-sm font-semibold text-gray-700">Dr.Rabiul Islam</p>
+              <p className="text-sm font-semibold text-sky-600">Dr.Rabiul Islam</p>
               {/* <p className="text-sm text-gray-500">Professional Makeup Artist</p> */}
             </div>
           </div>
