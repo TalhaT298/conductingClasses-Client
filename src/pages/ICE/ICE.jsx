@@ -14,6 +14,10 @@ import { motion } from "framer-motion";
 import hafiz from "../../assets/al-Hafiz.jpeg";
 import naz from "../../assets/IMG_20230711_143310 - Md Nazmul Hasan Ruhan (1).jpg";
 import limon from "../../assets/300X300 - Shahin Lemon.jpg";
+import ice111 from "../../assets/ic1.jpg";
+import ice211 from "../../assets/ic2.jpg";
+import ice311 from "../../assets/ic3.jpg";
+import ice411 from "../../assets/ic4.jpg";
 
 const ICE = () => {
   // useEffect(() => {
@@ -27,13 +31,7 @@ const ICE = () => {
   //   });
   // }, []);
   const [currentSlider, setCurrentSlider] = useState(0);
-  const carouselImages = [
-    "https://source.unsplash.com/1200x540/?nature",
-    "https://source.unsplash.com/1200x540/?hill",
-    "https://source.unsplash.com/1200x540/?mountain",
-    "https://source.unsplash.com/1200x540/?river",
-    "https://source.unsplash.com/1200x540/?sea",
-  ];
+  const carouselImages = [ice111, ice211, ice311, ice411];
   const prevSlider = () =>
     setCurrentSlider((currentSlider) =>
       currentSlider === 0 ? carouselImages.length - 1 : currentSlider - 1
@@ -55,11 +53,11 @@ const ICE = () => {
   }, [nextSlider]);
   return (
     <div>
-      <Link to="/cse">
+      <Link to="/ice">
         <div className="py-16">
           <div className="mockup-browser border bg-base-300">
             <div className="mockup-browser-toolbar">
-              <div className="input">https://ice.com</div>
+              <div className="input text-sky-600">https://ice.com</div>
             </div>
             {/* <div className="flex justify-center px-4 py-16 bg-base-200">
               Hello!
@@ -73,7 +71,7 @@ const ICE = () => {
           <div className="mx-auto md:w-8/12 my-8 flex justify-center items-center ">
             {/* <p className='text-yellow-600'>----{subHeading}---</p> */}
             <h3 className="text-4xl uppercase border-y-2 pt-4 font-bold font-serif text-sky-600">
-            Information & Communication Engineering 
+              Information & Communication Engineering
             </h3>
           </div>
         </div>
@@ -91,7 +89,7 @@ const ICE = () => {
               </div> */}
               <div class="flex flex-col sm:flex-row mt-10">
                 <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
-                <div class="w-40 h-40 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
+                  <div class="w-40 h-40 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
                     <img
                       src={hafiz}
                       className="h-40 w-40 rounded-full"
@@ -99,21 +97,21 @@ const ICE = () => {
                     />
                   </div>
                   <div class="flex flex-col items-center text-center justify-center">
-                    <h2 class="font-medium title-font mt-4 text-gray-900 text-lg">
-                    Md.al-Hafiz <br />{" "}
-                      <span className="text-xs">
-                        Lecturer,B.Sc. in ICE(RU)
-                      </span>
+                    <h2 class="font-medium title-font mt- text-gray-900 text-lg">
+                      Md.al-Hafiz <br />{" "}
+                      <span className="text-xs">Lecturer,B.Sc. in ICE(RU)</span>
                     </h2>
-                    <div class="w-12 h-1 bg-#0284c7 rounded mt-2 mb-4"></div>
-                    <p class="text-base">Head of Department</p>
+                    <div class="w-12 h-1 bg-#0284c7 rounded mt- mb-"></div>
+                    <p class="text-base py-2">Head of Department</p>
                     <div className="grid grid-flow-col gap-3">
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                        
-                          <a href="https://www.facebook.com/alhafizattone.ice">
-                            <FaFacebookF href="https://www.facebook.com/alhafizattone.ice" size="1.7rem" color="#0284c7" />
-                          </a>
-                        
+                        <a href="https://www.facebook.com/alhafizattone.ice">
+                          <FaFacebookF
+                            href="https://www.facebook.com/alhafizattone.ice"
+                            size="1.7rem"
+                            color="#0284c7"
+                          />
+                        </a>
                       </motion.div>
 
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
@@ -151,9 +149,19 @@ const ICE = () => {
                 </div>
                 <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
                   <p class="leading-relaxed text-lg mb-4">
-                 I am delighted to address you as the Head of the Department of Information and Communication Engineering at Rangpur Engineering College. As you consider your educational options, I invite you to explore the exceptional opportunities our department offers and the remarkable journey that awaits you..
+                    As the Head of the Department of Information and
+                    Communication Engineering at Rangpur Engineering College, I
+                    am pleased to welcome you as you consider your educational
+                    options. Our department offers exceptional opportunities,
+                    combining cutting-edge technical education with a focus on
+                    creativity, innovation, and leadership. With a dynamic
+                    curriculum, hands-on learning experiences, and a dedicated
+                    faculty, we prepare our students for the challenges of the
+                    modern digital world. I invite you to join us and embark on
+                    a journey of academic and professional excellence, where we
+                    are committed to your success and future achievements.
                   </p>
-                  <a class="text-#0284c7 inline-flex items-center">
+                  <a className="text-sky-600 inline-flex items-center">
                     Learn More
                     <svg
                       fill="none"
@@ -177,10 +185,10 @@ const ICE = () => {
           <div class="container px-5 py-12 mx-auto">
             <div class="flex flex-wrap w-full mb-20">
               <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
-                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
+                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-sky-600">
                   Department Tutors
                 </h1>
-                <div class="h-1 w-20 bg-#0284c7 rounded"></div>
+                <div class="h-1 w-20 bg-black rounded"></div>
               </div>
             </div>
             <div class="flex flex-wrap -m-4">
@@ -195,15 +203,17 @@ const ICE = () => {
                     Lecturer,B.Sc. in ICT(MBSTU)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
-                  Md Nazmul Hasan Ruhan 
+                    Md Nazmul Hasan Ruhan
                   </h2>
                   <div className="grid grid-flow-col gap-3">
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                       
-                        <a href="https://www.facebook.com/mnhruhan.mnhruhan?mibextid=ZbWKwL">
-                          <FaFacebookF href="https://www.facebook.com/mnhruhan.mnhruhan?mibextid=ZbWKwL" size="1.7rem" color="#0284c7" />
-                        </a>
-                       
+                      <a href="https://www.facebook.com/mnhruhan.mnhruhan?mibextid=ZbWKwL">
+                        <FaFacebookF
+                          href="https://www.facebook.com/mnhruhan.mnhruhan?mibextid=ZbWKwL"
+                          size="1.7rem"
+                          color="#0284c7"
+                        />
+                      </a>
                     </motion.div>
 
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
@@ -250,15 +260,17 @@ const ICE = () => {
                     Lecturer,B.Sc. in CSE(BRUR)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
-                  MD.Shahinuzzaman Lemon
+                    MD.Shahinuzzaman Lemon
                   </h2>
                   <div className="grid grid-flow-col gap-3">
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                        
-                        <a href="https://www.facebook.com/jv.lemon.3">
-                          <FaFacebookF href="https://www.facebook.com/jv.lemon.3" size="1.7rem" color="#0284c7" />
-                        </a>
-                       
+                      <a href="https://www.facebook.com/jv.lemon.3">
+                        <FaFacebookF
+                          href="https://www.facebook.com/jv.lemon.3"
+                          size="1.7rem"
+                          color="#0284c7"
+                        />
+                      </a>
                     </motion.div>
 
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
@@ -411,7 +423,7 @@ const ICE = () => {
         {/* ---------------------------------------4th section start------------------------------------- */}
         <div className="mx-auto md:w-8/12 my-8 flex justify-center items-center ">
           {/* <p className='text-yellow-600'>----{subHeading}---</p> */}
-          <h3 className="text-4xl uppercase border-y-2 pt-4 font-bold font-serif">
+          <h3 className="text-4xl uppercase border-y-2 pt-4 font-bold font-serif text-sky-600">
             At a glance
           </h3>
         </div>
@@ -804,7 +816,7 @@ const ICE = () => {
             </div> */}
             <div className="mx-auto md:w-8/12 my-8 flex justify-center items-center ">
               {/* <p className='text-yellow-600'>----{subHeading}---</p> */}
-              <h3 className="text-4xl uppercase border-y-2 pt-4 font-bold font-serif text-#0284c7">
+              <h3 className="text-4xl uppercase border-y-2 pt-4 font-bold font-serif text-sky-600">
                 Student's Projet
               </h3>
             </div>
@@ -826,45 +838,45 @@ const ICE = () => {
                       pack vaporware.
                     </p>
                     <div className="flex gap-3">
-                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                      <Link to="">
-                        <a href="">
-                          <FaFacebookF size="1.7rem" color="#0284c7" />
-                        </a>
-                      </Link>
-                    </motion.div>
+                      <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                        <Link to="">
+                          <a href="">
+                            <FaFacebookF size="1.7rem" color="#0284c7" />
+                          </a>
+                        </Link>
+                      </motion.div>
 
-                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                      <Link to="">
-                        <a href="">
-                          <FaInstagram size="1.7rem" color="#0284c7" />
-                        </a>
-                      </Link>
-                    </motion.div>
+                      <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                        <Link to="">
+                          <a href="">
+                            <FaInstagram size="1.7rem" color="#0284c7" />
+                          </a>
+                        </Link>
+                      </motion.div>
 
-                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                      <Link to="">
-                        <a href="">
-                          <FaLinkedinIn size="1.7rem" color="#0284c7" />
-                        </a>
-                      </Link>
-                    </motion.div>
+                      <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                        <Link to="">
+                          <a href="">
+                            <FaLinkedinIn size="1.7rem" color="#0284c7" />
+                          </a>
+                        </Link>
+                      </motion.div>
 
-                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                      <Link to="">
-                        <a href="">
-                          <FaWhatsapp size="1.7rem" color="#0284c7" />
-                        </a>
-                      </Link>
-                    </motion.div>
-                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                      <Link to="">
-                        <a href="">
-                          <BiLogoGmail size="1.7rem" color="#0284c7" />
-                        </a>
-                      </Link>
-                    </motion.div>
-                  </div>
+                      <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                        <Link to="">
+                          <a href="">
+                            <FaWhatsapp size="1.7rem" color="#0284c7" />
+                          </a>
+                        </Link>
+                      </motion.div>
+                      <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                        <Link to="">
+                          <a href="">
+                            <BiLogoGmail size="1.7rem" color="#0284c7" />
+                          </a>
+                        </Link>
+                      </motion.div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -885,45 +897,45 @@ const ICE = () => {
                       pack vaporware.
                     </p>
                     <div className="flex gap-3">
-                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                      <Link to="">
-                        <a href="">
-                          <FaFacebookF size="1.7rem" color="#0284c7" />
-                        </a>
-                      </Link>
-                    </motion.div>
+                      <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                        <Link to="">
+                          <a href="">
+                            <FaFacebookF size="1.7rem" color="#0284c7" />
+                          </a>
+                        </Link>
+                      </motion.div>
 
-                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                      <Link to="">
-                        <a href="">
-                          <FaInstagram size="1.7rem" color="#0284c7" />
-                        </a>
-                      </Link>
-                    </motion.div>
+                      <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                        <Link to="">
+                          <a href="">
+                            <FaInstagram size="1.7rem" color="#0284c7" />
+                          </a>
+                        </Link>
+                      </motion.div>
 
-                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                      <Link to="">
-                        <a href="">
-                          <FaLinkedinIn size="1.7rem" color="#0284c7" />
-                        </a>
-                      </Link>
-                    </motion.div>
+                      <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                        <Link to="">
+                          <a href="">
+                            <FaLinkedinIn size="1.7rem" color="#0284c7" />
+                          </a>
+                        </Link>
+                      </motion.div>
 
-                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                      <Link to="">
-                        <a href="">
-                          <FaWhatsapp size="1.7rem" color="#0284c7" />
-                        </a>
-                      </Link>
-                    </motion.div>
-                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                      <Link to="">
-                        <a href="">
-                          <BiLogoGmail size="1.7rem" color="#0284c7" />
-                        </a>
-                      </Link>
-                    </motion.div>
-                  </div>
+                      <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                        <Link to="">
+                          <a href="">
+                            <FaWhatsapp size="1.7rem" color="#0284c7" />
+                          </a>
+                        </Link>
+                      </motion.div>
+                      <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                        <Link to="">
+                          <a href="">
+                            <BiLogoGmail size="1.7rem" color="#0284c7" />
+                          </a>
+                        </Link>
+                      </motion.div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -944,45 +956,45 @@ const ICE = () => {
                       pack vaporware.
                     </p>
                     <div className="flex gap-3">
-                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                      <Link to="">
-                        <a href="">
-                          <FaFacebookF size="1.7rem" color="#0284c7" />
-                        </a>
-                      </Link>
-                    </motion.div>
+                      <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                        <Link to="">
+                          <a href="">
+                            <FaFacebookF size="1.7rem" color="#0284c7" />
+                          </a>
+                        </Link>
+                      </motion.div>
 
-                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                      <Link to="">
-                        <a href="">
-                          <FaInstagram size="1.7rem" color="#0284c7" />
-                        </a>
-                      </Link>
-                    </motion.div>
+                      <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                        <Link to="">
+                          <a href="">
+                            <FaInstagram size="1.7rem" color="#0284c7" />
+                          </a>
+                        </Link>
+                      </motion.div>
 
-                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                      <Link to="">
-                        <a href="">
-                          <FaLinkedinIn size="1.7rem" color="#0284c7" />
-                        </a>
-                      </Link>
-                    </motion.div>
+                      <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                        <Link to="">
+                          <a href="">
+                            <FaLinkedinIn size="1.7rem" color="#0284c7" />
+                          </a>
+                        </Link>
+                      </motion.div>
 
-                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                      <Link to="">
-                        <a href="">
-                          <FaWhatsapp size="1.7rem" color="#0284c7" />
-                        </a>
-                      </Link>
-                    </motion.div>
-                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                      <Link to="">
-                        <a href="">
-                          <BiLogoGmail size="1.7rem" color="#0284c7" />
-                        </a>
-                      </Link>
-                    </motion.div>
-                  </div>
+                      <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                        <Link to="">
+                          <a href="">
+                            <FaWhatsapp size="1.7rem" color="#0284c7" />
+                          </a>
+                        </Link>
+                      </motion.div>
+                      <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                        <Link to="">
+                          <a href="">
+                            <BiLogoGmail size="1.7rem" color="#0284c7" />
+                          </a>
+                        </Link>
+                      </motion.div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -994,7 +1006,7 @@ const ICE = () => {
                     src="https://dummyimage.com/206x206"
                   ></img>
                   <div class="flex-grow sm:pl-8">
-                    <h2 class="title-font font-medium text-lg text-gray-900">
+                    <h2 class="title-font font-medium text-lg text-black">
                       Henry Letham
                     </h2>
                     <h3 class="text-gray-500 mb-3">Designer</h3>
@@ -1003,45 +1015,45 @@ const ICE = () => {
                       pack vaporware.
                     </p>
                     <div className="flex gap-3">
-                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                      <Link to="">
-                        <a href="">
-                          <FaFacebookF size="1.7rem" color="#0284c7" />
-                        </a>
-                      </Link>
-                    </motion.div>
+                      <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                        <Link to="">
+                          <a href="">
+                            <FaFacebookF size="1.7rem" color="#0284c7" />
+                          </a>
+                        </Link>
+                      </motion.div>
 
-                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                      <Link to="">
-                        <a href="">
-                          <FaInstagram size="1.7rem" color="#0284c7" />
-                        </a>
-                      </Link>
-                    </motion.div>
+                      <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                        <Link to="">
+                          <a href="">
+                            <FaInstagram size="1.7rem" color="#0284c7" />
+                          </a>
+                        </Link>
+                      </motion.div>
 
-                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                      <Link to="">
-                        <a href="">
-                          <FaLinkedinIn size="1.7rem" color="#0284c7" />
-                        </a>
-                      </Link>
-                    </motion.div>
+                      <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                        <Link to="">
+                          <a href="">
+                            <FaLinkedinIn size="1.7rem" color="#0284c7" />
+                          </a>
+                        </Link>
+                      </motion.div>
 
-                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                      <Link to="">
-                        <a href="">
-                          <FaWhatsapp size="1.7rem" color="#0284c7" />
-                        </a>
-                      </Link>
-                    </motion.div>
-                    <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-                      <Link to="">
-                        <a href="">
-                          <BiLogoGmail size="1.7rem" color="#0284c7" />
-                        </a>
-                      </Link>
-                    </motion.div>
-                  </div>
+                      <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                        <Link to="">
+                          <a href="">
+                            <FaWhatsapp size="1.7rem" color="#0284c7" />
+                          </a>
+                        </Link>
+                      </motion.div>
+                      <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                        <Link to="">
+                          <a href="">
+                            <BiLogoGmail size="1.7rem" color="#0284c7" />
+                          </a>
+                        </Link>
+                      </motion.div>
+                    </div>
                   </div>
                 </div>
               </div>

@@ -140,14 +140,14 @@ const CSE = () => {
                   </div>
 
                   <div class="flex flex-col items-center text-center justify-center">
-                    <h2 class="font-medium title-font mt-4 text-black text-lg">
+                    <h2 class="font-medium title-font mt- text-black text-lg">
                       Md.Tarikul Islam <br />{" "}
                       <span className="text-xs text-#0284c7">
                         Lecturer,B.Sc. in CSE(PUST)
                       </span>
                     </h2>
-                    <div class="w-12 h-1 bg-#0284c7 rounded mt-2 mb-4"></div>
-                    <p class="text-base">Head of Department</p>
+                    <div class="w-12 h-1 bg-#0284c7 rounded mt- mb-"></div>
+                    <p class="text-base py-2">Head of Department</p>
                     <div className="grid grid-flow-col gap-3 ">
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }} >
                         <Link to="https://www.facebook.com/profile.php?id=100005048774896">
