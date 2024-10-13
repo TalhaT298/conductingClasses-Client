@@ -63,22 +63,22 @@ const CSE = () => {
     {
       title: "CSE103:Structure of C programming language.",
       description:
-        'To create an account, click on the "Sign Up" button and fill out the required information. Once done, you can enjoy the benefits of being a registered member.',
+        'This course introduces students to the fundamental concepts of programming using the C language. Topics covered include data types, control structures (loops, conditionals), functions, arrays, pointers, and memory management. Emphasis is placed on understanding the syntax and structure of C, as well as developing problem-solving skills through programming assignments.',
     },
     {
       title: "CSE106:Discrete Mathematics.",
       description:
-        "Our return policy allows you to return items within 30 days of purchase. Please visit our returns page for detailed instructions and to initiate a return.",
+        "Discrete Mathematics is essential for computer science and engineering students, focusing on mathematical structures that are fundamentally discrete rather than continuous. Topics include set theory, logic, relations, functions, combinatorics, graph theory, and algorithms. The course emphasizes mathematical reasoning and proof techniques, providing a foundation for various areas in computer science, including data structures and algorithms.",
     },
     {
       title: "CSE110:Object Oriented Programming",
       description:
-        "Yes, you can change your shipping address before your order is shipped. Go to your account settings and update the shipping information accordingly.",
+        "This course introduces the principles of object-oriented programming (OOP) using a specific programming language (often Java or C++). Key concepts include classes, objects, inheritance, polymorphism, encapsulation, and abstraction. Students learn how to design and implement software solutions that are modular, reusable, and easier to maintain by leveraging OOP principles.",
     },
     {
-      title: "Are there any discounts for loyal customers?",
+      title: "CSE430:Artificial Intelligence",
       description:
-        "We appreciate our loyal customers! Stay tuned for exclusive discounts, promotions, and special offers available to members of our loyalty program.",
+        "Artificial Intelligence (AI) is an advanced course that explores the concepts, techniques, and applications of AI. Topics may include search algorithms, knowledge representation, reasoning, machine learning, neural networks, natural language processing, and robotics. The course emphasizes practical applications of AI in various domains, encouraging students to develop algorithms and systems that can solve complex problems intelligently.",
     },
   ];
 
@@ -99,7 +99,7 @@ const CSE = () => {
         <div className="py-16">
           <div className="mockup-browser border bg-base-300">
             <div className="mockup-browser-toolbar">
-              <div className="input">https://cse.com</div>
+              <div className="input text-sky-600">https://cse.com</div>
             </div>
             {/* <div className="flex justify-center px-4 py-16 bg-base-200">
               Hello!
@@ -110,9 +110,9 @@ const CSE = () => {
             heading={"Computer Science & Engineering"}
             // subHeading={"National and International scholars, Business leaders, Entrepreneurs, Dignitaries visited us to share experiences, explore opportunities, collaborate and give guidance to the students"}
           ></SectionTitle> */}
-          <div className="mx-auto md:w-8/12 my-8 flex justify-center items-center ">
+          <div className="mx-auto md:w-8/12 mt-8 flex justify-center items-center ">
             {/* <p className='text-yellow-600'>----{subHeading}---</p> */}
-            <h3 className="text-4xl uppercase border-y-2 pt-4 font-bold font-serif">
+            <h3 className="text-4xl uppercase border-y-2 pt-4 font-bold font-serif text-sky-600">
               Computer Science & Engineering
             </h3>
           </div>
@@ -140,22 +140,22 @@ const CSE = () => {
                   </div>
 
                   <div class="flex flex-col items-center text-center justify-center">
-                    <h2 class="font-medium title-font mt-4 text-gray-900 text-lg">
+                    <h2 class="font-medium title-font mt-4 text-black text-lg">
                       Md.Tarikul Islam <br />{" "}
-                      <span className="text-xs">
+                      <span className="text-xs text-#0284c7">
                         Lecturer,B.Sc. in CSE(PUST)
                       </span>
                     </h2>
-                    <div class="w-12 h-1 bg-black rounded mt-2 mb-4"></div>
+                    <div class="w-12 h-1 bg-#0284c7 rounded mt-2 mb-4"></div>
                     <p class="text-base">Head of Department</p>
-                    <div className="grid grid-flow-col gap-3">
-                      <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                    <div className="grid grid-flow-col gap-3 ">
+                      <motion.div whileTap={{ rotate: 90, scale: 0.75 }} >
                         <Link to="https://www.facebook.com/profile.php?id=100005048774896">
                           <a href="https://www.facebook.com/profile.php?id=100005048774896">
                             <FaFacebookF
                               href="https://www.facebook.com/profile.php?id=100005048774896"
                               size="1.7rem"
-                              color="black"
+                              color="#0284c7"
                             />
                           </a>
                         </Link>
@@ -164,7 +164,7 @@ const CSE = () => {
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                         <Link to="">
                           <a href="">
-                            <FaInstagram size="1.7rem" color="black" />
+                            <FaInstagram size="1.7rem" color="#0284c7" />
                           </a>
                         </Link>
                       </motion.div>
@@ -172,7 +172,7 @@ const CSE = () => {
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                         <Link to="">
                           <a href="">
-                            <FaLinkedinIn size="1.7rem" color="black" />
+                            <FaLinkedinIn size="1.7rem" color="#0284c7" />
                           </a>
                         </Link>
                       </motion.div>
@@ -180,14 +180,14 @@ const CSE = () => {
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                         <Link to="tel:+123456789">
                           <a href="tel:+123456789">
-                            <FaWhatsapp size="1.7rem" color="black" />
+                            <FaWhatsapp size="1.7rem" color="#0284c7" />
                           </a>
                         </Link>
                       </motion.div>
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                         <Link to="tarikulislamcsepust@gmail.com">
                           <a href="tarikulislamcsepust@gmail.com">
-                            <BiLogoGmail size="1.7rem" color="black" />
+                            <BiLogoGmail size="1.7rem" color="#0284c7" />
                           </a>
                           {/* ok */}
                         </Link>
@@ -213,7 +213,7 @@ const CSE = () => {
                     forward to meeting and working with each one of you. Best
                     wishes for a fruitful and rewarding academic journey
                   </p>
-                  <a class="text-black inline-flex items-center">
+                  <a class="text-#0284c7 inline-flex items-center">
                     Learn More
                     <svg
                       fill="none"
@@ -237,10 +237,10 @@ const CSE = () => {
           <div class="container px-5 py-12 mx-auto">
             <div class="flex flex-wrap w-full mb-20">
               <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
-                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
+                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-sky-600">
                   Department Tutors
                 </h1>
-                <div class="h-1 w-20 bg-black rounded"></div>
+                <div class="h-1 w-20 bg-#0284c7 rounded bg-black"></div>
               </div>
             </div>
             <div class="flex flex-wrap -m-4">
@@ -251,7 +251,7 @@ const CSE = () => {
                     src={Khalid}
                     alt="content"
                   ></img>
-                  <h3 class=" text-black text-xs font-medium title-font">
+                  <h3 class=" text-#0284c7 text-xs font-medium title-font">
                     Lecturer,B.Sc. in CSE(RU)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
@@ -261,7 +261,7 @@ const CSE = () => {
                   <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                        
                         <a href="https://www.facebook.com/khalid.hasan.77128261?mibextid=ZbWKwL">
-                          <FaFacebookF href="https://www.facebook.com/khalid.hasan.77128261?mibextid=ZbWKwL" size="1.7rem" color="black" />
+                          <FaFacebookF href="https://www.facebook.com/khalid.hasan.77128261?mibextid=ZbWKwL" size="1.7rem" color="#0284c7" />
                         </a>
                       
                         </motion.div>
@@ -269,7 +269,7 @@ const CSE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaInstagram size="1.7rem" color="black" />
+                          <FaInstagram size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -277,7 +277,7 @@ const CSE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaLinkedinIn size="1.7rem" color="black" />
+                          <FaLinkedinIn size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -285,14 +285,14 @@ const CSE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaWhatsapp size="1.7rem" color="black" />
+                          <FaWhatsapp size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <BiLogoGmail size="1.7rem" color="black" />
+                          <BiLogoGmail size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -306,7 +306,7 @@ const CSE = () => {
                     src={Dipto}
                     alt="content"
                   ></img>
-                  <h3 class="tracking-widest text-black text-xs font-medium title-font">
+                  <h3 class="tracking-widest text-#0284c7 text-xs font-medium title-font">
                     Lecturer,B.Sc. in CSE(AIUB)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
@@ -316,7 +316,7 @@ const CSE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="https://www.facebook.com/Dipto93?mibextid=ZbWKwL">
-                          <FaFacebookF size="1.7rem" color="black" />
+                          <FaFacebookF size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -324,7 +324,7 @@ const CSE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaInstagram size="1.7rem" color="black" />
+                          <FaInstagram size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -332,7 +332,7 @@ const CSE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaLinkedinIn size="1.7rem" color="black" />
+                          <FaLinkedinIn size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -340,14 +340,14 @@ const CSE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaWhatsapp size="1.7rem" color="black" />
+                          <FaWhatsapp size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <BiLogoGmail size="1.7rem" color="black" />
+                          <BiLogoGmail size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -361,7 +361,7 @@ const CSE = () => {
                     src={Jhanajay}
                     alt="content"
                   ></img>
-                  <h3 class="tracking-widest text-black text-xs font-medium title-font">
+                  <h3 class="tracking-widest text-#0284c7 text-xs font-medium title-font">
                     Lecturer,B.Sc. in CSE(SUST)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
@@ -371,7 +371,7 @@ const CSE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="https://www.facebook.com/profile.php?id=100000580366774&mibextid=JRoKGi">
-                          <FaFacebookF size="1.7rem" color="black" />
+                          <FaFacebookF size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -379,7 +379,7 @@ const CSE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaInstagram size="1.7rem" color="black" />
+                          <FaInstagram size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -387,7 +387,7 @@ const CSE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaLinkedinIn size="1.7rem" color="black" />
+                          <FaLinkedinIn size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -395,14 +395,14 @@ const CSE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaWhatsapp size="1.7rem" color="black" />
+                          <FaWhatsapp size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <BiLogoGmail size="1.7rem" color="black" />
+                          <BiLogoGmail size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -416,7 +416,7 @@ const CSE = () => {
                     src={kaniz}
                     alt="content"
                   ></img>
-                  <h3 class="tracking-widest text-black text-xs font-medium title-font">
+                  <h3 class="tracking-widest text-#0284c7 text-xs font-medium title-font">
                     Lecturer,B.Sc. in CSE(RU)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
@@ -433,7 +433,7 @@ const CSE = () => {
                           <FaFacebookF
                             href="https://www.facebook.com/profile.php?id=100012102336348"
                             size="1.7rem"
-                            color="black"
+                            color="#0284c7"
                           />
                         </a>
                       </Link>
@@ -442,7 +442,7 @@ const CSE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaInstagram size="1.7rem" color="black" />
+                          <FaInstagram size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -450,7 +450,7 @@ const CSE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaLinkedinIn size="1.7rem" color="black" />
+                          <FaLinkedinIn size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -458,14 +458,14 @@ const CSE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaWhatsapp size="1.7rem" color="black" />
+                          <FaWhatsapp size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <BiLogoGmail size="1.7rem" color="black" />
+                          <BiLogoGmail size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -479,7 +479,7 @@ const CSE = () => {
         {/* ---------------------------------------4th section start------------------------------------- */}
         <div className="mx-auto md:w-8/12 my-8 flex justify-center items-center ">
           {/* <p className='text-yellow-600'>----{subHeading}---</p> */}
-          <h3 className="text-4xl uppercase border-y-2 pt-4 font-bold font-serif">
+          <h3 className="text-4xl uppercase border-y-2 pt-4 font-bold font-serif text-sky-600">
             At a glance
           </h3>
         </div>
@@ -557,7 +557,7 @@ const CSE = () => {
               <img
                 key={slide}
                 src={slide}
-                className="min-w-full h-60 bg-black/20 sm:h-96 md:h-[540px] object-cover"
+                className="min-w-full h-60 bg-#0284c7/20 sm:h-96 md:h-[540px] object-cover"
                 alt={`Slider - ${inx + 1}`}
               />
             ))}
@@ -872,7 +872,7 @@ const CSE = () => {
             </div> */}
             <div className="mx-auto md:w-8/12 my-8 flex justify-center items-center ">
               {/* <p className='text-yellow-600'>----{subHeading}---</p> */}
-              <h3 className="text-4xl uppercase border-y-2 pt-4 font-bold font-serif text-black">
+              <h3 className="text-4xl uppercase border-y-2 pt-4 font-bold font-serif text-#0284c7 text-sky-600">
                 Student's Projet
               </h3>
             </div>
@@ -896,7 +896,7 @@ const CSE = () => {
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                         <Link to="">
                           <a href="">
-                            <IoLogoGithub size="1.7rem" color="black" />
+                            <IoLogoGithub size="1.7rem" color="#0284c7" />
                           </a>
                         </Link>
                       </motion.div>
@@ -904,7 +904,7 @@ const CSE = () => {
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                         <Link to="">
                           <a href="">
-                            <VscLiveShare size="1.7rem" color="black" />
+                            <VscLiveShare size="1.7rem" color="#0284c7" />
                           </a>
                         </Link>
                       </motion.div>
@@ -912,7 +912,7 @@ const CSE = () => {
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                         <Link to="">
                           <a href="">
-                            <FaLinkedinIn size="1.7rem" color="black" />
+                            <FaLinkedinIn size="1.7rem" color="#0284c7" />
                           </a>
                         </Link>
                       </motion.div>
@@ -920,14 +920,14 @@ const CSE = () => {
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                         <Link to="">
                           <a href="">
-                            <FaWhatsapp size="1.7rem" color="black" />
+                            <FaWhatsapp size="1.7rem" color="#0284c7" />
                           </a>
                         </Link>
                       </motion.div>
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                         <Link to="">
                           <a href="">
-                            <BiLogoGmail size="1.7rem" color="black" />
+                            <BiLogoGmail size="1.7rem" color="#0284c7" />
                           </a>
                         </Link>
                       </motion.div>
@@ -954,7 +954,7 @@ const CSE = () => {
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                         <Link to="">
                           <a href="">
-                            <IoLogoGithub size="1.7rem" color="black" />
+                            <IoLogoGithub size="1.7rem" color="#0284c7" />
                           </a>
                         </Link>
                       </motion.div>
@@ -962,7 +962,7 @@ const CSE = () => {
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                         <Link to="">
                           <a href="">
-                            <VscLiveShare size="1.7rem" color="black" />
+                            <VscLiveShare size="1.7rem" color="#0284c7" />
                           </a>
                         </Link>
                       </motion.div>
@@ -970,7 +970,7 @@ const CSE = () => {
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                         <Link to="">
                           <a href="">
-                            <FaLinkedinIn size="1.7rem" color="black" />
+                            <FaLinkedinIn size="1.7rem" color="#0284c7" />
                           </a>
                         </Link>
                       </motion.div>
@@ -978,14 +978,14 @@ const CSE = () => {
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                         <Link to="">
                           <a href="">
-                            <FaWhatsapp size="1.7rem" color="black" />
+                            <FaWhatsapp size="1.7rem" color="#0284c7" />
                           </a>
                         </Link>
                       </motion.div>
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                         <Link to="">
                           <a href="">
-                            <BiLogoGmail size="1.7rem" color="black" />
+                            <BiLogoGmail size="1.7rem" color="#0284c7" />
                           </a>
                         </Link>
                       </motion.div>
@@ -1012,7 +1012,7 @@ const CSE = () => {
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                         <Link to="">
                           <a href="">
-                            <IoLogoGithub size="1.7rem" color="black" />
+                            <IoLogoGithub size="1.7rem" color="#0284c7" />
                           </a>
                         </Link>
                       </motion.div>
@@ -1020,7 +1020,7 @@ const CSE = () => {
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                         <Link to="">
                           <a href="">
-                            <VscLiveShare size="1.7rem" color="black" />
+                            <VscLiveShare size="1.7rem" color="#0284c7" />
                           </a>
                         </Link>
                       </motion.div>
@@ -1028,7 +1028,7 @@ const CSE = () => {
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                         <Link to="">
                           <a href="">
-                            <FaLinkedinIn size="1.7rem" color="black" />
+                            <FaLinkedinIn size="1.7rem" color="#0284c7" />
                           </a>
                         </Link>
                       </motion.div>
@@ -1036,14 +1036,14 @@ const CSE = () => {
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                         <Link to="">
                           <a href="">
-                            <FaWhatsapp size="1.7rem" color="black" />
+                            <FaWhatsapp size="1.7rem" color="#0284c7" />
                           </a>
                         </Link>
                       </motion.div>
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                         <Link to="">
                           <a href="">
-                            <BiLogoGmail size="1.7rem" color="black" />
+                            <BiLogoGmail size="1.7rem" color="#0284c7" />
                           </a>
                         </Link>
                       </motion.div>
@@ -1070,7 +1070,7 @@ const CSE = () => {
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                         <Link to="">
                           <a href="">
-                            <IoLogoGithub size="1.7rem" color="black" />
+                            <IoLogoGithub size="1.7rem" color="#0284c7" />
                           </a>
                         </Link>
                       </motion.div>
@@ -1078,7 +1078,7 @@ const CSE = () => {
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                         <Link to="">
                           <a href="">
-                            <VscLiveShare size="1.7rem" color="black" />
+                            <VscLiveShare size="1.7rem" color="#0284c7" />
                           </a>
                         </Link>
                       </motion.div>
@@ -1086,7 +1086,7 @@ const CSE = () => {
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                         <Link to="">
                           <a href="">
-                            <FaLinkedinIn size="1.7rem" color="black" />
+                            <FaLinkedinIn size="1.7rem" color="#0284c7" />
                           </a>
                         </Link>
                       </motion.div>
@@ -1094,14 +1094,14 @@ const CSE = () => {
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                         <Link to="">
                           <a href="">
-                            <FaWhatsapp size="1.7rem" color="black" />
+                            <FaWhatsapp size="1.7rem" color="#0284c7" />
                           </a>
                         </Link>
                       </motion.div>
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                         <Link to="">
                           <a href="">
-                            <BiLogoGmail size="1.7rem" color="black" />
+                            <BiLogoGmail size="1.7rem" color="#0284c7" />
                           </a>
                         </Link>
                       </motion.div>
@@ -1116,7 +1116,7 @@ const CSE = () => {
         {/* -------------------------------6th section start--------------------------------- */}
         <div className="mx-auto md:w-8/12 my-8 flex justify-center items-center ">
           {/* <p className='text-yellow-600'>----{subHeading}---</p> */}
-          <h3 className="text-4xl uppercase border-y-2 pt-4 font-bold font-serif">
+          <h3 className="text-4xl uppercase border-y-2 pt-4 font-bold font-serif text-sky-600">
             Core Computer Science and Engineerig Courses
           </h3>
         </div>
@@ -1124,18 +1124,18 @@ const CSE = () => {
           {accordionsData.map((PerAccordion, idx) => (
             <div
               key={idx}
-              className="border-b border-gray-500 last-of-type:border-none"
+              className="border-b border-black last-of-type:border-none"
             >
               <button
                 onClick={() => toggle(idx)}
-                className="flex h-full w-full justify-between py-4 text-left font-medium text-black dark:text-black"
+                className="flex h-full w-full justify-between py-4 text-left font-medium text-#0284c7 dark:text-#0284c7 text-sky-600" 
               >
                 <span className="sm:text-lg md:text-xl">
                   {PerAccordion.title}
                 </span>
                 <span className="rounded-full p-2 ">
                   <svg
-                    className="ml-8 mr-7 shrink-0 fill-black dark:fill-black"
+                    className="ml-8 mr-7 shrink-0 fill-#0284c7 dark:fill-#0284c7"
                     width="16"
                     height="16"
                     xmlns="http://www.w3.org/2000/svg"
@@ -1160,7 +1160,7 @@ const CSE = () => {
                 </span>
               </button>
               <div
-                className={`grid overflow-hidden text-gray-800 transition-all duration-300 ease-in-out dark:text-gray-400 ${
+                className={`grid overflow-hidden text-gray-800 transition-all duration-300 ease-in-out dark:text-black ${
                   isOpen === idx
                     ? "grid-rows-[1fr] pb-3 opacity-100"
                     : "grid-rows-[0fr] opacity-0"
