@@ -86,7 +86,7 @@ const EEE = () => {
       <div className="py-16">
         <div className="mockup-browser border bg-base-300">
           <div className="mockup-browser-toolbar">
-            <div className="input">https://eee.com</div>
+            <div className="input text-sky-600">https://eee.com</div>
           </div>
           {/* <div className="flex justify-center px-4 py-16 bg-base-200">
               Hello!
@@ -99,7 +99,7 @@ const EEE = () => {
           ></SectionTitle> */}
         <div className="mx-auto md:w-8/12 my-8 flex justify-center items-center ">
           {/* <p className='text-yellow-600'>----{subHeading}---</p> */}
-          <h3 className="text-4xl uppercase border-y-2 pt-6 font-bold font-serif">
+          <h3 className="text-4xl uppercase border-y-2 pt-6 font-bold font-serif text-sky-600">
             Electrical & Electronic Engineering
           </h3>
         </div>
@@ -122,19 +122,19 @@ const EEE = () => {
                   <img src={nas} className="h-40 w-40 rounded-full" alt="" />
                 </div>
                 <div class="flex flex-col items-center text-center justify-center">
-                  <h2 class="font-medium title-font mt-4 text-gray-900 text-lg">
+                  <h2 class="font-medium title-font mt- text-gray-900 text-lg">
                     Md. Nasim Haidar <br />{" "}
                     <span className="text-xs">Lecturer,B.Sc. in EEE(RU)</span>
                   </h2>
-                  <div class="w-12 h-1 bg-black rounded mt-2 mb-4"></div>
-                  <p class="text-base">Head of Department</p>
+                  <div class="w-12 h-1 bg-#0284c7 rounded mt- mb-"></div>
+                  <p class="text-base my-3">Head of Department</p>
                   <div className="grid grid-flow-col gap-3">
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <a href="https://www.facebook.com/nasim.haidar.16">
                         <FaFacebookF
                           href="https://www.facebook.com/nasim.haidar.16"
                           size="1.7rem"
-                          color="black"
+                          color="#0284c7"
                         />
                       </a>
                     </motion.div>
@@ -142,7 +142,7 @@ const EEE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaInstagram size="1.7rem" color="black" />
+                          <FaInstagram size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -150,7 +150,7 @@ const EEE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaLinkedinIn size="1.7rem" color="black" />
+                          <FaLinkedinIn size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -158,14 +158,14 @@ const EEE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaWhatsapp size="1.7rem" color="black" />
+                          <FaWhatsapp size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <BiLogoGmail size="1.7rem" color="black" />
+                          <BiLogoGmail size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -198,7 +198,7 @@ const EEE = () => {
                   curriculum will provide you with a solid foundation and the
                   opportunity to specialize in areas that inspire you. 
                 </p>
-                <a class="text-black inline-flex items-center">
+                <a class="text-#0284c7 inline-flex items-center">
                   Learn More
                   <svg
                     fill="none"
@@ -222,7 +222,7 @@ const EEE = () => {
         <div class="container px-5 py-12 mx-auto">
           <div class="flex flex-wrap w-full mb-20">
             <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
-              <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
+              <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-sky-600">
                 Department Tutors
               </h1>
               <div class="h-1 w-20 bg-black rounded"></div>
@@ -236,7 +236,7 @@ const EEE = () => {
                   src={polas}
                   alt="content"
                 ></img>
-                <h3 class=" text-black text-xs font-medium title-font">
+                <h3 class=" text-#0284c7 text-xs font-medium title-font">
                   Lecturer,B.Sc. in RECR(RU)
                 </h3>
                 <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
@@ -248,7 +248,7 @@ const EEE = () => {
                       <FaFacebookF
                         href="https://www.facebook.com/polas.roy.9?mibextid=kFxxJD"
                         size="1.7rem"
-                        color="black"
+                        color="#0284c7"
                       />
                     </a>
                   </motion.div>
@@ -256,7 +256,7 @@ const EEE = () => {
                   <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                     <Link to="">
                       <a href="">
-                        <FaInstagram size="1.7rem" color="black" />
+                        <FaInstagram size="1.7rem" color="#0284c7" />
                       </a>
                     </Link>
                   </motion.div>
@@ -264,7 +264,7 @@ const EEE = () => {
                   <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                     <Link to="">
                       <a href="">
-                        <FaLinkedinIn size="1.7rem" color="black" />
+                        <FaLinkedinIn size="1.7rem" color="#0284c7" />
                       </a>
                     </Link>
                   </motion.div>
@@ -272,14 +272,14 @@ const EEE = () => {
                   <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                     <Link to="">
                       <a href="">
-                        <FaWhatsapp size="1.7rem" color="black" />
+                        <FaWhatsapp size="1.7rem" color="#0284c7" />
                       </a>
                     </Link>
                   </motion.div>
                   <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                     <Link to="">
                       <a href="">
-                        <BiLogoGmail size="1.7rem" color="black" />
+                        <BiLogoGmail size="1.7rem" color="#0284c7" />
                       </a>
                     </Link>
                   </motion.div>
@@ -293,7 +293,7 @@ const EEE = () => {
                   src={naz}
                   alt="content"
                 ></img>
-                <h3 class="tracking-widest text-black text-xs font-medium title-font">
+                <h3 class="tracking-widest text-#0284c7 text-xs font-medium title-font">
                   Lecturer,B.Sc. in EEE(RU)
                 </h3>
                 <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
@@ -305,7 +305,7 @@ const EEE = () => {
                       <FaFacebookF
                         href="https://www.facebook.com/nazmul.119?mibextid=ZbWKwL"
                         size="1.7rem"
-                        color="black"
+                        color="#0284c7"
                       />
                     </a>
                   </motion.div>
@@ -313,7 +313,7 @@ const EEE = () => {
                   <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                     <Link to="">
                       <a href="">
-                        <FaInstagram size="1.7rem" color="black" />
+                        <FaInstagram size="1.7rem" color="#0284c7" />
                       </a>
                     </Link>
                   </motion.div>
@@ -321,7 +321,7 @@ const EEE = () => {
                   <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                     <Link to="">
                       <a href="">
-                        <FaLinkedinIn size="1.7rem" color="black" />
+                        <FaLinkedinIn size="1.7rem" color="#0284c7" />
                       </a>
                     </Link>
                   </motion.div>
@@ -329,14 +329,14 @@ const EEE = () => {
                   <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                     <Link to="">
                       <a href="">
-                        <FaWhatsapp size="1.7rem" color="black" />
+                        <FaWhatsapp size="1.7rem" color="#0284c7" />
                       </a>
                     </Link>
                   </motion.div>
                   <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                     <Link to="">
                       <a href="">
-                        <BiLogoGmail size="1.7rem" color="black" />
+                        <BiLogoGmail size="1.7rem" color="#0284c7" />
                       </a>
                     </Link>
                   </motion.div>
@@ -350,7 +350,7 @@ const EEE = () => {
                   src={gol}
                   alt="content"
                 ></img>
-                <h3 class="tracking-widest text-black text-xs font-medium title-font">
+                <h3 class="tracking-widest text-#0284c7 text-xs font-medium title-font">
                   Lecturer,B.Sc. in EEE(RU)
                 </h3>
                 <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
@@ -362,7 +362,7 @@ const EEE = () => {
                       <FaFacebookF
                         href="https://www.facebook.com/GolamMdAlShamim?mibextid=ZbWKwL"
                         size="1.7rem"
-                        color="black"
+                        color="#0284c7"
                       />
                     </a>
                   </motion.div>
@@ -370,7 +370,7 @@ const EEE = () => {
                   <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                     <Link to="">
                       <a href="">
-                        <FaInstagram size="1.7rem" color="black" />
+                        <FaInstagram size="1.7rem" color="#0284c7" />
                       </a>
                     </Link>
                   </motion.div>
@@ -378,7 +378,7 @@ const EEE = () => {
                   <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                     <Link to="">
                       <a href="">
-                        <FaLinkedinIn size="1.7rem" color="black" />
+                        <FaLinkedinIn size="1.7rem" color="#0284c7" />
                       </a>
                     </Link>
                   </motion.div>
@@ -386,14 +386,14 @@ const EEE = () => {
                   <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                     <Link to="">
                       <a href="">
-                        <FaWhatsapp size="1.7rem" color="black" />
+                        <FaWhatsapp size="1.7rem" color="#0284c7" />
                       </a>
                     </Link>
                   </motion.div>
                   <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                     <Link to="">
                       <a href="">
-                        <BiLogoGmail size="1.7rem" color="black" />
+                        <BiLogoGmail size="1.7rem" color="#0284c7" />
                       </a>
                     </Link>
                   </motion.div>
@@ -407,7 +407,7 @@ const EEE = () => {
                   src={akhi}
                   alt="content"
                 ></img>
-                <h3 class="tracking-widest text-black text-xs font-medium title-font">
+                <h3 class="tracking-widest text-#0284c7 text-xs font-medium title-font">
                   Lecturer,B.Sc. in EEE(RU)
                 </h3>
                 <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
@@ -417,7 +417,7 @@ const EEE = () => {
                   <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                     <Link to="https://www.facebook.com/priyoakhi">
                       <a href="https://www.facebook.com/priyoakhi">
-                        <FaFacebookF size="1.7rem" color="black" />
+                        <FaFacebookF size="1.7rem" color="#0284c7" />
                       </a>
                     </Link>
                   </motion.div>
@@ -425,7 +425,7 @@ const EEE = () => {
                   <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                     <Link to="https://www.facebook.com/priyoakhi">
                       <a href="https://www.facebook.com/priyoakhi">
-                        <FaInstagram size="1.7rem" color="black" />
+                        <FaInstagram size="1.7rem" color="#0284c7" />
                       </a>
                     </Link>
                   </motion.div>
@@ -433,7 +433,7 @@ const EEE = () => {
                   <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                     <Link to="https://www.facebook.com/priyoakhi">
                       <a href="https://www.facebook.com/priyoakhi">
-                        <FaLinkedinIn size="1.7rem" color="black" />
+                        <FaLinkedinIn size="1.7rem" color="#0284c7" />
                       </a>
                     </Link>
                   </motion.div>
@@ -441,14 +441,14 @@ const EEE = () => {
                   <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                     <Link to="https://www.facebook.com/priyoakhi">
                       <a href="https://www.facebook.com/priyoakhi">
-                        <FaWhatsapp size="1.7rem" color="black" />
+                        <FaWhatsapp size="1.7rem" color="#0284c7" />
                       </a>
                     </Link>
                   </motion.div>
                   <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                     <Link to="">
                       <a href="">
-                        <BiLogoGmail size="1.7rem" color="black" />
+                        <BiLogoGmail size="1.7rem" color="#0284c7" />
                       </a>
                     </Link>
                   </motion.div>
@@ -462,7 +462,7 @@ const EEE = () => {
       {/* ---------------------------------------4th section start------------------------------------- */}
       <div className="mx-auto md:w-8/12 my-8 flex justify-center items-center ">
         {/* <p className='text-yellow-600'>----{subHeading}---</p> */}
-        <h3 className="text-4xl uppercase border-y-2 pt-4 font-bold font-serif">
+        <h3 className="text-4xl uppercase border-y-2 pt-4 font-bold font-serif text-sky-600">
           At a glance
         </h3>
       </div>
@@ -540,7 +540,7 @@ const EEE = () => {
             <img
               key={slide}
               src={slide}
-              className="min-w-full h-60 bg-black/20 sm:h-96 md:h-[540px] object-cover"
+              className="min-w-full h-60 bg-#0284c7/20 sm:h-96 md:h-[540px] object-cover"
               alt={`Slider - ${inx + 1}`}
             />
           ))}
@@ -855,7 +855,7 @@ const EEE = () => {
             </div> */}
           <div className="mx-auto md:w-8/12 my-8 flex justify-center items-center ">
             {/* <p className='text-yellow-600'>----{subHeading}---</p> */}
-            <h3 className="text-4xl uppercase border-y-2 pt-4 font-bold font-serif text-black">
+            <h3 className="text-4xl uppercase border-y-2 pt-4 font-bold font-serif text-sky-600">
               Student's Projet
             </h3>
           </div>
@@ -880,7 +880,7 @@ const EEE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaFacebookF size="1.7rem" color="black" />
+                          <FaFacebookF size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -888,7 +888,7 @@ const EEE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaInstagram size="1.7rem" color="black" />
+                          <FaInstagram size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -896,7 +896,7 @@ const EEE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaLinkedinIn size="1.7rem" color="black" />
+                          <FaLinkedinIn size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -904,14 +904,14 @@ const EEE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaWhatsapp size="1.7rem" color="black" />
+                          <FaWhatsapp size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <BiLogoGmail size="1.7rem" color="black" />
+                          <BiLogoGmail size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -939,7 +939,7 @@ const EEE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaFacebookF size="1.7rem" color="black" />
+                          <FaFacebookF size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -947,7 +947,7 @@ const EEE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaInstagram size="1.7rem" color="black" />
+                          <FaInstagram size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -955,7 +955,7 @@ const EEE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaLinkedinIn size="1.7rem" color="black" />
+                          <FaLinkedinIn size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -963,14 +963,14 @@ const EEE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaWhatsapp size="1.7rem" color="black" />
+                          <FaWhatsapp size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <BiLogoGmail size="1.7rem" color="black" />
+                          <BiLogoGmail size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -998,7 +998,7 @@ const EEE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaFacebookF size="1.7rem" color="black" />
+                          <FaFacebookF size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -1006,7 +1006,7 @@ const EEE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaInstagram size="1.7rem" color="black" />
+                          <FaInstagram size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -1014,7 +1014,7 @@ const EEE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaLinkedinIn size="1.7rem" color="black" />
+                          <FaLinkedinIn size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -1022,14 +1022,14 @@ const EEE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaWhatsapp size="1.7rem" color="black" />
+                          <FaWhatsapp size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <BiLogoGmail size="1.7rem" color="black" />
+                          <BiLogoGmail size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -1057,7 +1057,7 @@ const EEE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaFacebookF size="1.7rem" color="black" />
+                          <FaFacebookF size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -1065,7 +1065,7 @@ const EEE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaInstagram size="1.7rem" color="black" />
+                          <FaInstagram size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -1073,7 +1073,7 @@ const EEE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaLinkedinIn size="1.7rem" color="black" />
+                          <FaLinkedinIn size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -1081,14 +1081,14 @@ const EEE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaWhatsapp size="1.7rem" color="black" />
+                          <FaWhatsapp size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <BiLogoGmail size="1.7rem" color="black" />
+                          <BiLogoGmail size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -1103,7 +1103,7 @@ const EEE = () => {
       {/* -------------------------------6th section start--------------------------------- */}
       <div className="mx-auto md:w-8/12 my-8 flex justify-center items-center ">
         {/* <p className='text-yellow-600'>----{subHeading}---</p> */}
-        <h3 className="text-4xl uppercase border-y-2 pt-4 font-bold font-serif">
+        <h3 className="text-4xl uppercase border-y-2 pt-4 font-bold font-serif text-sky-600">
           Core Electrical and Electronics Engineering Courses
         </h3>
       </div>
@@ -1111,18 +1111,18 @@ const EEE = () => {
         {accordionsData.map((PerAccordion, idx) => (
           <div
             key={idx}
-            className="border-b border-black last-of-type:border-none"
+            className="border-b border-#0284c7 last-of-type:border-none"
           >
             <button
               onClick={() => toggle(idx)}
-              className="flex h-full w-full justify-between py-4 text-left font-medium text-black dark:text-black"
+              className="flex h-full w-full justify-between py-4 text-left font-medium text-sky-600 dark:text-#0284c7"
             >
               <span className="sm:text-lg md:text-xl">
                 {PerAccordion.title}
               </span>
               <span className="rounded-full p-2 ">
                 <svg
-                  className="ml-8 mr-7 shrink-0 fill-black dark:fill-black"
+                  className="ml-8 mr-7 shrink-0 fill-#0284c7 dark:fill-#0284c7"
                   width="16"
                   height="16"
                   xmlns="http://www.w3.org/2000/svg"
@@ -1147,7 +1147,7 @@ const EEE = () => {
               </span>
             </button>
             <div
-              className={`grid overflow-hidden text-black transition-all duration-300 ease-in-out dark:text-black ${
+              className={`grid overflow-hidden text-#0284c7 transition-all duration-300 ease-in-out dark:text-#0284c7 ${
                 isOpen === idx
                   ? "grid-rows-[1fr] pb-3 opacity-100"
                   : "grid-rows-[0fr] opacity-0"
