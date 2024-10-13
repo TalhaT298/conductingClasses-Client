@@ -32,7 +32,7 @@ const Teacher = () => {
     <div>
       <Link to="/teacher"></Link>
         {/* --------------------------------1st section start------------------- */}
-        <section class="text-black body-font">
+        <section class="text-#0284c7 body-font">
           <div class="container px-5 py-12 mx-auto">
             <SectionTitle
               className="font-serif"
@@ -47,7 +47,7 @@ const Teacher = () => {
                     src={solai}
                     alt="content"
                   ></img>
-                  <h3 class="tracking-widest text-black text-xs font-medium title-font">
+                  <h3 class="tracking-widest text-#0284c7 text-xs font-medium title-font">
                     Lecturer,B.Sc. Physics(CCR)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
@@ -57,7 +57,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                        
                         <a href="https://www.facebook.com/suzon.miah">
-                          <FaFacebookF href="https://www.facebook.com/suzon.miah" size="1.7rem" color="black" />
+                          <FaFacebookF href="https://www.facebook.com/suzon.miah" size="1.7rem" color="#0284c7" />
                         </a>
                       
                     </motion.div>
@@ -65,7 +65,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaInstagram size="1.7rem" color="black" />
+                          <FaInstagram size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -73,7 +73,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaLinkedinIn size="1.7rem" color="black" />
+                          <FaLinkedinIn size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -81,14 +81,14 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaWhatsapp size="1.7rem" color="black" />
+                          <FaWhatsapp size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <BiLogoGmail size="1.7rem" color="black" />
+                          <BiLogoGmail size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -102,7 +102,7 @@ const Teacher = () => {
                     src={shah}
                     alt="content"
                   ></img>
-                  <h3 class="tracking-widest text-black text-xs font-medium title-font">
+                  <h3 class="tracking-widest text-#0284c7 text-xs font-medium title-font">
                     Lecturer,B.Sc. Applied Statistics(DU)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
@@ -112,7 +112,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                        
                         <a href="https://www.facebook.com/shahadat.babu.3">
-                          <FaFacebookF href="https://www.facebook.com/shahadat.babu.3" size="1.7rem" color="black" />
+                          <FaFacebookF href="https://www.facebook.com/shahadat.babu.3" size="1.7rem" color="#0284c7" />
                         </a>
                       
                     </motion.div>
@@ -120,7 +120,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaInstagram size="1.7rem" color="black" />
+                          <FaInstagram size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -128,7 +128,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaLinkedinIn size="1.7rem" color="black" />
+                          <FaLinkedinIn size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -136,14 +136,14 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaWhatsapp size="1.7rem" color="black" />
+                          <FaWhatsapp size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <BiLogoGmail size="1.7rem" color="black" />
+                          <BiLogoGmail size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -157,7 +157,7 @@ const Teacher = () => {
                     src={masum}
                     alt="content"
                   ></img>
-                  <h3 class="tracking-widest text-black text-xs font-medium title-font">
+                  <h3 class="tracking-widest text-#0284c7 text-xs font-medium title-font">
                     Lecturer,B.Sc. Mathematics(RU)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
@@ -167,7 +167,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                        
                         <a href="https://www.facebook.com/mohammad.masum.3701">
-                          <FaFacebookF href="https://www.facebook.com/mohammad.masum.3701" size="1.7rem" color="black" />
+                          <FaFacebookF href="https://www.facebook.com/mohammad.masum.3701" size="1.7rem" color="#0284c7" />
                         </a>
                       
                     </motion.div>
@@ -175,7 +175,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaInstagram size="1.7rem" color="black" />
+                          <FaInstagram size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -183,7 +183,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaLinkedinIn size="1.7rem" color="black" />
+                          <FaLinkedinIn size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -191,14 +191,14 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaWhatsapp size="1.7rem" color="black" />
+                          <FaWhatsapp size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <BiLogoGmail size="1.7rem" color="black" />
+                          <BiLogoGmail size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -212,7 +212,7 @@ const Teacher = () => {
                     src={tamim}
                     alt="content"
                   ></img>
-                  <h3 class="tracking-widest text-black text-xs font-medium title-font">
+                  <h3 class="tracking-widest text-#0284c7 text-xs font-medium title-font">
                     Lecturer,B.Sc. English(CCR)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
@@ -222,7 +222,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                        
                         <a href="https://www.facebook.com/The.Phoenix.369">
-                          <FaFacebookF href="https://www.facebook.com/The.Phoenix.369" size="1.7rem" color="black" />
+                          <FaFacebookF href="https://www.facebook.com/The.Phoenix.369" size="1.7rem" color="#0284c7" />
                         </a>
                       
                     </motion.div>
@@ -230,7 +230,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaInstagram size="1.7rem" color="black" />
+                          <FaInstagram size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -238,7 +238,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaLinkedinIn size="1.7rem" color="black" />
+                          <FaLinkedinIn size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -246,14 +246,14 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaWhatsapp size="1.7rem" color="black" />
+                          <FaWhatsapp size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <BiLogoGmail size="1.7rem" color="black" />
+                          <BiLogoGmail size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -269,7 +269,7 @@ const Teacher = () => {
                     src={Khalid}
                     alt="content"
                   ></img>
-                  <h3 class=" text-black text-xs font-medium title-font">
+                  <h3 class=" text-#0284c7 text-xs font-medium title-font">
                     Lecturer,B.Sc. in CSE(RU)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
@@ -281,7 +281,7 @@ const Teacher = () => {
                         <FaFacebookF
                           href="https://www.facebook.com/khalid.hasan.77128261?mibextid=ZbWKwL"
                           size="1.7rem"
-                          color="black"
+                          color="#0284c7"
                         />
                       </a>
                     </motion.div>
@@ -289,7 +289,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaInstagram size="1.7rem" color="black" />
+                          <FaInstagram size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -297,7 +297,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaLinkedinIn size="1.7rem" color="black" />
+                          <FaLinkedinIn size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -305,14 +305,14 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaWhatsapp size="1.7rem" color="black" />
+                          <FaWhatsapp size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <BiLogoGmail size="1.7rem" color="black" />
+                          <BiLogoGmail size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -326,7 +326,7 @@ const Teacher = () => {
                     src={Dipto}
                     alt="content"
                   ></img>
-                  <h3 class="tracking-widest text-black text-xs font-medium title-font">
+                  <h3 class="tracking-widest text-#0284c7 text-xs font-medium title-font">
                     Lecturer,B.Sc. in CSE(AIUB)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
@@ -336,7 +336,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="https://www.facebook.com/Dipto93?mibextid=ZbWKwL">
-                          <FaFacebookF size="1.7rem" color="black" />
+                          <FaFacebookF size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -344,7 +344,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaInstagram size="1.7rem" color="black" />
+                          <FaInstagram size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -352,7 +352,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaLinkedinIn size="1.7rem" color="black" />
+                          <FaLinkedinIn size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -360,14 +360,14 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaWhatsapp size="1.7rem" color="black" />
+                          <FaWhatsapp size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <BiLogoGmail size="1.7rem" color="black" />
+                          <BiLogoGmail size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -381,7 +381,7 @@ const Teacher = () => {
                     src={Jhanajay}
                     alt="content"
                   ></img>
-                  <h3 class="tracking-widest text-black text-xs font-medium title-font">
+                  <h3 class="tracking-widest text-#0284c7 text-xs font-medium title-font">
                     Lecturer,B.Sc. in CSE(SUST)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
@@ -391,7 +391,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="https://www.facebook.com/profile.php?id=100000580366774&mibextid=JRoKGi">
-                          <FaFacebookF size="1.7rem" color="black" />
+                          <FaFacebookF size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -399,7 +399,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaInstagram size="1.7rem" color="black" />
+                          <FaInstagram size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -407,7 +407,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaLinkedinIn size="1.7rem" color="black" />
+                          <FaLinkedinIn size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -415,14 +415,14 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaWhatsapp size="1.7rem" color="black" />
+                          <FaWhatsapp size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <BiLogoGmail size="1.7rem" color="black" />
+                          <BiLogoGmail size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -436,7 +436,7 @@ const Teacher = () => {
                     src={kaniz}
                     alt="content"
                   ></img>
-                  <h3 class="tracking-widest text-black text-xs font-medium title-font">
+                  <h3 class="tracking-widest text-#0284c7 text-xs font-medium title-font">
                     Lecturer,B.Sc. in CSE(RU)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
@@ -453,7 +453,7 @@ const Teacher = () => {
                           <FaFacebookF
                             href="https://www.facebook.com/profile.php?id=100012102336348"
                             size="1.7rem"
-                            color="black"
+                            color="#0284c7"
                           />
                         </a>
                       </Link>
@@ -462,7 +462,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaInstagram size="1.7rem" color="black" />
+                          <FaInstagram size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -470,7 +470,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaLinkedinIn size="1.7rem" color="black" />
+                          <FaLinkedinIn size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -478,14 +478,14 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaWhatsapp size="1.7rem" color="black" />
+                          <FaWhatsapp size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <BiLogoGmail size="1.7rem" color="black" />
+                          <BiLogoGmail size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -501,7 +501,7 @@ const Teacher = () => {
                     src={tariq}
                     alt="content"
                   ></img>
-                  <h3 class=" text-black text-xs font-medium title-font">
+                  <h3 class=" text-#0284c7 text-xs font-medium title-font">
                   Lecturer,B.Sc. in CSE(PUST)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
@@ -511,7 +511,7 @@ const Teacher = () => {
                   <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                        
                         <a href="https://www.facebook.com/profile.php?id=100005048774896">
-                          <FaFacebookF href="https://www.facebook.com/profile.php?id=100005048774896" size="1.7rem" color="black" />
+                          <FaFacebookF href="https://www.facebook.com/profile.php?id=100005048774896" size="1.7rem" color="#0284c7" />
                         </a>
                       
                         </motion.div>
@@ -519,7 +519,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaInstagram size="1.7rem" color="black" />
+                          <FaInstagram size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -527,7 +527,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaLinkedinIn size="1.7rem" color="black" />
+                          <FaLinkedinIn size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -535,14 +535,14 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaWhatsapp size="1.7rem" color="black" />
+                          <FaWhatsapp size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <BiLogoGmail size="1.7rem" color="black" />
+                          <BiLogoGmail size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -556,7 +556,7 @@ const Teacher = () => {
                   src={polas}
                   alt="content"
                 ></img>
-                <h3 class=" text-black text-xs font-medium title-font">
+                <h3 class=" text-#0284c7 text-xs font-medium title-font">
                   Lecturer,B.Sc. in RECR(RU)
                 </h3>
                 <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
@@ -568,7 +568,7 @@ const Teacher = () => {
                       <FaFacebookF
                         href="https://www.facebook.com/polas.roy.9?mibextid=kFxxJD"
                         size="1.7rem"
-                        color="black"
+                        color="#0284c7"
                       />
                     </a>
                   </motion.div>
@@ -576,7 +576,7 @@ const Teacher = () => {
                   <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                     <Link to="">
                       <a href="">
-                        <FaInstagram size="1.7rem" color="black" />
+                        <FaInstagram size="1.7rem" color="#0284c7" />
                       </a>
                     </Link>
                   </motion.div>
@@ -584,7 +584,7 @@ const Teacher = () => {
                   <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                     <Link to="">
                       <a href="">
-                        <FaLinkedinIn size="1.7rem" color="black" />
+                        <FaLinkedinIn size="1.7rem" color="#0284c7" />
                       </a>
                     </Link>
                   </motion.div>
@@ -592,14 +592,14 @@ const Teacher = () => {
                   <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                     <Link to="">
                       <a href="">
-                        <FaWhatsapp size="1.7rem" color="black" />
+                        <FaWhatsapp size="1.7rem" color="#0284c7" />
                       </a>
                     </Link>
                   </motion.div>
                   <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                     <Link to="">
                       <a href="">
-                        <BiLogoGmail size="1.7rem" color="black" />
+                        <BiLogoGmail size="1.7rem" color="#0284c7" />
                       </a>
                     </Link>
                   </motion.div>
@@ -613,7 +613,7 @@ const Teacher = () => {
                   src={naz}
                   alt="content"
                 ></img>
-                <h3 class="tracking-widest text-black text-xs font-medium title-font">
+                <h3 class="tracking-widest text-#0284c7 text-xs font-medium title-font">
                   Lecturer,B.Sc. in EEE(RU)
                 </h3>
                 <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
@@ -625,7 +625,7 @@ const Teacher = () => {
                       <FaFacebookF
                         href="https://www.facebook.com/nazmul.119?mibextid=ZbWKwL"
                         size="1.7rem"
-                        color="black"
+                        color="#0284c7"
                       />
                     </a>
                   </motion.div>
@@ -633,7 +633,7 @@ const Teacher = () => {
                   <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                     <Link to="">
                       <a href="">
-                        <FaInstagram size="1.7rem" color="black" />
+                        <FaInstagram size="1.7rem" color="#0284c7" />
                       </a>
                     </Link>
                   </motion.div>
@@ -641,7 +641,7 @@ const Teacher = () => {
                   <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                     <Link to="">
                       <a href="">
-                        <FaLinkedinIn size="1.7rem" color="black" />
+                        <FaLinkedinIn size="1.7rem" color="#0284c7" />
                       </a>
                     </Link>
                   </motion.div>
@@ -649,14 +649,14 @@ const Teacher = () => {
                   <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                     <Link to="">
                       <a href="">
-                        <FaWhatsapp size="1.7rem" color="black" />
+                        <FaWhatsapp size="1.7rem" color="#0284c7" />
                       </a>
                     </Link>
                   </motion.div>
                   <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                     <Link to="">
                       <a href="">
-                        <BiLogoGmail size="1.7rem" color="black" />
+                        <BiLogoGmail size="1.7rem" color="#0284c7" />
                       </a>
                     </Link>
                   </motion.div>
@@ -670,7 +670,7 @@ const Teacher = () => {
                   src={gol}
                   alt="content"
                 ></img>
-                <h3 class="tracking-widest text-black text-xs font-medium title-font">
+                <h3 class="tracking-widest text-#0284c7 text-xs font-medium title-font">
                   Lecturer,B.Sc. in EEE(RU)
                 </h3>
                 <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
@@ -680,7 +680,7 @@ const Teacher = () => {
                   <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                      
                       <a href="https://www.facebook.com/GolamMdAlShamim?mibextid=ZbWKwL">
-                        <FaFacebookF href="https://www.facebook.com/GolamMdAlShamim?mibextid=ZbWKwL" size="1.7rem" color="black" />
+                        <FaFacebookF href="https://www.facebook.com/GolamMdAlShamim?mibextid=ZbWKwL" size="1.7rem" color="#0284c7" />
                       </a>
                      
                   </motion.div>
@@ -688,7 +688,7 @@ const Teacher = () => {
                   <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                     <Link to="">
                       <a href="">
-                        <FaInstagram size="1.7rem" color="black" />
+                        <FaInstagram size="1.7rem" color="#0284c7" />
                       </a>
                     </Link>
                   </motion.div>
@@ -696,7 +696,7 @@ const Teacher = () => {
                   <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                     <Link to="">
                       <a href="">
-                        <FaLinkedinIn size="1.7rem" color="black" />
+                        <FaLinkedinIn size="1.7rem" color="#0284c7" />
                       </a>
                     </Link>
                   </motion.div>
@@ -704,14 +704,14 @@ const Teacher = () => {
                   <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                     <Link to="">
                       <a href="">
-                        <FaWhatsapp size="1.7rem" color="black" />
+                        <FaWhatsapp size="1.7rem" color="#0284c7" />
                       </a>
                     </Link>
                   </motion.div>
                   <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                     <Link to="">
                       <a href="">
-                        <BiLogoGmail size="1.7rem" color="black" />
+                        <BiLogoGmail size="1.7rem" color="#0284c7" />
                       </a>
                     </Link>
                   </motion.div>
@@ -728,7 +728,7 @@ const Teacher = () => {
                   src={nas}
                   alt="content"
                 ></img>
-                <h3 class=" text-black text-xs font-medium title-font">
+                <h3 class=" text-#0284c7 text-xs font-medium title-font">
                 Lecturer,B.Sc. in EEE(RU)
                 </h3>
                 <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
@@ -740,7 +740,7 @@ const Teacher = () => {
                       <FaFacebookF
                         href="https://www.facebook.com/nasim.haidar.16"
                         size="1.7rem"
-                        color="black"
+                        color="#0284c7"
                       />
                     </a>
                   </motion.div>
@@ -748,7 +748,7 @@ const Teacher = () => {
                   <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                     <Link to="">
                       <a href="">
-                        <FaInstagram size="1.7rem" color="black" />
+                        <FaInstagram size="1.7rem" color="#0284c7" />
                       </a>
                     </Link>
                   </motion.div>
@@ -756,7 +756,7 @@ const Teacher = () => {
                   <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                     <Link to="">
                       <a href="">
-                        <FaLinkedinIn size="1.7rem" color="black" />
+                        <FaLinkedinIn size="1.7rem" color="#0284c7" />
                       </a>
                     </Link>
                   </motion.div>
@@ -764,14 +764,14 @@ const Teacher = () => {
                   <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                     <Link to="">
                       <a href="">
-                        <FaWhatsapp size="1.7rem" color="black" />
+                        <FaWhatsapp size="1.7rem" color="#0284c7" />
                       </a>
                     </Link>
                   </motion.div>
                   <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                     <Link to="">
                       <a href="">
-                        <BiLogoGmail size="1.7rem" color="black" />
+                        <BiLogoGmail size="1.7rem" color="#0284c7" />
                       </a>
                     </Link>
                   </motion.div>
@@ -785,7 +785,7 @@ const Teacher = () => {
                     src={row}
                     alt="content"
                   ></img>
-                  <h3 class=" text-black text-xs font-medium title-font">
+                  <h3 class=" text-#0284c7 text-xs font-medium title-font">
                     Lecturer,B.Sc. in CE(RUET)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
@@ -795,7 +795,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                        
                         <a href="https://www.facebook.com/rowankafroz.rownak?mibextid=JRoKGi">
-                          <FaFacebookF href="https://www.facebook.com/rowankafroz.rownak?mibextid=JRoKGi" size="1.7rem" color="black" />
+                          <FaFacebookF href="https://www.facebook.com/rowankafroz.rownak?mibextid=JRoKGi" size="1.7rem" color="#0284c7" />
                         </a>
                        
                     </motion.div>
@@ -803,7 +803,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaInstagram size="1.7rem" color="black" />
+                          <FaInstagram size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -811,7 +811,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaLinkedinIn size="1.7rem" color="black" />
+                          <FaLinkedinIn size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -819,14 +819,14 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaWhatsapp size="1.7rem" color="black" />
+                          <FaWhatsapp size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <BiLogoGmail size="1.7rem" color="black" />
+                          <BiLogoGmail size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -840,7 +840,7 @@ const Teacher = () => {
                     src={setu}
                     alt="content"
                   ></img>
-                  <h3 class="tracking-widest text-black text-xs font-medium title-font">
+                  <h3 class="tracking-widest text-#0284c7 text-xs font-medium title-font">
                     Lecturer,B.Sc. in CE(BUET)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
@@ -850,7 +850,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                        
                         <a href="https://www.facebook.com/sajedur.rahmansetu/">
-                          <FaFacebookF href="https://www.facebook.com/sajedur.rahmansetu/" size="1.7rem" color="black" />
+                          <FaFacebookF href="https://www.facebook.com/sajedur.rahmansetu/" size="1.7rem" color="#0284c7" />
                         </a>
                       
                     </motion.div>
@@ -858,7 +858,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaInstagram size="1.7rem" color="black" />
+                          <FaInstagram size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -866,7 +866,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaLinkedinIn size="1.7rem" color="black" />
+                          <FaLinkedinIn size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -874,14 +874,14 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaWhatsapp size="1.7rem" color="black" />
+                          <FaWhatsapp size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <BiLogoGmail size="1.7rem" color="black" />
+                          <BiLogoGmail size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -896,7 +896,7 @@ const Teacher = () => {
                     src={hafiz}
                     alt="content"
                   ></img>
-                  <h3 class="tracking-widest text-black text-xs font-medium title-font">
+                  <h3 class="tracking-widest text-#0284c7 text-xs font-medium title-font">
                   Lecturer,B.Sc. in ICE(RU)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
@@ -906,7 +906,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                        
                         <a href="https://www.facebook.com/alhafizattone.ice">
-                          <FaFacebookF href="https://www.facebook.com/alhafizattone.ice" size="1.7rem" color="black" />
+                          <FaFacebookF href="https://www.facebook.com/alhafizattone.ice" size="1.7rem" color="#0284c7" />
                         </a>
                       
                     </motion.div>
@@ -914,7 +914,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaInstagram size="1.7rem" color="black" />
+                          <FaInstagram size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -922,7 +922,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaLinkedinIn size="1.7rem" color="black" />
+                          <FaLinkedinIn size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -930,14 +930,14 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaWhatsapp size="1.7rem" color="black" />
+                          <FaWhatsapp size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <BiLogoGmail size="1.7rem" color="black" />
+                          <BiLogoGmail size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -953,7 +953,7 @@ const Teacher = () => {
                     src={nazi}
                     alt="content"
                   ></img>
-                  <h3 class=" text-black text-xs font-medium title-font">
+                  <h3 class=" text-#0284c7 text-xs font-medium title-font">
                     Lecturer,B.Sc. in ICT(MBSTU)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
@@ -963,7 +963,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                        
                         <a href="https://www.facebook.com/mnhruhan.mnhruhan?mibextid=ZbWKwL">
-                          <FaFacebookF href="https://www.facebook.com/mnhruhan.mnhruhan?mibextid=ZbWKwL" size="1.7rem" color="black" />
+                          <FaFacebookF href="https://www.facebook.com/mnhruhan.mnhruhan?mibextid=ZbWKwL" size="1.7rem" color="#0284c7" />
                         </a>
                        
                     </motion.div>
@@ -971,7 +971,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaInstagram size="1.7rem" color="black" />
+                          <FaInstagram size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -979,7 +979,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaLinkedinIn size="1.7rem" color="black" />
+                          <FaLinkedinIn size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -987,14 +987,14 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaWhatsapp size="1.7rem" color="black" />
+                          <FaWhatsapp size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <BiLogoGmail size="1.7rem" color="black" />
+                          <BiLogoGmail size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -1008,7 +1008,7 @@ const Teacher = () => {
                     src={limon}
                     alt="content"
                   ></img>
-                  <h3 class="tracking-widest text-black text-xs font-medium title-font">
+                  <h3 class="tracking-widest text-#0284c7 text-xs font-medium title-font">
                     Lecturer,B.Sc. in CSE(BRUR)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
@@ -1018,7 +1018,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                         
                         <a href="https://www.facebook.com/jv.lemon.3">
-                          <FaFacebookF href="https://www.facebook.com/jv.lemon.3" size="1.7rem" color="black" />
+                          <FaFacebookF href="https://www.facebook.com/jv.lemon.3" size="1.7rem" color="#0284c7" />
                         </a>
                        
                     </motion.div>
@@ -1026,7 +1026,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaInstagram size="1.7rem" color="black" />
+                          <FaInstagram size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -1034,7 +1034,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaLinkedinIn size="1.7rem" color="black" />
+                          <FaLinkedinIn size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -1042,14 +1042,14 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaWhatsapp size="1.7rem" color="black" />
+                          <FaWhatsapp size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <BiLogoGmail size="1.7rem" color="black" />
+                          <BiLogoGmail size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -1063,7 +1063,7 @@ const Teacher = () => {
                     src={asha}
                     alt="content"
                   ></img>
-                  <h3 class="tracking-widest text-black text-xs font-medium title-font">
+                  <h3 class="tracking-widest text-#0284c7 text-xs font-medium title-font">
                     Lecturer,B.Sc. Mathematics(RU)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
@@ -1073,7 +1073,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                        
                         <a href="https://www.facebook.com/profile.php?id=100009416488733">
-                          <FaFacebookF href="https://www.facebook.com/profile.php?id=100009416488733" size="1.7rem" color="black" />
+                          <FaFacebookF href="https://www.facebook.com/profile.php?id=100009416488733" size="1.7rem" color="#0284c7" />
                         </a>
                       
                     </motion.div>
@@ -1081,7 +1081,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaInstagram size="1.7rem" color="black" />
+                          <FaInstagram size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -1089,7 +1089,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaLinkedinIn size="1.7rem" color="black" />
+                          <FaLinkedinIn size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -1097,14 +1097,14 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaWhatsapp size="1.7rem" color="black" />
+                          <FaWhatsapp size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <BiLogoGmail size="1.7rem" color="black" />
+                          <BiLogoGmail size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -1118,7 +1118,7 @@ const Teacher = () => {
                     src="https://dummyimage.com/720x400"
                     alt="content"
                   ></img>
-                  <h3 class="tracking-widest text-black text-xs font-medium title-font">
+                  <h3 class="tracking-widest text-#0284c7 text-xs font-medium title-font">
                     Lecturer,B.Sc. in CSE(RU)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
@@ -1128,7 +1128,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaFacebookF size="1.7rem" color="black" />
+                          <FaFacebookF size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -1136,7 +1136,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaInstagram size="1.7rem" color="black" />
+                          <FaInstagram size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -1144,7 +1144,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaLinkedinIn size="1.7rem" color="black" />
+                          <FaLinkedinIn size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -1152,14 +1152,14 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaWhatsapp size="1.7rem" color="black" />
+                          <FaWhatsapp size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <BiLogoGmail size="1.7rem" color="black" />
+                          <BiLogoGmail size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -1175,7 +1175,7 @@ const Teacher = () => {
                     src="https://dummyimage.com/720x400"
                     alt="content"
                   ></img>
-                  <h3 class=" text-black text-xs font-medium title-font">
+                  <h3 class=" text-#0284c7 text-xs font-medium title-font">
                     Lecturer,B.Sc. in CSE(RU)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
@@ -1185,7 +1185,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaFacebookF size="1.7rem" color="black" />
+                          <FaFacebookF size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -1193,7 +1193,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaInstagram size="1.7rem" color="black" />
+                          <FaInstagram size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -1201,7 +1201,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaLinkedinIn size="1.7rem" color="black" />
+                          <FaLinkedinIn size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -1209,14 +1209,14 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaWhatsapp size="1.7rem" color="black" />
+                          <FaWhatsapp size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <BiLogoGmail size="1.7rem" color="black" />
+                          <BiLogoGmail size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -1230,7 +1230,7 @@ const Teacher = () => {
                     src="https://dummyimage.com/720x400"
                     alt="content"
                   ></img>
-                  <h3 class="tracking-widest text-black text-xs font-medium title-font">
+                  <h3 class="tracking-widest text-#0284c7 text-xs font-medium title-font">
                     Lecturer,B.Sc. in CSE(AIUB)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
@@ -1240,7 +1240,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaFacebookF size="1.7rem" color="black" />
+                          <FaFacebookF size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -1248,7 +1248,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaInstagram size="1.7rem" color="black" />
+                          <FaInstagram size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -1256,7 +1256,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaLinkedinIn size="1.7rem" color="black" />
+                          <FaLinkedinIn size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -1264,14 +1264,14 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaWhatsapp size="1.7rem" color="black" />
+                          <FaWhatsapp size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <BiLogoGmail size="1.7rem" color="black" />
+                          <BiLogoGmail size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -1285,7 +1285,7 @@ const Teacher = () => {
                     src="https://dummyimage.com/720x400"
                     alt="content"
                   ></img>
-                  <h3 class="tracking-widest text-black text-xs font-medium title-font">
+                  <h3 class="tracking-widest text-#0284c7 text-xs font-medium title-font">
                     Lecturer,B.Sc. in CSE(SUST)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
@@ -1295,7 +1295,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaFacebookF size="1.7rem" color="black" />
+                          <FaFacebookF size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -1303,7 +1303,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaInstagram size="1.7rem" color="black" />
+                          <FaInstagram size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -1311,7 +1311,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaLinkedinIn size="1.7rem" color="black" />
+                          <FaLinkedinIn size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -1319,14 +1319,14 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaWhatsapp size="1.7rem" color="black" />
+                          <FaWhatsapp size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <BiLogoGmail size="1.7rem" color="black" />
+                          <BiLogoGmail size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -1340,7 +1340,7 @@ const Teacher = () => {
                     src="https://dummyimage.com/720x400"
                     alt="content"
                   ></img>
-                  <h3 class="tracking-widest text-black text-xs font-medium title-font">
+                  <h3 class="tracking-widest text-#0284c7 text-xs font-medium title-font">
                     Lecturer,B.Sc. in CSE(RU)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
@@ -1350,7 +1350,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaFacebookF size="1.7rem" color="black" />
+                          <FaFacebookF size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -1358,7 +1358,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaInstagram size="1.7rem" color="black" />
+                          <FaInstagram size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -1366,7 +1366,7 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaLinkedinIn size="1.7rem" color="black" />
+                          <FaLinkedinIn size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -1374,14 +1374,14 @@ const Teacher = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaWhatsapp size="1.7rem" color="black" />
+                          <FaWhatsapp size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <BiLogoGmail size="1.7rem" color="black" />
+                          <BiLogoGmail size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
