@@ -72,7 +72,7 @@ const ICE = () => {
           ></SectionTitle> */}
           <div className="mx-auto md:w-8/12 my-8 flex justify-center items-center ">
             {/* <p className='text-yellow-600'>----{subHeading}---</p> */}
-            <h3 className="text-4xl uppercase border-y-2 pt-4 font-bold font-serif">
+            <h3 className="text-4xl uppercase border-y-2 pt-4 font-bold font-serif text-sky-600">
             Information & Communication Engineering 
             </h3>
           </div>
@@ -105,13 +105,13 @@ const ICE = () => {
                         Lecturer,B.Sc. in ICE(RU)
                       </span>
                     </h2>
-                    <div class="w-12 h-1 bg-black rounded mt-2 mb-4"></div>
+                    <div class="w-12 h-1 bg-#0284c7 rounded mt-2 mb-4"></div>
                     <p class="text-base">Head of Department</p>
                     <div className="grid grid-flow-col gap-3">
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                         
                           <a href="https://www.facebook.com/alhafizattone.ice">
-                            <FaFacebookF href="https://www.facebook.com/alhafizattone.ice" size="1.7rem" color="black" />
+                            <FaFacebookF href="https://www.facebook.com/alhafizattone.ice" size="1.7rem" color="#0284c7" />
                           </a>
                         
                       </motion.div>
@@ -119,7 +119,7 @@ const ICE = () => {
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                         <Link to="">
                           <a href="">
-                            <FaInstagram size="1.7rem" color="black" />
+                            <FaInstagram size="1.7rem" color="#0284c7" />
                           </a>
                         </Link>
                       </motion.div>
@@ -127,7 +127,7 @@ const ICE = () => {
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                         <Link to="">
                           <a href="">
-                            <FaLinkedinIn size="1.7rem" color="black" />
+                            <FaLinkedinIn size="1.7rem" color="#0284c7" />
                           </a>
                         </Link>
                       </motion.div>
@@ -135,14 +135,14 @@ const ICE = () => {
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                         <Link to="">
                           <a href="">
-                            <FaWhatsapp size="1.7rem" color="black" />
+                            <FaWhatsapp size="1.7rem" color="#0284c7" />
                           </a>
                         </Link>
                       </motion.div>
                       <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                         <Link to="">
                           <a href="">
-                            <BiLogoGmail size="1.7rem" color="black" />
+                            <BiLogoGmail size="1.7rem" color="#0284c7" />
                           </a>
                         </Link>
                       </motion.div>
@@ -153,7 +153,7 @@ const ICE = () => {
                   <p class="leading-relaxed text-lg mb-4">
                  I am delighted to address you as the Head of the Department of Information and Communication Engineering at Rangpur Engineering College. As you consider your educational options, I invite you to explore the exceptional opportunities our department offers and the remarkable journey that awaits you..
                   </p>
-                  <a class="text-black inline-flex items-center">
+                  <a class="text-#0284c7 inline-flex items-center">
                     Learn More
                     <svg
                       fill="none"
@@ -180,7 +180,7 @@ const ICE = () => {
                 <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
                   Department Tutors
                 </h1>
-                <div class="h-1 w-20 bg-black rounded"></div>
+                <div class="h-1 w-20 bg-#0284c7 rounded"></div>
               </div>
             </div>
             <div class="flex flex-wrap -m-4">
@@ -191,7 +191,7 @@ const ICE = () => {
                     src={naz}
                     alt="content"
                   ></img>
-                  <h3 class=" text-black text-xs font-medium title-font">
+                  <h3 class=" text-#0284c7 text-xs font-medium title-font">
                     Lecturer,B.Sc. in ICT(MBSTU)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
@@ -201,7 +201,7 @@ const ICE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                        
                         <a href="https://www.facebook.com/mnhruhan.mnhruhan?mibextid=ZbWKwL">
-                          <FaFacebookF href="https://www.facebook.com/mnhruhan.mnhruhan?mibextid=ZbWKwL" size="1.7rem" color="black" />
+                          <FaFacebookF href="https://www.facebook.com/mnhruhan.mnhruhan?mibextid=ZbWKwL" size="1.7rem" color="#0284c7" />
                         </a>
                        
                     </motion.div>
@@ -209,7 +209,7 @@ const ICE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaInstagram size="1.7rem" color="black" />
+                          <FaInstagram size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -217,7 +217,7 @@ const ICE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaLinkedinIn size="1.7rem" color="black" />
+                          <FaLinkedinIn size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -225,14 +225,14 @@ const ICE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaWhatsapp size="1.7rem" color="black" />
+                          <FaWhatsapp size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <BiLogoGmail size="1.7rem" color="black" />
+                          <BiLogoGmail size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -246,7 +246,7 @@ const ICE = () => {
                     src={limon}
                     alt="content"
                   ></img>
-                  <h3 class="tracking-widest text-black text-xs font-medium title-font">
+                  <h3 class="tracking-widest text-#0284c7 text-xs font-medium title-font">
                     Lecturer,B.Sc. in CSE(BRUR)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
@@ -256,7 +256,7 @@ const ICE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                         
                         <a href="https://www.facebook.com/jv.lemon.3">
-                          <FaFacebookF href="https://www.facebook.com/jv.lemon.3" size="1.7rem" color="black" />
+                          <FaFacebookF href="https://www.facebook.com/jv.lemon.3" size="1.7rem" color="#0284c7" />
                         </a>
                        
                     </motion.div>
@@ -264,7 +264,7 @@ const ICE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaInstagram size="1.7rem" color="black" />
+                          <FaInstagram size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -272,7 +272,7 @@ const ICE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaLinkedinIn size="1.7rem" color="black" />
+                          <FaLinkedinIn size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -280,14 +280,14 @@ const ICE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaWhatsapp size="1.7rem" color="black" />
+                          <FaWhatsapp size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <BiLogoGmail size="1.7rem" color="black" />
+                          <BiLogoGmail size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -301,7 +301,7 @@ const ICE = () => {
                     src="https://dummyimage.com/720x400"
                     alt="content"
                   ></img>
-                  <h3 class="tracking-widest text-black text-xs font-medium title-font">
+                  <h3 class="tracking-widest text-#0284c7 text-xs font-medium title-font">
                     Lecturer,B.Sc. in CSE(SUST)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
@@ -311,7 +311,7 @@ const ICE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaFacebookF size="1.7rem" color="black" />
+                          <FaFacebookF size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -319,7 +319,7 @@ const ICE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaInstagram size="1.7rem" color="black" />
+                          <FaInstagram size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -327,7 +327,7 @@ const ICE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaLinkedinIn size="1.7rem" color="black" />
+                          <FaLinkedinIn size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -335,14 +335,14 @@ const ICE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaWhatsapp size="1.7rem" color="black" />
+                          <FaWhatsapp size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <BiLogoGmail size="1.7rem" color="black" />
+                          <BiLogoGmail size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -356,7 +356,7 @@ const ICE = () => {
                     src="https://dummyimage.com/720x400"
                     alt="content"
                   ></img>
-                  <h3 class="tracking-widest text-black text-xs font-medium title-font">
+                  <h3 class="tracking-widest text-#0284c7 text-xs font-medium title-font">
                     Lecturer,B.Sc. in CSE(RU)
                   </h3>
                   <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
@@ -366,7 +366,7 @@ const ICE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaFacebookF size="1.7rem" color="black" />
+                          <FaFacebookF size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -374,7 +374,7 @@ const ICE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaInstagram size="1.7rem" color="black" />
+                          <FaInstagram size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -382,7 +382,7 @@ const ICE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaLinkedinIn size="1.7rem" color="black" />
+                          <FaLinkedinIn size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -390,14 +390,14 @@ const ICE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaWhatsapp size="1.7rem" color="black" />
+                          <FaWhatsapp size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <BiLogoGmail size="1.7rem" color="black" />
+                          <BiLogoGmail size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -489,7 +489,7 @@ const ICE = () => {
               <img
                 key={slide}
                 src={slide}
-                className="min-w-full h-60 bg-black/20 sm:h-96 md:h-[540px] object-cover"
+                className="min-w-full h-60 bg-#0284c7/20 sm:h-96 md:h-[540px] object-cover"
                 alt={`Slider - ${inx + 1}`}
               />
             ))}
@@ -804,7 +804,7 @@ const ICE = () => {
             </div> */}
             <div className="mx-auto md:w-8/12 my-8 flex justify-center items-center ">
               {/* <p className='text-yellow-600'>----{subHeading}---</p> */}
-              <h3 className="text-4xl uppercase border-y-2 pt-4 font-bold font-serif text-black">
+              <h3 className="text-4xl uppercase border-y-2 pt-4 font-bold font-serif text-#0284c7">
                 Student's Projet
               </h3>
             </div>
@@ -829,7 +829,7 @@ const ICE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaFacebookF size="1.7rem" color="black" />
+                          <FaFacebookF size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -837,7 +837,7 @@ const ICE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaInstagram size="1.7rem" color="black" />
+                          <FaInstagram size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -845,7 +845,7 @@ const ICE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaLinkedinIn size="1.7rem" color="black" />
+                          <FaLinkedinIn size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -853,14 +853,14 @@ const ICE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaWhatsapp size="1.7rem" color="black" />
+                          <FaWhatsapp size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <BiLogoGmail size="1.7rem" color="black" />
+                          <BiLogoGmail size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -888,7 +888,7 @@ const ICE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaFacebookF size="1.7rem" color="black" />
+                          <FaFacebookF size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -896,7 +896,7 @@ const ICE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaInstagram size="1.7rem" color="black" />
+                          <FaInstagram size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -904,7 +904,7 @@ const ICE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaLinkedinIn size="1.7rem" color="black" />
+                          <FaLinkedinIn size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -912,14 +912,14 @@ const ICE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaWhatsapp size="1.7rem" color="black" />
+                          <FaWhatsapp size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <BiLogoGmail size="1.7rem" color="black" />
+                          <BiLogoGmail size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -947,7 +947,7 @@ const ICE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaFacebookF size="1.7rem" color="black" />
+                          <FaFacebookF size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -955,7 +955,7 @@ const ICE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaInstagram size="1.7rem" color="black" />
+                          <FaInstagram size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -963,7 +963,7 @@ const ICE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaLinkedinIn size="1.7rem" color="black" />
+                          <FaLinkedinIn size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -971,14 +971,14 @@ const ICE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaWhatsapp size="1.7rem" color="black" />
+                          <FaWhatsapp size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <BiLogoGmail size="1.7rem" color="black" />
+                          <BiLogoGmail size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -1006,7 +1006,7 @@ const ICE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaFacebookF size="1.7rem" color="black" />
+                          <FaFacebookF size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -1014,7 +1014,7 @@ const ICE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaInstagram size="1.7rem" color="black" />
+                          <FaInstagram size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -1022,7 +1022,7 @@ const ICE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaLinkedinIn size="1.7rem" color="black" />
+                          <FaLinkedinIn size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
@@ -1030,14 +1030,14 @@ const ICE = () => {
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <FaWhatsapp size="1.7rem" color="black" />
+                          <FaWhatsapp size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
                     <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                       <Link to="">
                         <a href="">
-                          <BiLogoGmail size="1.7rem" color="black" />
+                          <BiLogoGmail size="1.7rem" color="#0284c7" />
                         </a>
                       </Link>
                     </motion.div>
