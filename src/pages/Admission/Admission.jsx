@@ -6,7 +6,7 @@ const Admission = () => {
     <div className="pt-10">
       <div className="mx-auto md:w-8/12 my-8 flex justify-center items-center ">
         {/* <p className='text-yellow-600'>----{subHeading}---</p> */}
-        <h3 className="text-4xl uppercase border-y-2 pt-4 font-bold font-serif">
+        <h3 className="text-4xl uppercase border-y-2 pt-4 font-bold font-serif text-sky-600">
           ADDMISSION REQUIREMENTS
         </h3>
       </div>
@@ -31,7 +31,7 @@ const Admission = () => {
       {/* ---------------------------2nd part---------------------------- */}
       <div className="flex py-6">
         <div className="w-1/2">
-          <h3 className="text-3xl text-center py-4">Required Documents</h3>
+          <h3 className="text-3xl text-center py-4 text-sky-600">Required Documents</h3>
           <div className="">
             <p>●Required Documents</p>
             <p>●Completed application form and fees</p>
@@ -44,13 +44,13 @@ const Admission = () => {
           </div>
         </div>
         <div className="w-1/2">
-          <h3 className="text-3xl text-center py-4">Process</h3>
+          <h3 className="text-3xl text-center py-4 text-sky-600">Process</h3>
           <div className="">
             <p>●Students are supposed to submit completely filled out application form. The application form can be downloaded and printed out and sent by e-mail, apply online , postal or at our Campus.</p>
             <p>●Please send TK. 660.00 for application form fee to 01855979496 through bKash . Then use your transaction ID at the time of filling up Application form</p>
             <p>●The Office of Admissions will be reviewing and checking all the documents and proceed</p>
             <p>
-              ●When your application is accepted, a letter of acceptance will be issued <span className="font-bold"><Link>Online Application Click Here</Link></span>
+              ●When your application is accepted, a letter of acceptance will be issued <span className="font-bold text-sky-600"><Link>Online Application Click Here</Link></span>
             </p>
              
           </div>
@@ -61,7 +61,7 @@ const Admission = () => {
       <div className="flex py-12">
         <div className="w-4/6">
           <div className="font-serif text-center">
-            <p className="text-3xl">Admission & Routine 2023-24</p>
+            <p className="text-3xl text-sky-600">Admission & Routine 2023-24</p>
           </div>
           <div className="overflow-x-auto">
             <table className="table">
@@ -142,7 +142,7 @@ const Admission = () => {
               <div class="flex items-center justify-center ">
                 <Link to="">
                   {" "}
-                  <button className="py-2 w-[280px] h-8 px-6 mb-4 mt-2 bg-black rounded hover:bg-slate-950 duration-300 text-white flex items-center justify-center overflow-hidden hover:overflow-visible relative group">
+                  <button className="py-2 w-[280px] h-8 px-6 mb-4 mt-2 bg-sky-600 rounded hover:bg-slate-950 duration-300 text-white flex items-center justify-center overflow-hidden hover:overflow-visible relative group">
                     <svg
                       viewBox="0 0 1024 1024"
                       className="icon rotate-45 group-hover:duration-700 absolute w-12 -translate-x-full translate-y-full scale-0 group-hover:scale-100 group-hover:translate-x-8 group-hover:-translate-y-8 duration-150"
@@ -208,7 +208,7 @@ const Admission = () => {
               <div class="flex items-center justify-center ">
                 <Link to="">
                   {" "}
-                  <button className="py-2 w-[280px] h-8 px-6  mt-2 bg-black rounded hover:bg-slate-950 duration-300 text-white flex items-center justify-center overflow-hidden hover:overflow-visible relative group">
+                  <button className="py-2 w-[280px] h-8 px-6  mt-2 bg-sky-600 rounded hover:bg-slate-950 duration-300 text-white flex items-center justify-center overflow-hidden hover:overflow-visible relative group">
                     <svg
                       viewBox="0 0 1024 1024"
                       className="icon rotate-45 group-hover:duration-700 absolute w-12 -translate-x-full translate-y-full scale-0 group-hover:scale-100 group-hover:translate-x-8 group-hover:-translate-y-8 duration-150"
@@ -253,14 +253,14 @@ const Admission = () => {
                         ></path>
                       </g>
                     </svg>
-                    <span className="duration-500">Admission Notice</span>
+                    <span className="duration-500 ">Admission Notice</span>
                   </button>
                 </Link>
               </div>
               <div className="card-actions justify-center">
                 <Link to="">
                   {" "}
-                  <button className="py-2 w-[280px] h-8 px-6 mb-4  bg-black rounded hover:bg-slate-950 duration-300 text-white flex items-center justify-center overflow-hidden hover:overflow-visible relative group">
+                  <button className="py-2 w-[280px] h-8 px-6 mb-4  bg-sky-600 rounded hover:bg-slate-950 duration-300 text-white flex items-center justify-center overflow-hidden hover:overflow-visible relative group">
                     <svg
                       viewBox="0 0 1024 1024"
                       className="icon rotate-45 group-hover:duration-700 absolute w-12 -translate-x-full translate-y-full scale-0 group-hover:scale-100 group-hover:translate-x-8 group-hover:-translate-y-8 duration-150"
