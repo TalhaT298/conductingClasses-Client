@@ -6,32 +6,32 @@ import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 const Notice = () => {
   const accordionData = [
     {
-      title: "Title 1",
+      title: "The official Facebook page",
       description:
-        "Description for accordion 1 Description for accordion 1 Description for accordion 1 ",
+        "The Official Facebook Page of Rangpur Engineering College is your go-to source for the latest news, updates, and events. Whether you're a student, faculty member, or prospective applicant, stay connected with academic announcements, extracurricular activities, and upcoming opportunities. Follow us for real-time updates and be part of the Rangpur Engineering College community!",
+      date: "17",
+      month: "October",
+    },
+    {
+      title: "Rescheduled admission and class start dates for 2023-2024",
+      description:
+        "The rescheduled date for admission and commencement of classes for the first-year undergraduate/Bachelor (Honors) program in the 2023-2024 academic year.",
       date: "12",
-      month: "ok",
+      month: "October",
     },
     {
-      title: "Title 2",
+      title: "Class and hall reopening dates at REC",
       description:
-        "Description for accordion 1 Description for accordion 1 Description for accordion 1",
-      date: "12,",
-      month: "ok",
-    },
-    {
-      title: "Title 3",
-      description:
-        "Description for accordion 1 Description for accordion 1 Description for accordion 1",
-      date: "12,",
-      month: "ok",
+        "The start date for classes and the reopening date of halls at Rangpur Engineering College have been officially announced. Residential students can settle in ahead of the academic session, ensuring a smooth start to the new year. Stay updated for any further announcements, and prepare for a successful return as the university welcomes students back",
+      date: "10,",
+      month: "October",
     },
     {
       title: "Admission Notice for Ph.D.",
       description:
         "Admission Notice for M.Phil. and Ph.D. Programs in the departments affiliated with Rajshahi University for the academic year 2024-2025.",
       date: "03",
-      month: "March",
+      month: "October",
     },
   ];
 
