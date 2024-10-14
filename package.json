@@ -10,14 +10,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@ant-design/icons": "^5.5.1",
     "@smastrom/react-rating": "^1.5.0",
     "@zegocloud/zego-uikit-prebuilt": "^2.10.0",
+    "antd": "^5.21.4",
     "flickr-justified-gallery": "^2.2.0",
     "framer-motion": "^11.0.8",
     "icons": "^1.0.0",
     "lightgallery": "^2.7.2",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.3",
+    "moment": "^2.30.1",
     "react": "^18.2.0",
     "react-countup": "^6.5.2",
     "react-dom": "^18.2.0",
