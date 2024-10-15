@@ -28,7 +28,7 @@ const LiveClock = () => {
 					backgroundColor: '#0284c7'  // Tailwind's sky-600 hex code
 				}}
 				icon={<ClockCircleOutlined />}
-				className="px-2 w-24 h-14  !bg-opacity-30 backdrop-filter backdrop-blur-md z-10 rounded-lg"
+				className="px-2 w-24 h-14 !bg-opacity-30 backdrop-filter backdrop-blur-md z-10 rounded-lg"
 			/>
 		</Tooltip>
 	);
