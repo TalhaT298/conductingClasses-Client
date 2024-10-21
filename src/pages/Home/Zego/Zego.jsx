@@ -26,7 +26,7 @@ const Zego = () => {
 
 
   return (
-    <div>
+    <div className="pb-20">
   <SectionTitle
     className="font-serif"
     heading={"Video Conference"}
@@ -61,6 +61,9 @@ const Zego = () => {
       >
         Login
       </Link>
+      <div>
+      <p className="font-semibold py-6 lg:block md:block hidden">This technology bridges geographical gaps, enabling real-time interactions that enhance the learning experience. It allows for virtual lectures, meetings, and group discussions, accommodating diverse learning styles and schedules. By facilitating remote access to educational resources and support services, video conferencing promotes inclusivity and engagement, ensuring that all members of the Rangpur Engineering College community can participate fully, regardless of their physical location. Furthermore, Rangpur Engineering College provides a flexible learning environment that supports a variety of educational needs, which is crucial in an era where online and hybrid education models are increasingly prevalent.</p>
+      </div>
     </div>
   </div>
 </div>
