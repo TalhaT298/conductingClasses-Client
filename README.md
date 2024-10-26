@@ -49,5 +49,3 @@ This project is a comprehensive **University Management System** designed for ac
 - **lint**: Runs ESLint for code quality and standardization.
 
 ---
-
-Feel free to contribute, explore, or modify this repository as you see fit!
