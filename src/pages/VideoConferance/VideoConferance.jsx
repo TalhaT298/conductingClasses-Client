@@ -16,7 +16,7 @@ const randomID = (length) => {
 const VideoConferance = () => {
   const { id } = useParams();
   const roomID = id || new URLSearchParams(window.location.search).get("roomID") || randomID(5);
-  const meetingRef = useRef(null);  // Use ref to get the div for the video conferencee
+  const meetingRef = useRef(null); // Use ref to get the div for the video conference
 
   useEffect(() => {
     const myMeeting = async (element) => {
@@ -34,14 +34,13 @@ const VideoConferance = () => {
       // Create instance object from Kit Token
       const zp = ZegoUIKitPrebuilt.create(kitToken);
 
-      // Start the callvv
+      // Start the call
       zp.joinRoom({
         container: element,
         sharedLinks: [
           {
             name: "Copy link",
-            // url: window.location.href,
-            url:`http://localhost3000/room/${roomID}`,
+            url: `${window.location.origin}/room/${roomID}`, // Use current domain
           },
         ],
       });
