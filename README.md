@@ -1,4 +1,4 @@
-# University Management System
+# conductingClasses
 
 This project is a comprehensive **University Management System** designed for academic environments, enabling students and teachers to engage in real-time video conferencing for problem-solving and collaborative learning. Developed as a final year project, this system integrates various features that enhance communication and interaction within educational institutions.
 
